@@ -1,6 +1,7 @@
-# Payment methods
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+# Payment methods
 
 The full public library of payment-method logos used across Openline's checkout, receipts,
 docs and marketing. Extracted from the payment-methods reference page and reproduced here
@@ -50,3 +51,8 @@ guidelines when embedding them in your surface.
 2. Prefer 38×24 for card marks, native aspect for wallets and wordmarks.
 3. Add it to `reference.html` so it shows up in the visual index.
 4. Open a PR describing the source and licensing status.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

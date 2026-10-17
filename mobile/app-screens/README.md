@@ -1,6 +1,7 @@
-# Openline Mobile - app screens (buildable export)
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../../README.md) for ownership, scope, and release boundaries.
+# Openline Mobile - app screens (buildable export)
 
 Registered in the media kit as part of **v1.4**. See the [mobile resource index](../README.md), [native Figma snapshot](../../figma/mobile/README.md), and [iOS/Android app icons](../../app-icons/README.md).
 
@@ -121,3 +122,8 @@ the `@layer utilities` block at the bottom of `index.css`.
 Coordinate design questions through Openline's design and product team, and
 check the current mobile implementation handoff before changing approved
 screens. The companion site repository may carry additional delivery context.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../../README.md) for the broader system, current company links, and release context.

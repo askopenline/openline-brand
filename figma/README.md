@@ -1,6 +1,7 @@
-# Openline Figma References
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+# Openline Figma References
 
 The "code side" of the Openline design system — React/TSX components generated from
 Figma via **Dev Mode → Copy code**, plus a place to keep the live Figma share links so
@@ -68,3 +69,8 @@ the buildable companion is in [`../mobile/app-screens/`](../mobile/app-screens/)
 - **Cleanup PRs welcome:** renaming the auto-generated `Frame*.tsx` files to human
   names, or grouping svg-hash modules alongside the component that uses them, is a
   great low-risk contribution.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

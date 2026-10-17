@@ -1,6 +1,7 @@
-# Openline final icon · approved 7 October 2026
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../../README.md) for ownership, scope, and release boundaries.
+# Openline final icon · approved 7 October 2026
 
 Final choice: 43.5% visible mark width inside an unchanged white square.
 Vector paths come from page 1 of the canonical Openline Illustrator PDF,
@@ -35,3 +36,8 @@ Guidance:
 https://developer.apple.com/design/human-interface-guidelines/app-icons
 https://developer.android.com/develop/ui/compose/system/icon_design_adaptive
 https://support.google.com/googleplay/android-developer/answer/9866151?hl=en
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../../README.md) for the broader system, current company links, and release context.

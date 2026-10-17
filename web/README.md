@@ -1,6 +1,7 @@
-# Openline UI — Shared Web Design System
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+# Openline UI — Shared Web Design System
 
 Shared presentation primitives for Openline web interfaces. The knowledge-base
 and compatibility projects are recorded consumers, but each deployed application
@@ -96,3 +97,8 @@ this README or copying the repository does not change those deployed references.
 - [openline-comp](https://openline-comp.pplx.app) — eSIM Compatibility (uses `.row-list`/`.row`, has compat + brand filters)
 
 Both keep only page-specific rules in their own `style.css`. Everything shared lives here.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

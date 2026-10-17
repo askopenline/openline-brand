@@ -1,6 +1,7 @@
-# Openline Brand Studio Hosting
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../../README.md) for ownership, scope, and release boundaries.
+# Openline Brand Studio Hosting
 
 This directory documents the existing Fly.io deployment path for the Openline Brand Studio. The service uses a built static bundle, a pinned source revision, and checksum verification; it is not automatically deployed by a Git push.
 
@@ -45,3 +46,8 @@ The historical configuration uses `openline-brand`, the Paris region, a small sh
 - **Failure behavior:** A failed download or checksum must not fall through to serving an unverified bundle.
 - **Rollback:** Retain the last known-good source revision and deployment configuration.
 - **Company cutover:** Repoint hosting only after the company repository and its public asset URLs have been checked.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../../README.md) for the broader system, current company links, and release context.

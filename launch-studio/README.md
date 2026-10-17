@@ -1,6 +1,7 @@
-# Openline Brand Studio
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+# Openline Brand Studio
 
 Openline's brand-review workspace for app icons, store artwork, listing-copy drafts, and launch handoffs. This React/Vite application is part of the official [Openline brand-assets repository](https://github.com/askopenline/openline-brand-assets).
 
@@ -79,3 +80,8 @@ Inspect rendered images, text fit, archive contents, checksums, and download lin
 ## Attribution and stewardship
 
 Openline maintains the studio, company-created artwork, and review documentation. Third-party marks and competitor reference images retain their own rights and are not Openline assets to redistribute; preserve attribution and keep reference material out of company download bundles.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

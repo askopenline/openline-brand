@@ -1,6 +1,7 @@
-# Openline Virtual-Office Interface Previews
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+# Openline Virtual-Office Interface Previews
 
 Openline's public visual-reference collection for mini-apps designed for a WorkAdventure-based virtual office. These company-maintained previews illustrate interface patterns; they are not a jointly owned WorkAdventure product or evidence that every integration is implemented.
 
@@ -43,3 +44,8 @@ The private [Openline virtual-office app repository](https://github.com/askopenl
 ## Attribution
 
 Openline maintains its original interface work in this collection. WorkAdventure, external services, fonts, and other third-party resources retain their own ownership and terms; the presence of a logo or simulated integration does not establish endorsement.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

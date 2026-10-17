@@ -1,6 +1,7 @@
-# Openline mobile resources
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+# Openline mobile resources
 
 Design and implementation references for the Openline mobile app. The September 24, 2026 delivery includes a React screen gallery, a native Figma snapshot, and iOS/Android icon assets.
 
@@ -44,3 +45,8 @@ npm run preview
 Keep `app-screens/` as the current buildable reference and use Git history for earlier code revisions. Add native `.fig` snapshots under `figma/mobile/` with their delivery date rather than overwriting an earlier snapshot.
 
 For each new delivery, record provenance, run the type check and production build, and refresh the committed preview with `npm run build -- --outDir preview`. Never commit dependency folders, local secrets or real customer data.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

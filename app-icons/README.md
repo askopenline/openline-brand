@@ -1,6 +1,7 @@
-# Openline - App Icons (iOS + Android)
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+# Openline - App Icons (iOS + Android)
 
 ## Current approved icon
 
@@ -89,3 +90,8 @@ add resources and SDK-appropriate configuration in the consuming Android app.
 
 See the [mobile resources](../mobile/README.md) and
 [delivery record](../mobile/deliveries/2026-09-24.md) for the companion sources.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

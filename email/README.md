@@ -1,6 +1,7 @@
-# Openline Email Resources
+<!-- OPENLINE-GUIDE-VISUAL -->
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
-> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+# Openline Email Resources
 
 Transactional email templates, company letterhead, reusable components, and
 staff signatures maintained for Openline communications. Preview the supplied
@@ -59,3 +60,8 @@ email/
   the sendable body cleanly.
 - Test in **Litmus** or **Email on Acid** before shipping — Outlook desktop remains the
   hardest target and will surface any non-table layout bugs.
+
+<!-- OPENLINE-GUIDE-NAV -->
+## Company reference
+
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.
