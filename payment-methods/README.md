@@ -1,5 +1,7 @@
 # Payment methods
 
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+
 The full public library of payment-method logos used across Openline's checkout, receipts,
 docs and marketing. Extracted from the payment-methods reference page and reproduced here
 as clean, individual, self-contained assets.
@@ -29,11 +31,11 @@ so you can inline them, drop them into a bundler, or serve them straight from ra
 ## Hot-link (raw GitHub)
 
 ```
-https://raw.githubusercontent.com/paulfxyz/openline-brand-assets/main/payment-methods/svg/visa.svg
-https://raw.githubusercontent.com/paulfxyz/openline-brand-assets/main/payment-methods/svg/mastercard.svg
-https://raw.githubusercontent.com/paulfxyz/openline-brand-assets/main/payment-methods/svg/apple-pay.svg
-https://raw.githubusercontent.com/paulfxyz/openline-brand-assets/main/payment-methods/svg/google-pay.svg
-https://raw.githubusercontent.com/paulfxyz/openline-brand-assets/main/payment-methods/svg/paypal.svg
+https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/visa.svg
+https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/mastercard.svg
+https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/apple-pay.svg
+https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/google-pay.svg
+https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/paypal.svg
 ```
 
 ## Usage policy

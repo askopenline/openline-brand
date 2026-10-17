@@ -1,5 +1,7 @@
 # Openline mobile resources
 
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+
 Design and implementation references for the Openline mobile app. The September 24, 2026 delivery includes a React screen gallery, a native Figma snapshot, and iOS/Android icon assets.
 
 ## Resource directory

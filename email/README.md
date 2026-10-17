@@ -1,8 +1,10 @@
-# Email
+# Openline Email Resources
 
-Transactional email templates, brand letterhead, component library, and email
-signatures — all self-contained HTML that opens in a browser and pastes into any
-email client.
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+
+Transactional email templates, company letterhead, reusable components, and
+staff signatures maintained for Openline communications. Preview the supplied
+HTML locally and test it in the intended email clients before release.
 
 ## What's inside
 
@@ -24,8 +26,9 @@ email/
 
 ## Conventions
 
-- **Table-based layout** — every template uses old-school nested `<table>` structure so
-  it renders identically in Gmail, Outlook, Apple Mail, Superhuman and mobile clients.
+- **Table-based layout:** Templates use nested tables for broad email-client
+  compatibility. Rendering is not identical across clients; verify the actual
+  sent message, especially in Outlook and mobile clients.
 - **Inline styles only** — no `<style>` blocks in the template body; the preview wrapper
   is the only place with a `<style>` block, marked with `<!-- PREVIEW ONLY -->`.
 - **System font stack** — `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial`

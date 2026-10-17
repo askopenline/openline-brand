@@ -1,11 +1,13 @@
 # Openline Mobile - app screens (buildable export)
 
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../../README.md) for ownership, scope, and release boundaries.
+
 Registered in the media kit as part of **v1.4**. See the [mobile resource index](../README.md), [native Figma snapshot](../../figma/mobile/README.md), and [iOS/Android app icons](../../app-icons/README.md).
 
-Extracted from the main Openline site on 24 Sep 2026, at Paul's request, so
-the mobile team can start from these screens now without waiting on the
-public-page revisions still in progress on the rest of the site. This is
-the whole thing: source, no missing pieces, builds standalone.
+Extracted from the main Openline site on 24 Sep 2026 for the company's mobile
+implementation handoff. The gallery includes its own source and asset
+dependencies, but it remains a web-based design reference rather than the
+production native application.
 
 Companion delivery: the same 19 screens as native Figma frames, in the
 shared file - https://www.figma.com/design/xOFkfha4CK3pNQQz46tKzo/ , page
@@ -116,5 +118,6 @@ the `@layer utilities` block at the bottom of `index.css`.
 
 ## Questions
 
-Ask Irina (design/animation) or see the main HANDOVER.md in the site repo
-for how this fits into the rest of the delivery.
+Coordinate design questions through Openline's design and product team, and
+check the current mobile implementation handoff before changing approved
+screens. The companion site repository may carry additional delivery context.

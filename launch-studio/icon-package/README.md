@@ -1,5 +1,7 @@
 # Openline mobile icon · final visual choice · 2026-10-07
 
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../../README.md) for ownership, scope, and release boundaries.
+
 Canonical mark geometry preserved. Default visible mark width: 43.5% of square,
 approximately 17.5% smaller linearly than the 52.7% candidate. White square unchanged.
 44.8% and 42.2% alternatives represent approximately 15% and 20% reductions from 52.7%.
@@ -27,7 +29,7 @@ The 43.5% flat composition applies to iOS, legacy Android and store-listing icon
 Google Play icon: 512x512 RGBA PNG, fully opaque. No rounded corners baked in.
 
 ## Release gate
-Paul approved the 43.5% flat visual composition on 7 October 2026. These files
+Openline approved the 43.5% flat visual composition on 7 October 2026. These files
 are not store approval. Verify rendering in signed release builds; native
 adaptive sizing, masks and appearances still need engineering/device validation.
 

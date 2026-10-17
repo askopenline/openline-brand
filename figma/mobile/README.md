@@ -1,5 +1,7 @@
 # Openline mobile Figma sources
 
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../../README.md) for ownership, scope, and release boundaries.
+
 This folder preserves native mobile design snapshots alongside the buildable [React gallery](../../mobile/app-screens/). The supplied `.fig` is stored unchanged, rather than unpacked or converted into a different source format.
 
 ## September 24, 2026 snapshot

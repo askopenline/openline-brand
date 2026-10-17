@@ -1,77 +1,45 @@
-# WorkAdventure SDK
+# Openline Virtual-Office Interface Previews
 
-Openline × WorkAdventure app-launcher: self-contained HTML previews of every "app"
-we've designed for the WorkAdventure virtual-office SDK. Open any file in a browser
-to see the finished UI; use the launcher for a bird's-eye tour of the whole set.
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
 
-## What's inside
+Openline's public visual-reference collection for mini-apps designed for a WorkAdventure-based virtual office. These company-maintained previews illustrate interface patterns; they are not a jointly owned WorkAdventure product or evidence that every integration is implemented.
 
-```
-workadventure/
-├── index.html                 ← App launcher (start here — grid of every app with a real screenshot)
-├── readme.html                ← Full narrative README rendered as a styled HTML page
-├── links.html                 ← Cross-reference index of every app URL
-├── sdk.html                   ← SDK overview / integration reference
-└── apps/
-    ├── <slug>.html            ← 36 individual app UI previews (self-contained HTML)
-    └── screenshots/
-        ├── <slug>.png         ← 640×400 launcher thumbnail (one per app)
-        └── full/<slug>.png    ← 1280×800 full-resolution capture (for docs, press)
-```
+## Contents
 
-### Screenshots (v1.3+)
-
-Every app now has a **real screenshot** rendered from the actual HTML — no mockups, no
-placeholders. The launcher displays the 640×400 thumbnail on each card and falls back to
-the emoji if the image fails to load. Full 1280×800 captures live in `apps/screenshots/full/`
-for use in docs, press kits, and app-store listings.
-
-To **re-generate** screenshots after an app change: serve the folder with any static
-server (`python3 -m http.server` from `workadventure/`), then run Playwright over
-`http://localhost:PORT/apps/*.html` at 1280×800 viewport, save as PNG, and resize to
-640×400 for the launcher thumbs. Any headless-browser tool works; the requirement is
-just a real render (fonts, charts, gradients all need to load).
-
-## The apps (36)
-
-Each file in `apps/` is a **single, self-contained** HTML page — no build step, no
-external CSS, no runtime dependencies beyond Google Fonts. Drop it on any static host
-and it works.
-
-| Category | Apps |
+| Location | Purpose |
 | --- | --- |
-| **Productivity** | `todo`, `notes`, `pomodoro`, `calendar`, `standup`, `dashboard`, `projects`, `files`, `upload`, `snippets` |
-| **Comms** | `chat`, `voice`, `poll`, `announce`, `reactions`, `directory`, `status`, `onboarding` |
-| **Media & fun** | `spotify`, `soundcloud`, `youtube`, `jam`, `playlist`, `poolside`, `sleepy`, `chillout` |
-| **Data & AI** | `ai`, `stats`, `leaderboard`, `weather`, `database`, `backoffice`, `integrations`, `mercury` |
-| **Creative** | `whiteboard`, `map` |
+| [`index.html`](index.html) | Preview launcher |
+| [`apps/`](apps/) | Individual HTML interface references |
+| [`apps/screenshots/`](apps/screenshots/) | Launcher thumbnails |
+| [`apps/screenshots/full/`](apps/screenshots/full/) | Larger reference captures |
+| [`sdk.html`](sdk.html) | Integration and component reference |
+| [`links.html`](links.html) | Preview cross-reference |
+| [`readme.html`](readme.html) | Historical visual catalogue |
 
-## Design tokens (shared across every app)
+Use the actual files and launcher as the current inventory. Historical HTML narratives and screenshots can describe earlier snapshots or simulated functionality.
 
-- **Background:** `#070c18` (deep space navy)
-- **Surface:** `#0c1120`
-- **Header:** `#090e1c`
-- **Text:** `#dde6ff`
-- **Muted:** `rgba(255,255,255,.45)`
-- **Openline orange (accent):** `#ff6616`
-- **Openline blue (primary):** `#3B3BFF`
-- **Fonts:** Inter (body), Play (display), Press Start 2P (retro badges), JetBrains
-  Mono (code)
+## Preview locally
 
-## How to preview
+From this directory:
 
-- **Local:** open `index.html` in any browser — no server needed.
-- **Hot-link:** every file is servable from raw GitHub or jsDelivr, but the launcher
-  works best served together (relative `<a href="apps/foo.html">` links).
-- **CDN-hosted preview:**
-  ```
-  https://cdn.jsdelivr.net/gh/paulfxyz/openline-brand-assets@main/workadventure/index.html
-  ```
+```sh
+python3 -m http.server 8000 --bind 127.0.0.1
+```
 
-## Contributing a new app
+Open [the local launcher](http://127.0.0.1:8000) and inspect the relevant page. Serve the collection together so relative links and assets resolve; a raw GitHub download URL is not an HTML hosting service.
 
-1. Copy the closest existing file in `apps/` as your starting point.
-2. Keep the shared design tokens (see above) — do not introduce new colours or fonts.
-3. Name the file `<slug>.html` in lowercase, hyphen-separated.
-4. Add a card to `index.html` (the launcher) so it shows up in the grid.
-5. Open a PR with a screenshot in the description.
+## Design and implementation
+
+The previews share dark navy surfaces, Openline orange accents, and the fonts and components defined by the supplied files. Reuse that visual language when extending the collection, but review each page's actual dependencies and behavior rather than assuming every app is self-contained or production-ready.
+
+Before using a preview in the company office, validate authentication, persistence, data handling, external embeds, keyboard accessibility, and mobile sizing. Sample dashboards, integrations, and state changes must not be presented as connected business systems.
+
+## Updating screenshots
+
+Capture the actual served HTML after the relevant fonts and content load. Keep launcher thumbnails and larger reference images consistent with the changed source, and label any demonstration data appropriately.
+
+The private [Openline virtual-office app repository](https://github.com/askopenline/openline-wa-apps) is maintained separately. Changes here do not automatically update that repository, the office deployment, or existing embeds.
+
+## Attribution
+
+Openline maintains its original interface work in this collection. WorkAdventure, external services, fonts, and other third-party resources retain their own ownership and terms; the presence of a logo or simulated integration does not establish endorsement.

@@ -1,10 +1,18 @@
-# Fly.io static hosting
+# Openline Brand Studio Hosting
 
-This deployment path avoids browser automation and private container-registry
-credentials. It serves the already-built static studio through the official
-NGINX Alpine image on a small Fly Machine.
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../../README.md) for ownership, scope, and release boundaries.
 
-## Release preparation
+This directory documents the existing Fly.io deployment path for the Openline Brand Studio. The service uses a built static bundle, a pinned source revision, and checksum verification; it is not automatically deployed by a Git push.
+
+## Repository and hosting are separate
+
+The official company source is [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). The existing [Brand Studio host](https://openline-brand.fly.dev), its Fly account, and any previously pinned repository URLs remain unchanged until an explicit infrastructure cutover is approved.
+
+Inspect source-URL construction in the deployment helper before using a company-repository commit. Historical helpers may still address the earlier source account; a copied Git history is not a deployment-configuration migration.
+
+## Prepare a release
+
+From `launch-studio/`, install the locked dependencies and build the static application. Review the generated files before producing a boot bundle.
 
 ```sh
 npm ci
@@ -14,65 +22,26 @@ tar -C dist --exclude='./downloads/openline-orange-series.zip' \
   -czf hosting/openline-brand-dist.tar.gz .
 ```
 
-Commit the bundle to the public brand repository under `launch-studio/hosting/`.
-The Fly Machine pins its download URL to a full Git commit and verifies a SHA-256
-checksum before serving it. No repository credential is needed in the container.
-The bundle contains only the same public static files as the approved preview.
+The established deployment downloads a public bundle pinned to a full commit and checks its SHA-256 digest. Large review ZIPs may be served through redirects to the matching committed public downloads instead of being duplicated inside the boot bundle.
 
-Since v1.8, the large review ZIP downloads are excluded from the boot bundle
-to avoid storing identical archived artwork twice. NGINX redirects these exact
-download paths to `public/downloads/` in the same public GitHub repository,
-pinned to the same full commit by `fly_operation.py`. All other downloads are
-served locally. The Perplexity preview includes all ZIPs directly.
+Verify that the bundle, source commit, checksum, and redirected downloads all refer to the same reviewed release. Never include secrets or private review data in the public bundle.
 
-## Provisioning
+## Deploy or update
 
-`scripts/fly_operation.py` uses the Fly Machines HTTPS API. Run it only with the
-approved Fly organization credential attached by Computer's secure proxy.
-It never reads or stores a raw token. Outside Computer, supply authentication
-through an appropriate credential-aware HTTP transport.
+The existing helper is [`../scripts/fly_operation.py`](../scripts/fly_operation.py). Run it only with approved credentials supplied through a secure mechanism and after confirming the intended organization, app, and Machine.
 
-1. Inspect the intended organization and app; do not overwrite an unrelated app.
-2. Create `openline-brand` in the confirmed organization.
-3. Allocate shared IPv4 and IPv6 for the new app.
-4. Create one small, shared-CPU Machine with the release commit.
-5. Verify its health check, HTTPS page, icon controls and download packages.
+1. Inspect the current app and its recorded source revision.
+2. Confirm the correct source repository, commit, bundle, and checksum.
+3. Preserve the current Machine configuration and a rollback revision.
+4. Apply the explicitly approved update.
+5. Verify HTTPS, `/healthz`, the main interface, representative previews, and every affected download.
 
-The API configuration requests Paris (`cdg`), 256 MB memory, one shared CPU,
-HTTPS redirect, health checks, autostart and idle autostop with zero minimum
-running Machines. No database, volume, API secret, dedicated IPv4, or external
-write endpoint is required. Fly compute/transfer usage follows the account's
-applicable billing.
+The historical configuration uses `openline-brand`, the Paris region, a small shared-CPU Machine, and no application database or public write endpoint. Treat recorded identifiers and configuration as operational context to verify, not permission to create, delete, or replace infrastructure.
 
-The bootstrap reuses a checksum-verified cached release when possible. A first
-boot needs access to the public GitHub release bundle. If download or checksum
-validation fails, the server does not start with an unverified bundle.
+## Safety checks
 
-## Updates
-
-Build and commit a new bundle, then call `update-machine` with the same app and
-Machine ID and the new full Git commit. The script verifies the existing
-Machine's purpose marker before updating and preserves the resolved image digest.
-Updates are explicit; no automatic GitHub Actions deployment is configured.
-
-## Status
-
-Live: https://openline-brand.fly.dev
-
-- Organization: `paul-fleury`
-- App: `openline-brand`
-- Machine: `8d7155be3ed118` (`openline-brand-web`)
-- HTTPS and `/healthz` verified; Fly health check passing.
-- Nine views include the selected Original orange preview; the final 43.5% icon remains locked.
-- Shared IPv4 and IPv6 allocated. No dedicated IPv4, database or volume.
-- Madrid rejected new provisioning; Paris was used instead.
-
-In Computer's sandbox, use `REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt`
-so Requests trusts the platform credential proxy. Do not disable TLS validation.
-Read `config.metadata.openline.source_commit` on the Machine for its exact
-deployed source revision. The GitHub repository is the durable release source.
-
-Official API guidance:
-https://docs.fly.io/machines/api/apps-resource
-https://docs.fly.io/machines/api/machines-resource
-https://docs.fly.io/networking/services/
+- **TLS:** Keep certificate verification enabled. Configure a trusted certificate bundle when a credential-aware transport requires it.
+- **Authentication:** Do not paste tokens into documentation, source code, shell history, or build artifacts.
+- **Failure behavior:** A failed download or checksum must not fall through to serving an unverified bundle.
+- **Rollback:** Retain the last known-good source revision and deployment configuration.
+- **Company cutover:** Repoint hosting only after the company repository and its public asset URLs have been checked.

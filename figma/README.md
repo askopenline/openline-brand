@@ -1,8 +1,15 @@
-# Figma
+# Openline Figma References
+
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
 
 The "code side" of the Openline design system — React/TSX components generated from
 Figma via **Dev Mode → Copy code**, plus a place to keep the live Figma share links so
 this repo stays in sync with the design source of truth.
+
+This folder is a company-maintained reference collection, not proof that every
+export is an original Openline design or a production component. Legacy exports
+can include other brands or comparison material; preserve their attribution and
+review their rights before using them in an Openline product.
 
 ## What's inside
 

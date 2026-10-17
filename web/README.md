@@ -1,7 +1,10 @@
 # Openline UI — Shared Web Design System
 
-**One CSS file, two apps in lockstep.**
-Consumed by `openline-kb.pplx.app`, `openline-comp.pplx.app`, and any future Openline surface that needs the same look.
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+
+Shared presentation primitives for Openline web interfaces. The knowledge-base
+and compatibility projects are recorded consumers, but each deployed application
+must be checked for the exact stylesheet URL and revision it uses.
 
 - Stylesheet: `web/openline-ui.css`
 - Version: **v1.0.0**
@@ -16,11 +19,13 @@ Use jsDelivr — GitHub raw serves CSS as `text/plain` and modern browsers refus
 <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
 <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/paulfxyz/openline-brand-assets@main/web/openline-ui.css" />
+      href="https://cdn.jsdelivr.net/gh/askopenline/openline-brand-assets@main/web/openline-ui.css" />
 <link rel="stylesheet" href="./style.css" /> <!-- app-specific overrides -->
 ```
 
-To pin a version, replace `@main` with `@v1.0.0` (once a release tag exists) or a commit SHA.
+For a stable integration, replace `@main` with a verified release tag or a full
+commit SHA from this company repository. Do not assume a version label in a CSS
+comment corresponds to an existing Git tag.
 
 ## What the stylesheet ships
 
@@ -75,9 +80,15 @@ The card fills the viewport on mobile and becomes a max-width 1280 px rounded ca
 
 ## Change process
 
-1. Edit `web/openline-ui.css` on `main` (small, additive changes are safe — apps consume `@main`).
-2. Bump the version comment at the top for anything breaking.
-3. Both consuming apps pick up the change on their next page load (jsDelivr caches ~7 days at the edge — bust with a version tag or commit-SHA URL if urgent).
+1. Review affected consumers before editing `web/openline-ui.css`; even an
+   additive selector can change an existing interface.
+2. Update the version comment and record breaking changes.
+3. Test the knowledge-base and compatibility views at desktop and mobile widths.
+4. Pin or update the consuming application's URL deliberately and verify the
+   served bytes. CDN and browser caching can delay a change.
+
+Existing applications may still use an earlier account's asset URLs. Updating
+this README or copying the repository does not change those deployed references.
 
 ## Consuming apps
 

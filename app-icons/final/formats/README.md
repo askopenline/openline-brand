@@ -1,5 +1,7 @@
 # Openline final icon · approved 7 October 2026
 
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../../../README.md) for ownership, scope, and release boundaries.
+
 Final choice: 43.5% visible mark width inside an unchanged white square.
 Vector paths come from page 1 of the canonical Openline Illustrator PDF,
 deduplicated and uniformly scaled. They are not an auto-trace or redrawn mark.
@@ -24,7 +26,7 @@ and validated in Apple's tools. Android has no single file equivalent:
 adaptive icon XML, background, foreground and monochrome resources work together.
 
 ## Approval scope
-Paul approved the visual 43.5% composition on 7 October 2026. This does not
+Openline approved the visual 43.5% composition on 7 October 2026. This does not
 certify platform rendering or store acceptance. The 39.6dp adaptive treatment
 still needs native legibility testing; the 48dp fallback is retained separately.
 Dark and tinted appearances remain references, not separate approved identities.

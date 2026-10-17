@@ -1,9 +1,11 @@
 # Openline - App Icons (iOS + Android)
 
+> Openline company documentation: maintained in [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). See the [repository README](../README.md) for ownership, scope, and release boundaries.
+
 ## Current approved icon
 
 **Use [final/](final/) for the approved 43.5% white-square composition**, finalized
-by Paul on 7 October 2026. It includes native resources and PNG, SVG, vector PDF,
+by Openline on 7 October 2026. It includes native resources and PNG, SVG, vector PDF,
 EPS, JPEG, WebP, ICO and ICNS exports. Native device validation remains separate.
 
 Direct download:

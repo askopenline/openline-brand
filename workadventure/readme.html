@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Openline Apps — README v3</title>
+<title>Openline Virtual-Office Previews: Historical Catalogue</title>
+<meta name="author" content="Openline">
+<meta name="description" content="Openline's historical virtual-office interface catalogue. Company-maintained previews with prototype and third-party attribution boundaries.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Play:wght@400;700&family=Press+Start+2P&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -75,6 +77,24 @@
   .version-info{flex:1}
   .version-title{font-size:15px;font-weight:600;margin-bottom:4px}
   .version-date{font-size:12px;color:var(--muted)}
+
+  /* Readable documentation on narrow screens; application pages are unchanged. */
+  @media(max-width:760px){
+    .layout{display:block}
+    .toc{position:static;width:100%;height:auto;border-right:0;border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:4px;padding:16px}
+    .toc-title{flex-basis:100%;padding:0 8px;margin-bottom:8px}
+    .toc-item{padding:7px 8px;font-size:12px}
+    .toc-sep{display:none}
+    .main{width:100%;max-width:none;min-width:0;padding:24px 18px;overflow-wrap:anywhere}
+    .hero-banner{padding:22px 18px}
+    h1{font-size:32px}
+    .hero-meta{gap:8px}
+    .hero-chip{font-size:11px}
+    .app-table{display:block;max-width:100%;overflow-x:auto}
+    pre{max-width:100%}
+    .version-row{gap:10px}
+    .version-info{min-width:0}
+  }
 </style>
 </head>
 <body>
@@ -98,9 +118,9 @@
   <!-- Main -->
   <div class="main">
     <div class="hero-banner">
-      <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--orange);margin-bottom:12px">OPENLINE × WORKADVENTURE</div>
-      <h1 style="margin:0 0 10px">App Suite <span>v3</span></h1>
-      <p style="margin:0;font-size:17px;color:var(--muted)">39 self-contained HTML mini-apps for embedding in WorkAdventure virtual offices.</p>
+      <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--orange);margin-bottom:12px">OPENLINE VIRTUAL-OFFICE REFERENCES</div>
+      <h1 style="margin:0 0 10px">App Suite <span>Archive</span></h1>
+      <p style="margin:0;font-size:17px;color:var(--muted)">Historical catalogue of Openline's virtual-office interface previews. Read the <a href="https://github.com/askopenline/openline-brand-assets/blob/main/workadventure/README.md">current company documentation</a> for scope, ownership, and integration guidance.</p>
       <div class="hero-meta">
         <span class="hero-chip">📦 39 Apps</span>
         <span class="hero-chip">✨ 10 New in v3</span>
@@ -112,8 +132,8 @@
     </div>
 
     <h2 id="overview">Overview</h2>
-    <p>This project is a collection of embeddable HTML5 mini-apps built for <strong>Openline</strong>, a next-gen eSIM distribution platform, to use inside their <strong>WorkAdventure</strong> virtual office environment.</p>
-    <p>Every app is a <strong>single self-contained HTML file</strong> — all CSS and JavaScript inline, no build step, no backend required. Apps communicate with WorkAdventure via the <code>postMessage</code> API.</p>
+    <p>This collection is maintained by <strong>Openline</strong> in its official brand-assets repository. It provides interface references for a WorkAdventure-based virtual office; WorkAdventure remains a separate upstream project with its own ownership and terms.</p>
+    <p>The version counts and feature descriptions below document earlier snapshots and prototype behavior. Inspect each page's external dependencies, data handling, and actual integration before production use; a preview does not establish a working backend, shared persistence, or an endorsed partnership.</p>
 
     <div class="callout callout-success">
       <p>🚀 <strong>Quick start:</strong> Open <code>index.html</code> to browse all apps. Click any app to launch it. Embed via WorkAdventure's iFrame configuration.</p>
@@ -359,7 +379,7 @@ WA.player.onPlayerMove.subscribe(({ x, y }) => {
     </div>
 
     <div style="margin-top:48px;padding-top:24px;border-top:1px solid var(--border);color:var(--muted);font-size:14px">
-      Built with ❤️ for <strong style="color:var(--text)">Openline</strong> × <strong style="color:var(--text)">WorkAdventure</strong> · <a href="index.html">← Back to App Launcher</a>
+      Maintained by <strong style="color:var(--text)">Openline</strong>. Third-party software and marks retain their respective rights. <a href="index.html">Back to App Launcher</a>
     </div>
   </div>
 </div>
