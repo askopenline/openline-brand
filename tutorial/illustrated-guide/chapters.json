@@ -1,0 +1,80 @@
+{
+  "timebase": "seconds from final video start",
+  "chapters": [
+    {
+      "title": "Openline intro",
+      "start": 0,
+      "end": 3.04
+    },
+    {
+      "title": "Let's get you connected",
+      "start": 3.04,
+      "end": 8.8
+    },
+    {
+      "title": "Before you begin",
+      "start": 8.8,
+      "end": 19.45
+    },
+    {
+      "title": "Choose one method",
+      "start": 19.45,
+      "end": 23.16
+    },
+    {
+      "title": "Option A: scan your QR",
+      "start": 23.16,
+      "end": 41.04
+    },
+    {
+      "title": "Option B: enter details",
+      "start": 41.04,
+      "end": 65.98
+    },
+    {
+      "title": "Follow your device's prompts",
+      "start": 65.98,
+      "end": 76.92
+    },
+    {
+      "title": "Name your line",
+      "start": 76.92,
+      "end": 84.22
+    },
+    {
+      "title": "Keep your home number",
+      "start": 84.22,
+      "end": 96.44
+    },
+    {
+      "title": "Choose Openline for data",
+      "start": 96.44,
+      "end": 111.02
+    },
+    {
+      "title": "Check roaming per line",
+      "start": 111.02,
+      "end": 126.64
+    },
+    {
+      "title": "Test your connection",
+      "start": 126.64,
+      "end": 140.4
+    },
+    {
+      "title": "Same process, different menus",
+      "start": 140.4,
+      "end": 164.64
+    },
+    {
+      "title": "Ready for your next chapter",
+      "start": 164.64,
+      "end": 177.56
+    },
+    {
+      "title": "Installation guide and QR",
+      "start": 178.05825,
+      "end": 184.09824999999998
+    }
+  ]
+}

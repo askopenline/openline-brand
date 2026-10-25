@@ -1,0 +1,71 @@
+{
+  "title": "Openline installation tutorial \u2014 source-grounded editorial audit",
+  "checked": "2026-10-25",
+  "sources": [
+    {
+      "name": "Openline staging installation guide",
+      "url": "https://staging.openline.com/installation-guide",
+      "findings": "QR and manual alternatives; purchase code must first be redeemed; supplied eSIM details are distinct. Primary for calls/messages/iMessage; Openline for data; data switching off. Page contradicts itself on activation: confirm activation starts plan versus destination-only activation. Do not universalize either trigger, single-use QR, non-restorability, 24/7 support, instant setup, or bars proving internet."
+    },
+    {
+      "name": "Apple eSIM setup",
+      "url": "https://support.apple.com/en-us/118669",
+      "findings": "Compatible device, carrier support and network connection. QR and manual options. Manual via Cellular/Mobile Data, add plan, Enter Details Manually. Confirmation code only if supplied. Labels vary."
+    },
+    {
+      "name": "Apple Dual SIM",
+      "url": "https://support.apple.com/en-us/109317",
+      "findings": "Unlocked required for two carriers. Line labels editable under Cellular Plan Label. Defaults for calls and messages, iMessage and FaceTime. One cellular-data line at a time. Data switching changes behavior; disable for deliberate travel-data selection. Existing contact conversations may retain previously selected line. iOS26 travel journey is conditional."
+    },
+    {
+      "name": "Apple international travel",
+      "url": "https://support.apple.com/en-us/118227",
+      "findings": "No SIM Restrictions under Carrier Lock indicates unlocked. iOS26 may offer Home/Abroad and Travel eSIM Only versus Travel eSIM and Current eSIM. Both-lines use can still incur home roaming fees. Follow supplied plan rules; do not infer commercial validity timing from system prompts."
+    },
+    {
+      "name": "Saily iOS guide",
+      "url": "https://support.saily.com/hc/en-us/articles/24002974854684-How-to-install-the-Saily-eSIM-on-iOS",
+      "findings": "Settings > Mobile Service/Cellular > Add eSIM > Use QR Code > Enter Details Manually. Has Home/Abroad and Data Only branch. Saily app, address, activation, installation confirmation are Saily-specific and must not be attributed to Openline."
+    },
+    {
+      "name": "Saily Android guide",
+      "url": "https://support.saily.com/hc/en-us/articles/23999871567516",
+      "findings": "Samsung-style Settings > Connections > SIM manager > Add eSIM > Scan QR code from service provider, Enter activation code. Alternate Network & internet > SIMs > Add SIM > Download a new eSIM; Need help? permits manual code. App capabilities and activation rules excluded."
+    },
+    {
+      "name": "Holafly iPhone guide",
+      "url": "https://esim.holafly.com/faq/esim-setup-guide/how-to-activate-esim-on-iphone/",
+      "findings": "Conservative QR scan via Settings. Manual SM-DP+ address and activation code. Separates iOS26 travel branch and classic labeling. Avoid all Holafly-specific commercial activation/reinstall claims. Do not tell users they must disable primary if they want conventional calls/SMS."
+    },
+    {
+      "name": "Google Pixel eSIM setup",
+      "url": "https://support.google.com/pixelphone/answer/16115470?hl=en",
+      "findings": "Official current Settings > Network & internet > SIMs > Add SIM > Set up an eSIM. Manufacturer and carrier availability conditions apply. Confirms narrated Pixel menu names."
+    },
+    {
+      "name": "Samsung Galaxy SIM setup",
+      "url": "https://www.samsung.com/us/support/answer/ANS10001619/",
+      "findings": "Official Settings > Connections > SIM manager > Add eSIM > Scan QR code. Exact options depend on version and device. Confirms narrated Samsung menu names."
+    },
+    {
+      "name": "Samsung manual entry",
+      "url": "https://www.samsung.com/sg/support/mobile-devices/galaxy-esim-and-supported-network-carriers/",
+      "findings": "Manual option after Add eSIM > Scan QR code > Enter activation code. Supports depicting QR and manual as alternative routes on Android; no Samsung automatic commercial plan-start claim generalized to Openline."
+    },
+    {
+      "name": "Runware Kling Avatar Pro documentation",
+      "url": "https://runware.ai/docs/models/klingai-avatar-2-0-pro",
+      "findings": "klingai:avatar@2.0-pro supports up to five minutes, single image/audio; published $0.087/second. One continuous take, final native resolution verified from actual result, not promised as native1080p."
+    }
+  ],
+  "editorial_rules": [
+    "Choose QR OR manual, not both; show both as alternatives, never imply consecutive installation.",
+    "Every setup code shown must be an obvious nonfunctional example. QR illustration is not an installation QR.",
+    "No blanket activation trigger: follow the instructions and validity conditions supplied with this plan.",
+    "iOS26 travel screens conditional; final settings reviewed independently rather than forcing classic wizard.",
+    "Home data roaming off does not eliminate possible calls/SMS charges.",
+    "Connection test is Wi-Fi off plus loaded webpage; bars alone insufficient.",
+    "Contact Openline support before deleting eSIM.",
+    "End URL and QR must be https://openline.com/install; parent resolving current404, no substitute."
+  ]
+}

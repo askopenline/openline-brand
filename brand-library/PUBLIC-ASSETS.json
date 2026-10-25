@@ -1,5 +1,5 @@
 {
-  "version": "2.5.0",
+  "version": "2.5.1",
   "files": [
     {
       "path": "artwork.json",
@@ -328,8 +328,8 @@
     {
       "path": "brand-expansion/downloads/cost-ledger.json",
       "url": "https://brand.openline.com/brand-expansion/downloads/cost-ledger.json",
-      "bytes": 1398,
-      "sha256": "5c94f0e31cd42aec163eb37d4032e4b1feedd87d7bff4251644e699fe1676778"
+      "bytes": 1568,
+      "sha256": "d3eb2dd144e69d51f782f53613cbea4d3ef1d24f45e06bb32662f9a31fcde8f2"
     },
     {
       "path": "brand-expansion/downloads/iphone-capture-checklist.md",
@@ -3370,8 +3370,8 @@
     {
       "path": "library/catalog.json",
       "url": "https://brand.openline.com/library/catalog.json",
-      "bytes": 1638222,
-      "sha256": "cdee547070eaea1822f579c8378d2a283b8321f74eb3ef6c47257671ca7c53a2"
+      "bytes": 1648050,
+      "sha256": "089aa9af95026d644d5387e59b1abc67bb7ce4e2802e5c743b7a0fabde0a3991"
     },
     {
       "path": "library/downloads/manifest.json",
@@ -5628,6 +5628,84 @@
       "url": "https://brand.openline.com/library/hellen-full-tutorial/script.json",
       "bytes": 5272,
       "sha256": "c345bd3e0609933cedab80426255646c3d5df27126b11a46d4dcf47ebe620383"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/chapters.json",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/chapters.json",
+      "bytes": 1505,
+      "sha256": "6b205de4b6e2ae1842f23ca1c6181635bf1ba65f5af7b7e859b90c30b20495db"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/hellen-narration.wav",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/hellen-narration.wav",
+      "bytes": 16801796,
+      "sha256": "3992e3cd6fdcf0dca520c5fb3229992011843dcd7b9f72b7098fee49a8729535"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/hellen-tutorial-en.ass",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/hellen-tutorial-en.ass",
+      "bytes": 44873,
+      "sha256": "9563b37eafbbbad6d0c0e50684706e83d6a5c7af282c516f85fd87f3a061ed7a"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/hellen-tutorial-en.srt",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/hellen-tutorial-en.srt",
+      "bytes": 4196,
+      "sha256": "07a693805f1e86b12727b3bad8e8450d16752e4b83acf3b02da68e149e8910b3"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/hellen-tutorial-en.vtt",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/hellen-tutorial-en.vtt",
+      "bytes": 4009,
+      "sha256": "ae5301915932a635e1edbfe4cb2b35bb3cd2fcf98352e541c9dc1072b0dea767"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/manifest.json",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/manifest.json",
+      "bytes": 1129,
+      "sha256": "e3e74fbc05673390aa9dc78973f03947c3a58f0cf9ec455ab6c3b622172f543a"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/narration.txt",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/narration.txt",
+      "bytes": 1894,
+      "sha256": "baea78f6184aca98d46c3a6c7455c2dd0441491a1fba2a60065f554ff104af65"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/openline-hellen-animated-installation-guide.mp4",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/openline-hellen-animated-installation-guide.mp4",
+      "bytes": 10443258,
+      "sha256": "12ddf254e7f352f61df69c97c3a855c49a9e662b9496879acacef3a2ef008121"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/openline-hellen-guide-poster.jpg",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/openline-hellen-guide-poster.jpg",
+      "bytes": 103744,
+      "sha256": "3a09dcb2db73c18fbc14fba94da1cf1852ca54bdf4a43b4aea6825322c024bc9"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/openline-pleasant-sting.wav",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/openline-pleasant-sting.wav",
+      "bytes": 291884,
+      "sha256": "6f95a969c77d34e88f57cc066d349bb832a2eaa90e0505a3f5305f1ae6827156"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/qa-summary.json",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/qa-summary.json",
+      "bytes": 2022,
+      "sha256": "4c403b1560531064f8f58a161313508d1b9de75e9eb8f5a6bc90d547f8307e86"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/sources-audit.json",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/sources-audit.json",
+      "bytes": 5347,
+      "sha256": "e4452c14578280cd414efac95efe6643549870f865b926d4a8edd49607d36535"
+    },
+    {
+      "path": "library/hellen-illustrated-guide/tutorial-notes.md",
+      "url": "https://brand.openline.com/library/hellen-illustrated-guide/tutorial-notes.md",
+      "bytes": 1117,
+      "sha256": "a662b9983e213f2b0aa10c14e2808139af6ba7fcecc95751f085a22eafb40898"
     },
     {
       "path": "library/posters/initial-openline-reveal-settle-square-1080.jpg",
@@ -14576,5 +14654,5 @@
       "sha256": "ace6e7c2c4061ce8e090d1f2383f552040bb889d001ce92370170b4e496cff87"
     }
   ],
-  "total_bytes": 2986266881
+  "total_bytes": 3014002758
 }

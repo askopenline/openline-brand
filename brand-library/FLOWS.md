@@ -1,5 +1,14 @@
 # Main flows
 
+## Complete illustrated tutorial (v2.5.1)
+- Presenters hero identifies a static Hellen portrait, continuous narration and animated guide.
+- Watch the full tutorial opens the new 184-second MP4, not the earlier 89-second video.
+- Play and seek the QR/manual, Android and closing QR chapters; confirm sound track and captions.
+- Notes, MP4, SRT, VTT, narration and chapter downloads respond successfully.
+- Existing presenter samples, 60 ads, 150 motion editions and archives remain accessible.
+- Keep homepage SEO and social metadata from the prior release unchanged.
+- Fresh live desktop/mobile checks, no horizontal overflow or console errors.
+
 ## SEO and social sharing (2026-10-25)
 - Raw homepage HTML includes title, description, index/follow, absolute canonical, OG and Twitter large-image tags.
 - OG PNG is the approved white-on-orange artwork, exactly 1200x630; touch icon is 180x180.

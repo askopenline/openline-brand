@@ -1,0 +1,37 @@
+{
+  "title": "Install your Openline eSIM",
+  "edition": "Complete illustrated guide with Hellen voice",
+  "duration_seconds": 184.1,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "video": "openline-hellen-animated-installation-guide.mp4",
+  "poster": "openline-hellen-guide-poster.jpg",
+  "presenter": {
+    "name": "Hellen",
+    "treatment": "Approved static office portrait on the left",
+    "lip_synced": false,
+    "new_avatar_generation": false
+  },
+  "narration": {
+    "voice": "Ashley",
+    "continuous": true,
+    "duration_seconds": 175.01825,
+    "new_speech_generation": false,
+    "post_generation_time_stretch": false
+  },
+  "screens": "Animated illustrated iPhone UI plus Samsung and Pixel examples",
+  "outro": {
+    "url": "https://openline.com/install",
+    "duration_seconds": 6.04,
+    "stationary_QR_hold_seconds": 3
+  },
+  "disclosure": {
+    "label_duration_ms": 1200,
+    "badge_opacity_after_2000ms": 0.7
+  },
+  "new_generation_cost_usd": 0,
+  "new_review_cost_usd": 0.0214028,
+  "qa": "Full decode, decoded frame review, complete audiovisual review, QR checks",
+  "prior_editions_preserved": true
+}

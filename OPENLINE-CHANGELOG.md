@@ -2,6 +2,17 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.5.1 illustrated tutorial (2026-10-25)
+
+- **Complete example:** Approximately 184 seconds, with Hellen's static office portrait on the left and animated phone demonstrations on the right.
+- **Narration:** One existing continuous voice track, without voice joins or new speech generation. The portrait is not lip-synced.
+- **Walkthrough:** QR/manual alternatives, checked recaps, line/data/roaming settings and illustrated Samsung/Pixel examples.
+- **Finish:** Word-highlighted captions, timed AI badge, original-logo intro/outro with sound and a three-second stationary QR hold.
+- **Library:** Main tutorial CTA and resource downloads updated; earlier tutorial editions, 60 ads and 150 Motion collections preserved.
+- **Provider recovery:** The long avatar request failed with a provider timeout. Its watch is paused; this edition does not depend on a replacement avatar render.
+
+No new GitHub release tag is created by this update.
+
 ## v2.5.0 library update (2026-10-25)
 
 - **SEO and sharing:** Indexable homepage, canonical URL, robots.txt, sitemap, structured metadata, JavaScript-free summary and Open Graph/Twitter cards using the approved 1200×630 white-on-orange artwork. Hash views remain one canonical page.

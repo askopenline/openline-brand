@@ -1,0 +1,56 @@
+{
+  "technical": {
+    "full_decode": true,
+    "duration_seconds": 184.1,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "qr_checks": [
+      {
+        "seconds": 181.59824999999998,
+        "url": "https://openline.com/install"
+      },
+      {
+        "seconds": 182.59824999999998,
+        "url": "https://openline.com/install"
+      },
+      {
+        "seconds": 183.89825,
+        "url": "https://openline.com/install"
+      }
+    ],
+    "ai_badge_opacity_estimate": 0.7068965517241379,
+    "generated_by_removed_after_1200ms": true,
+    "presenter": "Static approved Hellen office portrait, not a talking avatar",
+    "audio": "One existing continuous narration, no joins or time stretch",
+    "audio_levels": {
+      "input_i": "-16.06",
+      "input_tp": "-1.37",
+      "input_lra": "3.70",
+      "input_thresh": "-26.66",
+      "output_i": "-15.85",
+      "output_tp": "-1.50",
+      "output_lra": "3.50",
+      "output_thresh": "-26.44",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.15"
+    },
+    "decoded_sample_count": 19
+  },
+  "perceptual_review": {
+    "pass": true,
+    "material_issues": [],
+    "minor_limitations": [],
+    "voice_consistent": true,
+    "speech_complete": true,
+    "ui_match": true,
+    "caption_quality": true,
+    "visual_quality": true,
+    "summary": "The tutorial effectively guides users through eSIM setup with clear narration, well-aligned UI, and readable labels. The use of a static portrait and illustrated phone screens is consistent with the user's approved fallback and design choices. Transitions are smooth, and there are no noticeable clipping or overlap issues. The inclusion of QR and manual alternatives, Android explanations, checked recaps, and an end URL with an AI badge enhances the overall quality and user experience."
+  },
+  "limitations": [
+    "AI-generated still portrait and synthetic voice; no animated mouth.",
+    "Illustrated phone screens; exact device menus vary.",
+    "Owner manages openline.com/install."
+  ]
+}

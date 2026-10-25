@@ -36,7 +36,11 @@ The library now contains 60 short ads, with separate filters for Final batch, th
 <a href="https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-06.mp4"><img src=".github/assets/videos-v2.5/final-ad-06.jpg" alt="Oaxaca Cooking Class: decoded final video frame" width="220"></a>
 <a href="https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-17.mp4"><img src=".github/assets/videos-v2.5/final-ad-17.jpg" alt="Helsinki Sauna Reservation: decoded final video frame" width="220"></a>
 
-The revised continuous Hellen tutorial is still awaiting its provider render. The existing illustrated tutorial remains available; the new tutorial is not included in this update.
+The complete animated installation example is now available in the [Presenters section](https://brand.openline.com/#/presenters): Hellen's static office portrait on the left, animated phone screens on the right, and one continuous voice. The earlier presenter editions remain available.
+
+<a href="https://brand.openline.com/library/hellen-illustrated-guide/openline-hellen-animated-installation-guide.mp4"><img src=".github/assets/hellen-illustrated-guide.jpg" alt="Decoded frame from the complete Hellen illustrated installation guide" width="800"></a>
+
+[Watch the three-minute example](https://brand.openline.com/library/hellen-illustrated-guide/openline-hellen-animated-installation-guide.mp4) · [Notes and limitations](tutorial/illustrated-guide/tutorial-notes.md) · [QA summary](tutorial/illustrated-guide/qa-summary.json)
 
 ## Expanded brand library
 
