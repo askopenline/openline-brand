@@ -14222,6 +14222,12 @@
       "sha256": "dce1f82a7a71593926e63a1333631f630620cb70026aa126673f7e77e9622dd3"
     },
     {
+      "path": "robots.txt",
+      "url": "https://brand.openline.com/robots.txt",
+      "bytes": 72,
+      "sha256": "e66353ff00693d86a7e725cae110aa818d4f6deded70f3fe97f5c3d91b7e2ab5"
+    },
+    {
       "path": "series.json",
       "url": "https://brand.openline.com/series.json",
       "bytes": 3504,
@@ -14382,6 +14388,24 @@
       "url": "https://brand.openline.com/series/signal/ios-06.webp",
       "bytes": 29516,
       "sha256": "7195be0c90b261062203014c5f4c3c90f73eb28b79cd4507f46017c71ef80e8b"
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://brand.openline.com/sitemap.xml",
+      "bytes": 170,
+      "sha256": "bbe689ea203cbd02a2c279a37898316faba26b82155b02e18af12134aa958ae5"
+    },
+    {
+      "path": "social/apple-touch-icon.png",
+      "url": "https://brand.openline.com/social/apple-touch-icon.png",
+      "bytes": 3339,
+      "sha256": "3eea11596844fcbb2e7afd5cf7bf59f1b8f91e135f1f2fb426d6099e28a7cb79"
+    },
+    {
+      "path": "social/openline-brand-library-v1.png",
+      "url": "https://brand.openline.com/social/openline-brand-library-v1.png",
+      "bytes": 15524,
+      "sha256": "cf18fb02b91b4bffea77020507b30645075192d9298861b899e1fa9d222f87f5"
     },
     {
       "path": "submission.json",

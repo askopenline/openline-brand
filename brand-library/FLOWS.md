@@ -1,5 +1,15 @@
 # Main flows
 
+## SEO and social sharing (2026-10-25)
+- Raw homepage HTML includes title, description, index/follow, absolute canonical, OG and Twitter large-image tags.
+- OG PNG is the approved white-on-orange artwork, exactly 1200x630; touch icon is 180x180.
+- Structured data parses and identifies Openline, the website and its collection page without invented ratings.
+- robots.txt and sitemap.xml return their real files; sitemap contains the canonical homepage only, never hash routes.
+- JavaScript-disabled visitors see a meaningful summary and a working repository link.
+- Main navigation still opens all eight views; ads search/filter/preview, Motion and presenter actions remain accessible.
+- Check desktop and 375px navigation, modal/Escape, no horizontal overflow and no new console errors.
+- Home title remains consistent with static metadata; hash views keep descriptive browser titles.
+
 ## Final campaign and animated installation tutorial (v2.5)
 - Short ads defaults to Final batch with exactly 20 new voiced ads once the batch is integrated.
 - Final batch, previous voiced campaign (10), earlier work (30), and all ads (60) remain separate filters.

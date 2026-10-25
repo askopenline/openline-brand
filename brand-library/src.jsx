@@ -23,7 +23,7 @@ function App(){
   if(['#iphone','#android','#app-store','#google-play','#app-store-submission','#google-play-submission','#archive','#home'].includes(location.hash))location.replace('./studio.html'+location.hash);
   return()=>window.removeEventListener('hashchange',sync);
  },[]);
- useEffect(()=>{document.title=`${NAV.find(x=>x[0]===route)?.[1]||'Assets'} · Openline Brand Library`},[route]);
+ useEffect(()=>{document.title=route==='overview'?'Openline Brand Library':`${NAV.find(x=>x[0]===route)?.[1]||'Assets'} · Openline Brand Library`},[route]);
  useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(''),3500);return()=>clearTimeout(t)},[toast]);
  useEffect(()=>{setLimit(24)},[q,category,format,status,mode,adSeries,motionView]);
  const scope=['ads','motion','presenters','app','archives'].includes(route)?route:category;

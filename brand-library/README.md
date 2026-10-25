@@ -8,6 +8,12 @@ The `brand-library/` application is a React-based single-page application. It is
 
 Releases are handled via incremental atomic symlink updates, allowing for quick rollbacks. A private, short-lived transfer route is used for deployment. Secrets, provider payloads, receipts, and raw unapproved generations are excluded from the deployment.
 
+## Search and social metadata
+
+The homepage serves its title, description, canonical URL, Open Graph/Twitter cards and Organization/WebSite/CollectionPage JSON-LD in the initial HTML. The 1200×630 social card uses the approved white-on-orange artwork; `tools/prepare-seo-images.py` reproduces the card and 180px touch icon without generative assets.
+
+`robots.txt` permits crawling and points to `sitemap.xml`. Only the canonical homepage is listed: the existing hash-based collections are views of one page, not separate crawlable URLs. The HTML includes a JavaScript-free summary and repository link; interactive galleries still require JavaScript. Indexing and third-party preview cache refreshes are not guaranteed by deployment.
+
 ## Asset Management and Hydration
 
 Large runtime files are distributed from `brand.openline.com` using a SHA256 hydration manifest located at `brand-library/PUBLIC-ASSETS.json`. The `brand-library/tools/hydrate-public.py` script facilitates this process.

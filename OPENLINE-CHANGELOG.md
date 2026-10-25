@@ -4,6 +4,7 @@ This changelog records the Openline-maintained company edition. Original Git his
 
 ## v2.5.0 library update (2026-10-25)
 
+- **SEO and sharing:** Indexable homepage, canonical URL, robots.txt, sitemap, structured metadata, JavaScript-free summary and Open Graph/Twitter cards using the approved 1200×630 white-on-orange artwork. Hash views remain one canonical page.
 - **Final batch:** 20 additional voiced travel ads, bringing the library to 60 ads.
 - **Browsing:** Separate Final batch, previous voiced campaign, earlier work and all-ad filters.
 - **Video treatments:** Word-pop captions, timed AI disclosure and 6.08-second three-zone animated-logo, QR and website outros.
