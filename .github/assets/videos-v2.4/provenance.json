@@ -1,0 +1,68 @@
+{
+  "description": "Actual decoded video frames, resized without changing aspect ratio. Not generated replacement artwork.",
+  "frames": [
+    {
+      "id": "hellen-full-tutorial",
+      "title": "Hellen \u00b7 full illustrated tutorial",
+      "file": ".github/assets/videos-v2.4/hellen-tutorial.jpg",
+      "source": "https://brand.openline.com/library/hellen-full-tutorial/openline-hellen-installation-tutorial.mp4",
+      "timestamp_seconds": 22.0,
+      "source_sha256": "31b7023feccb1498cc258628a7608212c81b6ac8a9b4896e96821da7d00e3ad4",
+      "image_sha256": "bcf3f548ae34123c87f958a6b6a0bdc558ae13599ecef2d62c39a21d4270ad2b"
+    },
+    {
+      "id": "native-sound-01-felt-keys-horizontal-orange",
+      "title": "Felt keys \u00b7 Horizontal orange",
+      "file": ".github/assets/videos-v2.4/motion-orange.jpg",
+      "source": "https://brand.openline.com/library/productions/motion-150/mp4/01-felt-keys-horizontal-orange.mp4",
+      "timestamp_seconds": 0.1,
+      "source_sha256": "d96353b7a85c94a15abbf605bedf846627d3e34e365c68fdfe57f5297a152442",
+      "image_sha256": "f39854e3dcf2d1c892619cc567029e76f62892ef8b45cc21361359c9df9823ed"
+    },
+    {
+      "id": "native-sound-03-glass-orbit-horizontal-cream",
+      "title": "Glass orbit \u00b7 Horizontal cream",
+      "file": ".github/assets/videos-v2.4/motion-cream.jpg",
+      "source": "https://brand.openline.com/library/productions/motion-150/mp4/03-glass-orbit-horizontal-cream.mp4",
+      "timestamp_seconds": 1.8,
+      "source_sha256": "983fff864882d7f7babcf93a7cd61dd4d292fbd4b3ab0bc80d467704b690e938",
+      "image_sha256": "e2db5966b2eebac8af531f19af52d7aefcdf19c2e88dfda6569bc919ea902dd9"
+    },
+    {
+      "id": "native-sound-11-velvet-chords-horizontal-night",
+      "title": "Velvet chords \u00b7 Horizontal night",
+      "file": ".github/assets/videos-v2.4/motion-night.jpg",
+      "source": "https://brand.openline.com/library/productions/motion-150/mp4/11-velvet-chords-horizontal-night.mp4",
+      "timestamp_seconds": 2.6,
+      "source_sha256": "787e133c6af15736cd2d75c9d30fb2a838776f446b7a5bb5b2cc026814cb12d5",
+      "image_sha256": "c6a558797f542f100194c859c005e9746b706b15385a5aad6996102a180523e9"
+    },
+    {
+      "id": "campaign-voice-01",
+      "title": "The First Hour",
+      "file": ".github/assets/videos-v2.4/ad-first-hour.jpg",
+      "source": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/01-first-hour-lisbon.mp4",
+      "timestamp_seconds": 10.0,
+      "source_sha256": "180e8989fb90e65837c16cd91142b8d9feaaa0167d3e46224bcbd4e8a9236b0a",
+      "image_sha256": "cd762f48ac4323c52afcf44d9434899d9f68e5a02025d280e7b816cd45f9a324"
+    },
+    {
+      "id": "campaign-voice-03",
+      "title": "The Place Nobody Pinned",
+      "file": ".github/assets/videos-v2.4/ad-hidden-food.jpg",
+      "source": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/03-hidden-food-mexico-city.mp4",
+      "timestamp_seconds": 6.5,
+      "source_sha256": "1a925ff2f2eda830fe51b53edfe9f131014ef9699c27dec482602351cca18d65",
+      "image_sha256": "1d8f51975869f8c56f70f9bb6ad11531b12b32386013c613a33205903476a53b"
+    },
+    {
+      "id": "campaign-voice-09",
+      "title": "Iceland Coastal Detour",
+      "file": ".github/assets/videos-v2.4/ad-iceland.jpg",
+      "source": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/09-iceland-coastal-detour.mp4",
+      "timestamp_seconds": 7.0,
+      "source_sha256": "f2f436fa685e5bfe90d7ad75a4bde3f411a4a23447e0a27a29dc7bd6233a3028",
+      "image_sha256": "0b9325dc20474a07ba89081f39ed5f89f0cab94350729a7a70039836cd81bb73"
+    }
+  ]
+}

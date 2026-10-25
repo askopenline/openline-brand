@@ -1,8 +1,31 @@
-> Historical or submission-preparation reference. This document records its original scope and date; it is not current store approval or evidence of a production release. See the [current brand library](https://brand.openline.com/) and [repository documentation](https://github.com/askopenline/openline-brand/tree/main/docs).
-
 # Openline Brand Assets: Company Changelog
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
+
+## v2.4.0 (2026-10-25)
+
+This release focuses on expanding our motion graphics library and refining documentation.
+
+### New Features
+
+*   Added 85 new motion graphic editions (68 horizontal, 17 square), bringing the total to 150. These are sound/layout variations, not 85 unique visual concepts.
+*   Introduced new filters for 'all', 'new', and 'horizontal' motion content.
+*   Added FLAC audio option for motion graphics.
+*   Published 6 new documentation guides.
+
+### Improvements
+
+*   Refreshed 20 existing documentation pages and added historical annotations to 41 others.
+*   The library contains 40 active ads, including ten revised voiced stories. Added a separate ~89-second AI-presenter tutorial with an explicitly illustrated guide.
+
+### Fixes
+
+*   Added a 24px desktop gap for tutorial buttons and improved stacked mobile actions.
+*   Corrected inset dropdown arrows and reserved label padding.
+*   Removed obsolete GitHub pending-sync and read-only notices.
+
+- Added seven real video-frame previews to the README, linked to their full MP4s.
+- Attached a public-only 85-edition Motion pack and SHA256 manifests to the release.
 
 ## Company edition: 17 October 2026
 

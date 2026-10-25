@@ -26,7 +26,7 @@ The official Openline media kit and working brand library. Logos, app icons, mot
 
 ## Expanded brand library
 
-The additive v2.4 application is prepared in [`brand-library/`](brand-library/), alongside the preserved `launch-studio/`. It brings identity, short ads, motion, AI-presenter comparisons, product sources and archives into one searchable resource library.
+The v2.4.0 brand-library application is available in [`brand-library/`](brand-library/), alongside the preserved `launch-studio/`. It brings identity, short ads, motion, AI-presenter comparisons, product sources and archives into one searchable resource library.
 
 - **Motion cards:** 150 editions, including 85 new editions derived from 17 sound families across five layouts (68 horizontal 1920x1080; 17 square 1000x1000). The 85 new editions are each 12.16 seconds, 50fps, with four 3.04-second cycles. These use exact source silhouette/timing, not redrawn logos. Five shared silent GIF previews and JPEG posters, per-edition MP4/AAC, lossless FLAC sound, and JSON event scores are provided. Production files are located at `/library/productions/motion-150/`.
 - **Campaign ads:** 40 active short ads, including 10 new voiced travel stories (~22.1s). The new ads feature revised word-pop captions, spaced logo/QR/openline.com outros, and AI circle disclosure. Previous editions are retained in Archives. Generated scenes are not actual customer/app/performance footage.
@@ -34,7 +34,7 @@ The additive v2.4 application is prepared in [`brand-library/`](brand-library/),
 - **Original resources:** The repository snapshot retains provenance, source formats, and review status; the approved app icon remains 43.5% mark, unchanged.
 - **Handoff:** New operational documentation includes [`docs/BRAND-LIBRARY.md`](docs/BRAND-LIBRARY.md), [`docs/MOTION.md`](docs/MOTION.md), [`docs/AI-PRESENTERS.md`](docs/AI-PRESENTERS.md), [`docs/CAMPAIGN-ADS.md`](docs/CAMPAIGN-ADS.md), [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md), and [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
 
-This section describes a local handoff. Clean clones require hydration via `brand-library/PUBLIC-ASSETS.json` and `tools/hydrate-public.py` to access multi-GB binary files, which are downloaded only after user choice.
+The GitHub automatic source ZIP/tar includes tracked code, resources, and documentation, but not the entire multi-GB runtime media library. To inspect or download the complete public library, navigate to the `brand-library` directory and run `python tools/hydrate-public.py` (add `--download` to fetch).
 
 <p align="center">
   <a href="https://brand.openline.com"><strong>Open Brand Studio</strong></a> ·
@@ -48,6 +48,41 @@ This section describes a local handoff. Clean clones require hydration via `bran
 
 ---
 
+## Video previews
+
+This gallery showcases seven actual decoded frames from finished videos. It includes Hellen, three distinct Motion layouts, and three advertising examples.
+Click any image to play its full video; the original loading GIF is also preserved below.
+
+### Motion with sound
+
+<table>
+<tr>
+<td align="center" width="33%"><a href="https://brand.openline.com/library/productions/motion-150/mp4/01-felt-keys-horizontal-orange.mp4"><img src=".github/assets/videos-v2.4/motion-orange.jpg" alt="Felt keys · Horizontal orange: actual video frame" width="280"></a><br><strong>Felt keys · Horizontal orange</strong><br><a href="https://brand.openline.com/library/productions/motion-150/mp4/01-felt-keys-horizontal-orange.mp4">Watch video</a></td>
+<td align="center" width="33%"><a href="https://brand.openline.com/library/productions/motion-150/mp4/03-glass-orbit-horizontal-cream.mp4"><img src=".github/assets/videos-v2.4/motion-cream.jpg" alt="Glass orbit · Horizontal cream: actual video frame" width="280"></a><br><strong>Glass orbit · Horizontal cream</strong><br><a href="https://brand.openline.com/library/productions/motion-150/mp4/03-glass-orbit-horizontal-cream.mp4">Watch video</a></td>
+<td align="center" width="33%"><a href="https://brand.openline.com/library/productions/motion-150/mp4/11-velvet-chords-horizontal-night.mp4"><img src=".github/assets/videos-v2.4/motion-night.jpg" alt="Velvet chords · Horizontal night: actual video frame" width="280"></a><br><strong>Velvet chords · Horizontal night</strong><br><a href="https://brand.openline.com/library/productions/motion-150/mp4/11-velvet-chords-horizontal-night.mp4">Watch video</a></td>
+</tr>
+</table>
+
+### Voiced travel stories
+
+<table>
+<tr>
+<td align="center" width="33%"><a href="https://brand.openline.com/library/campaign-voice-ten-v2/mp4/01-first-hour-lisbon.mp4"><img src=".github/assets/videos-v2.4/ad-first-hour.jpg" alt="The First Hour: actual video frame" width="220"></a><br><strong>The First Hour</strong><br><a href="https://brand.openline.com/library/campaign-voice-ten-v2/mp4/01-first-hour-lisbon.mp4">Watch video</a></td>
+<td align="center" width="33%"><a href="https://brand.openline.com/library/campaign-voice-ten-v2/mp4/03-hidden-food-mexico-city.mp4"><img src=".github/assets/videos-v2.4/ad-hidden-food.jpg" alt="The Place Nobody Pinned: actual video frame" width="220"></a><br><strong>The Place Nobody Pinned</strong><br><a href="https://brand.openline.com/library/campaign-voice-ten-v2/mp4/03-hidden-food-mexico-city.mp4">Watch video</a></td>
+<td align="center" width="33%"><a href="https://brand.openline.com/library/campaign-voice-ten-v2/mp4/09-iceland-coastal-detour.mp4"><img src=".github/assets/videos-v2.4/ad-iceland.jpg" alt="Iceland Coastal Detour: actual video frame" width="220"></a><br><strong>Iceland Coastal Detour</strong><br><a href="https://brand.openline.com/library/campaign-voice-ten-v2/mp4/09-iceland-coastal-detour.mp4">Watch video</a></td>
+</tr>
+</table>
+
+### Hellen's illustrated installation tutorial
+
+<a href="https://brand.openline.com/library/hellen-full-tutorial/openline-hellen-installation-tutorial.mp4"><img src=".github/assets/videos-v2.4/hellen-tutorial.jpg" alt="Hellen with the clearly labeled illustrated eSIM installation guide" width="800"></a>
+
+[Browse all 150 Motion editions](https://brand.openline.com/#/motion) · [Explore the ads](https://brand.openline.com/#/ads) · [Watch Hellen](https://brand.openline.com/#/presenters)
+
+The presenter and campaign scenes are AI-generated. The tutorial's installation panel is an illustrated guide, not a recording of an iPhone.
+
+---
+
 ## Asset library
 
 The library keeps original artwork, delivery formats, implementation references, and review history together. Choose the asset family that matches your use case rather than copying an arbitrary image from an older screenshot.
@@ -56,7 +91,7 @@ The library keeps original artwork, delivery formats, implementation references,
 | --- | --- | --- |
 | Identity | The Openline symbol, wordmark, and light/dark variants | [`logo/`](logo/), [`wordmark/`](wordmark/) |
 | Social | Profile and social-format resources | [`social/`](social/) |
-| Motion | Approved animated brand exports | [`animation/`](animation/) |
+| Motion | Original animations and sound/layout editions; review status is recorded per collection | [`animation/`](animation/) |
 | App icons | Final composition, raster/vector formats, and native integration kits | [Final app icon](app-icons/final/README.md) |
 | Brand Studio | Device and store previews, marketing artwork, copy drafts, and download packages | [Studio guide](launch-studio/README.md) |
 | Mobile UI | Buildable screen references and delivery context | [Mobile resources](mobile/README.md) |
