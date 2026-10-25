@@ -3,7 +3,7 @@
 
 # Openline Brand Studio
 
-Openline's brand-review workspace for app icons, store artwork, listing-copy drafts, and launch handoffs. This React/Vite application is part of the official [Openline brand-assets repository](https://github.com/askopenline/openline-brand-assets).
+Openline's brand-review workspace for app icons, store artwork, listing-copy drafts, and launch handoffs. This React/Vite application is part of the official [Openline brand-assets repository](https://github.com/askopenline/openline-brand).
 
 ## Current scope
 
@@ -15,7 +15,7 @@ The studio separates the approved visual direction from submission readiness. It
 - **Preview limitations:** Phone shells are simulations and supplied React-screen captures are design references, not native-device acceptance evidence.
 - **Version:** Consult [`package.json`](package.json) and repository history rather than treating older release notes as current instructions.
 
-The existing hosted preview is [openline-brand.fly.dev](https://openline-brand.fly.dev). Its deployment is independent of this company repository copy and does not automatically follow Git pushes.
+The existing hosted preview is [https://brand.openline.com/studio.html](https://brand.openline.com/studio.html). Its deployment is independent of this company repository copy and does not automatically follow Git pushes.
 
 ## Run locally
 
@@ -84,4 +84,4 @@ Openline maintains the studio, company-created artwork, and review documentation
 <!-- OPENLINE-GUIDE-NAV -->
 ## Company reference
 
-This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

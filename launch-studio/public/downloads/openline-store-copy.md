@@ -1,3 +1,5 @@
+> Historical or submission-preparation reference. This document records its original scope and date; it is not current store approval or evidence of a production release. See the [current brand library](https://brand.openline.com/) and [repository documentation](https://github.com/askopenline/openline-brand/tree/main/docs).
+
 # Openline store listing drafts
 
 English (US), audited October 7, 2026. Verify every statement against the native release build before submission. No coverage, speed or timing claims are assumed.

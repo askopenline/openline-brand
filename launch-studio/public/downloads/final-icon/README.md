@@ -1,3 +1,5 @@
+> Historical or submission-preparation reference. This document records its original scope and date; it is not current store approval or evidence of a production release. See the [current brand library](https://brand.openline.com/) and [repository documentation](https://github.com/askopenline/openline-brand/tree/main/docs).
+
 <!-- OPENLINE-GUIDE-VISUAL -->
 ![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
 
@@ -40,4 +42,4 @@ https://support.google.com/googleplay/android-developer/answer/9866151?hl=en
 <!-- OPENLINE-GUIDE-NAV -->
 ## Company reference
 
-This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../../../../README.md) for the broader system, current company links, and release context.
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand), maintained by Openline. Return to the [project overview](../../../../README.md) for the broader system, current company links, and release context.

@@ -1,3 +1,5 @@
+> Historical or submission-preparation reference. This document records its original scope and date; it is not current store approval or evidence of a production release. See the [current brand library](https://brand.openline.com/) and [repository documentation](https://github.com/askopenline/openline-brand/tree/main/docs).
+
 # Openline Brand Studio v1.13.0
 
 Separate Apple and Google submission drafts are now available without replacing

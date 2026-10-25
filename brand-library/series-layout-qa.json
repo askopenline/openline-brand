@@ -1,0 +1,398 @@
+[
+  {
+    "series": "signal",
+    "file": "ios-01.png",
+    "width": 1320,
+    "height": 2868,
+    "bounds": {
+      "copy": {
+        "top": 372.828125,
+        "bottom": 729.6875,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "phone": {
+        "top": 998.2592163085938,
+        "bottom": 3219.3187866210938,
+        "left": 84.59649658203125,
+        "right": 1288.1846313476562
+      },
+      "head": {
+        "top": 372.828125,
+        "bottom": 634.890625,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "ios-02.png",
+    "width": 1320,
+    "height": 2868,
+    "bounds": {
+      "copy": {
+        "top": 372.828125,
+        "bottom": 919.515625,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "phone": {
+        "top": 998.2589721679688,
+        "bottom": 3219.1471557617188,
+        "left": 31.80561637878418,
+        "right": 1235.3817882537842
+      },
+      "head": {
+        "top": 372.828125,
+        "bottom": 765.921875,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "ios-03.png",
+    "width": 1320,
+    "height": 2868,
+    "bounds": {
+      "copy": {
+        "top": 372.828125,
+        "bottom": 729.6875,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "phone": {
+        "top": 998.2592163085938,
+        "bottom": 3219.3187866210938,
+        "left": 84.59649658203125,
+        "right": 1288.1846313476562
+      },
+      "head": {
+        "top": 372.828125,
+        "bottom": 634.890625,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "ios-04.png",
+    "width": 1320,
+    "height": 2868,
+    "bounds": {
+      "copy": {
+        "top": 372.828125,
+        "bottom": 729.6875,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "phone": {
+        "top": 998.2592163085938,
+        "bottom": 3219.3187866210938,
+        "left": 31.79962158203125,
+        "right": 1235.3877563476562
+      },
+      "head": {
+        "top": 372.828125,
+        "bottom": 634.890625,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "ios-05.png",
+    "width": 1320,
+    "height": 2868,
+    "bounds": {
+      "copy": {
+        "top": 372.828125,
+        "bottom": 885.203125,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "phone": {
+        "top": 946.562255859375,
+        "bottom": 3277.47314453125,
+        "left": 88.48603820800781,
+        "right": 1314.8799591064453
+      },
+      "head": {
+        "top": 372.828125,
+        "bottom": 731.609375,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "ios-06.png",
+    "width": 1320,
+    "height": 2868,
+    "bounds": {
+      "copy": {
+        "top": 372.828125,
+        "bottom": 1053.21875,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "phone": {
+        "top": 1118.640380859375,
+        "bottom": 3449.55126953125,
+        "left": 5.1043925285339355,
+        "right": 1231.4983134269714
+      },
+      "head": {
+        "top": 372.828125,
+        "bottom": 840.828125,
+        "left": 105.59375,
+        "right": 1227.609375
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "android-01.png",
+    "width": 1080,
+    "height": 1920,
+    "bounds": {
+      "copy": {
+        "top": 259.1875,
+        "bottom": 540.78125,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "phone": {
+        "top": 729.59375,
+        "bottom": 2479.9375,
+        "left": 129.59375,
+        "right": 982.78125
+      },
+      "head": {
+        "top": 259.1875,
+        "bottom": 467.1875,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "android-02.png",
+    "width": 1080,
+    "height": 1920,
+    "bounds": {
+      "copy": {
+        "top": 259.1875,
+        "bottom": 692.375,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "phone": {
+        "top": 729.59375,
+        "bottom": 2479.796875,
+        "left": 129.59375,
+        "right": 982.78125
+      },
+      "head": {
+        "top": 259.1875,
+        "bottom": 571.1875,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "android-03.png",
+    "width": 1080,
+    "height": 1920,
+    "bounds": {
+      "copy": {
+        "top": 259.1875,
+        "bottom": 540.78125,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "phone": {
+        "top": 729.59375,
+        "bottom": 2481.90625,
+        "left": 129.59375,
+        "right": 982.78125
+      },
+      "head": {
+        "top": 259.1875,
+        "bottom": 467.1875,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "android-04.png",
+    "width": 1080,
+    "height": 1920,
+    "bounds": {
+      "copy": {
+        "top": 259.1875,
+        "bottom": 540.78125,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "phone": {
+        "top": 729.59375,
+        "bottom": 2479.9375,
+        "left": 129.59375,
+        "right": 982.78125
+      },
+      "head": {
+        "top": 259.1875,
+        "bottom": 467.1875,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "android-05.png",
+    "width": 1080,
+    "height": 1920,
+    "bounds": {
+      "copy": {
+        "top": 259.1875,
+        "bottom": 670.53125,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "phone": {
+        "top": 729.59375,
+        "bottom": 2590.984375,
+        "left": 86.390625,
+        "right": 993.578125
+      },
+      "head": {
+        "top": 259.1875,
+        "bottom": 549.34375,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  },
+  {
+    "series": "signal",
+    "file": "android-06.png",
+    "width": 1080,
+    "height": 1920,
+    "bounds": {
+      "copy": {
+        "top": 259.1875,
+        "bottom": 681.71875,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "phone": {
+        "top": 806.390625,
+        "bottom": 2667.78125,
+        "left": 86.390625,
+        "right": 993.578125
+      },
+      "head": {
+        "top": 259.1875,
+        "bottom": 512.9375,
+        "left": 86.390625,
+        "right": 1004.40625
+      },
+      "footer": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "status": "design-reference-not-native-capture"
+  }
+]

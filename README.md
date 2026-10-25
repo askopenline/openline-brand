@@ -1,11 +1,11 @@
-# Openline Brand Assets
+# Openline Brand
 
 <!-- CUP-OF-NEWS-STYLE -->
 <div align="center">
 
 [![Openline company repository](.github/assets/badge-company.svg)](https://openline.com)
-[![Public company repository](.github/assets/badge-access.svg)](https://github.com/askopenline/openline-brand-assets)
-[![Company edition](.github/assets/badge-edition.svg)](https://github.com/askopenline/openline-brand-assets/releases)
+[![Public company repository](.github/assets/badge-access.svg)](https://github.com/askopenline/openline-brand)
+[![Company edition](.github/assets/badge-edition.svg)](https://github.com/askopenline/openline-brand/releases)
 [![Brand library and studio](.github/assets/badge-stack.svg)](#brand-studio)
 
 ![React: Brand Studio](.github/assets/badge-technology-1.svg)
@@ -16,7 +16,7 @@
 
 **Identity, app icons, motion, store artwork, and the resources that make Openline recognizable.**
 
-[Company website](https://openline.com) · [Project overview](https://openline-brand.fly.dev) · [Release history](https://github.com/askopenline/openline-brand-assets/releases) · [Contribution guide](.github/OPENLINE-CONTRIBUTING.md)
+[Company website](https://openline.com) · [Project overview](https://brand.openline.com) · [Release history](https://github.com/askopenline/openline-brand/releases) · [Contribution guide](.github/OPENLINE-CONTRIBUTING.md)
 
 </div>
 
@@ -24,12 +24,24 @@
 
 The official Openline media kit and working brand library. Logos, app icons, motion, store artwork, design sources, email resources, and shared interface assets are organized here so company teams and approved partners can work from one recognizable visual identity.
 
+## Expanded brand library
+
+The additive v2.4 application is prepared in [`brand-library/`](brand-library/), alongside the preserved `launch-studio/`. It brings identity, short ads, motion, AI-presenter comparisons, product sources and archives into one searchable resource library.
+
+- **Motion cards:** 150 editions, including 85 new editions derived from 17 sound families across five layouts (68 horizontal 1920x1080; 17 square 1000x1000). The 85 new editions are each 12.16 seconds, 50fps, with four 3.04-second cycles. These use exact source silhouette/timing, not redrawn logos. Five shared silent GIF previews and JPEG posters, per-edition MP4/AAC, lossless FLAC sound, and JSON event scores are provided. Production files are located at `/library/productions/motion-150/`.
+- **Campaign ads:** 40 active short ads, including 10 new voiced travel stories (~22.1s). The new ads feature revised word-pop captions, spaced logo/QR/openline.com outros, and AI circle disclosure. Previous editions are retained in Archives. Generated scenes are not actual customer/app/performance footage.
+- **Presenter entries:** Six entries, including four long comparison samples, a pilot, and a full tutorial. The full Hellen04 tutorial is ~89 seconds, with one continuous presenter take and Ashley narration, set in a blurred fictional office. The illustrated installation guide is explicitly approved by the owner and is not a genuine iPhone capture.
+- **Original resources:** The repository snapshot retains provenance, source formats, and review status; the approved app icon remains 43.5% mark, unchanged.
+- **Handoff:** New operational documentation includes [`docs/BRAND-LIBRARY.md`](docs/BRAND-LIBRARY.md), [`docs/MOTION.md`](docs/MOTION.md), [`docs/AI-PRESENTERS.md`](docs/AI-PRESENTERS.md), [`docs/CAMPAIGN-ADS.md`](docs/CAMPAIGN-ADS.md), [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md), and [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
+
+This section describes a local handoff. Clean clones require hydration via `brand-library/PUBLIC-ASSETS.json` and `tools/hydrate-public.py` to access multi-GB binary files, which are downloaded only after user choice.
+
 <p align="center">
-  <a href="https://openline-brand.fly.dev"><strong>Open Brand Studio</strong></a> ·
-  <a href="#asset-library">Browse the library</a> ·
+  <a href="https://brand.openline.com"><strong>Open Brand Studio</strong></a> ·
+  <a href="https://brand.openline.com/#/assets">Browse the library</a> ·
   <a href="#app-icon-system">App icon kit</a> ·
   <a href="#using-and-embedding-assets">Use the assets</a> ·
-  <a href="https://github.com/askopenline/openline-brand-assets/releases">Releases</a>
+  <a href="https://github.com/askopenline/openline-brand/releases">Releases</a>
 </p>
 
 ![Openline brand library at a glance](.github/assets/at-a-glance.png)
@@ -62,7 +74,7 @@ The library keeps original artwork, delivery formats, implementation references,
 
 The original mark and wordmark are the starting point. Openline orange, clear contrast, deliberate whitespace, and consistent asset variants carry that identity across product, marketing, documentation, and operational surfaces.
 
-- **Primary orange:** `#FF6616`.
+- **Primary orange:** `#FF6518` (native orange), `#FF6616` (artwork), and `#FF6418` (campaign) remain distinct tokens.
 - **Artwork:** Use the supplied geometry and proportions rather than redrawing or stretching a mark.
 - **Contrast:** Choose the appropriate light or dark variant and preserve clear space.
 - **Product typography:** Follow the relevant product or asset-family specification; a web stylesheet is not automatically the typography contract for every surface.
@@ -70,9 +82,7 @@ The original mark and wordmark are the starting point. Openline orange, clear co
 
 ### Brand motion
 
-The motion library includes the original loading loop alongside horizontal,
-square, and favicon-oriented exports. Use the supplied animation rather than
-inventing a new movement for the mark.
+The motion library includes the original loading loop alongside horizontal, square, and favicon-oriented exports. Use the supplied animation rather than inventing a new movement for the mark.
 
 <p align="center">
   <img src="animation/loading-loop/openline-loading-loop.gif" alt="Original Openline loading-loop animation" width="220">
@@ -82,7 +92,7 @@ inventing a new movement for the mark.
 
 ## Brand Studio
 
-Brand Studio makes the launch materials explorable instead of leaving them buried in folders. Its Main view presents the final icon and device/store previews, while Archive retains the broader review workbench and earlier comparisons.
+Brand Studio makes the launch materials explorable instead of leaving them buried in folders. Its Main view presents the final icon and device/store previews, while Archive retains the broader review workbench and earlier comparisons. The live site is available at [brand.openline.com](https://brand.openline.com) with routes like #/overview, #/assets, #/motion, #/ads, #/presenters, #/app, #/guidelines, and #/archives. The legacy app studio is at `/studio.html`.
 
 ![Openline Brand Studio running from the repository](.github/assets/screenshot-brand-studio.png)
 
@@ -100,8 +110,8 @@ Browser previews are visual references, not native-device or store-approval evid
 ### Run Brand Studio locally
 
 ```sh
-git clone https://github.com/askopenline/openline-brand-assets.git
-cd openline-brand-assets/launch-studio
+git clone https://github.com/askopenline/openline-brand.git
+cd openline-brand/launch-studio
 npm ci
 npm run dev
 ```
@@ -131,13 +141,13 @@ The company repository is the source for current Openline asset URLs. Use a revi
 
 ```text
 # Original company mark
-https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/openline-mark-512.png
+https://raw.githubusercontent.com/askopenline/openline-brand/main/openline-mark-512.png
 
 # Shared interface stylesheet
-https://cdn.jsdelivr.net/gh/askopenline/openline-brand-assets@main/web/openline-ui.css
+https://cdn.jsdelivr.net/gh/askopenline/openline-brand@main/web/openline-ui.css
 
 # A specific payment-method asset
-https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/visa.svg
+https://raw.githubusercontent.com/askopenline/openline-brand/main/payment-methods/svg/visa.svg
 ```
 
 Raw GitHub URLs are for files, not a substitute for a configured HTML application host. Check file integrity, caching, MIME types, relative paths, and the consuming interface when changing an asset URL.
@@ -154,7 +164,7 @@ Raw GitHub URLs are for files, not a substitute for a configured HTML applicatio
 4. Update the relevant guide, previews, generated packages, and download links together.
 5. Publish a reviewed company release and deliberately update consumers that need it.
 
-The [company changelog](OPENLINE-CHANGELOG.md) and [GitHub releases](https://github.com/askopenline/openline-brand-assets/releases) provide version context. For a change request or missing format, use [repository issues](https://github.com/askopenline/openline-brand-assets/issues) and the [contribution guide](.github/OPENLINE-CONTRIBUTING.md).
+The [company changelog](OPENLINE-CHANGELOG.md) and [GitHub releases](https://github.com/askopenline/openline-brand/releases) provide version context. For a change request or missing format, use [repository issues](https://github.com/askopenline/openline-brand/issues) and the [contribution guide](.github/OPENLINE-CONTRIBUTING.md).
 
 ---
 

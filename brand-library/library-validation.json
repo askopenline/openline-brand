@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "errors": [],
+  "cards": 407,
+  "files": 2253,
+  "counts": {
+    "identity": 25,
+    "ads": 40,
+    "motion": 150,
+    "presenters": 6,
+    "app": 1,
+    "figma": 2,
+    "web": 0,
+    "email": 9,
+    "payments": 99,
+    "workadventure": 38,
+    "social": 16,
+    "archives": 21,
+    "docs": 0
+  },
+  "repository": {
+    "repositoryTrackedFiles": 897,
+    "repositoryIndexedFiles": 897,
+    "assetFiles": 2253
+  },
+  "approved_icon_sha256": "5bded92247397e8999be6d0f668bbb7facca064136dbfe45a043d0fc9e54b60b",
+  "original_gif_editions": 12,
+  "complete_gate": true
+}

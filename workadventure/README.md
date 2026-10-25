@@ -48,4 +48,4 @@ Openline maintains its original interface work in this collection. WorkAdventure
 <!-- OPENLINE-GUIDE-NAV -->
 ## Company reference
 
-This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+public/
+.env*
+.vercel/
+__pycache__/
+*.partial

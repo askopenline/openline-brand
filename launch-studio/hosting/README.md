@@ -1,5 +1,5 @@
 <!-- OPENLINE-GUIDE-VISUAL -->
-![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand/main/.github/assets/guide-header.png)
 
 # Openline Brand Studio Hosting
 
@@ -7,7 +7,7 @@ This directory documents the existing Fly.io deployment path for the Openline Br
 
 ## Repository and hosting are separate
 
-The official company source is [askopenline/openline-brand-assets](https://github.com/askopenline/openline-brand-assets). The existing [Brand Studio host](https://openline-brand.fly.dev), its Fly account, and any previously pinned repository URLs remain unchanged until an explicit infrastructure cutover is approved.
+The official company source is [askopenline/openline-brand](https://github.com/askopenline/openline-brand). The existing [Brand Studio host](https://brand.openline.com/studio.html), its Fly account, and any previously pinned repository URLs remain unchanged until an explicit infrastructure cutover is approved.
 
 Inspect source-URL construction in the deployment helper before using a company-repository commit. Historical helpers may still address the earlier source account; a copied Git history is not a deployment-configuration migration.
 
@@ -23,7 +23,7 @@ tar -C dist --exclude='./downloads/openline-orange-series.zip' \
   -czf hosting/openline-brand-dist.tar.gz .
 ```
 
-The established deployment downloads a public bundle pinned to a full commit and checks its SHA-256 digest. Large review ZIPs may be served through redirects to the matching committed public downloads instead of being duplicated inside the boot bundle.
+Fly.io hosts the `openline-brand` app on a sharedCPU256MB machine in the cdg region with a 3GB volume and static Nginx. The established deployment downloads a public bundle pinned to a full commit and checks its SHA-256 digest. Large review ZIPs may be served through redirects to the matching committed public downloads instead of being duplicated inside the boot bundle.
 
 Verify that the bundle, source commit, checksum, and redirected downloads all refer to the same reviewed release. Never include secrets or private review data in the public bundle.
 
@@ -37,7 +37,7 @@ The existing helper is [`../scripts/fly_operation.py`](../scripts/fly_operation.
 4. Apply the explicitly approved update.
 5. Verify HTTPS, `/healthz`, the main interface, representative previews, and every affected download.
 
-The historical configuration uses `openline-brand`, the Paris region, a small shared-CPU Machine, and no application database or public write endpoint. Treat recorded identifiers and configuration as operational context to verify, not permission to create, delete, or replace infrastructure.
+This system uses incremental atomic symlink releases with rollback capabilities and a private short-lived transfer route. The historical configuration uses `openline-brand`, the Paris region, a small shared-CPU Machine, and no application database or public write endpoint. Treat recorded identifiers and configuration as operational context to verify, not permission to create, delete, or replace infrastructure.
 
 ## Safety checks
 
@@ -50,4 +50,4 @@ The historical configuration uses `openline-brand`, the Paris region, a small sh
 <!-- OPENLINE-GUIDE-NAV -->
 ## Company reference
 
-This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../../README.md) for the broader system, current company links, and release context.
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand), maintained by Openline. Return to the [project overview](../../README.md) for the broader system, current company links, and release context.

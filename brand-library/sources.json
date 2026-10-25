@@ -1,0 +1,79 @@
+[
+  {"id":"google-technical","title":"Google Play: technical requirements","url":"https://support.google.com/googleplay/android-developer/answer/17492799?hl=en-GB","summary":"Checked 7 October 2026. Verify actual AAB 64-bit and 16 KB page-size support, including native dependencies. Do not assume an extension or compliance without bundle evidence."},
+  {"id":"apple-sdks","title":"Apple: third-party SDK requirements","url":"https://developer.apple.com/support/third-party-SDK-requirements","summary":"Checked 7 October 2026. Listed SDKs require privacy manifests; signatures apply to binary dependencies, including repackaged listed SDKs."},
+  {"id":"apple-provisioning","title":"Apple: cellular provisioning entitlement","url":"https://developer.apple.com/documentation/bundleresources/entitlements/com.apple.commcenter.fine-grained","summary":"Checked 7 October 2026. Native cellular-plan provisioning requires the appropriate entitlement and distribution profile. This is conditional on the integration, not a universal QR/manual-install requirement."},
+  {"id":"android-verification","title":"Android: developer verification","url":"https://developer.android.com/developer-verification","summary":"Checked 7 October 2026. Verify developer and package/signing-key registration for intended distribution territories; do not assume automatic registration has completed."},
+  {"id":"google-release","title":"Google Play: prepare and roll out a release","url":"https://support.google.com/googleplay/android-developer/answer/9859348?hl=en","summary":"Checked 7 October 2026. First production releases do not offer percentage rollout. They reach all eligible users in selected countries. Release notes allow 500 Unicode characters per language."},
+  {
+    "id": "apple-screenshots",
+    "title": "Apple — Screenshot specifications",
+    "url": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications",
+    "summary": "Verified 6 October 2026. One to ten screenshots; JPEG/JPG/PNG without alpha. Exact 6.9-inch dimensions, conditional 6.5-inch fallback and required 13-inch iPad slot if the app runs on iPad."
+  },
+  {
+    "id": "apple-icons",
+    "title": "Apple — Human Interface Guidelines: App icons",
+    "url": "https://developer.apple.com/design/human-interface-guidelines/app-icons",
+    "summary": "Verified 6 October 2026. iOS/iPadOS 1024×1024 square icon layout, system masking, layered Icon Composer workflow and appearances; opaque full-bleed background with flexible foreground opacity. Flattened images remain described as supported; Icon Composer is not stated as a universal submission gate."
+  },
+  {
+    "id": "apple-review",
+    "title": "Apple — App Review Guidelines",
+    "url": "https://developer.apple.com/app-store/review/guidelines/",
+    "summary": "Verified 6 October 2026. Review access/live backends, accurate metadata, privacy policy and consent, in-app account deletion, account sign-in and equivalent-login conditions. Digital in-app purchase rule versus services consumed outside the app; eSIM classification still needs product-specific confirmation."
+  },
+  {
+    "id": "apple-copy",
+    "title": "Apple — Platform version information",
+    "url": "https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/",
+    "summary": "Verified 6 October 2026. Promotional text 170 characters; description and update notes 4000 characters; keywords 100 bytes; review notes 4000 bytes. Review contact details and non-expiring demo sign-in information."
+  },
+  {
+    "id": "apple-sdk",
+    "title": "Apple — SDK minimum requirements",
+    "url": "https://developer.apple.com/news/upcoming-requirements/?id=02032026a",
+    "summary": "Verified 6 October 2026. Since 28 April 2026, App Store Connect uploads must be built with Xcode 26 or later and the applicable OS-26 SDK. Distinguish build SDK from minimum supported OS."
+  },
+  {
+    "id": "apple-dsa",
+    "title": "Apple — EU Digital Services Act trader requirements",
+    "url": "https://developer.apple.com/help/app-store-connect/manage-compliance-information/manage-european-union-digital-services-act-trader-requirements/",
+    "summary": "Verified 6 October 2026. Trader status must be declared; EU traders verify published address, phone and email. Organization address comes from D-U-N-S; legal trader assessment is the developer's responsibility."
+  },
+  {
+    "id": "google-assets",
+    "title": "Google Play — Add preview assets to showcase your app",
+    "url": "https://support.google.com/googleplay/android-developer/answer/9866151?hl=en",
+    "summary": "Verified 6 October 2026. At least two screenshots overall, up to eight per device type; general 320–3840px and 2:1 maximum dimension ratio. Four 1080px 9:16/16:9 screenshots are recommendation-format guidance. Required 512×512 PNG icon and 1024×500 feature graphic; separate large-screen guidance."
+  },
+  {
+    "id": "google-policy",
+    "title": "Google Play — Developer Program Policy",
+    "url": "https://support.google.com/googleplay/android-developer/answer/17517561?hl=en",
+    "summary": "Effective 30 September 2026 and verified 6 October 2026. Data safety, privacy policy, SDK responsibility, deletion in app and on the web, review access and account requirements. Payments rule explicitly excludes telecommunications utility-bill remittances from Play Billing; not conclusive blanket approval for every prepaid eSIM SKU."
+  },
+  {
+    "id": "google-sdk",
+    "title": "Google Play — Target API level requirements",
+    "url": "https://support.google.com/googleplay/android-developer/answer/11926878?hl=en",
+    "summary": "Verified 6 October 2026. Since 31 August 2026, new mobile apps and updates target Android 16/API 36+. Existing-app availability has a different API-35 rule. A requestable extension to 1 November 2026 must not be presumed granted."
+  },
+  {
+    "id": "google-copy-build",
+    "title": "Google Play — Create and set up your app",
+    "url": "https://support.google.com/googleplay/android-developer/answer/9859152?hl=en",
+    "summary": "Verified 6 October 2026. App name 30 characters, short description 80, full description 4000; Android App Bundle, digital signing, permanent package name and version-code setup."
+  },
+  {
+    "id": "google-testing",
+    "title": "Google Play — Testing requirements for new personal developer accounts",
+    "url": "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+    "summary": "Verified 6 October 2026. Personal accounts created after 13 November 2023 need at least 12 closed testers opted in continuously for the preceding 14 days, followed by an application for production access; not a universal organization-account requirement."
+  },
+  {
+    "id": "android-icons",
+    "title": "Android Developers — Adaptive icons",
+    "url": "https://developer.android.com/develop/ui/compose/system/icon_design_adaptive",
+    "summary": "Verified 6 October 2026. Foreground/background adaptive layers at 108×108dp; logo 48–66dp and 66×66dp safe zone. Monochrome layer supports controlled themed icons; it is not described as a universal Play submission gate."
+  }
+]

@@ -1,11 +1,9 @@
 <!-- OPENLINE-GUIDE-VISUAL -->
-![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand/main/.github/assets/guide-header.png)
 
 # Payment methods
 
-The full public library of payment-method logos used across Openline's checkout, receipts,
-docs and marketing. Extracted from the payment-methods reference page and reproduced here
-as clean, individual, self-contained assets.
+The full public library of payment-method logos used across Openline's checkout, receipts, docs and marketing. Extracted from the payment-methods reference page and reproduced here as clean, individual, self-contained assets.
 
 ## What's inside
 
@@ -26,24 +24,21 @@ payment-methods/
 | Wallets, brand wordmarks (Apple Pay, PayPal, Klarna…) | native | Keep each brand's own aspect ratio |
 | Crypto (BTC, ETH, USDC, SOL…) | native | Uses the reference logo from each ecosystem |
 
-Every SVG is **self-contained** — no external font, no shared defs, no CSS dependency —
-so you can inline them, drop them into a bundler, or serve them straight from raw GitHub.
+Every SVG is **self-contained** — no external font, no shared defs, no CSS dependency — so you can inline them, drop them into a bundler, or serve them straight from raw GitHub.
 
 ## Hot-link (raw GitHub)
 
 ```
-https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/visa.svg
-https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/mastercard.svg
-https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/apple-pay.svg
-https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/google-pay.svg
-https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/payment-methods/svg/paypal.svg
+https://raw.githubusercontent.com/askopenline/openline-brand/main/payment-methods/svg/visa.svg
+https://raw.githubusercontent.com/askopenline/openline-brand/main/payment-methods/svg/mastercard.svg
+https://raw.githubusercontent.com/askopenline/openline-brand/main/payment-methods/svg/apple-pay.svg
+https://raw.githubusercontent.com/askopenline/openline-brand/main/payment-methods/svg/google-pay.svg
+https://raw.githubusercontent.com/askopenline/openline-brand/main/payment-methods/svg/paypal.svg
 ```
 
 ## Usage policy
 
-These are third-party trademarks reproduced for identification and interoperability
-purposes only. **Openline does not own these marks**. Follow each brand's own usage
-guidelines when embedding them in your surface.
+These are third-party trademarks reproduced for identification and interoperability purposes only. **Openline does not own these marks**. Follow each brand's own usage guidelines when embedding them in your surface.
 
 ## Adding a new payment method
 
@@ -55,4 +50,4 @@ guidelines when embedding them in your surface.
 <!-- OPENLINE-GUIDE-NAV -->
 ## Company reference
 
-This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

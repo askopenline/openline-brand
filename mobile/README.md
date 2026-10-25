@@ -1,5 +1,5 @@
 <!-- OPENLINE-GUIDE-VISUAL -->
-![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand-assets/main/.github/assets/guide-header.png)
+![Brand Assets: company resource guide](https://raw.githubusercontent.com/askopenline/openline-brand/main/.github/assets/guide-header.png)
 
 # Openline mobile resources
 
@@ -49,4 +49,4 @@ For each new delivery, record provenance, run the type check and production buil
 <!-- OPENLINE-GUIDE-NAV -->
 ## Company reference
 
-This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand-assets), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.
+This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.

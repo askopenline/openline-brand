@@ -1,3 +1,5 @@
+> Historical or submission-preparation reference. This document records its original scope and date; it is not current store approval or evidence of a production release. See the [current brand library](https://brand.openline.com/) and [repository documentation](https://github.com/askopenline/openline-brand/tree/main/docs).
+
 # Openline release checklist
 
 The final flat icon visual choice is approved. Native integration, capture replacement and release evidence remain separate. Nothing here is store approval.
