@@ -74,6 +74,6 @@
     "mobile/deliveries/2026-09-24.md"
   ],
   "provider": "google/gemini-2.5-flash",
-  "publication": "Prepared locally; GitHub write access required.",
-  "cost": 0.1332461
+  "publication": "Published to main in c78916861e619f07a02721d330b7cb15adfbc86f; write access and remote commit verified on 2026-10-25.",
+  "cost": 0.1505031
 }

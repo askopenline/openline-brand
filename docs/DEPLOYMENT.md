@@ -49,4 +49,4 @@ Deployment follows an incremental atomic symlink release strategy, allowing for 
 
 ## GitHub Synchronization
 
-Currently, the GitHub repository (`https://github.com/askopenline/openline-brand`) is configured for READ access. Fly publication and GitHub synchronization are separate processes. Repository write/push operations are separately unconfirmed through the current GitHub connection.
+Write access to [`askopenline/openline-brand`](https://github.com/askopenline/openline-brand) was verified on 25 October 2026, and the v2.4 source/documentation update was pushed to `main` in commit [`c789168`](https://github.com/askopenline/openline-brand/commit/c78916861e619f07a02721d330b7cb15adfbc86f). Fly publication and GitHub synchronization remain separate processes; confirm both independently for each release.

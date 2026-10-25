@@ -41,7 +41,7 @@ These tokens are maintained separately to ensure consistency across different br
 
 ## GitHub Integration
 
-The GitHub repository connection is currently set to READ-only. Repository write and push operations are separately unconfirmed through this connection. Local source handoff is prepared, but Fly publication and GitHub synchronization are separate processes.
+Write access and the push to `main` were verified on 25 October 2026. The v2.4 source and documentation update is published in commit [`c789168`](https://github.com/askopenline/openline-brand/commit/c78916861e619f07a02721d330b7cb15adfbc86f). Fly publication and GitHub synchronization remain separate operations; large runtime media is retrieved through the checksum-verified public-assets manifest.
 
 ## Company Reference
 

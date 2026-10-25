@@ -107,6 +107,8 @@ Reproduction order after the earlier catalogue integrations: `tools/integrate-fu
 
 ## Motion and layout release 2.4
 
+GitHub synchronization completed on 25 October 2026: write access was verified and commit `c78916861e619f07a02721d330b7cb15adfbc86f` was pushed to `askopenline/openline-brand` on `main`. Earlier read-only notes below describe the preparation stage, not the current access state. Large runtime media remains distributed through the public-assets manifest rather than duplicated in Git history.
+
 The Motion inventory is 150 collections: 65 preserved entries plus 85 new sound/layout editions. The new work combines 17 synthesized score families with five layouts, including 68 horizontal 1920×1080 editions and 17 native-square 1000×1000 editions. Every new video is 12.16 seconds at 50 fps, preserving four cycles of the exact 152-frame source GIF at its original speed. These are not 85 unrelated animation concepts.
 
 Each edition offers an MP4 with AAC audio, lossless FLAC score, JSON sound-event score, and a shared layout JPEG/GIF preview. GIFs remain silent. Five visual layouts share posters and silent GIF previews intentionally; each sound arrangement differs. All 85 videos passed whole-file decode and zero-clipping checks. Decoded true peaks ranged from −5.19 to −4.77 dBTP. An automated audiovisual reviewer checked one complete sample from each of the 17 score families, covering all five layouts, and found no material issues. This was not a human listening session.

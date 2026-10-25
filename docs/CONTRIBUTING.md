@@ -48,4 +48,4 @@ Many large binary assets are not stored directly in the Git repository. Instead,
 
 ## Repository Access
 
-Currently, the GitHub connection is configured for READ access. Repository write/push operations are separately unconfirmed through this connection. Local source handoff is the primary method for preparing contributions for publication.
+Write access was verified on 25 October 2026, and the v2.4 update was pushed to `main` in commit [`c789168`](https://github.com/askopenline/openline-brand/commit/c78916861e619f07a02721d330b7cb15adfbc86f). Check the remote branch before pushing further work, preserve intervening changes, and keep public source updates separate from Fly deployment.
