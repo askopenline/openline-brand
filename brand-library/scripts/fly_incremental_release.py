@@ -114,7 +114,7 @@ elif a.operation == "prepare":
 elif a.operation == "upload":
     transfer = read("transfer-private.json")
     count = 0
-    tar = subprocess.Popen(["tar", "-C", str(ROOT/"dist"), "-cf", "-", "-T", str(STATE/"transfer-files.txt")],
+    tar = subprocess.Popen(["tar", "--dereference", "-C", str(ROOT/"dist"), "-cf", "-", "-T", str(STATE/"transfer-files.txt")],
                            stdout=subprocess.PIPE)
     gzip = subprocess.Popen(["gzip", "-1"], stdin=tar.stdout, stdout=subprocess.PIPE)
     tar.stdout.close()

@@ -1,0 +1,2624 @@
+{
+  "batch": "final",
+  "ads": [
+    {
+      "id": "final-ad-01",
+      "technical": {
+        "id": "final-ad-01",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "5a87874bfb7875fa6dfe99b8dcc8d9ccac8bba11fbb29a4989719c05a6eaa9b3",
+        "bytes": 27458322,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.03,
+        "true_peak_dbtp": -4.19,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.03",
+          "input_tp": "-4.19",
+          "input_lra": "17.20",
+          "input_thresh": "-29.55",
+          "output_i": "-18.32",
+          "output_tp": "-4.16",
+          "output_lra": "11.30",
+          "output_thresh": "-28.97",
+          "normalization_type": "dynamic",
+          "target_offset": "2.32"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 34,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 0.972972972972973,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.010285714285714285
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0007619047619047619
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.034095238095238095
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.6004761904761905
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.1698095238095238
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.3383809523809524
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0018095238095238095
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-01",
+        "actual_transcript": "Missing the ferry means missing the light on the water. One quick timetable check, and you're boarding exactly when you need to. Travel data that gets you there. Choose your travel eSIM with Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "Natural, clear, correct pronunciation of Openline."
+      },
+      "visual_review": {
+        "id": "final-ad-01",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Pass. The visuals of a woman checking her phone by a canal and then riding a water taxi align perfectly with the narration about checking a ferry timetable and boarding.",
+        "motion_quality": "Pass. The motion of the woman, the water, and the boat is smooth and lifelike.",
+        "caption_sync": "Pass. The word-pop subtitles are legible and sync correctly with the narration.",
+        "outro": "Pass. The outro screen appears at 16s and correctly features the three required elements (animated icon, QR code, URL) in their specified positions and formats, with no extra elements."
+      }
+    },
+    {
+      "id": "final-ad-02",
+      "technical": {
+        "id": "final-ad-02",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "a8e0214a92e6fe8806a9014de92f1912dfa7228b1134461526c5bc2b7ffa443b",
+        "bytes": 17310014,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.05,
+        "true_peak_dbtp": -4.19,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.05",
+          "input_tp": "-4.19",
+          "input_lra": "18.70",
+          "input_thresh": "-29.66",
+          "output_i": "-18.63",
+          "output_tp": "-3.82",
+          "output_lra": "12.20",
+          "output_thresh": "-29.28",
+          "normalization_type": "dynamic",
+          "target_offset": "2.63"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 33,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.09819047619047619,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.4641904761904762,
+            "bottom_black_fraction": 0.24771428571428572
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.712,
+            "bottom_black_fraction": 0.4045714285714286
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.45866666666666667,
+            "bottom_black_fraction": 0.3130476190476191
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.5592380952380952,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.5285714285714286,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.5677142857142857,
+            "bottom_black_fraction": 0.0
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-02",
+        "actual_transcript": "You didn't fly here to stare at a pin on a map. Find the studio door, put the phone away, and get your hands dirty. Data for your directions, not your distractions. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "Natural, clear, correct pronunciation of Openline."
+      },
+      "visual_review": {
+        "id": "final-ad-02",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Pass. The story is coherent: a man uses his phone to find a location, then is shown engaging in an activity (pottery). This matches the narration about finding a studio and getting hands dirty.",
+        "motion_quality": "Pass. The motion of the man looking up and the hands working the clay on the wheel is fluid and natural.",
+        "caption_sync": "Pass. The subtitles are legible and appear in sync with the spoken words.",
+        "outro": "Pass. The outro begins at 16s and meets all layout requirements: three distinct bands for the animated icon, stationary QR code, and URL, all correctly centered and formatted."
+      }
+    },
+    {
+      "id": "final-ad-03",
+      "technical": {
+        "id": "final-ad-03",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "be39ba9d4b9339ca6110005e0bf4b529f344d65c2052985e1948e57f3081cb41",
+        "bytes": 28943864,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.04,
+        "true_peak_dbtp": -4.05,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.04",
+          "input_tp": "-4.05",
+          "input_lra": "18.40",
+          "input_thresh": "-29.33",
+          "output_i": "-15.93",
+          "output_tp": "-3.15",
+          "output_lra": "13.50",
+          "output_thresh": "-28.65",
+          "normalization_type": "dynamic",
+          "target_offset": "-0.07"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 34,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.0032380952380952383,
+            "bottom_black_fraction": 0.009523809523809525
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.15323809523809523
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.2598095238095238
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.05885714285714286
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.06371428571428571
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.004761904761904762,
+            "bottom_black_fraction": 0.09876190476190476
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-03",
+        "actual_transcript": "The guide knows the alleys. You just need to find the guide. A quick message confirms the corner, and suddenly you're seeing the city through local eyes. Travel eSIM data when it counts. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "Natural, clear, correct pronunciation of Openline."
+      },
+      "visual_review": {
+        "id": "final-ad-03",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Pass. The visuals clearly depict the narrative: a woman uses her phone to find someone, then meets her local guide. The transition is logical and matches the narration.",
+        "motion_quality": "Pass. All character movements, including the handshake and walking, are natural and free of artifacts.",
+        "caption_sync": "Pass. The word-pop subtitles are well-timed with the narration and are easy to read.",
+        "outro": "Pass. The outro screen starts at 16s and is correctly composed of the three required elements (icon, QR, URL) in their specified positions and formats."
+      }
+    },
+    {
+      "id": "final-ad-04",
+      "technical": {
+        "id": "final-ad-04",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "4741439fbb2dc93b88b2d278857400e2c90d323d0cfee4df1770d2ce2715700d",
+        "bytes": 19777279,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.04,
+        "true_peak_dbtp": -4.03,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.04",
+          "input_tp": "-4.03",
+          "input_lra": "18.00",
+          "input_thresh": "-29.39",
+          "output_i": "-18.12",
+          "output_tp": "-3.55",
+          "output_lra": "12.20",
+          "output_thresh": "-28.81",
+          "normalization_type": "dynamic",
+          "target_offset": "2.12"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 31,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.09904761904761905,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.01685714285714286,
+            "bottom_black_fraction": 0.16876190476190475
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0013333333333333333,
+            "bottom_black_fraction": 0.2796190476190476
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.24771428571428572,
+            "bottom_black_fraction": 0.37266666666666665
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.002,
+            "bottom_black_fraction": 0.9944761904761905
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.002285714285714286,
+            "bottom_black_fraction": 0.9918095238095238
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0020952380952380953,
+            "bottom_black_fraction": 0.9928571428571429
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-04",
+        "actual_transcript": "Platform three or platform five? Wrong train, wrong valley. Check your connection while you still have options, then settle in for the view you came for. Data for real decisions. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "Natural, clear, correct pronunciation of Openline."
+      },
+      "visual_review": {
+        "id": "final-ad-04",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Pass. The visuals align with the narration. A woman checks her phone on a train platform (making a decision) and is then seen enjoying the view from the correct train.",
+        "motion_quality": "Pass. The motion is lifelike, both on the platform and inside the moving train.",
+        "caption_sync": "Pass. The subtitles are legible and synchronized with the audio.",
+        "outro": "Pass. The outro begins at 16s and correctly displays the animated icon, QR code, and URL in three equally-sized vertical bands, with correct centering and no extraneous text."
+      }
+    },
+    {
+      "id": "final-ad-05",
+      "technical": {
+        "id": "final-ad-05",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "6a013f1f1f910033b30f27ac321b007f775ac38c114776b199dc74b86dcececa",
+        "bytes": 25513017,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.05,
+        "true_peak_dbtp": -4.09,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.05",
+          "input_tp": "-4.09",
+          "input_lra": "16.70",
+          "input_thresh": "-29.55",
+          "output_i": "-18.25",
+          "output_tp": "-3.47",
+          "output_lra": "10.80",
+          "output_thresh": "-28.90",
+          "normalization_type": "dynamic",
+          "target_offset": "2.25"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 31,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.01742857142857143,
+            "bottom_black_fraction": 0.45904761904761904
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.025333333333333333,
+            "bottom_black_fraction": 0.40676190476190477
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.10285714285714286,
+            "bottom_black_fraction": 0.31761904761904763
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.08638095238095238,
+            "bottom_black_fraction": 0.1160952380952381
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.13438095238095238,
+            "bottom_black_fraction": 0.3556190476190476
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.08,
+            "bottom_black_fraction": 0.3454285714285714
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.30028571428571427
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-05",
+        "actual_transcript": "Standing under the marquee alone isn't the plan. One message bridges the gap between waiting and waving. Then the show starts, together. Travel data that reconnects. Choose your eSIM at Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "Natural, clear, correct pronunciation of Openline."
+      },
+      "visual_review": {
+        "id": "final-ad-05",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Pass. The narrative is clear and matches the visuals. A man waits outside a theater while checking his phone, then waves to someone off-screen and enters, consistent with the narration about reconnecting.",
+        "motion_quality": "Pass. The character's movements—checking the phone, walking, and waving—are smooth and realistic.",
+        "caption_sync": "Pass. The subtitles are legible and appear in sync with the narration.",
+        "outro": "Pass. The outro screen starts at 16s and adheres to all specifications, featuring the animated icon, QR code, and URL in three correctly formatted and positioned bands."
+      }
+    },
+    {
+      "id": "final-ad-06",
+      "technical": {
+        "id": "final-ad-06",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "dc737ba85d9aacb92bbc537e1af907e7d82765d5c934f5a66e861e451fa4aeab",
+        "bytes": 20045335,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.04,
+        "true_peak_dbtp": -4.2,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.04",
+          "input_tp": "-4.20",
+          "input_lra": "17.80",
+          "input_thresh": "-28.91",
+          "output_i": "-17.68",
+          "output_tp": "-4.30",
+          "output_lra": "11.60",
+          "output_thresh": "-28.42",
+          "normalization_type": "dynamic",
+          "target_offset": "1.68"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 36,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 0.987012987012987,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.13704761904761906,
+            "bottom_black_fraction": 0.40114285714285713
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.21104761904761904,
+            "bottom_black_fraction": 0.4226666666666667
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.2819047619047619,
+            "bottom_black_fraction": 0.4256190476190476
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.4726666666666667,
+            "bottom_black_fraction": 0.3778095238095238
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.04076190476190476,
+            "bottom_black_fraction": 0.024285714285714285
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.1061904761904762,
+            "bottom_black_fraction": 0.0999047619047619
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-06",
+        "actual_transcript": "Every plaza looks the same until you find the right courtyard. Your phone points you to the wooden door, and then the kitchen takes over. Maps first, mole sauce second. Get travel eSIM data at Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "The delivery is natural and clear, with appropriate pacing and emphasis on the key phrases."
+      },
+      "visual_review": {
+        "id": "final-ad-06",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The actor, skin tone, long hairstyle, and wardrobe (white jacket, colorful scarf) are consistent between the plaza scene and the kitchen scene.",
+        "motion_quality": "Excellent. The motion is smooth and lifelike in both scenes, with no noticeable defects.",
+        "caption_sync": "Excellent. Word-pop subtitles are large, legible, and perfectly synchronized with the narration.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL in three distinct vertical zones on a single continuous orange background, with no extra elements or separator lines."
+      }
+    },
+    {
+      "id": "final-ad-07",
+      "technical": {
+        "id": "final-ad-07",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "f51bc8a431a860838412ed0fa99bc2b9378cb5279aa8aed936dd3e5d9124d30d",
+        "bytes": 20605120,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.04,
+        "true_peak_dbtp": -3.83,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.04",
+          "input_tp": "-3.83",
+          "input_lra": "14.80",
+          "input_thresh": "-28.73",
+          "output_i": "-17.40",
+          "output_tp": "-3.47",
+          "output_lra": "7.90",
+          "output_thresh": "-27.96",
+          "normalization_type": "dynamic",
+          "target_offset": "1.40"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 31,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 0.9552238805970149,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.3027619047619048
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.2944761904761905
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.30057142857142854
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.3615238095238095
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.31685714285714284
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.3140952380952381
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.08085714285714286
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-07",
+        "actual_transcript": "Pedaling lost isn't exercise, it's frustration. Stop, check the route, pocket the phone, and ride with confidence instead of guesswork. Data for clarity, not clutter. Choose your travel eSIM at Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural"
+      },
+      "visual_review": {
+        "id": "final-ad-07",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The actor, skin tone, and wardrobe (yellow raincoat) are consistent between the scene of him stopped on the bridge and the scene of him riding away.",
+        "motion_quality": "Excellent. The motion is natural and fluid as the actor checks his phone and then rides the bicycle.",
+        "caption_sync": "Excellent. Word-pop subtitles are large, legible, and perfectly synchronized with the narration.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL in three distinct vertical zones on a single continuous orange background, with no extra elements or separator lines."
+      }
+    },
+    {
+      "id": "final-ad-08",
+      "technical": {
+        "id": "final-ad-08",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "714edcbe638ae7c0d903cd2541fa88cd55ad1ea9e5e80da45eef842f86bb498e",
+        "bytes": 23016645,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.04,
+        "true_peak_dbtp": -4.23,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.04",
+          "input_tp": "-4.23",
+          "input_lra": "16.40",
+          "input_thresh": "-29.24",
+          "output_i": "-17.83",
+          "output_tp": "-3.91",
+          "output_lra": "9.20",
+          "output_thresh": "-28.58",
+          "normalization_type": "dynamic",
+          "target_offset": "1.83"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 31,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 0.9565217391304348,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.041428571428571426,
+            "bottom_black_fraction": 0.3985714285714286
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.07104761904761905,
+            "bottom_black_fraction": 0.598
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.07580952380952381,
+            "bottom_black_fraction": 0.9281904761904762
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.025142857142857144
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.33876190476190476
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.5401904761904762
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.6451428571428571
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-08",
+        "actual_transcript": "Neon doesn't organize itself. You're hunting one specific doorway in a sea of signs. Your phone narrows it down, your instincts seal the deal. Data that finds what you're after. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural"
+      },
+      "visual_review": {
+        "id": "final-ad-08",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The actor, skin tone, short blonde hairstyle, and wardrobe (dark green velvet blazer) are consistent between the neon alley scene and the clothing store scene.",
+        "motion_quality": "Excellent. The motion is smooth and natural, from looking up at the signs to browsing the clothes rack.",
+        "caption_sync": "Excellent. Word-pop subtitles are large, legible, and perfectly synchronized with the narration.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL in three distinct vertical zones on a single continuous orange background, with no extra elements or separator lines."
+      }
+    },
+    {
+      "id": "final-ad-09",
+      "technical": {
+        "id": "final-ad-09",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "6d408003d028e0b82bedea8510b01593bf37c3ea0acd2dfa14fb43ff3855fc23",
+        "bytes": 13010774,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.05,
+        "true_peak_dbtp": -4.25,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.05",
+          "input_tp": "-4.25",
+          "input_lra": "16.20",
+          "input_thresh": "-29.35",
+          "output_i": "-18.04",
+          "output_tp": "-4.27",
+          "output_lra": "9.30",
+          "output_thresh": "-28.64",
+          "normalization_type": "dynamic",
+          "target_offset": "2.04"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 32,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.013142857142857144,
+            "bottom_black_fraction": 0.3547619047619048
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.014,
+            "bottom_black_fraction": 0.372952380952381
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.013238095238095238,
+            "bottom_black_fraction": 0.571047619047619
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.9889523809523809
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.4126666666666667
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.4637142857142857
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.15561904761904763
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-09",
+        "actual_transcript": "You can't tango if you can't find the studio. Quick check, iron gates, wooden floors, and suddenly you're watching the dance instead of wandering the block. Travel data clears the path. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural"
+      },
+      "visual_review": {
+        "id": "final-ad-09",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The actor, skin tone, hairstyle, and wardrobe (light blue shirt, dark pants) are consistent between the scene at the gate and the scene inside the dance studio.",
+        "motion_quality": "Excellent. The motion is smooth and lifelike as the actor checks his phone and then stands watching the dancers.",
+        "caption_sync": "Excellent. Word-pop subtitles are large, legible, and perfectly synchronized with the narration.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL in three distinct vertical zones on a single continuous orange background, with no extra elements or separator lines."
+      }
+    },
+    {
+      "id": "final-ad-10",
+      "technical": {
+        "id": "final-ad-10",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "b9b223b72f3fb93701aa237f78ebe09245ffe18d5b0739af1c22dbd5811a84ff",
+        "bytes": 31824738,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.04,
+        "true_peak_dbtp": -3.95,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.04",
+          "input_tp": "-3.95",
+          "input_lra": "17.90",
+          "input_thresh": "-29.19",
+          "output_i": "-16.33",
+          "output_tp": "-3.35",
+          "output_lra": "13.30",
+          "output_thresh": "-28.50",
+          "normalization_type": "dynamic",
+          "target_offset": "0.33"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 30,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.00019047619047619048,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.0007619047619047619,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0004761904761904762,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0007619047619047619,
+            "bottom_black_fraction": 0.09095238095238095
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0004761904761904762,
+            "bottom_black_fraction": 9.523809523809524e-05
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 9.523809523809524e-05
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-10",
+        "actual_transcript": "Marble columns don't come with instructions. Check the entry details before you climb, and save your energy for the architecture that matters. Data for your maps and moments. Choose Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural"
+      },
+      "visual_review": {
+        "id": "final-ad-10",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The actor, skin tone, hairstyle, and wardrobe (light blue dress) are consistent between the two shots at the ancient ruins.",
+        "motion_quality": "Excellent. The motion is smooth and natural as the actor checks her phone, puts it away, and walks towards the building.",
+        "caption_sync": "Excellent. Word-pop subtitles are large, legible, and perfectly synchronized with the narration.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL in three distinct vertical zones on a single continuous orange background, with no extra elements or separator lines."
+      }
+    },
+    {
+      "id": "final-ad-11",
+      "technical": {
+        "id": "final-ad-11",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "d790751637a57935888a61e366032842874cbb1f8791fb26e5ce0030671f29bb",
+        "bytes": 25129957,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.03,
+        "true_peak_dbtp": -4.01,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.03",
+          "input_tp": "-4.01",
+          "input_lra": "17.80",
+          "input_thresh": "-29.13",
+          "output_i": "-17.77",
+          "output_tp": "-4.03",
+          "output_lra": "9.90",
+          "output_thresh": "-28.50",
+          "normalization_type": "dynamic",
+          "target_offset": "1.77"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 30,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.025142857142857144,
+            "bottom_black_fraction": 0.319047619047619
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.046285714285714284,
+            "bottom_black_fraction": 0.37133333333333335
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.6345714285714286
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.013904761904761904
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.14523809523809525
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.09552380952380952
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.07428571428571429,
+            "bottom_black_fraction": 0.24047619047619048
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-11",
+        "actual_transcript": "Stone archways all look historic. Only one has your host behind it. Confirm the address, find the door, and walk in like you belong. Travel eSIM for smooth arrivals. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural and clear"
+      },
+      "visual_review": {
+        "id": "final-ad-11",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The visuals of a man under a stone arch, checking his phone, and walking to a door perfectly match the narration about finding the right address and arriving.",
+        "motion_quality": "Excellent. The actor's movements, including walking, pulling a suitcase, and interacting with his phone, are smooth and lifelike.",
+        "caption_sync": "Excellent. The word-pop subtitles are large, legible, and sync perfectly with the narration.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL on a single continuous orange background, each centered in its respective vertical third of the screen, with no extra elements or dividers."
+      }
+    },
+    {
+      "id": "final-ad-12",
+      "technical": {
+        "id": "final-ad-12",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "5cfb45ecf0a406538c55d1f5a754c916aec10e1de2ba2e3e3c3cc81e408d7fdf",
+        "bytes": 27001703,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.04,
+        "true_peak_dbtp": -4.33,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.04",
+          "input_tp": "-4.33",
+          "input_lra": "18.30",
+          "input_thresh": "-29.93",
+          "output_i": "-18.96",
+          "output_tp": "-4.39",
+          "output_lra": "12.10",
+          "output_thresh": "-29.53",
+          "normalization_type": "dynamic",
+          "target_offset": "2.96"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 28,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 0.9836065573770492,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.5995238095238096
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.6091428571428571
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.6198095238095238
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.6396190476190476
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.24866666666666667
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.46914285714285714
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.49276190476190473
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-12",
+        "actual_transcript": "The ferry's arriving, and someone's wondering if you made it. Send an update now to share your arrival. Data that keeps you connected across the water. Choose Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural and clear"
+      },
+      "visual_review": {
+        "id": "final-ad-12",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The scene of a woman on a dock with a ferry in the background directly corresponds to the narration about a ferry arriving and sending an update.",
+        "motion_quality": "Excellent. The motion is natural, especially the realistic effect of the wind blowing the woman's hair as she stands on the dock and walks.",
+        "caption_sync": "Excellent. The subtitles are clear, well-timed with the narration, and easy to read.",
+        "outro": "Pass. The outro correctly displays the three required elements (animated icon, QR code, URL) in their designated vertical zones on a single orange background, adhering to all layout specifications."
+      }
+    },
+    {
+      "id": "final-ad-13",
+      "technical": {
+        "id": "final-ad-13",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "0fa520dbe4b9e1872d202aa991b50c2f5c22709f6b6e646e5b0c2f76e7bd7b02",
+        "bytes": 18538294,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.03,
+        "true_peak_dbtp": -4.26,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.03",
+          "input_tp": "-4.26",
+          "input_lra": "16.50",
+          "input_thresh": "-28.91",
+          "output_i": "-17.59",
+          "output_tp": "-3.83",
+          "output_lra": "9.50",
+          "output_thresh": "-28.22",
+          "normalization_type": "dynamic",
+          "target_offset": "1.59"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 32,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.3423809523809524,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.3484761904761905,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.04380952380952381,
+            "bottom_black_fraction": 0.39257142857142857
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.5047619047619047,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.2796190476190476,
+            "bottom_black_fraction": 0.6446666666666667
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.32657142857142857,
+            "bottom_black_fraction": 0.6528571428571428
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.21923809523809523,
+            "bottom_black_fraction": 0.4868571428571429
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-13",
+        "actual_transcript": "Night markets are enormous. Your friends are somewhere in the glow and steam. One message turns searching into celebrating over bowls you'll remember. Data that brings people together. Choose your eSIM. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural and clear"
+      },
+      "visual_review": {
+        "id": "final-ad-13",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The visuals transition from a man looking for someone in a busy night market to finding his friends and sharing a meal, which perfectly illustrates the narration about turning 'searching into celebrating'.",
+        "motion_quality": "Excellent. The actor's expressions and movements, from looking around to smiling and interacting with friends, are natural and convincing.",
+        "caption_sync": "Excellent. The word-pop subtitles are legible and accurately timed with the spoken words.",
+        "outro": "Pass. The outro is correctly formatted with the animated icon, QR code, and URL, each centered in its vertical third on a continuous orange background, with no incorrect elements."
+      }
+    },
+    {
+      "id": "final-ad-14",
+      "technical": {
+        "id": "final-ad-14",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "80eac561d9011c3b3acdda1a9799d70ac662b6cf3a991b2461ffb8be9442bdc3",
+        "bytes": 21379159,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.06,
+        "true_peak_dbtp": -4.22,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.06",
+          "input_tp": "-4.22",
+          "input_lra": "16.70",
+          "input_thresh": "-29.26",
+          "output_i": "-17.98",
+          "output_tp": "-3.73",
+          "output_lra": "10.60",
+          "output_thresh": "-28.54",
+          "normalization_type": "dynamic",
+          "target_offset": "1.98"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 33,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.08066666666666666,
+            "bottom_black_fraction": 0.6872380952380952
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.07780952380952381,
+            "bottom_black_fraction": 0.45885714285714285
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.5721904761904761
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.09371428571428571
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.9998095238095238
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.7330476190476191
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.5150476190476191
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-14",
+        "actual_transcript": "You need ten quiet minutes, not a hotel room. Find the garden, take the call, put the phone away, and step back into the city. Plan your travel eSIM and data at Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural and clear"
+      },
+      "visual_review": {
+        "id": "final-ad-14",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Frames show a woman in Scene A (0.6s) and close-up of hands in matching blue suit in Scene B (9s, 12s), but no face or body is visible in Scene B to confirm a different actor. Outro (16s, 18s, 22.06s) is a single orange background with white logo, QR code, and text, with no gray or white panels and no visible panel zones or separators.",
+        "motion_quality": "Previously fullclip-reviewed; no issues flagged.",
+        "caption_sync": "Previously fullclip-reviewed; no issues flagged.",
+        "outro": "Single orange background with white branding elements, QR code, and text. No evidence of gray, white, or orange colored panels or conceptual zones.",
+        "adjudication": {
+          "claim1": "unsupported with visible evidence",
+          "claim2": "unsupported with visible evidence"
+        }
+      }
+    },
+    {
+      "id": "final-ad-15",
+      "technical": {
+        "id": "final-ad-15",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "c2ebb01c63f05c7b60b9699a11c0b39f05a712170bc644df95334b7757ef044b",
+        "bytes": 17696271,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.03,
+        "true_peak_dbtp": -4.03,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.03",
+          "input_tp": "-4.03",
+          "input_lra": "17.60",
+          "input_thresh": "-29.30",
+          "output_i": "-17.80",
+          "output_tp": "-3.77",
+          "output_lra": "12.10",
+          "output_thresh": "-28.54",
+          "normalization_type": "dynamic",
+          "target_offset": "1.80"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 30,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.4621904761904762
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.023333333333333334
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0037142857142857142
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.22523809523809524
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.010571428571428572
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-15",
+        "actual_transcript": "The rug is ready. You just need to know which courtyard. Confirm the pickup so you're watching the loom, not refreshing the thread. Data for coordination, not complication. Choose Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural and clear"
+      },
+      "visual_review": {
+        "id": "final-ad-15",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The visuals of a man checking his phone to coordinate a pickup and then admiring the purchased rug align perfectly with the narration about confirming details for a pickup.",
+        "motion_quality": "Excellent. The actor's movements are smooth and natural as he looks at his phone, looks up to scan his surroundings, and touches the rug.",
+        "caption_sync": "Excellent. The word-pop subtitles are legible and appear in perfect sync with the narration.",
+        "outro": "Pass. The outro correctly implements the three-zone layout on a single orange background, with the animated icon, QR code, and URL all correctly placed and formatted."
+      }
+    },
+    {
+      "id": "final-ad-16",
+      "technical": {
+        "id": "final-ad-16",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "0b53232b5dd2ac2c602e8c7ae1f2a0e504fc3a1b7dc0bca012e41bfe848c7826",
+        "bytes": 37339634,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.05,
+        "true_peak_dbtp": -4.25,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.05",
+          "input_tp": "-4.25",
+          "input_lra": "18.90",
+          "input_thresh": "-29.72",
+          "output_i": "-15.92",
+          "output_tp": "-3.54",
+          "output_lra": "14.10",
+          "output_thresh": "-28.92",
+          "normalization_type": "dynamic",
+          "target_offset": "-0.08"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 33,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.05342857142857143
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.08876190476190476
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.3873333333333333
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.068,
+            "bottom_black_fraction": 0.9244761904761905
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.10466666666666667,
+            "bottom_black_fraction": 0.7041904761904761
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.21971428571428572
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.5156190476190476
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-16",
+        "actual_transcript": "Not every canal path is built the same. Check the accessible route before you roll, and spend your energy on the view instead of the detour. Travel data that respects your route. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural"
+      },
+      "visual_review": {
+        "id": "final-ad-16",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The visual of a woman in a wheelchair planning her route along a canal perfectly matches the narration about accessible travel.",
+        "motion_quality": "Good. The motion is a smooth and lifelike camera movement, first zooming in and then tracking forward.",
+        "caption_sync": "Excellent. Subtitles are well-timed with the narration and are clearly legible.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL on a single orange background, arranged in three distinct vertical zones without lines or panels."
+      }
+    },
+    {
+      "id": "final-ad-17",
+      "technical": {
+        "id": "final-ad-17",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "68e157b669405d89a00443f691d248ba8fbdbd918da5a78d23861759065fb292",
+        "bytes": 15269387,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.03,
+        "true_peak_dbtp": -3.44,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.03",
+          "input_tp": "-3.44",
+          "input_lra": "14.20",
+          "input_thresh": "-28.62",
+          "output_i": "-18.00",
+          "output_tp": "-4.04",
+          "output_lra": "7.60",
+          "output_thresh": "-28.47",
+          "normalization_type": "dynamic",
+          "target_offset": "2.00"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 32,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.02438095238095238,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0720952380952381
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0699047619047619
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.05971428571428571
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.02980952380952381,
+            "bottom_black_fraction": 0.07342857142857143
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-17",
+        "actual_transcript": "Showing up at a sauna without a reservation is optimism. Confirming your slot is intelligence. Check it, relax into it, and let the frozen sea do the rest. Travel eSIM clarity. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural"
+      },
+      "visual_review": {
+        "id": "final-ad-17",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The visuals of a woman checking her phone and then opening the door to a steamy sauna align perfectly with the narration about confirming a reservation.",
+        "motion_quality": "Good. The motion is smooth and natural, transitioning from the woman outside to the door opening.",
+        "caption_sync": "Excellent. Subtitles are well-timed with the narration and are clearly legible.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL on a single orange background, arranged in three distinct vertical zones without lines or panels."
+      }
+    },
+    {
+      "id": "final-ad-18",
+      "technical": {
+        "id": "final-ad-18",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "40afef282cecc8200659c3e0bbd3eecc2674bff5402f6939c3fbf323c27ffd9b",
+        "bytes": 28680350,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.04,
+        "true_peak_dbtp": -4.09,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.04",
+          "input_tp": "-4.09",
+          "input_lra": "16.90",
+          "input_thresh": "-29.26",
+          "output_i": "-18.29",
+          "output_tp": "-4.35",
+          "output_lra": "10.50",
+          "output_thresh": "-28.87",
+          "normalization_type": "dynamic",
+          "target_offset": "2.29"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 31,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.2959047619047619
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.13866666666666666
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.304
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.22533333333333333
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.28819047619047616
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.25485714285714284
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-18",
+        "actual_transcript": "Timing turns a riverside walk into a reunion. Check when they're arriving, meet them in the golden light, and let the bridge frame the moment. Data for your messages. Choose Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural"
+      },
+      "visual_review": {
+        "id": "final-ad-18",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The scene of a man checking his phone and then looking up to wave at someone arriving at a scenic waterfront matches the narration about timing a reunion.",
+        "motion_quality": "Good. The camera movement, a slow pull-back revealing the scenic location, is smooth and effective.",
+        "caption_sync": "Excellent. Subtitles are well-timed with the narration and are clearly legible.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL on a single orange background, arranged in three distinct vertical zones without lines or panels."
+      }
+    },
+    {
+      "id": "final-ad-19",
+      "technical": {
+        "id": "final-ad-19",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "5395b63ba2f20ab7ac78d7d2a967fd158c6727cce87a1e0d6efee4e59f9b787a",
+        "bytes": 18166877,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.03,
+        "true_peak_dbtp": -4.45,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.03",
+          "input_tp": "-4.45",
+          "input_lra": "17.20",
+          "input_thresh": "-29.83",
+          "output_i": "-18.38",
+          "output_tp": "-3.61",
+          "output_lra": "10.30",
+          "output_thresh": "-28.90",
+          "normalization_type": "dynamic",
+          "target_offset": "2.38"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 32,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.005238095238095238,
+            "bottom_black_fraction": 0.058
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.006095238095238095,
+            "bottom_black_fraction": 0.07657142857142857
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.0037142857142857142,
+            "bottom_black_fraction": 0.018095238095238095
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.0,
+            "bottom_black_fraction": 0.009238095238095238
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.006857142857142857,
+            "bottom_black_fraction": 0.07542857142857143
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.011904761904761904,
+            "bottom_black_fraction": 0.07314285714285715
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.004571428571428572,
+            "bottom_black_fraction": 0.0741904761904762
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-19",
+        "actual_transcript": "Mountains are beautiful until the weather isn't. Check the forecast while you're still in town, then head to the lake with a plan instead of a guess. Data before the trail. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural"
+      },
+      "visual_review": {
+        "id": "final-ad-19",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The visuals directly correspond to the narration, showing a person checking their phone in town as the voiceover suggests checking the forecast, then preparing for a hike by a lake as the narration talks about heading out with a plan.",
+        "motion_quality": "Excellent. All motion is smooth and lifelike, with no noticeable AI-related jerkiness or artifacts. The hands tying the boot are particularly well-rendered and move naturally.",
+        "caption_sync": "Excellent. The word-pop subtitles are large, high-contrast, and perfectly synchronized with the spoken words.",
+        "outro": "Pass. The outro correctly displays the three required elements (animated icon, QR code, URL) in their respective vertical zones on a single, continuous orange background. There are no separating lines or different colored panels."
+      }
+    },
+    {
+      "id": "final-ad-20",
+      "technical": {
+        "id": "final-ad-20",
+        "pass": true,
+        "complete_video_audio_decode": true,
+        "duration_seconds": 22.08,
+        "resolution": [
+          1080,
+          1920
+        ],
+        "fps": "50/1",
+        "frames": 1104,
+        "sha256": "478ad3abbf019601574acf08f46711373d4015d8d45ce87e172084d482cc0c5d",
+        "bytes": 19047593,
+        "qr_tests": [
+          {
+            "time": 16,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 16.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 18,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 20,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.04,
+            "value": "https://openline.com"
+          },
+          {
+            "time": 22.06,
+            "value": "https://openline.com"
+          }
+        ],
+        "qr_roi_mean_absolute_difference_max": 0.9028917948404948,
+        "loudness_lufs": -16.02,
+        "true_peak_dbtp": -4.31,
+        "no_clipping": true,
+        "loudness_detail": {
+          "input_i": "-16.02",
+          "input_tp": "-4.31",
+          "input_lra": "19.30",
+          "input_thresh": "-29.15",
+          "output_i": "-16.41",
+          "output_tp": "-4.06",
+          "output_lra": "14.00",
+          "output_thresh": "-28.51",
+          "normalization_type": "dynamic",
+          "target_offset": "0.41"
+        },
+        "caption_safe_bounds": true,
+        "caption_count": 34,
+        "no_captions_in_outro": true,
+        "asr_token_match_ratio": 1.0,
+        "blackbar_samples": [
+          {
+            "time": 0.6,
+            "top_black_fraction": 0.06419047619047619,
+            "bottom_black_fraction": 0.6447619047619048
+          },
+          {
+            "time": 1.4,
+            "top_black_fraction": 0.07028571428571428,
+            "bottom_black_fraction": 0.554
+          },
+          {
+            "time": 3,
+            "top_black_fraction": 0.38295238095238093,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 5.5,
+            "top_black_fraction": 0.19485714285714287,
+            "bottom_black_fraction": 0.034
+          },
+          {
+            "time": 8.8,
+            "top_black_fraction": 0.38,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 11,
+            "top_black_fraction": 0.1221904761904762,
+            "bottom_black_fraction": 0.0
+          },
+          {
+            "time": 14.5,
+            "top_black_fraction": 0.25161904761904763,
+            "bottom_black_fraction": 0.0
+          }
+        ],
+        "outro_seconds": 6.08,
+        "final_frame_qr": {
+          "frame_index": 1103,
+          "time_seconds": 22.06,
+          "value": "https://openline.com"
+        },
+        "native_scene_durations_seconds": [
+          8,
+          8
+        ],
+        "qr_sample_count": 6,
+        "ai_badge_outro_sample_count": 6
+      },
+      "audio_review": {
+        "id": "final-ad-20",
+        "actual_transcript": "A voice message beats a postcard by a week. Record it at the cafe, send it before the espresso cools, and let them hear the Paris in your voice. Travel data, human connection. Openline dot com.",
+        "matches": true,
+        "issues": [],
+        "delivery": "natural"
+      },
+      "visual_review": {
+        "id": "final-ad-20",
+        "critical_issues": [],
+        "minor_notes": [],
+        "visual_match": "Excellent. The visual of an elegant woman recording a voice message in a cafe perfectly matches the narration about sending a personal message from Paris.",
+        "motion_quality": "Good. The camera motion is a smooth, cinematic zoom that feels natural and focuses the viewer's attention.",
+        "caption_sync": "Excellent. Subtitles are well-timed with the narration and are clearly legible.",
+        "outro": "Pass. The outro correctly features the animated icon, QR code, and URL on a single orange background, arranged in three distinct vertical zones without lines or panels."
+      }
+    }
+  ],
+  "layout": {
+    "bands": [
+      [
+        0,
+        640
+      ],
+      [
+        640,
+        1280
+      ],
+      [
+        1280,
+        1920
+      ]
+    ],
+    "centres": {
+      "icon": [
+        540,
+        320
+      ],
+      "qr": [
+        540,
+        960
+      ],
+      "domain": [
+        540,
+        1600
+      ]
+    },
+    "qr_bounds": [
+      309,
+      729,
+      771,
+      1191
+    ],
+    "icon_bounds": [
+      330,
+      110,
+      750,
+      530
+    ],
+    "domain_font_size": 84,
+    "outro_seconds": 6.08,
+    "original_animation_frames": 152,
+    "native_frame_duration_ms": 20,
+    "outro_cycles": 2,
+    "badge_bounds": [
+      900,
+      88,
+      988,
+      154
+    ],
+    "label_end_s": 1.2,
+    "badge_opacity_after_2s": 0.7
+  }
+}

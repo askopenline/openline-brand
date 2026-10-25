@@ -5,7 +5,7 @@ This document outlines the deployment process for the Openline brand portal, hos
 ## Architecture Overview
 
 *   **Application:** The brand portal is built using React and served statically.
-*   **Hosting:** Deployed on Fly.io with an `always-on sharedCPU256MB` configuration and a 3GB volume.
+*   **Hosting:** Deployed on Fly.io with an `always-on sharedCPU256MB` configuration and a 6GB volume.
 *   **Web Server:** Nginx serves the static content.
 *   **Data:** No runtime AI calls or database are used. All content is static or pre-generated.
 *   **Asset Distribution:** Large runtime files are distributed from `brand.openline.com` and managed via a SHA256 hydration manifest (`brand-library/PUBLIC-ASSETS.json`).

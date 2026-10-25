@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0",
+  "version": "2.5.0",
   "files": [
     {
       "path": "artwork.json",
@@ -328,8 +328,8 @@
     {
       "path": "brand-expansion/downloads/cost-ledger.json",
       "url": "https://brand.openline.com/brand-expansion/downloads/cost-ledger.json",
-      "bytes": 946,
-      "sha256": "e02f319c3bc858b19ee88429be1e89865f18f770078df10f2ea6119c7a11f0c2"
+      "bytes": 1398,
+      "sha256": "5c94f0e31cd42aec163eb37d4032e4b1feedd87d7bff4251644e699fe1676778"
     },
     {
       "path": "brand-expansion/downloads/iphone-capture-checklist.md",
@@ -1874,6 +1874,1068 @@
       "sha256": "e70078028fb6fdce19d0418d03561fe7ae7a68f88338813b4cda99d51e96a805"
     },
     {
+      "path": "library/campaign-final-twenty/README.txt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/README.txt",
+      "bytes": 2551,
+      "sha256": "13ed069234b939db9da07041c25e91df5014a4be0cdee432a0abd19d2b39b7e1"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-01-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-01-words.json",
+      "bytes": 3189,
+      "sha256": "5de12e65b01eb739fd61834cf214ed1ab758d467d2ef6bc6234aabaae5156a2f"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-01.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-01.srt",
+      "bytes": 1350,
+      "sha256": "082d50f7b51ec660585a9c22a2a6e430fca1ec237bde7c5fda2db497094d2c3b"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-01.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-01.vtt",
+      "bytes": 1265,
+      "sha256": "0a86a4b7902dcd3f188cf9e39426254b0eb390e8909795d494346b4acceb809f"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-02-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-02-words.json",
+      "bytes": 3050,
+      "sha256": "c2f34b64931e0b07a2682258157064f4a61c597ecb7681be867e8911ef2428e1"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-02.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-02.srt",
+      "bytes": 1290,
+      "sha256": "878c8bb10dce679df981d495a6832b644464437571f11097d63be0a981acd48a"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-02.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-02.vtt",
+      "bytes": 1208,
+      "sha256": "9646099653cf03d2df5c6f3d40889ef247f69b8574391d62965c23f5918c5aac"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-03-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-03-words.json",
+      "bytes": 3172,
+      "sha256": "e71be1ed0eea1ab92d1f3826a007de59d80705d384c550782f0c060cab3542e4"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-03.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-03.srt",
+      "bytes": 1346,
+      "sha256": "b25ddb275418132323e3acee1e9e0257124739557a65f5789c6d3806d4602e1d"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-03.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-03.vtt",
+      "bytes": 1261,
+      "sha256": "2701174a905c99c79ef0fea5c9e59bad6edfb0c320e413af521cb57232dafeb2"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-04-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-04-words.json",
+      "bytes": 2943,
+      "sha256": "36d836934f9b9e873a3bf401ff3b37166e5055828e092940723e2776a7ecd66a"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-04.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-04.srt",
+      "bytes": 1236,
+      "sha256": "6e94ef90b95250b2fc3fddc57ed2bb413b7b758558d563c5176a6e73db49116b"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-04.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-04.vtt",
+      "bytes": 1160,
+      "sha256": "213546081302b675199ec7759a58f740d97f372c29a4f4990fa7ee0ba6672848"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-05-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-05-words.json",
+      "bytes": 2957,
+      "sha256": "173b44c7cdc3699840703c72f979895332788f54117984acf2de74b36bc8be4c"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-05.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-05.srt",
+      "bytes": 1243,
+      "sha256": "b24d866e47b9b7d015a588d3590983b47552e4ece06c79d38984562bac2a2404"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-05.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-05.vtt",
+      "bytes": 1167,
+      "sha256": "5979673213a9ced5d584bf6d97ed2ec8d6feab57bda2cfc990bb2f1602f44798"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-06-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-06-words.json",
+      "bytes": 3337,
+      "sha256": "53e0a5c2f988d47ed8fad0a0413376e2c94cc8f206c857d43d9f751b1ad2a513"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-06.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-06.srt",
+      "bytes": 1420,
+      "sha256": "33d171fba503b47bcd718c986ee533560ce5df42988e9bf66e0d10bc11f90a2f"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-06.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-06.vtt",
+      "bytes": 1329,
+      "sha256": "3b67687abbb4a557b6ca825c9c7237afad1ae147830feefa298da763174e41a7"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-07-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-07-words.json",
+      "bytes": 2999,
+      "sha256": "340d7ee35f35a23a3039072d655bb20e1d27575eca8b0407892774200a7f8b64"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-07.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-07.srt",
+      "bytes": 1251,
+      "sha256": "7091dcfc952e9f3a51d6974130df2e18d1532dd891351040a08ed5bdc9fcec5c"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-07.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-07.vtt",
+      "bytes": 1175,
+      "sha256": "0076f926b40ee75ea79523cfea25d89c02d26821e6b20583926c90aeceff2bd4"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-08-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-08-words.json",
+      "bytes": 2962,
+      "sha256": "be9e48d3faac00451305a3423870c8daa2123a5db8aa192db13f74fff750bc71"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-08.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-08.srt",
+      "bytes": 1235,
+      "sha256": "653e55ea67001952325efd468aa2b5a74bfd24a777152798e96c03a7656a9909"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-08.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-08.vtt",
+      "bytes": 1159,
+      "sha256": "616f6205206c2a9c0f6bcc858f4f454d349648e95d2f7a3bffbf4557aaa4adc9"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-09-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-09-words.json",
+      "bytes": 3028,
+      "sha256": "4af4984185a272bf3cc9f6757c2033b4c79413c0fcebd63419d5434d97712cd2"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-09.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-09.srt",
+      "bytes": 1277,
+      "sha256": "e4389ae35993a421b3e866c4c1e39814000d1ddec62766b30d6f245324224c8f"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-09.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-09.vtt",
+      "bytes": 1198,
+      "sha256": "9b6f52671db8de4c7014c89cc481cb13c3fe3e643d89343d06cd3e3a016e495b"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-10-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-10-words.json",
+      "bytes": 2878,
+      "sha256": "620dc8305734ca30686e7c2fae092096b3d8c900a6de20836f4a15a4ee3cd8b2"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-10.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-10.srt",
+      "bytes": 1205,
+      "sha256": "b5c31d052ff68b51c89006a74a6a39b184001756d5aff2b8599e4ad1c8500484"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-10.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-10.vtt",
+      "bytes": 1132,
+      "sha256": "499d3ecc7bec34e058cdd3356aba6c9e83208f602e3831694e3df37f9088a7db"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-11-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-11-words.json",
+      "bytes": 2855,
+      "sha256": "3332a3f404015a7bd3c11f2856fb93b4a2402f343487a69373eb0152e4ce5fd6"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-11.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-11.srt",
+      "bytes": 1189,
+      "sha256": "77f529acf82ef664d43d7f766edf2d117563e4d4f8ffc28a93a29ee4bb76594a"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-11.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-11.vtt",
+      "bytes": 1116,
+      "sha256": "650e1e7225c3d9a782b5a5972aaa8af8ead5424b23fe85dea66764d065880977"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-12-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-12-words.json",
+      "bytes": 2705,
+      "sha256": "38964c29fbabfcdf870b42fd52aff33739ba446f2fad0bc54224611005c1a5b4"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-12.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-12.srt",
+      "bytes": 1114,
+      "sha256": "55d53289359fc872794afa5585dd66b15370aee2debcfa2a205a3dfcdef0e454"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-12.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-12.vtt",
+      "bytes": 1047,
+      "sha256": "0f15ae8d89497cd62c9b98d971ee5ac39776540f4fb24024f2928209aefa6516"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-13-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-13-words.json",
+      "bytes": 3066,
+      "sha256": "cc3b1b2262b4b3c65ffde7fc5af1efeefe10a7a3092478bdf07225887b86a20e"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-13.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-13.srt",
+      "bytes": 1294,
+      "sha256": "f5ec31d14e23b01e348e11b5d91c1f13f11a4fbba9e5f8a42f3695d2246c96ed"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-13.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-13.vtt",
+      "bytes": 1215,
+      "sha256": "600eb7703bab119c6316e2d2221233b88358073fb54ac4100d2c9956d040015f"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-14-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-14-words.json",
+      "bytes": 3048,
+      "sha256": "288c341bbb6fc8794b47fb81eb2c7f0dfc0b5ceac42592fffab27f4948ba004f"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-14.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-14.srt",
+      "bytes": 1286,
+      "sha256": "7f3882ffd371825f3563f0ea7f3685862d9b93a8105ce48c709ebaf8e8ebe5bf"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-14.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-14.vtt",
+      "bytes": 1204,
+      "sha256": "d655d3c04dc3f6b3363ace666d7c5a75f5854dc1eb295dcc49ef239582dd8933"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-15-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-15-words.json",
+      "bytes": 2876,
+      "sha256": "b7f27f7304d301631c3caef2f72214fd9e4752a5174c56e7e4012ddbecc11bae"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-15.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-15.srt",
+      "bytes": 1203,
+      "sha256": "2db5b97a8c7a9dae79a02811095778ebfdd3c4b6dc4f3b0c71d44a646063cd57"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-15.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-15.vtt",
+      "bytes": 1130,
+      "sha256": "daf890a5202dfc6bd92baf30f9f4827f6f1a8fbdf2b3e29ce4b1752b6f3edf0d"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-16-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-16-words.json",
+      "bytes": 3078,
+      "sha256": "9049f624019c06c1f0099b0b0c3de41d0fe2a05b232bdfa57086da7a51d06cb6"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-16.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-16.srt",
+      "bytes": 1304,
+      "sha256": "1383f3b6b61b0bc96507ba493b6e9581e52949f1bd2fbc00375f62cf1be77915"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-16.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-16.vtt",
+      "bytes": 1222,
+      "sha256": "501c73d2a864d89ac51c3f4a28f79590feaa8f2bd7e4fcecc099c40bf907c852"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-17-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-17-words.json",
+      "bytes": 3011,
+      "sha256": "77e021866e0eead5f6023b2ebcc6abbe8c9ef5b3f9a871388716bba769d43e47"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-17.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-17.srt",
+      "bytes": 1268,
+      "sha256": "4f1f79b528fcc2834a8519d698c70cbebeacc2f90630f3efbf99313a5ac1c5bc"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-17.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-17.vtt",
+      "bytes": 1189,
+      "sha256": "09a2ed4062eefe3be1073f1b04cecea3cf420c627841f8fb92d5d61c71231678"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-18-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-18-words.json",
+      "bytes": 2932,
+      "sha256": "dc764406ccf3ac149dfcc09615617322487e9c47ccd724cb1a382590b38ab2c0"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-18.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-18.srt",
+      "bytes": 1231,
+      "sha256": "6ec00488d0a94e9030dfc932f1c06a004e9b548bba1372f6a5fe0d1ac153652f"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-18.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-18.vtt",
+      "bytes": 1155,
+      "sha256": "8b1d4886c9e40ccab9794b4f711a6479368c7f3a8f6b7fe6c695fdcbf3ef16c8"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-19-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-19-words.json",
+      "bytes": 2993,
+      "sha256": "149513e6f31fa16b77b3a780ed69ab91d8f3aef1517a255066b4782275d1fc58"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-19.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-19.srt",
+      "bytes": 1264,
+      "sha256": "266c8c07a1c2754ac9fbd1e9b9ba20ea29d27c9723c331d5cb4162bd265394ac"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-19.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-19.vtt",
+      "bytes": 1185,
+      "sha256": "6d940d38e070951dcc26ea3b333de0c1ebed7d3195099c0b9fa80ba223aa8785"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-20-words.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-20-words.json",
+      "bytes": 3146,
+      "sha256": "6818799ae7aa9a773303012ef3c500cac3630b1d4e97d1b530fa012b9dac1778"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-20.srt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-20.srt",
+      "bytes": 1335,
+      "sha256": "7b71150aa564160cbd43128a6e230ee998756d476c4465236217fcd6e9561356"
+    },
+    {
+      "path": "library/campaign-final-twenty/captions/final-ad-20.vtt",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/captions/final-ad-20.vtt",
+      "bytes": 1250,
+      "sha256": "57689798d4c8b2d562678fa1b829a607628fd6c9f418b5919761e4f7184622d5"
+    },
+    {
+      "path": "library/campaign-final-twenty/manifest.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/manifest.json",
+      "bytes": 44930,
+      "sha256": "9bbd3c273eb705ca66429780717229bda1b8a3dfb8b095eaf57a2873d3250bbe"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-01.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-01.mp4",
+      "bytes": 27458322,
+      "sha256": "5a87874bfb7875fa6dfe99b8dcc8d9ccac8bba11fbb29a4989719c05a6eaa9b3"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-02.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-02.mp4",
+      "bytes": 17310014,
+      "sha256": "a8e0214a92e6fe8806a9014de92f1912dfa7228b1134461526c5bc2b7ffa443b"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-03.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-03.mp4",
+      "bytes": 28943864,
+      "sha256": "be39ba9d4b9339ca6110005e0bf4b529f344d65c2052985e1948e57f3081cb41"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-04.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-04.mp4",
+      "bytes": 19777279,
+      "sha256": "4741439fbb2dc93b88b2d278857400e2c90d323d0cfee4df1770d2ce2715700d"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-05.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-05.mp4",
+      "bytes": 25513017,
+      "sha256": "6a013f1f1f910033b30f27ac321b007f775ac38c114776b199dc74b86dcececa"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-06.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-06.mp4",
+      "bytes": 20045335,
+      "sha256": "dc737ba85d9aacb92bbc537e1af907e7d82765d5c934f5a66e861e451fa4aeab"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-07.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-07.mp4",
+      "bytes": 20605120,
+      "sha256": "f51bc8a431a860838412ed0fa99bc2b9378cb5279aa8aed936dd3e5d9124d30d"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-08.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-08.mp4",
+      "bytes": 23016645,
+      "sha256": "714edcbe638ae7c0d903cd2541fa88cd55ad1ea9e5e80da45eef842f86bb498e"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-09.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-09.mp4",
+      "bytes": 13010774,
+      "sha256": "6d408003d028e0b82bedea8510b01593bf37c3ea0acd2dfa14fb43ff3855fc23"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-10.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-10.mp4",
+      "bytes": 31824738,
+      "sha256": "b9b223b72f3fb93701aa237f78ebe09245ffe18d5b0739af1c22dbd5811a84ff"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-11.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-11.mp4",
+      "bytes": 25129957,
+      "sha256": "d790751637a57935888a61e366032842874cbb1f8791fb26e5ce0030671f29bb"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-12.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-12.mp4",
+      "bytes": 27001703,
+      "sha256": "5cfb45ecf0a406538c55d1f5a754c916aec10e1de2ba2e3e3c3cc81e408d7fdf"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-13.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-13.mp4",
+      "bytes": 18538294,
+      "sha256": "0fa520dbe4b9e1872d202aa991b50c2f5c22709f6b6e646e5b0c2f76e7bd7b02"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-14.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-14.mp4",
+      "bytes": 21379159,
+      "sha256": "80eac561d9011c3b3acdda1a9799d70ac662b6cf3a991b2461ffb8be9442bdc3"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-15.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-15.mp4",
+      "bytes": 17696271,
+      "sha256": "c2ebb01c63f05c7b60b9699a11c0b39f05a712170bc644df95334b7757ef044b"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-16.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-16.mp4",
+      "bytes": 37339634,
+      "sha256": "0b53232b5dd2ac2c602e8c7ae1f2a0e504fc3a1b7dc0bca012e41bfe848c7826"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-17.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-17.mp4",
+      "bytes": 15269387,
+      "sha256": "68e157b669405d89a00443f691d248ba8fbdbd918da5a78d23861759065fb292"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-18.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-18.mp4",
+      "bytes": 28680350,
+      "sha256": "40afef282cecc8200659c3e0bbd3eecc2674bff5402f6939c3fbf323c27ffd9b"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-19.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-19.mp4",
+      "bytes": 18166877,
+      "sha256": "5395b63ba2f20ab7ac78d7d2a967fd158c6727cce87a1e0d6efee4e59f9b787a"
+    },
+    {
+      "path": "library/campaign-final-twenty/mp4/final-ad-20.mp4",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-20.mp4",
+      "bytes": 19047593,
+      "sha256": "478ad3abbf019601574acf08f46711373d4015d8d45ce87e172084d482cc0c5d"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-01.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-01.jpg",
+      "bytes": 226506,
+      "sha256": "f6976df84a378b502119de3c675965ff8d484b5c60ea54bcfb7970e7aec88125"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-02.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-02.jpg",
+      "bytes": 174006,
+      "sha256": "3a145478e9327417dda2dc0a59778c65943d2cd8712ce0a1f9a491630b625e9e"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-03.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-03.jpg",
+      "bytes": 281656,
+      "sha256": "ccd7b2b45ebe436033bb4d9cd29b6e023d053f6204f3e62bfdb33d1aa51960bf"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-04.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-04.jpg",
+      "bytes": 225550,
+      "sha256": "878e63fe142ce9cbd1df66223a3274418ba48acdba5877bae841517380fb39bd"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-05.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-05.jpg",
+      "bytes": 299473,
+      "sha256": "6c2b9c0549e2c50585ba56d3cc1b12dcf1e0da58394715c78032dc3edbf38419"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-06.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-06.jpg",
+      "bytes": 373590,
+      "sha256": "b28449d1e1d6039e7ac6056ad7d0290c70cb73657af79e1371cce7b293598482"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-07.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-07.jpg",
+      "bytes": 406462,
+      "sha256": "dda46910cc5f6c1a19ead41701691b5c1088ade00b67e7a8bdc5ccfc89d6c24a"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-08.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-08.jpg",
+      "bytes": 202000,
+      "sha256": "db9569682080ae3c06405b186582f8143e715d6ca29bbee7cb9d6b91893ba652"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-09.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-09.jpg",
+      "bytes": 335331,
+      "sha256": "daae3f13a2b2596b9ae7e1107a46b2fd5eafba22164832073b8ce69d95a56089"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-10.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-10.jpg",
+      "bytes": 556384,
+      "sha256": "d196e4af5ee9411cb0e97e7a1c9b9a0578e5e18dcf9f6c784376e73740f90a36"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-11.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-11.jpg",
+      "bytes": 291949,
+      "sha256": "f8a780ae6739ca66ddec344cd600ac33484635236b101af3ff272b4d996a691a"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-12.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-12.jpg",
+      "bytes": 306200,
+      "sha256": "6ba1544e945bf3a00ebaaf7d827b405fb9d9657c6345d1c1d79a7106c4f9ca93"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-13.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-13.jpg",
+      "bytes": 224946,
+      "sha256": "e87944629b35efefd84e0fe7c385d6c3299a7918446750c420e268454b71b1f5"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-14.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-14.jpg",
+      "bytes": 236271,
+      "sha256": "1095b3015cec3d703430ec36d681e442bb336c5dd89e981c208d76bc9ef028b5"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-15.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-15.jpg",
+      "bytes": 210967,
+      "sha256": "853eebff0daa561bb12d503541a850aafde1e5ec12007713e3a063d87346085c"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-16.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-16.jpg",
+      "bytes": 323582,
+      "sha256": "7e6d7a9809fd541a35b67092625be6d1f9980ce13ba0f4afc168202884f32d7a"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-17.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-17.jpg",
+      "bytes": 244198,
+      "sha256": "e27c58cfe8704d2419b1fdf89cc3522d312871cc796f35eb09d73e27a832b8f6"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-18.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-18.jpg",
+      "bytes": 414451,
+      "sha256": "01d3918063861b10b98ebba1c1cbfee579286adf08267015777ec16560a4f7b8"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-19.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-19.jpg",
+      "bytes": 350863,
+      "sha256": "aadf6f19dee96b5281ae66fab3e110a25e25aba60369c1dde372391991e6e8e1"
+    },
+    {
+      "path": "library/campaign-final-twenty/posters/final-ad-20.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/posters/final-ad-20.jpg",
+      "bytes": 340258,
+      "sha256": "73e8b009bde98ca6036394f73e811038ed568f8cbc4e034d843d39a7d3736a9b"
+    },
+    {
+      "path": "library/campaign-final-twenty/public-files.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/public-files.json",
+      "bytes": 3783,
+      "sha256": "b2489d09034fe9fe51dcff28f3be49c73948d4cdae00b902fee30e3ffd632a34"
+    },
+    {
+      "path": "library/campaign-final-twenty/qa-summary.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/qa-summary.json",
+      "bytes": 86791,
+      "sha256": "99ab1944b7e119dae70553b004c4a93ac2beeb01f6f3895aa2bb377a295ad09e"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards.json",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards.json",
+      "bytes": 18620,
+      "sha256": "0b824eff909d45caadb784b916fe8be87cb623602018e47aaf3462fa122f4096"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-01.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-01.jpg",
+      "bytes": 242763,
+      "sha256": "19518426b2d87dfceb1e808f5337541da3caa9b4776da76332e63777c292d663"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-02.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-02.jpg",
+      "bytes": 219456,
+      "sha256": "c756771b1bfff102264d3fa364b775167b6b1b648e683b34e89625af55027abd"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-03.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-03.jpg",
+      "bytes": 297682,
+      "sha256": "e9d448148d03f6e8743b7636264bd4872056dc30ef848f84d94e4c65b4f46e66"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-04.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-04.jpg",
+      "bytes": 234574,
+      "sha256": "731241310af6bd479da07fe2120587b9907b13bc836ed3eea486bab207cf04e5"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-05.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-05.jpg",
+      "bytes": 274873,
+      "sha256": "d5642eb8e8d81900d06ce83952bc52ca217c5988ed6595edc7e37f7a7e051f68"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-06.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-06.jpg",
+      "bytes": 278784,
+      "sha256": "a5c7acbc47d0ad12c4a6246ae632b3c77c51a4aa56915cbad289d6aed20a2f72"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-07.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-07.jpg",
+      "bytes": 256916,
+      "sha256": "a7a7b3fb9e1faa26c183aaf266c62d636db922d7e25d6ce2837f33c2ba56399e"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-08.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-08.jpg",
+      "bytes": 267611,
+      "sha256": "97816fe3e1b6de8934e13bb93076e5cacdd664d09fa84196fdb0f95f61ea4e4c"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-09.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-09.jpg",
+      "bytes": 286400,
+      "sha256": "7c2625b86fa119700d03d1af065742aa7ade7a91c4f7ae6f7388ea9e273e2bee"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-10.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-10.jpg",
+      "bytes": 309494,
+      "sha256": "b64fea95508879262a1a86be7cb0ccecac4cb2209ee819fbebf45313b702c440"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-11.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-11.jpg",
+      "bytes": 275185,
+      "sha256": "816b43fe5ba8ab8e81be6514bc5df66b50ae4f7f2b1528056674bb38f6f03670"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-12.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-12.jpg",
+      "bytes": 235934,
+      "sha256": "2070a7eb1790123f7ff7c67b11829c9fb98ddf15dcc12df63936ba90e9bba58d"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-13.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-13.jpg",
+      "bytes": 260989,
+      "sha256": "208a17980bccefb9bfadf6533e6eee7855cd0c07c5ec7bb51b43ad409c07401c"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-14.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-14.jpg",
+      "bytes": 303801,
+      "sha256": "ec2219cc38176e75d4104dadd127e8165a033178ce79c60145dd91701695da37"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-15.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-15.jpg",
+      "bytes": 260434,
+      "sha256": "164a23304b9eb9169b791168f0d3f2c1fc50018b297c45d9cd453acf164e763a"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-16.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-16.jpg",
+      "bytes": 290137,
+      "sha256": "988ad06622e568c2220d498ba85cc60c8f175db1c03addb5c9d135455570d72b"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-17.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-17.jpg",
+      "bytes": 235199,
+      "sha256": "0879565e309cb3237eea8ff6ef708893f9b79614f5cf7ac82a654ef212d98958"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-18.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-18.jpg",
+      "bytes": 288003,
+      "sha256": "a867c9bb115d4e2256d88fc16001357255f99f9f54ebc977e9c97b71e148c20b"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-19.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-19.jpg",
+      "bytes": 272735,
+      "sha256": "cb9023647c22f88271e271d6f677152e967a02a8bf90c6dbc95db022ad2d23ba"
+    },
+    {
+      "path": "library/campaign-final-twenty/storyboards/final-ad-20.jpg",
+      "url": "https://brand.openline.com/library/campaign-final-twenty/storyboards/final-ad-20.jpg",
+      "bytes": 253924,
+      "sha256": "bfd6761a6f4b8a84da8ba6ee794348e012350ff78f7f551668de30c9b76308e8"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/README.md",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/README.md",
+      "bytes": 1589,
+      "sha256": "ed60a935a6fc3c4fc4c0b5f33dcd53760aa79189fb59efc37a80a2f2b6a22c46"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/01-first-hour-lisbon-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/01-first-hour-lisbon-words.json",
+      "bytes": 3398,
+      "sha256": "edb7c2a63388b86aa8d6b18fa3a749886ea1b0280b9501b581e017fb2f30fb4d"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/01-first-hour-lisbon.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/01-first-hour-lisbon.srt",
+      "bytes": 1490,
+      "sha256": "e3d4709f38dd6431fc6ddc7d92b0d84e6819e13a96db885e0455372326729a85"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/01-first-hour-lisbon.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/01-first-hour-lisbon.vtt",
+      "bytes": 1393,
+      "sha256": "becaaa0a828a274ec4a4ef7a95e6d0f1deae7ea6e73b0fcc6490cedb427bfd1d"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo-words.json",
+      "bytes": 3076,
+      "sha256": "98d30029f1246a11cefc13adaa1ec202d122cf27cfd9235b2206ccc94100a390"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo.srt",
+      "bytes": 1344,
+      "sha256": "902d7f96e15b59df638c1ddfe85afa1b3d55428a9eacaaada81158673863a503"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo.vtt",
+      "bytes": 1259,
+      "sha256": "9d4ed39d45a2694763f96da52d522351f0588e774bef1278b25c8346a641ad92"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city-words.json",
+      "bytes": 3465,
+      "sha256": "dd12bc2d5c20027e6429cd2739a484cb3b7ac9e27eee8d3f4beffdd1e3668a1d"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city.srt",
+      "bytes": 1542,
+      "sha256": "e571134ce2adc87189998e1c99210fa627b120bcb958710e18e2e53a853e54e8"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city.vtt",
+      "bytes": 1442,
+      "sha256": "8d2c6a467df79cee44c152c682ca622c202d5f43e8daed993858a96f735a8696"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/04-prep-before-trip-home-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/04-prep-before-trip-home-words.json",
+      "bytes": 2964,
+      "sha256": "d3240bdd2d8083dfce03d80954b98feec7ba68c8ca55575e321a2a03d0dc223d"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/04-prep-before-trip-home.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/04-prep-before-trip-home.srt",
+      "bytes": 1282,
+      "sha256": "ec2372eced96d78adca9373ac5787a1268df74d82220d3962e7e9e47f92f8410"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/04-prep-before-trip-home.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/04-prep-before-trip-home.vtt",
+      "bytes": 1203,
+      "sha256": "5883af5798429fd77b1ad426b54c2851372ee469988c2765c53351f69c18c73a"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik-words.json",
+      "bytes": 2995,
+      "sha256": "0a2f5ae3efd4ab36ef4ba0a5528bf62f4faa33638959e93fe44712f30be687c3"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik.srt",
+      "bytes": 1293,
+      "sha256": "470b12c4992ab618f4ceae74a4877aa76dee4a86a9b601a374f6bb98597b42fb"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik.vtt",
+      "bytes": 1211,
+      "sha256": "7bf881abf08e2c8ab1ab1b823315a8ef85e4833c08d530841808dc35b5f9966f"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul-words.json",
+      "bytes": 2930,
+      "sha256": "84cd3ad5d11aa220bb8b5d060a00db7f6489ac0df333c75d7736a99e71e99ef7"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul.srt",
+      "bytes": 1301,
+      "sha256": "e5f08daca80e210760ec0034919ff8ba8d7d6afc4bb4cc0ef61a9f729423959a"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul.vtt",
+      "bytes": 1219,
+      "sha256": "121f69104e07322deb703b9d534006de56c868a2f13dcf5504f03c2e667e620e"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech-words.json",
+      "bytes": 3491,
+      "sha256": "265669804de6cd43be6ec3ac84da2d7e7146f472954e5833e0ea637b2a9c6941"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech.srt",
+      "bytes": 1538,
+      "sha256": "366f3782df89f55bc3ef13affca96fcf199cf95b74d4cb074c2479ca8b5b2117"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech.vtt",
+      "bytes": 1438,
+      "sha256": "53a8543b58e5a255df1d744ef5e2c9f665e2e519bb9e0717d5afa5074c05fbe2"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/08-independence-seoul-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/08-independence-seoul-words.json",
+      "bytes": 2745,
+      "sha256": "4cda96958567c9fc600ad34be5816c99e1fa7cd29eccecb75ecae8c21cba26a0"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/08-independence-seoul.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/08-independence-seoul.srt",
+      "bytes": 1179,
+      "sha256": "f27ba1ec5be69d95f969a160097d4b1dba6d2dcd611da3937ae4e75221079b91"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/08-independence-seoul.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/08-independence-seoul.vtt",
+      "bytes": 1106,
+      "sha256": "585a77dbe5b609381d566c62f9ee47de293da1b33e0d8bbc8d200d4928d9590b"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour-words.json",
+      "bytes": 2949,
+      "sha256": "9f040bd86957fe5fbd8a5c3975ce6ef2e7ebe41b76859978137540ac0f8f9226"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour.srt",
+      "bytes": 1273,
+      "sha256": "8f5a3f2da3f551b85d1f965ac516e504c55eeb3a68466d023cfe502ae2530955"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour.vtt",
+      "bytes": 1194,
+      "sha256": "c612ed49fa78874f36d26a440efc491ad52b67c01a577fb63981a82c4dc35f8f"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice-words.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice-words.json",
+      "bytes": 2690,
+      "sha256": "84e912c66731236707e18a932d20b6a8d7baf495f3e794893a5a5838d6fc01c6"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice.srt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice.srt",
+      "bytes": 1132,
+      "sha256": "0ece2d15f4f9d6e0cda6c86ab3971259aad31ad555d55f90ea6982b1b2dffeb4"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice.vtt",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice.vtt",
+      "bytes": 1065,
+      "sha256": "68b8272b457ae04e404b1b50a8b585d4d6e34804d2c04900004f8365d5c99826"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/manifest.json",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/manifest.json",
+      "bytes": 22208,
+      "sha256": "8f7ddcb5df720581bb51d5d3843a19bc1db30a0f306ac3ea0d32bfd774ceb6f4"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/01-first-hour-lisbon.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/01-first-hour-lisbon.mp4",
+      "bytes": 17352743,
+      "sha256": "180e8989fb90e65837c16cd91142b8d9feaaa0167d3e46224bcbd4e8a9236b0a"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/02-group-reunion-tokyo.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/02-group-reunion-tokyo.mp4",
+      "bytes": 15897008,
+      "sha256": "799c250805c2f99c7c892f0df5a4fed9571a95db587a7b162605fd44b8c80933"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/03-hidden-food-mexico-city.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/03-hidden-food-mexico-city.mp4",
+      "bytes": 10806466,
+      "sha256": "1a925ff2f2eda830fe51b53edfe9f131014ef9699c27dec482602351cca18d65"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/04-prep-before-trip-home.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/04-prep-before-trip-home.mp4",
+      "bytes": 10302041,
+      "sha256": "13434f79214ec60caf9cf334a5dab89131b84043760a140a98f4a3dc500f9044"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/05-small-trip-reykjavik.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/05-small-trip-reykjavik.mp4",
+      "bytes": 18539053,
+      "sha256": "edca78006f9d236c40e6c024641e65eeffaf38ce66d1cbd66e4a66d251164370"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/06-choosing-a-plan-istanbul.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/06-choosing-a-plan-istanbul.mp4",
+      "bytes": 12495660,
+      "sha256": "e6815955604183511e3132f1ffdbeaa486c548ea42ff883832fca64973d22d8e"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/07-home-sim-safe-marrakech.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/07-home-sim-safe-marrakech.mp4",
+      "bytes": 14768688,
+      "sha256": "d71c5c40496873b0c680f437a5ac1161a5306ecc8945c544d98eae025fc21e6b"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/08-independence-seoul.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/08-independence-seoul.mp4",
+      "bytes": 13703167,
+      "sha256": "ccf078a99504f1c4a7fc80e4b0e638fc3fd88af4d10fcc353c49247379ff05b1"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/09-iceland-coastal-detour.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/09-iceland-coastal-detour.mp4",
+      "bytes": 15543796,
+      "sha256": "f2f436fa685e5bfe90d7ad75a4bde3f411a4a23447e0a27a29dc7bd6233a3028"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/mp4/10-cape-town-cafe-plan-choice.mp4",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/10-cape-town-cafe-plan-choice.mp4",
+      "bytes": 14414128,
+      "sha256": "3443c6dd12d5c6ca7f176d22650c758a758c974180c91153729192602d947c86"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/01-first-hour-lisbon.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/01-first-hour-lisbon.jpg",
+      "bytes": 79951,
+      "sha256": "35b90d661d7f04794adee77a32cf8a894b8ecfd3f8262789b11ddc3516f9e323"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/02-group-reunion-tokyo.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/02-group-reunion-tokyo.jpg",
+      "bytes": 164462,
+      "sha256": "8eb709c833908276b2ea970bc604809924f97333b09ab3e039e03b37d28dbe13"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/03-hidden-food-mexico-city.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/03-hidden-food-mexico-city.jpg",
+      "bytes": 86641,
+      "sha256": "12631c4e1916f74ed2b5ecfd7596b845c62325d3ff04fe5b396e3ebe319f7e91"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/04-prep-before-trip-home.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/04-prep-before-trip-home.jpg",
+      "bytes": 80765,
+      "sha256": "a6ac2a658a510fde8829f8c3fb0eaf93b4e9fae6cd76b2f9bcd4991808567cc5"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/05-small-trip-reykjavik.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/05-small-trip-reykjavik.jpg",
+      "bytes": 131797,
+      "sha256": "e1a113bd9f18fdbff3a1c81631adae73b7ae730f2e3ccde09ca9aaee276e76ea"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/06-choosing-a-plan-istanbul.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/06-choosing-a-plan-istanbul.jpg",
+      "bytes": 82418,
+      "sha256": "179383dfef652cfececd634ab64accc8779fa2515143fcdd61b2206cce07c55b"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/07-home-sim-safe-marrakech.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/07-home-sim-safe-marrakech.jpg",
+      "bytes": 101962,
+      "sha256": "c8c4a9c7b38c064b788f0614d08e6fa831437d42a596a2cf5d9fddcdbb64f513"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/08-independence-seoul.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/08-independence-seoul.jpg",
+      "bytes": 142317,
+      "sha256": "734e0445cba0f94452e018fbfe8581d840695005a462b4717207639e6a812392"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/09-iceland-coastal-detour.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/09-iceland-coastal-detour.jpg",
+      "bytes": 122624,
+      "sha256": "e029288a07778901b70d91b82976fecfd7526d6c4266feb720c581ab4fbc7e9d"
+    },
+    {
+      "path": "library/campaign-voice-ten-v2/posters/10-cape-town-cafe-plan-choice.jpg",
+      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/10-cape-town-cafe-plan-choice.jpg",
+      "bytes": 86366,
+      "sha256": "852b25a14f34afbdb6121d3687198960f15b77aa0d77cf862f53b14049af5241"
+    },
+    {
       "path": "library/campaign-voice-ten/captions/01-first-hour-lisbon.srt",
       "url": "https://brand.openline.com/library/campaign-voice-ten/captions/01-first-hour-lisbon.srt",
       "bytes": 407,
@@ -2306,322 +3368,10 @@
       "sha256": "142ed745eb50406478eae13ba508fc0bb90d863e2de9dfffb5b033c92d3d1525"
     },
     {
-      "path": "library/campaign-voice-ten-v2/README.md",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/README.md",
-      "bytes": 1589,
-      "sha256": "ed60a935a6fc3c4fc4c0b5f33dcd53760aa79189fb59efc37a80a2f2b6a22c46"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/01-first-hour-lisbon-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/01-first-hour-lisbon-words.json",
-      "bytes": 3398,
-      "sha256": "edb7c2a63388b86aa8d6b18fa3a749886ea1b0280b9501b581e017fb2f30fb4d"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/01-first-hour-lisbon.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/01-first-hour-lisbon.srt",
-      "bytes": 1490,
-      "sha256": "e3d4709f38dd6431fc6ddc7d92b0d84e6819e13a96db885e0455372326729a85"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/01-first-hour-lisbon.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/01-first-hour-lisbon.vtt",
-      "bytes": 1393,
-      "sha256": "becaaa0a828a274ec4a4ef7a95e6d0f1deae7ea6e73b0fcc6490cedb427bfd1d"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo-words.json",
-      "bytes": 3076,
-      "sha256": "98d30029f1246a11cefc13adaa1ec202d122cf27cfd9235b2206ccc94100a390"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo.srt",
-      "bytes": 1344,
-      "sha256": "902d7f96e15b59df638c1ddfe85afa1b3d55428a9eacaaada81158673863a503"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/02-group-reunion-tokyo.vtt",
-      "bytes": 1259,
-      "sha256": "9d4ed39d45a2694763f96da52d522351f0588e774bef1278b25c8346a641ad92"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city-words.json",
-      "bytes": 3465,
-      "sha256": "dd12bc2d5c20027e6429cd2739a484cb3b7ac9e27eee8d3f4beffdd1e3668a1d"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city.srt",
-      "bytes": 1542,
-      "sha256": "e571134ce2adc87189998e1c99210fa627b120bcb958710e18e2e53a853e54e8"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/03-hidden-food-mexico-city.vtt",
-      "bytes": 1442,
-      "sha256": "8d2c6a467df79cee44c152c682ca622c202d5f43e8daed993858a96f735a8696"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/04-prep-before-trip-home-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/04-prep-before-trip-home-words.json",
-      "bytes": 2964,
-      "sha256": "d3240bdd2d8083dfce03d80954b98feec7ba68c8ca55575e321a2a03d0dc223d"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/04-prep-before-trip-home.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/04-prep-before-trip-home.srt",
-      "bytes": 1282,
-      "sha256": "ec2372eced96d78adca9373ac5787a1268df74d82220d3962e7e9e47f92f8410"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/04-prep-before-trip-home.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/04-prep-before-trip-home.vtt",
-      "bytes": 1203,
-      "sha256": "5883af5798429fd77b1ad426b54c2851372ee469988c2765c53351f69c18c73a"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik-words.json",
-      "bytes": 2995,
-      "sha256": "0a2f5ae3efd4ab36ef4ba0a5528bf62f4faa33638959e93fe44712f30be687c3"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik.srt",
-      "bytes": 1293,
-      "sha256": "470b12c4992ab618f4ceae74a4877aa76dee4a86a9b601a374f6bb98597b42fb"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/05-small-trip-reykjavik.vtt",
-      "bytes": 1211,
-      "sha256": "7bf881abf08e2c8ab1ab1b823315a8ef85e4833c08d530841808dc35b5f9966f"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul-words.json",
-      "bytes": 2930,
-      "sha256": "84cd3ad5d11aa220bb8b5d060a00db7f6489ac0df333c75d7736a99e71e99ef7"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul.srt",
-      "bytes": 1301,
-      "sha256": "e5f08daca80e210760ec0034919ff8ba8d7d6afc4bb4cc0ef61a9f729423959a"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/06-choosing-a-plan-istanbul.vtt",
-      "bytes": 1219,
-      "sha256": "121f69104e07322deb703b9d534006de56c868a2f13dcf5504f03c2e667e620e"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech-words.json",
-      "bytes": 3491,
-      "sha256": "265669804de6cd43be6ec3ac84da2d7e7146f472954e5833e0ea637b2a9c6941"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech.srt",
-      "bytes": 1538,
-      "sha256": "366f3782df89f55bc3ef13affca96fcf199cf95b74d4cb074c2479ca8b5b2117"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/07-home-sim-safe-marrakech.vtt",
-      "bytes": 1438,
-      "sha256": "53a8543b58e5a255df1d744ef5e2c9f665e2e519bb9e0717d5afa5074c05fbe2"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/08-independence-seoul-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/08-independence-seoul-words.json",
-      "bytes": 2745,
-      "sha256": "4cda96958567c9fc600ad34be5816c99e1fa7cd29eccecb75ecae8c21cba26a0"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/08-independence-seoul.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/08-independence-seoul.srt",
-      "bytes": 1179,
-      "sha256": "f27ba1ec5be69d95f969a160097d4b1dba6d2dcd611da3937ae4e75221079b91"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/08-independence-seoul.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/08-independence-seoul.vtt",
-      "bytes": 1106,
-      "sha256": "585a77dbe5b609381d566c62f9ee47de293da1b33e0d8bbc8d200d4928d9590b"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour-words.json",
-      "bytes": 2949,
-      "sha256": "9f040bd86957fe5fbd8a5c3975ce6ef2e7ebe41b76859978137540ac0f8f9226"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour.srt",
-      "bytes": 1273,
-      "sha256": "8f5a3f2da3f551b85d1f965ac516e504c55eeb3a68466d023cfe502ae2530955"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/09-iceland-coastal-detour.vtt",
-      "bytes": 1194,
-      "sha256": "c612ed49fa78874f36d26a440efc491ad52b67c01a577fb63981a82c4dc35f8f"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice-words.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice-words.json",
-      "bytes": 2690,
-      "sha256": "84e912c66731236707e18a932d20b6a8d7baf495f3e794893a5a5838d6fc01c6"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice.srt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice.srt",
-      "bytes": 1132,
-      "sha256": "0ece2d15f4f9d6e0cda6c86ab3971259aad31ad555d55f90ea6982b1b2dffeb4"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice.vtt",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/captions/10-cape-town-cafe-plan-choice.vtt",
-      "bytes": 1065,
-      "sha256": "68b8272b457ae04e404b1b50a8b585d4d6e34804d2c04900004f8365d5c99826"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/manifest.json",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/manifest.json",
-      "bytes": 22208,
-      "sha256": "8f7ddcb5df720581bb51d5d3843a19bc1db30a0f306ac3ea0d32bfd774ceb6f4"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/01-first-hour-lisbon.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/01-first-hour-lisbon.mp4",
-      "bytes": 17352743,
-      "sha256": "180e8989fb90e65837c16cd91142b8d9feaaa0167d3e46224bcbd4e8a9236b0a"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/02-group-reunion-tokyo.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/02-group-reunion-tokyo.mp4",
-      "bytes": 15897008,
-      "sha256": "799c250805c2f99c7c892f0df5a4fed9571a95db587a7b162605fd44b8c80933"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/03-hidden-food-mexico-city.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/03-hidden-food-mexico-city.mp4",
-      "bytes": 10806466,
-      "sha256": "1a925ff2f2eda830fe51b53edfe9f131014ef9699c27dec482602351cca18d65"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/04-prep-before-trip-home.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/04-prep-before-trip-home.mp4",
-      "bytes": 10302041,
-      "sha256": "13434f79214ec60caf9cf334a5dab89131b84043760a140a98f4a3dc500f9044"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/05-small-trip-reykjavik.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/05-small-trip-reykjavik.mp4",
-      "bytes": 18539053,
-      "sha256": "edca78006f9d236c40e6c024641e65eeffaf38ce66d1cbd66e4a66d251164370"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/06-choosing-a-plan-istanbul.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/06-choosing-a-plan-istanbul.mp4",
-      "bytes": 12495660,
-      "sha256": "e6815955604183511e3132f1ffdbeaa486c548ea42ff883832fca64973d22d8e"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/07-home-sim-safe-marrakech.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/07-home-sim-safe-marrakech.mp4",
-      "bytes": 14768688,
-      "sha256": "d71c5c40496873b0c680f437a5ac1161a5306ecc8945c544d98eae025fc21e6b"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/08-independence-seoul.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/08-independence-seoul.mp4",
-      "bytes": 13703167,
-      "sha256": "ccf078a99504f1c4a7fc80e4b0e638fc3fd88af4d10fcc353c49247379ff05b1"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/09-iceland-coastal-detour.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/09-iceland-coastal-detour.mp4",
-      "bytes": 15543796,
-      "sha256": "f2f436fa685e5bfe90d7ad75a4bde3f411a4a23447e0a27a29dc7bd6233a3028"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/mp4/10-cape-town-cafe-plan-choice.mp4",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/mp4/10-cape-town-cafe-plan-choice.mp4",
-      "bytes": 14414128,
-      "sha256": "3443c6dd12d5c6ca7f176d22650c758a758c974180c91153729192602d947c86"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/01-first-hour-lisbon.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/01-first-hour-lisbon.jpg",
-      "bytes": 79951,
-      "sha256": "35b90d661d7f04794adee77a32cf8a894b8ecfd3f8262789b11ddc3516f9e323"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/02-group-reunion-tokyo.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/02-group-reunion-tokyo.jpg",
-      "bytes": 164462,
-      "sha256": "8eb709c833908276b2ea970bc604809924f97333b09ab3e039e03b37d28dbe13"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/03-hidden-food-mexico-city.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/03-hidden-food-mexico-city.jpg",
-      "bytes": 86641,
-      "sha256": "12631c4e1916f74ed2b5ecfd7596b845c62325d3ff04fe5b396e3ebe319f7e91"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/04-prep-before-trip-home.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/04-prep-before-trip-home.jpg",
-      "bytes": 80765,
-      "sha256": "a6ac2a658a510fde8829f8c3fb0eaf93b4e9fae6cd76b2f9bcd4991808567cc5"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/05-small-trip-reykjavik.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/05-small-trip-reykjavik.jpg",
-      "bytes": 131797,
-      "sha256": "e1a113bd9f18fdbff3a1c81631adae73b7ae730f2e3ccde09ca9aaee276e76ea"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/06-choosing-a-plan-istanbul.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/06-choosing-a-plan-istanbul.jpg",
-      "bytes": 82418,
-      "sha256": "179383dfef652cfececd634ab64accc8779fa2515143fcdd61b2206cce07c55b"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/07-home-sim-safe-marrakech.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/07-home-sim-safe-marrakech.jpg",
-      "bytes": 101962,
-      "sha256": "c8c4a9c7b38c064b788f0614d08e6fa831437d42a596a2cf5d9fddcdbb64f513"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/08-independence-seoul.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/08-independence-seoul.jpg",
-      "bytes": 142317,
-      "sha256": "734e0445cba0f94452e018fbfe8581d840695005a462b4717207639e6a812392"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/09-iceland-coastal-detour.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/09-iceland-coastal-detour.jpg",
-      "bytes": 122624,
-      "sha256": "e029288a07778901b70d91b82976fecfd7526d6c4266feb720c581ab4fbc7e9d"
-    },
-    {
-      "path": "library/campaign-voice-ten-v2/posters/10-cape-town-cafe-plan-choice.jpg",
-      "url": "https://brand.openline.com/library/campaign-voice-ten-v2/posters/10-cape-town-cafe-plan-choice.jpg",
-      "bytes": 86366,
-      "sha256": "852b25a14f34afbdb6121d3687198960f15b77aa0d77cf862f53b14049af5241"
-    },
-    {
       "path": "library/catalog.json",
       "url": "https://brand.openline.com/library/catalog.json",
-      "bytes": 1545155,
-      "sha256": "4c5d3f1c5fd23b0948c81ea6be2d1355b2d742e17d27a80f7d70e573746d6b44"
+      "bytes": 1638222,
+      "sha256": "cdee547070eaea1822f579c8378d2a283b8321f74eb3ef6c47257671ca7c53a2"
     },
     {
       "path": "library/downloads/manifest.json",
@@ -10952,6 +11702,12 @@
       "sha256": "dce1f82a7a71593926e63a1333631f630620cb70026aa126673f7e77e9622dd3"
     },
     {
+      "path": "library/repository/launch-studio/public/series.json",
+      "url": "https://brand.openline.com/library/repository/launch-studio/public/series.json",
+      "bytes": 3504,
+      "sha256": "4bae8b56ff81b188ecb497766b2c74c4a8b314527cc884071c21106304600cda"
+    },
+    {
       "path": "library/repository/launch-studio/public/series/orange-directions-contact-sheet.jpg",
       "url": "https://brand.openline.com/library/repository/launch-studio/public/series/orange-directions-contact-sheet.jpg",
       "bytes": 208329,
@@ -11108,10 +11864,10 @@
       "sha256": "7195be0c90b261062203014c5f4c3c90f73eb28b79cd4507f46017c71ef80e8b"
     },
     {
-      "path": "library/repository/launch-studio/public/series.json",
-      "url": "https://brand.openline.com/library/repository/launch-studio/public/series.json",
-      "bytes": 3504,
-      "sha256": "4bae8b56ff81b188ecb497766b2c74c4a8b314527cc884071c21106304600cda"
+      "path": "library/repository/launch-studio/public/submission.json",
+      "url": "https://brand.openline.com/library/repository/launch-studio/public/submission.json",
+      "bytes": 6962,
+      "sha256": "f6f4f8bedd4c98d0b5c64e069aba4f58d6fa5919332a172611785b0676a2ea44"
     },
     {
       "path": "library/repository/launch-studio/public/submission/apple/01.png",
@@ -11274,12 +12030,6 @@
       "url": "https://brand.openline.com/library/repository/launch-studio/public/submission/google/feature-graphic.png",
       "bytes": 29989,
       "sha256": "ace6e7c2c4061ce8e090d1f2383f552040bb889d001ce92370170b4e496cff87"
-    },
-    {
-      "path": "library/repository/launch-studio/public/submission.json",
-      "url": "https://brand.openline.com/library/repository/launch-studio/public/submission.json",
-      "bytes": 6962,
-      "sha256": "f6f4f8bedd4c98d0b5c64e069aba4f58d6fa5919332a172611785b0676a2ea44"
     },
     {
       "path": "library/repository/launch-studio/scripts/final_icon_formats.py",
@@ -13472,6 +14222,12 @@
       "sha256": "dce1f82a7a71593926e63a1333631f630620cb70026aa126673f7e77e9622dd3"
     },
     {
+      "path": "series.json",
+      "url": "https://brand.openline.com/series.json",
+      "bytes": 3504,
+      "sha256": "4bae8b56ff81b188ecb497766b2c74c4a8b314527cc884071c21106304600cda"
+    },
+    {
       "path": "series/orange-directions-contact-sheet.jpg",
       "url": "https://brand.openline.com/series/orange-directions-contact-sheet.jpg",
       "bytes": 208329,
@@ -13628,10 +14384,10 @@
       "sha256": "7195be0c90b261062203014c5f4c3c90f73eb28b79cd4507f46017c71ef80e8b"
     },
     {
-      "path": "series.json",
-      "url": "https://brand.openline.com/series.json",
-      "bytes": 3504,
-      "sha256": "4bae8b56ff81b188ecb497766b2c74c4a8b314527cc884071c21106304600cda"
+      "path": "submission.json",
+      "url": "https://brand.openline.com/submission.json",
+      "bytes": 6962,
+      "sha256": "f6f4f8bedd4c98d0b5c64e069aba4f58d6fa5919332a172611785b0676a2ea44"
     },
     {
       "path": "submission/apple/01.png",
@@ -13794,13 +14550,7 @@
       "url": "https://brand.openline.com/submission/google/feature-graphic.png",
       "bytes": 29989,
       "sha256": "ace6e7c2c4061ce8e090d1f2383f552040bb889d001ce92370170b4e496cff87"
-    },
-    {
-      "path": "submission.json",
-      "url": "https://brand.openline.com/submission.json",
-      "bytes": 6962,
-      "sha256": "f6f4f8bedd4c98d0b5c64e069aba4f58d6fa5919332a172611785b0676a2ea44"
     }
   ],
-  "total_bytes": 2518783484
+  "total_bytes": 2986266881
 }

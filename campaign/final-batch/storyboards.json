@@ -1,0 +1,464 @@
+{
+  "ads": [
+    {
+      "id": "final-ad-01",
+      "title": "Venice Ferry Timetable",
+      "destination": "Venice, Italy",
+      "narration": "Missing the ferry means missing the light on the water. One quick timetable check, and you're boarding exactly when you need to. Travel data that gets you there. Choose your travel eSIM with Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a linen coat checks her phone on a Venice pier, sunlight reflecting on the canal."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She boards a wooden vaporetto ferry, holding the railing and gazing at the Grand Canal buildings."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-02",
+      "title": "Kyoto Pottery Workshop",
+      "destination": "Kyoto, Japan",
+      "narration": "You didn't fly here to stare at a pin on a map. Find the studio door, put the phone away, and get your hands dirty. Data for your directions, not your distractions. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a navy sweater checks his phone outside a traditional Kyoto machiya house in soft morning light."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He shapes a clay bowl at a sunlit pottery wheel, hands moving with skill in a warm studio."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-03",
+      "title": "Cape Town Photographer",
+      "destination": "Cape Town, South Africa",
+      "narration": "The guide knows the alleys. You just need to find the guide. A quick message confirms the corner, and suddenly you're seeing the city through local eyes. Travel eSIM data when it counts. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman with a camera bag checks her phone on a bright street lined with colorful Cape Town buildings."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She greets a local guide in a vibrant alley, camera pulling back to reveal the lively street scene."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-04",
+      "title": "Swiss Rail Transfer",
+      "destination": "Swiss Alps",
+      "narration": "Platform three or platform five? Wrong train, wrong valley. Check your connection while you still have options, then settle in for the view you came for. Data for real decisions. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a wool coat checks her phone on a modern Swiss train platform, looking up at the display."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She stands by a train window, watching snow-capped mountains pass, hand resting on the window frame."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-05",
+      "title": "New York Theatre Rendezvous",
+      "destination": "New York City",
+      "narration": "Standing under the marquee alone isn't the plan. One message bridges the gap between waiting and waving. Then the show starts, together. Travel data that reconnects. Choose your eSIM at Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a trench coat checks his phone under a glowing theater marquee, city lights reflecting on wet pavement."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He walks toward a theater entrance, waving to someone as the camera follows his movement."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-06",
+      "title": "Oaxaca Cooking Class",
+      "destination": "Oaxaca, Mexico",
+      "narration": "Every plaza looks the same until you find the right courtyard. Your phone points you to the wooden door, and then the kitchen takes over. Maps first, mole sauce second. Get travel eSIM data at Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a woven scarf checks her phone in a sunlit Oaxacan plaza, looking at the buildings."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She arranges fresh ingredients on a rustic kitchen table, sunlight streaming through the window."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-07",
+      "title": "Copenhagen Cyclist Route",
+      "destination": "Copenhagen, Denmark",
+      "narration": "Pedaling lost isn't exercise, it's frustration. Stop, check the route, pocket the phone, and ride with confidence instead of guesswork. Data for clarity, not clutter. Choose your travel eSIM at Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a yellow raincoat checks his phone beside his bicycle on a Copenhagen canal, then looks up."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He rides his bicycle along a sunlit waterfront path, yellow coat fluttering as the camera tracks him."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-08",
+      "title": "Seoul Vintage Shop Hunt",
+      "destination": "Seoul, South Korea",
+      "narration": "Neon doesn't organize itself. You're hunting one specific doorway in a sea of signs. Your phone narrows it down, your instincts seal the deal. Data that finds what you're after. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a blazer checks her phone in a neon-lit Seoul alley, looking up at glowing signs."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "Her hands browse a vintage garment in a warmly lit shop, focusing on tactile interaction with the fabric."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-09",
+      "title": "Buenos Aires Dance Class",
+      "destination": "Buenos Aires, Argentina",
+      "narration": "You can't tango if you can't find the studio. Quick check, iron gates, wooden floors, and suddenly you're watching the dance instead of wandering the block. Travel data clears the path. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a button-down shirt checks his phone outside a historic Buenos Aires building with iron gates."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He stands at a dance studio's edge, watching tango dancers move across the elegant wooden floor."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-10",
+      "title": "Athens Museum Entry",
+      "destination": "Athens, Greece",
+      "narration": "Marble columns don't come with instructions. Check the entry details before you climb, and save your energy for the architecture that matters. Data for your maps and moments. Choose Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in sunglasses checks her phone near a marble structure in Athens, sunlight bright and Mediterranean."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She puts her phone away and walks toward a grand museum entrance, columns rising in the background."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-11",
+      "title": "Dubrovnik Apartment Arrival",
+      "destination": "Dubrovnik, Croatia",
+      "narration": "Stone archways all look historic. Only one has your host behind it. Confirm the address, find the door, and walk in like you belong. Travel eSIM for smooth arrivals. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man with a suitcase checks his phone under a stone archway, sunlight reflecting off Dubrovnik's limestone walls."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He walks through a narrow sunlit alley, pulls his suitcase, and knocks at a heavy wooden door."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-12",
+      "title": "Scottish Island Message",
+      "destination": "Isle of Skye, Scotland",
+      "narration": "The ferry's arriving, and someone's wondering if you made it. Send an update now to share your arrival. Data that keeps you connected across the water. Choose Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a knit sweater checks her phone on a windy Scottish pier as a ferry approaches."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She walks toward a distant stone cottage across a grassy moor, hair blowing in the wind."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-13",
+      "title": "Taipei Night Market Friends",
+      "destination": "Taipei, Taiwan",
+      "narration": "Night markets are enormous. Your friends are somewhere in the glow and steam. One message turns searching into celebrating over bowls you'll remember. Data that brings people together. Choose your eSIM. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a brown shirt checks his phone at a Taipei night market, then smiles toward the food stalls."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He lifts a bowl of noodles at a night-market counter, smiling at two friends in warm lantern light."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-14",
+      "title": "Singapore Work Call",
+      "destination": "Singapore",
+      "narration": "You need ten quiet minutes, not a hotel room. Find the garden, take the call, put the phone away, and step back into the city. Plan your travel eSIM and data at Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in business attire sits in a lush indoor garden, holding her phone as if on a call."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "Her hands rest gently on a glass balcony railing, with ferns and the Singapore skyline beyond."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-15",
+      "title": "Marrakech Artisan Pickup",
+      "destination": "Marrakech, Morocco",
+      "narration": "The rug is ready. You just need to know which courtyard. Confirm the pickup so you're watching the loom, not refreshing the thread. Data for coordination, not complication. Choose Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a linen shirt checks his phone in a Moroccan courtyard filled with colorful textiles."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He reaches out to touch the vibrant wool of a finished rug, hand gliding across the textile."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-16",
+      "title": "Amsterdam Accessible Route",
+      "destination": "Amsterdam, Netherlands",
+      "narration": "Not every canal path is built the same. Check the accessible route before you roll, and spend your energy on the view instead of the detour. Travel data that respects your route. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A person in a wheelchair checks their phone at an Amsterdam canal intersection, looking at a map."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She lowers her phone, looks ahead, and gently advances forward in her wheelchair along the canal path."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-17",
+      "title": "Helsinki Sauna Reservation",
+      "destination": "Helsinki, Finland",
+      "narration": "Showing up at a sauna without a reservation is optimism. Confirming your slot is intelligence. Check it, relax into it, and let the frozen sea do the rest. Travel eSIM clarity. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a winter coat checks her phone outside a modern wooden sauna, lighting crisp and cool."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "A gloved hand opens a sauna door, warm light glowing inside, snowy forest visible in the background."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-18",
+      "title": "Porto Riverside Reunion",
+      "destination": "Porto, Portugal",
+      "narration": "Timing turns a riverside walk into a reunion. Check when they're arriving, meet them in the golden light, and let the bridge frame the moment. Data for your messages. Choose Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a light jacket checks his phone on Porto's stone waterfront at golden hour."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He puts away his phone, smiles, and greets a friend offscreen by the riverside at sunset."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-19",
+      "title": "Queenstown Weather Check",
+      "destination": "Queenstown, New Zealand",
+      "narration": "Mountains are beautiful until the weather isn't. Check the forecast while you're still in town, then head to the lake with a plan instead of a guess. Data before the trail. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A blonde woman in a blue jacket checks her phone on a straight city street, then looks up smiling."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "Her hands tighten the laces of a hiking boot on a rock beside a sparkling lakeside path."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    },
+    {
+      "id": "final-ad-20",
+      "title": "Paris Retiree Message",
+      "destination": "Paris, France",
+      "narration": "A voice message beats a postcard by a week. Record it at the cafe, send it before the espresso cools, and let them hear the Paris in your voice. Travel data, human connection. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "An older woman in a chic scarf records a message at a Parisian cafe table, lighting soft and warm."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "Her hands lift an espresso cup from a marble table, Paris street blurred in the background."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ]
+    }
+  ]
+}

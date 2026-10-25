@@ -24,12 +24,26 @@
 
 The official Openline media kit and working brand library. Logos, app icons, motion, store artwork, design sources, email resources, and shared interface assets are organized here so company teams and approved partners can work from one recognizable visual identity.
 
+## Final batch · v2.5.0
+
+Twenty cinematic travel stories, with narrated everyday uses for mobile data and Openline travel eSIM planning.
+
+[Watch all 20 new ads](https://brand.openline.com/#/ads) · [Stories and downloads](docs/CAMPAIGN-ADS.md) · [Production notes](campaign/final-batch/README.md)
+
+The library now contains 60 short ads, with separate filters for Final batch, the previous voiced campaign, earlier work and all ads. Earlier editions and all 150 Motion collections are preserved.
+
+<a href="https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-01.mp4"><img src=".github/assets/videos-v2.5/final-ad-01.jpg" alt="Venice Ferry Timetable: decoded final video frame" width="220"></a>
+<a href="https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-06.mp4"><img src=".github/assets/videos-v2.5/final-ad-06.jpg" alt="Oaxaca Cooking Class: decoded final video frame" width="220"></a>
+<a href="https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-17.mp4"><img src=".github/assets/videos-v2.5/final-ad-17.jpg" alt="Helsinki Sauna Reservation: decoded final video frame" width="220"></a>
+
+The revised continuous Hellen tutorial is still awaiting its provider render. The existing illustrated tutorial remains available; the new tutorial is not included in this update.
+
 ## Expanded brand library
 
-The v2.4.0 brand-library application is available in [`brand-library/`](brand-library/), alongside the preserved `launch-studio/`. It brings identity, short ads, motion, AI-presenter comparisons, product sources and archives into one searchable resource library.
+The v2.5.0 brand-library application is available in [`brand-library/`](brand-library/), alongside the preserved `launch-studio/`. It brings identity, short ads, motion, AI-presenter comparisons, product sources and archives into one searchable resource library.
 
 - **Motion cards:** 150 editions, including 85 new editions derived from 17 sound families across five layouts (68 horizontal 1920x1080; 17 square 1000x1000). The 85 new editions are each 12.16 seconds, 50fps, with four 3.04-second cycles. These use exact source silhouette/timing, not redrawn logos. Five shared silent GIF previews and JPEG posters, per-edition MP4/AAC, lossless FLAC sound, and JSON event scores are provided. Production files are located at `/library/productions/motion-150/`.
-- **Campaign ads:** 40 active short ads, including 10 new voiced travel stories (~22.1s). The new ads feature revised word-pop captions, spaced logo/QR/openline.com outros, and AI circle disclosure. Previous editions are retained in Archives. Generated scenes are not actual customer/app/performance footage.
+- **Campaign ads:** 60 active short ads: 20 Final batch stories, 10 previous voiced stories, and 30 earlier ads. Final batch features word-pop captions, six-second three-zone logo/QR/openline.com outros, and timed AI disclosure. Previous editions are retained in Archives. Generated scenes are not actual customer/app/performance footage.
 - **Presenter entries:** Six entries, including four long comparison samples, a pilot, and a full tutorial. The full Hellen04 tutorial is ~89 seconds, with one continuous presenter take and Ashley narration, set in a blurred fictional office. The illustrated installation guide is explicitly approved by the owner and is not a genuine iPhone capture.
 - **Original resources:** The repository snapshot retains provenance, source formats, and review status; the approved app icon remains 43.5% mark, unchanged.
 - **Handoff:** New operational documentation includes [`docs/BRAND-LIBRARY.md`](docs/BRAND-LIBRARY.md), [`docs/MOTION.md`](docs/MOTION.md), [`docs/AI-PRESENTERS.md`](docs/AI-PRESENTERS.md), [`docs/CAMPAIGN-ADS.md`](docs/CAMPAIGN-ADS.md), [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md), and [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).

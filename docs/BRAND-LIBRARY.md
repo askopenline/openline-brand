@@ -4,7 +4,7 @@ This document describes the `brand-library/` application, which serves as the pr
 
 ## Application Structure and Deployment
 
-The `brand-library/` application is a React-based single-page application. It is deployed on Fly.io with an always-on sharedCPU256MB instance, a 3GB volume, and a static Nginx server. The application does not perform any runtime AI calls or database operations.
+The `brand-library/` application is a React-based single-page application. It is deployed on Fly.io with an always-on sharedCPU256MB instance, a 6GB volume, and a static Nginx server. The application does not perform any runtime AI calls or database operations.
 
 Releases are handled via incremental atomic symlink updates, allowing for quick rollbacks. A private, short-lived transfer route is used for deployment. Secrets, provider payloads, receipts, and raw unapproved generations are excluded from the deployment.
 
@@ -23,7 +23,7 @@ The brand library provides access to various brand assets, including:
 *   **Overview**: General information about the Openline brand.
 *   **Assets**: A collection of static brand assets.
 *   **Motion**: Animated brand elements, including the expanded collection of 150 motion cards.
-*   **Ads**: Campaign advertisements, including 40 active short ads.
+*   **Ads**: Campaign advertisements, including 60 active short ads.
 *   **Presenters**: AI-generated presenter content.
 *   **App**: Resources related to the Openline app.
 *   **Guidelines**: Brand usage guidelines.

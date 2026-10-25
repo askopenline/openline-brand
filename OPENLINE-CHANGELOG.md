@@ -2,6 +2,18 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.5.0 library update (2026-10-25)
+
+- **Final batch:** 20 additional voiced travel ads, bringing the library to 60 ads.
+- **Browsing:** Separate Final batch, previous voiced campaign, earlier work and all-ad filters.
+- **Video treatments:** Word-pop captions, timed AI disclosure and 6.08-second three-zone animated-logo, QR and website outros.
+- **Downloads:** Individual MP4s, posters, captions, timing data and storyboards; checksum-verified hydration entries preserve the full public media library outside Git binaries.
+- **Documentation:** New campaign metadata, production notes and decoded video screenshots in the README.
+- **Hosting:** Existing always-on Fly machine retained; its storage volume expanded from 3 GB to 6 GB.
+- **Tutorial status:** The revised continuous Hellen tutorial is not included yet. Its existing provider render remains pending; the previous illustrated tutorial stays available.
+
+No GitHub release tag is created by this library update.
+
 ## v2.4.0 (2026-10-25)
 
 This release focuses on expanding our motion graphics library and refining documentation.

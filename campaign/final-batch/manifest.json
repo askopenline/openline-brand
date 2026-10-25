@@ -1,0 +1,933 @@
+{
+  "batch": "final",
+  "label": "Final batch",
+  "series": "campaign-final-twenty",
+  "ui": {
+    "title": "Final batch",
+    "description": "Twenty cinematic travel stories, with narrated everyday uses for mobile data and Openline travel eSIM planning.",
+    "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability."
+  },
+  "ads": [
+    {
+      "id": "final-ad-01",
+      "number": 1,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Venice Ferry Timetable",
+      "description": "Checking ferry schedules",
+      "destination": "Venice, Italy",
+      "narration": "Missing the ferry means missing the light on the water. One quick timetable check, and you're boarding exactly when you need to. Travel data that gets you there. Choose your travel eSIM with Openline dot com.",
+      "story": "Missing the ferry means missing the light on the water. One quick timetable check, and you're boarding exactly when you need to. Travel data that gets you there. Choose your travel eSIM with Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a linen coat checks her phone on a Venice pier, sunlight reflecting on the canal."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She boards a wooden vaporetto ferry, holding the railing and gazing at the Grand Canal buildings."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-01.jpg",
+      "theme": "Checking ferry schedules",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-01.mp4",
+      "poster": "posters/final-ad-01.jpg",
+      "caption_srt": "captions/final-ad-01.srt",
+      "caption_vtt": "captions/final-ad-01.vtt",
+      "captions_srt": "captions/final-ad-01.srt",
+      "captions": "captions/final-ad-01.vtt",
+      "word_timestamps": "captions/final-ad-01-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "5a87874bfb7875fa6dfe99b8dcc8d9ccac8bba11fbb29a4989719c05a6eaa9b3",
+      "bytes": 27458322
+    },
+    {
+      "id": "final-ad-02",
+      "number": 2,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Kyoto Pottery Workshop",
+      "description": "Locating a meeting point",
+      "destination": "Kyoto, Japan",
+      "narration": "You didn't fly here to stare at a pin on a map. Find the studio door, put the phone away, and get your hands dirty. Data for your directions, not your distractions. Openline dot com.",
+      "story": "You didn't fly here to stare at a pin on a map. Find the studio door, put the phone away, and get your hands dirty. Data for your directions, not your distractions. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a navy sweater checks his phone outside a traditional Kyoto machiya house in soft morning light."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He shapes a clay bowl at a sunlit pottery wheel, hands moving with skill in a warm studio."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-02.jpg",
+      "theme": "Locating a meeting point",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-02.mp4",
+      "poster": "posters/final-ad-02.jpg",
+      "caption_srt": "captions/final-ad-02.srt",
+      "caption_vtt": "captions/final-ad-02.vtt",
+      "captions_srt": "captions/final-ad-02.srt",
+      "captions": "captions/final-ad-02.vtt",
+      "word_timestamps": "captions/final-ad-02-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "a8e0214a92e6fe8806a9014de92f1912dfa7228b1134461526c5bc2b7ffa443b",
+      "bytes": 17310014
+    },
+    {
+      "id": "final-ad-03",
+      "number": 3,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Cape Town Photographer",
+      "description": "Meeting a local guide",
+      "destination": "Cape Town, South Africa",
+      "narration": "The guide knows the alleys. You just need to find the guide. A quick message confirms the corner, and suddenly you're seeing the city through local eyes. Travel eSIM data when it counts. Openline dot com.",
+      "story": "The guide knows the alleys. You just need to find the guide. A quick message confirms the corner, and suddenly you're seeing the city through local eyes. Travel eSIM data when it counts. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman with a camera bag checks her phone on a bright street lined with colorful Cape Town buildings."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She greets a local guide in a vibrant alley, camera pulling back to reveal the lively street scene."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-03.jpg",
+      "theme": "Meeting a local guide",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-03.mp4",
+      "poster": "posters/final-ad-03.jpg",
+      "caption_srt": "captions/final-ad-03.srt",
+      "caption_vtt": "captions/final-ad-03.vtt",
+      "captions_srt": "captions/final-ad-03.srt",
+      "captions": "captions/final-ad-03.vtt",
+      "word_timestamps": "captions/final-ad-03-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "be39ba9d4b9339ca6110005e0bf4b529f344d65c2052985e1948e57f3081cb41",
+      "bytes": 28943864
+    },
+    {
+      "id": "final-ad-04",
+      "number": 4,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Swiss Rail Transfer",
+      "description": "Checking rail transfer info",
+      "destination": "Swiss Alps",
+      "narration": "Platform three or platform five? Wrong train, wrong valley. Check your connection while you still have options, then settle in for the view you came for. Data for real decisions. Openline dot com.",
+      "story": "Platform three or platform five? Wrong train, wrong valley. Check your connection while you still have options, then settle in for the view you came for. Data for real decisions. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a wool coat checks her phone on a modern Swiss train platform, looking up at the display."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She stands by a train window, watching snow-capped mountains pass, hand resting on the window frame."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-04.jpg",
+      "theme": "Checking rail transfer info",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-04.mp4",
+      "poster": "posters/final-ad-04.jpg",
+      "caption_srt": "captions/final-ad-04.srt",
+      "caption_vtt": "captions/final-ad-04.vtt",
+      "captions_srt": "captions/final-ad-04.srt",
+      "captions": "captions/final-ad-04.vtt",
+      "word_timestamps": "captions/final-ad-04-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "4741439fbb2dc93b88b2d278857400e2c90d323d0cfee4df1770d2ce2715700d",
+      "bytes": 19777279
+    },
+    {
+      "id": "final-ad-05",
+      "number": 5,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "New York Theatre Rendezvous",
+      "description": "Coordinating a meeting",
+      "destination": "New York City",
+      "narration": "Standing under the marquee alone isn't the plan. One message bridges the gap between waiting and waving. Then the show starts, together. Travel data that reconnects. Choose your eSIM at Openline dot com.",
+      "story": "Standing under the marquee alone isn't the plan. One message bridges the gap between waiting and waving. Then the show starts, together. Travel data that reconnects. Choose your eSIM at Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a trench coat checks his phone under a glowing theater marquee, city lights reflecting on wet pavement."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He walks toward a theater entrance, waving to someone as the camera follows his movement."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-05.jpg",
+      "theme": "Coordinating a meeting",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-05.mp4",
+      "poster": "posters/final-ad-05.jpg",
+      "caption_srt": "captions/final-ad-05.srt",
+      "caption_vtt": "captions/final-ad-05.vtt",
+      "captions_srt": "captions/final-ad-05.srt",
+      "captions": "captions/final-ad-05.vtt",
+      "word_timestamps": "captions/final-ad-05-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "6a013f1f1f910033b30f27ac321b007f775ac38c114776b199dc74b86dcececa",
+      "bytes": 25513017
+    },
+    {
+      "id": "final-ad-06",
+      "number": 6,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Oaxaca Cooking Class",
+      "description": "Finding a class location",
+      "destination": "Oaxaca, Mexico",
+      "narration": "Every plaza looks the same until you find the right courtyard. Your phone points you to the wooden door, and then the kitchen takes over. Maps first, mole sauce second. Get travel eSIM data at Openline dot com.",
+      "story": "Every plaza looks the same until you find the right courtyard. Your phone points you to the wooden door, and then the kitchen takes over. Maps first, mole sauce second. Get travel eSIM data at Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a woven scarf checks her phone in a sunlit Oaxacan plaza, looking at the buildings."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She arranges fresh ingredients on a rustic kitchen table, sunlight streaming through the window."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-06.jpg",
+      "theme": "Finding a class location",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-06.mp4",
+      "poster": "posters/final-ad-06.jpg",
+      "caption_srt": "captions/final-ad-06.srt",
+      "caption_vtt": "captions/final-ad-06.vtt",
+      "captions_srt": "captions/final-ad-06.srt",
+      "captions": "captions/final-ad-06.vtt",
+      "word_timestamps": "captions/final-ad-06-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "dc737ba85d9aacb92bbc537e1af907e7d82765d5c934f5a66e861e451fa4aeab",
+      "bytes": 20045335
+    },
+    {
+      "id": "final-ad-07",
+      "number": 7,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Copenhagen Cyclist Route",
+      "description": "Checking a route while stopped",
+      "destination": "Copenhagen, Denmark",
+      "narration": "Pedaling lost isn't exercise, it's frustration. Stop, check the route, pocket the phone, and ride with confidence instead of guesswork. Data for clarity, not clutter. Choose your travel eSIM at Openline dot com.",
+      "story": "Pedaling lost isn't exercise, it's frustration. Stop, check the route, pocket the phone, and ride with confidence instead of guesswork. Data for clarity, not clutter. Choose your travel eSIM at Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a yellow raincoat checks his phone beside his bicycle on a Copenhagen canal, then looks up."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He rides his bicycle along a sunlit waterfront path, yellow coat fluttering as the camera tracks him."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-07.jpg",
+      "theme": "Checking a route while stopped",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-07.mp4",
+      "poster": "posters/final-ad-07.jpg",
+      "caption_srt": "captions/final-ad-07.srt",
+      "caption_vtt": "captions/final-ad-07.vtt",
+      "captions_srt": "captions/final-ad-07.srt",
+      "captions": "captions/final-ad-07.vtt",
+      "word_timestamps": "captions/final-ad-07-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "f51bc8a431a860838412ed0fa99bc2b9378cb5279aa8aed936dd3e5d9124d30d",
+      "bytes": 20605120
+    },
+    {
+      "id": "final-ad-08",
+      "number": 8,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Seoul Vintage Shop Hunt",
+      "description": "Finding a specific shop",
+      "destination": "Seoul, South Korea",
+      "narration": "Neon doesn't organize itself. You're hunting one specific doorway in a sea of signs. Your phone narrows it down, your instincts seal the deal. Data that finds what you're after. Openline dot com.",
+      "story": "Neon doesn't organize itself. You're hunting one specific doorway in a sea of signs. Your phone narrows it down, your instincts seal the deal. Data that finds what you're after. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a blazer checks her phone in a neon-lit Seoul alley, looking up at glowing signs."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "Her hands browse a vintage garment in a warmly lit shop, focusing on tactile interaction with the fabric."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-08.jpg",
+      "theme": "Finding a specific shop",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-08.mp4",
+      "poster": "posters/final-ad-08.jpg",
+      "caption_srt": "captions/final-ad-08.srt",
+      "caption_vtt": "captions/final-ad-08.vtt",
+      "captions_srt": "captions/final-ad-08.srt",
+      "captions": "captions/final-ad-08.vtt",
+      "word_timestamps": "captions/final-ad-08-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "714edcbe638ae7c0d903cd2541fa88cd55ad1ea9e5e80da45eef842f86bb498e",
+      "bytes": 23016645
+    },
+    {
+      "id": "final-ad-09",
+      "number": 9,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Buenos Aires Dance Class",
+      "description": "Checking class details",
+      "destination": "Buenos Aires, Argentina",
+      "narration": "You can't tango if you can't find the studio. Quick check, iron gates, wooden floors, and suddenly you're watching the dance instead of wandering the block. Travel data clears the path. Openline dot com.",
+      "story": "You can't tango if you can't find the studio. Quick check, iron gates, wooden floors, and suddenly you're watching the dance instead of wandering the block. Travel data clears the path. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a button-down shirt checks his phone outside a historic Buenos Aires building with iron gates."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He stands at a dance studio's edge, watching tango dancers move across the elegant wooden floor."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-09.jpg",
+      "theme": "Checking class details",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-09.mp4",
+      "poster": "posters/final-ad-09.jpg",
+      "caption_srt": "captions/final-ad-09.srt",
+      "caption_vtt": "captions/final-ad-09.vtt",
+      "captions_srt": "captions/final-ad-09.srt",
+      "captions": "captions/final-ad-09.vtt",
+      "word_timestamps": "captions/final-ad-09-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "6d408003d028e0b82bedea8510b01593bf37c3ea0acd2dfa14fb43ff3855fc23",
+      "bytes": 13010774
+    },
+    {
+      "id": "final-ad-10",
+      "number": 10,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Athens Museum Entry",
+      "description": "Checking entry details",
+      "destination": "Athens, Greece",
+      "narration": "Marble columns don't come with instructions. Check the entry details before you climb, and save your energy for the architecture that matters. Data for your maps and moments. Choose Openline dot com.",
+      "story": "Marble columns don't come with instructions. Check the entry details before you climb, and save your energy for the architecture that matters. Data for your maps and moments. Choose Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in sunglasses checks her phone near a marble structure in Athens, sunlight bright and Mediterranean."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She puts her phone away and walks toward a grand museum entrance, columns rising in the background."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-10.jpg",
+      "theme": "Checking entry details",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-10.mp4",
+      "poster": "posters/final-ad-10.jpg",
+      "caption_srt": "captions/final-ad-10.srt",
+      "caption_vtt": "captions/final-ad-10.vtt",
+      "captions_srt": "captions/final-ad-10.srt",
+      "captions": "captions/final-ad-10.vtt",
+      "word_timestamps": "captions/final-ad-10-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "b9b223b72f3fb93701aa237f78ebe09245ffe18d5b0739af1c22dbd5811a84ff",
+      "bytes": 31824738
+    },
+    {
+      "id": "final-ad-11",
+      "number": 11,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Dubrovnik Apartment Arrival",
+      "description": "Coordinating arrival",
+      "destination": "Dubrovnik, Croatia",
+      "narration": "Stone archways all look historic. Only one has your host behind it. Confirm the address, find the door, and walk in like you belong. Travel eSIM for smooth arrivals. Openline dot com.",
+      "story": "Stone archways all look historic. Only one has your host behind it. Confirm the address, find the door, and walk in like you belong. Travel eSIM for smooth arrivals. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man with a suitcase checks his phone under a stone archway, sunlight reflecting off Dubrovnik's limestone walls."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He walks through a narrow sunlit alley, pulls his suitcase, and knocks at a heavy wooden door."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-11.jpg",
+      "theme": "Coordinating arrival",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-11.mp4",
+      "poster": "posters/final-ad-11.jpg",
+      "caption_srt": "captions/final-ad-11.srt",
+      "caption_vtt": "captions/final-ad-11.vtt",
+      "captions_srt": "captions/final-ad-11.srt",
+      "captions": "captions/final-ad-11.vtt",
+      "word_timestamps": "captions/final-ad-11-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "d790751637a57935888a61e366032842874cbb1f8791fb26e5ce0030671f29bb",
+      "bytes": 25129957
+    },
+    {
+      "id": "final-ad-12",
+      "number": 12,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Scottish Island Message",
+      "description": "Sending an arrival message",
+      "destination": "Isle of Skye, Scotland",
+      "narration": "The ferry's arriving, and someone's wondering if you made it. Send an update now to share your arrival. Data that keeps you connected across the water. Choose Openline dot com.",
+      "story": "The ferry's arriving, and someone's wondering if you made it. Send an update now to share your arrival. Data that keeps you connected across the water. Choose Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a knit sweater checks her phone on a windy Scottish pier as a ferry approaches."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She walks toward a distant stone cottage across a grassy moor, hair blowing in the wind."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-12.jpg",
+      "theme": "Sending an arrival message",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-12.mp4",
+      "poster": "posters/final-ad-12.jpg",
+      "caption_srt": "captions/final-ad-12.srt",
+      "caption_vtt": "captions/final-ad-12.vtt",
+      "captions_srt": "captions/final-ad-12.srt",
+      "captions": "captions/final-ad-12.vtt",
+      "word_timestamps": "captions/final-ad-12-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "5cfb45ecf0a406538c55d1f5a754c916aec10e1de2ba2e3e3c3cc81e408d7fdf",
+      "bytes": 27001703
+    },
+    {
+      "id": "final-ad-13",
+      "number": 13,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Taipei Night Market Friends",
+      "description": "Finding friends",
+      "destination": "Taipei, Taiwan",
+      "narration": "Night markets are enormous. Your friends are somewhere in the glow and steam. One message turns searching into celebrating over bowls you'll remember. Data that brings people together. Choose your eSIM. Openline dot com.",
+      "story": "Night markets are enormous. Your friends are somewhere in the glow and steam. One message turns searching into celebrating over bowls you'll remember. Data that brings people together. Choose your eSIM. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a brown shirt checks his phone at a Taipei night market, then smiles toward the food stalls."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He lifts a bowl of noodles at a night-market counter, smiling at two friends in warm lantern light."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-13.jpg",
+      "theme": "Finding friends",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-13.mp4",
+      "poster": "posters/final-ad-13.jpg",
+      "caption_srt": "captions/final-ad-13.srt",
+      "caption_vtt": "captions/final-ad-13.vtt",
+      "captions_srt": "captions/final-ad-13.srt",
+      "captions": "captions/final-ad-13.vtt",
+      "word_timestamps": "captions/final-ad-13-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "0fa520dbe4b9e1872d202aa991b50c2f5c22709f6b6e646e5b0c2f76e7bd7b02",
+      "bytes": 18538294
+    },
+    {
+      "id": "final-ad-14",
+      "number": 14,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Singapore Work Call",
+      "description": "Quiet video call",
+      "destination": "Singapore",
+      "narration": "You need ten quiet minutes, not a hotel room. Find the garden, take the call, put the phone away, and step back into the city. Plan your travel eSIM and data at Openline dot com.",
+      "story": "You need ten quiet minutes, not a hotel room. Find the garden, take the call, put the phone away, and step back into the city. Plan your travel eSIM and data at Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in business attire sits in a lush indoor garden, holding her phone as if on a call."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "Her hands rest gently on a glass balcony railing, with ferns and the Singapore skyline beyond."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-14.jpg",
+      "theme": "Quiet video call",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-14.mp4",
+      "poster": "posters/final-ad-14.jpg",
+      "caption_srt": "captions/final-ad-14.srt",
+      "caption_vtt": "captions/final-ad-14.vtt",
+      "captions_srt": "captions/final-ad-14.srt",
+      "captions": "captions/final-ad-14.vtt",
+      "word_timestamps": "captions/final-ad-14-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "80eac561d9011c3b3acdda1a9799d70ac662b6cf3a991b2461ffb8be9442bdc3",
+      "bytes": 21379159
+    },
+    {
+      "id": "final-ad-15",
+      "number": 15,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Marrakech Artisan Pickup",
+      "description": "Pickup coordination",
+      "destination": "Marrakech, Morocco",
+      "narration": "The rug is ready. You just need to know which courtyard. Confirm the pickup so you're watching the loom, not refreshing the thread. Data for coordination, not complication. Choose Openline dot com.",
+      "story": "The rug is ready. You just need to know which courtyard. Confirm the pickup so you're watching the loom, not refreshing the thread. Data for coordination, not complication. Choose Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a linen shirt checks his phone in a Moroccan courtyard filled with colorful textiles."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He reaches out to touch the vibrant wool of a finished rug, hand gliding across the textile."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-15.jpg",
+      "theme": "Pickup coordination",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-15.mp4",
+      "poster": "posters/final-ad-15.jpg",
+      "caption_srt": "captions/final-ad-15.srt",
+      "caption_vtt": "captions/final-ad-15.vtt",
+      "captions_srt": "captions/final-ad-15.srt",
+      "captions": "captions/final-ad-15.vtt",
+      "word_timestamps": "captions/final-ad-15-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "c2ebb01c63f05c7b60b9699a11c0b39f05a712170bc644df95334b7757ef044b",
+      "bytes": 17696271
+    },
+    {
+      "id": "final-ad-16",
+      "number": 16,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Amsterdam Accessible Route",
+      "description": "Accessible route planning",
+      "destination": "Amsterdam, Netherlands",
+      "narration": "Not every canal path is built the same. Check the accessible route before you roll, and spend your energy on the view instead of the detour. Travel data that respects your route. Openline dot com.",
+      "story": "Not every canal path is built the same. Check the accessible route before you roll, and spend your energy on the view instead of the detour. Travel data that respects your route. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A person in a wheelchair checks their phone at an Amsterdam canal intersection, looking at a map."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "She lowers her phone, looks ahead, and gently advances forward in her wheelchair along the canal path."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-16.jpg",
+      "theme": "Accessible route planning",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-16.mp4",
+      "poster": "posters/final-ad-16.jpg",
+      "caption_srt": "captions/final-ad-16.srt",
+      "caption_vtt": "captions/final-ad-16.vtt",
+      "captions_srt": "captions/final-ad-16.srt",
+      "captions": "captions/final-ad-16.vtt",
+      "word_timestamps": "captions/final-ad-16-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "0b53232b5dd2ac2c602e8c7ae1f2a0e504fc3a1b7dc0bca012e41bfe848c7826",
+      "bytes": 37339634
+    },
+    {
+      "id": "final-ad-17",
+      "number": 17,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Helsinki Sauna Reservation",
+      "description": "Reservation check",
+      "destination": "Helsinki, Finland",
+      "narration": "Showing up at a sauna without a reservation is optimism. Confirming your slot is intelligence. Check it, relax into it, and let the frozen sea do the rest. Travel eSIM clarity. Openline dot com.",
+      "story": "Showing up at a sauna without a reservation is optimism. Confirming your slot is intelligence. Check it, relax into it, and let the frozen sea do the rest. Travel eSIM clarity. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A woman in a winter coat checks her phone outside a modern wooden sauna, lighting crisp and cool."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "A gloved hand opens a sauna door, warm light glowing inside, snowy forest visible in the background."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-17.jpg",
+      "theme": "Reservation check",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-17.mp4",
+      "poster": "posters/final-ad-17.jpg",
+      "caption_srt": "captions/final-ad-17.srt",
+      "caption_vtt": "captions/final-ad-17.vtt",
+      "captions_srt": "captions/final-ad-17.srt",
+      "captions": "captions/final-ad-17.vtt",
+      "word_timestamps": "captions/final-ad-17-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "68e157b669405d89a00443f691d248ba8fbdbd918da5a78d23861759065fb292",
+      "bytes": 15269387
+    },
+    {
+      "id": "final-ad-18",
+      "number": 18,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Porto Riverside Reunion",
+      "description": "Reunion timing",
+      "destination": "Porto, Portugal",
+      "narration": "Timing turns a riverside walk into a reunion. Check when they're arriving, meet them in the golden light, and let the bridge frame the moment. Data for your messages. Choose Openline dot com.",
+      "story": "Timing turns a riverside walk into a reunion. Check when they're arriving, meet them in the golden light, and let the bridge frame the moment. Data for your messages. Choose Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A man in a light jacket checks his phone on Porto's stone waterfront at golden hour."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "He puts away his phone, smiles, and greets a friend offscreen by the riverside at sunset."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-18.jpg",
+      "theme": "Reunion timing",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-18.mp4",
+      "poster": "posters/final-ad-18.jpg",
+      "caption_srt": "captions/final-ad-18.srt",
+      "caption_vtt": "captions/final-ad-18.vtt",
+      "captions_srt": "captions/final-ad-18.srt",
+      "captions": "captions/final-ad-18.vtt",
+      "word_timestamps": "captions/final-ad-18-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "40afef282cecc8200659c3e0bbd3eecc2674bff5402f6939c3fbf323c27ffd9b",
+      "bytes": 28680350
+    },
+    {
+      "id": "final-ad-19",
+      "number": 19,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Queenstown Weather Check",
+      "description": "Weather check",
+      "destination": "Queenstown, New Zealand",
+      "narration": "Mountains are beautiful until the weather isn't. Check the forecast while you're still in town, then head to the lake with a plan instead of a guess. Data before the trail. Openline dot com.",
+      "story": "Mountains are beautiful until the weather isn't. Check the forecast while you're still in town, then head to the lake with a plan instead of a guess. Data before the trail. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "A blonde woman in a blue jacket checks her phone on a straight city street, then looks up smiling."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "Her hands tighten the laces of a hiking boot on a rock beside a sparkling lakeside path."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-19.jpg",
+      "theme": "Weather check",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-19.mp4",
+      "poster": "posters/final-ad-19.jpg",
+      "caption_srt": "captions/final-ad-19.srt",
+      "caption_vtt": "captions/final-ad-19.vtt",
+      "captions_srt": "captions/final-ad-19.srt",
+      "captions": "captions/final-ad-19.vtt",
+      "word_timestamps": "captions/final-ad-19-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "5395b63ba2f20ab7ac78d7d2a967fd158c6727cce87a1e0d6efee4e59f9b787a",
+      "bytes": 18166877
+    },
+    {
+      "id": "final-ad-20",
+      "number": 20,
+      "batch": "final",
+      "label": "Final batch",
+      "series": "campaign-final-twenty",
+      "title": "Paris Retiree Message",
+      "description": "Voice message home",
+      "destination": "Paris, France",
+      "narration": "A voice message beats a postcard by a week. Record it at the cafe, send it before the espresso cools, and let them hear the Paris in your voice. Travel data, human connection. Openline dot com.",
+      "story": "A voice message beats a postcard by a week. Record it at the cafe, send it before the espresso cools, and let them hear the Paris in your voice. Travel data, human connection. Openline dot com.",
+      "storyboard": [
+        {
+          "start": 0,
+          "end": 8,
+          "action": "An older woman in a chic scarf records a message at a Parisian cafe table, lighting soft and warm."
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "action": "Her hands lift an espresso cup from a marble table, Paris street blurred in the background."
+        },
+        {
+          "start": 16,
+          "end": 22.08,
+          "action": "The Openline icon animates above a stationary QR code and openline.com in three equal stacked zones."
+        }
+      ],
+      "storyboard_image": "storyboards/final-ad-20.jpg",
+      "theme": "Voice message home",
+      "duration_seconds": 22.08,
+      "mp4": "mp4/final-ad-20.mp4",
+      "poster": "posters/final-ad-20.jpg",
+      "caption_srt": "captions/final-ad-20.srt",
+      "caption_vtt": "captions/final-ad-20.vtt",
+      "captions_srt": "captions/final-ad-20.srt",
+      "captions": "captions/final-ad-20.vtt",
+      "word_timestamps": "captions/final-ad-20-words.json",
+      "cta_url": "https://openline.com",
+      "disclosure": "AI-generated travel scenes and synthetic narration. Fictional situations, not customer testimonials or proof of local network availability.",
+      "sha256": "478ad3abbf019601574acf08f46711373d4015d8d45ce87e172084d482cc0c5d",
+      "bytes": 19047593
+    }
+  ],
+  "production": {
+    "video": "Veo 3.1 Fast via Runware; two unique native-speed eight-second scenes per ad",
+    "narration": "One uninterrupted synthetic narration pass per ad; no time stretching",
+    "format": "1080x1920, 9:16, H.264/AAC, 50fps delivery preserving original logo timing",
+    "logo": "User-supplied original animation, 152 frames at20ms/frame; two cycles",
+    "outro": {
+      "start_seconds": 16,
+      "duration_seconds": 6.08,
+      "background": "#FF6418",
+      "equal_height_bands": 3,
+      "centres": {
+        "icon": [
+          540,
+          320
+        ],
+        "qr": [
+          540,
+          960
+        ],
+        "domain": [
+          540,
+          1600
+        ]
+      },
+      "qr_target": "https://openline.com",
+      "qr_static_entire_outro": true,
+      "domain": "openline.com",
+      "additional_wordmark_or_slogan": false
+    },
+    "ai_disclosure": {
+      "badge": "White rounded AI badge, top right",
+      "generated_by_visible_seconds": [
+        0,
+        1.2
+      ],
+      "badge_opacity_before_2s": 1,
+      "badge_opacity_after_2s": 0.7,
+      "badge_remains_to_end": true
+    },
+    "audio": "Original procedural harmonic bed and logo-motion sound cues; mastered narration and effects",
+    "captions": "Audio-derived word-level timestamps, TikTok-safe lower placement, no captions during outro"
+  },
+  "rights_and_ai_caveats": [
+    "Fictional AI-generated adults and travel settings, with synthetic narration. Not actual customers, testimonials, app demonstrations, or evidence of network coverage/performance.",
+    "Destination scenery is travel inspiration only. Check destination-plan availability, device compatibility and current terms at https://openline.com before purchase.",
+    "Openline logo uses the user-supplied original animation. User authorization was relied upon; asset ownership was not independently verified.",
+    "Footage and speech were generated through the user-approved Runware account. Commercial reuse remains subject to applicable provider/model terms; no independent legal clearance is asserted.",
+    "Music and logo-motion effects are original procedural compositions, with no third-party samples or stock music.",
+    "Check platform-specific AI and advertising disclosure settings when publishing; the on-video badge is not a certification of platform compliance.",
+    "Private API receipts, paid source URLs, credentials metadata and working source cuts are excluded from the public whitelist."
+  ],
+  "qa": {
+    "status": "complete",
+    "every_ad_full_decode": true,
+    "every_ad_audio_transcribed_and_reviewed": true,
+    "every_ad_complete_proxy_multimodal_review": true,
+    "caption_bounds_checked": true,
+    "loudness_and_true_peak_measured": true,
+    "checks": "qa-summary.json",
+    "every_ad_qr_tested_through_outro": true
+  }
+}
