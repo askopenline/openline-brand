@@ -25,7 +25,7 @@ This release focuses on expanding our motion graphics library and refining docum
 *   Removed obsolete GitHub pending-sync and read-only notices.
 
 - Added seven real video-frame previews to the README, linked to their full MP4s.
-- Attached a public-only 85-edition Motion pack and SHA256 manifests to the release.
+- Added live Motion download links and the tracked SHA256 media manifest to the release notes. A prepared 85-edition ZIP remains unattached because GitHub rejected binary uploads.
 
 ## Company edition: 17 October 2026
 
