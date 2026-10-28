@@ -1,5 +1,12 @@
 # Main flows
 
+## App and store resource hub (v2.5.3)
+- App & store leads with prominent App Store and Google Play listing-preview links.
+- Current marketing and separate Apple/Google submission screenshot rows each show six clickable frames.
+- Listing entries expose their existing metadata and copy/package downloads, without implying published listings or store approval.
+- Filters expose screenshots, listing resources, icons, source screens and archive variants; all-files/search/reset remain usable.
+- Verify both listing preview destinations, screenshot modal/download, metadata expansion, desktop/mobile layout and all nine navigation views.
+
 ## Logos library
 - Logos navigation opens icon-only, text-only and combined artwork with animated and archive filters.
 - Website / HTML shows the two observed live header implementations, each with sandboxed previews and HTML/CSS/source/ZIP downloads.

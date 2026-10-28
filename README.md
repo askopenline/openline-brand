@@ -24,6 +24,12 @@
 
 The official Openline media kit and working brand library. Logos, app icons, motion, store artwork, design sources, email resources, and shared interface assets are organized here so company teams and approved partners can work from one recognizable visual identity.
 
+## App & store resource hub · v2.5.3
+
+The [App & store page](https://brand.openline.com/#/app) now brings together current screenshot artwork, separate Apple and Google submission drafts, listing fields, packages, source screens and historical assets. Its preview block links directly to the App Store, Google Play, iPhone and Android presentations.
+
+Four six-frame galleries show the current phone artwork and submission variants. Listing copy can be read on the page or downloaded with the existing packages; draft status and release-build verification requirements are retained.
+
 ## Tutorial: human craft comes next · v2.5.2
 
 **Work in progress. Coming soon from a talented human.**
@@ -62,7 +68,7 @@ The earlier three-minute animated installation example remains available in the 
 
 ## Expanded brand library
 
-The v2.5.2 brand-library application is available in [`brand-library/`](brand-library/), alongside the preserved `launch-studio/`. It brings identity, short ads, motion, AI-presenter comparisons, product sources and archives into one searchable resource library.
+The v2.5.3 brand-library application is available in [`brand-library/`](brand-library/), alongside the preserved `launch-studio/`. It brings identity, short ads, motion, AI-presenter comparisons, product sources and archives into one searchable resource library.
 
 - **Motion cards:** 150 editions, including 85 new editions derived from 17 sound families across five layouts (68 horizontal 1920x1080; 17 square 1000x1000). The 85 new editions are each 12.16 seconds, 50fps, with four 3.04-second cycles. These use exact source silhouette/timing, not redrawn logos. Five shared silent GIF previews and JPEG posters, per-edition MP4/AAC, lossless FLAC sound, and JSON event scores are provided. Production files are located at `/library/productions/motion-150/`.
 - **Campaign ads:** 60 active short ads: 20 Final batch stories, 10 previous voiced stories, and 30 earlier ads. Final batch features word-pop captions, six-second three-zone logo/QR/openline.com outros, and timed AI disclosure. Previous editions are retained in Archives. Generated scenes are not actual customer/app/performance footage.

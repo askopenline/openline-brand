@@ -3370,8 +3370,8 @@
     {
       "path": "library/catalog.json",
       "url": "https://brand.openline.com/library/catalog.json",
-      "bytes": 2534322,
-      "sha256": "7742a31bc5583e16112754196259d911e2d2120f1d280f278750c350aecf8280"
+      "bytes": 3233097,
+      "sha256": "0e08a2ddd033a04a92556c60627dc5ce7cf767a733ed41552bc363a34c38031f"
     },
     {
       "path": "library/downloads/manifest.json",
@@ -14786,5 +14786,5 @@
       "sha256": "ace6e7c2c4061ce8e090d1f2383f552040bb889d001ce92370170b4e496cff87"
     }
   ],
-  "total_bytes": 3024723915
+  "total_bytes": 3025422690
 }
