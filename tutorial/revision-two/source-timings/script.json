@@ -1,0 +1,71 @@
+{
+  "title": "Install your Openline eSIM",
+  "chapters": [
+    {
+      "id": "welcome",
+      "title": "Let's get you connected",
+      "text": "Hi, I'm Hellen for Openline. Let's set up your eSIM."
+    },
+    {
+      "id": "prepare",
+      "title": "Before you begin",
+      "text": "Use an unlocked, compatible phone and Wi-Fi. Redeem any purchase code first; it's not the eSIM activation code."
+    },
+    {
+      "id": "choose",
+      "title": "Choose one method",
+      "text": "Choose QR or manual entry, not both."
+    },
+    {
+      "id": "qr",
+      "title": "Option A: scan your QR",
+      "text": "Show your QR on another screen. On iPhone, open Settings, then Cellular or Mobile Data. Tap Add eSIM, then the QR option if shown. Scan, confirm the prompts, and wait for setup to finish."
+    },
+    {
+      "id": "manual",
+      "title": "Option B: enter details",
+      "text": "For manual entry instead, on that QR screen tap Enter Details Manually. Paste your supplied SM-DP+ address and activation code exactly, with no extra spaces. Add a confirmation code only if supplied. Tap Next and follow the setup prompts. These examples aren't valid codes."
+    },
+    {
+      "id": "installed",
+      "title": "Follow your device's prompts",
+      "text": "iOS twenty-six may ask travel questions. If asked, choose Abroad for international travel, and Data Only if your plan matches."
+    },
+    {
+      "id": "labels",
+      "title": "Name your line",
+      "text": "In mobile settings, select the new line, then Cellular Plan Label. Name it Openline."
+    },
+    {
+      "id": "calls",
+      "title": "Keep your home number",
+      "text": "If keeping your home number, use Primary for calls, texts, iMessage and FaceTime. Home calls and texts may incur roaming charges."
+    },
+    {
+      "id": "data",
+      "title": "Choose Openline for data",
+      "text": "Follow your plan's activation and validity rules. When ready to use it, turn Openline on. Select it for Cellular Data. Turn Allow Cellular Data Switching off."
+    },
+    {
+      "id": "roaming",
+      "title": "Check roaming per line",
+      "text": "Turn Openline Data Roaming on if your plan says to. Keep home Data Roaming off. Don't need regular calls or texts? You can turn the home line off. That's not deleting it."
+    },
+    {
+      "id": "test",
+      "title": "Test your connection",
+      "text": "Turn Wi-Fi off and open a webpage to test internet access, not just check bars. Recheck data and roaming if needed. Contact Openline support before deleting your eSIM."
+    },
+    {
+      "id": "android",
+      "title": "Same process, different menus",
+      "text": "Android uses QR or manual too, with different menus. On Samsung, try Settings, Connections, SIM manager, Add eSIM. On Pixel, Settings, Network and internet, SIMs, Add SIM. Choose Openline for data and follow your plan's roaming rules."
+    },
+    {
+      "id": "outro",
+      "title": "Ready for your next chapter",
+      "text": "Your checklist: one installation method, the right data line, and a connection test. Find the guide at Openline dot com slash install. Enjoy your travels!"
+    }
+  ],
+  "narration": "Hi, I'm Hellen for Openline. Let's set up your eSIM. Use an unlocked, compatible phone and Wi-Fi. Redeem any purchase code first; it's not the eSIM activation code. Choose QR or manual entry, not both. Show your QR on another screen. On iPhone, open Settings, then Cellular or Mobile Data. Tap Add eSIM, then the QR option if shown. Scan, confirm the prompts, and wait for setup to finish. For manual entry instead, on that QR screen tap Enter Details Manually. Paste your supplied SM-DP+ address and activation code exactly, with no extra spaces. Add a confirmation code only if supplied. Tap Next and follow the setup prompts. These examples aren't valid codes. iOS twenty-six may ask travel questions. If asked, choose Abroad for international travel, and Data Only if your plan matches. In mobile settings, select the new line, then Cellular Plan Label. Name it Openline. If keeping your home number, use Primary for calls, texts, iMessage and FaceTime. Home calls and texts may incur roaming charges. Follow your plan's activation and validity rules. When ready to use it, turn Openline on. Select it for Cellular Data. Turn Allow Cellular Data Switching off. Turn Openline Data Roaming on if your plan says to. Keep home Data Roaming off. Don't need regular calls or texts? You can turn the home line off. That's not deleting it. Turn Wi-Fi off and open a webpage to test internet access, not just check bars. Recheck data and roaming if needed. Contact Openline support before deleting your eSIM. Android uses QR or manual too, with different menus. On Samsung, try Settings, Connections, SIM manager, Add eSIM. On Pixel, Settings, Network and internet, SIMs, Add SIM. Choose Openline for data and follow your plan's roaming rules. Your checklist: one installation method, the right data line, and a connection test. Find the guide at Openline dot com slash install. Enjoy your travels!"
+}

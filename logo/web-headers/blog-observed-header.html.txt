@@ -1,0 +1,1 @@
+<a aria-label="Openline, the blog home" class="brand" href="/"><span class="brand-logo"><img alt="" height="32" src="/assets/openline-official.png" width="32"/><span class="wordmark">Openline</span></span><span class="brand-divider"></span><span class="brand-blog">the blog</span></a>

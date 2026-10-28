@@ -1,5 +1,5 @@
 {
-  "version": "2.5.1",
+  "version": "2.5.2",
   "files": [
     {
       "path": "artwork.json",
@@ -3370,8 +3370,8 @@
     {
       "path": "library/catalog.json",
       "url": "https://brand.openline.com/library/catalog.json",
-      "bytes": 1648050,
-      "sha256": "089aa9af95026d644d5387e59b1abc67bb7ce4e2802e5c743b7a0fabde0a3991"
+      "bytes": 2534322,
+      "sha256": "7742a31bc5583e16112754196259d911e2d2120f1d280f278750c350aecf8280"
     },
     {
       "path": "library/downloads/manifest.json",
@@ -5628,6 +5628,60 @@
       "url": "https://brand.openline.com/library/hellen-full-tutorial/script.json",
       "bytes": 5272,
       "sha256": "c345bd3e0609933cedab80426255646c3d5df27126b11a46d4dcf47ebe620383"
+    },
+    {
+      "path": "library/hellen-guide-revision-two/Chapters.json",
+      "url": "https://brand.openline.com/library/hellen-guide-revision-two/Chapters.json",
+      "bytes": 4037,
+      "sha256": "4a64b422e601355a5f8ac0589291d2f87c50b87fd697154d635e0b02f2262898"
+    },
+    {
+      "path": "library/hellen-guide-revision-two/Human-production-handoff.md",
+      "url": "https://brand.openline.com/library/hellen-guide-revision-two/Human-production-handoff.md",
+      "bytes": 2859,
+      "sha256": "0691e2335cbaab79e0aa26392b7eb3977ac7ae505c743130d4cf0f6d223e7b0a"
+    },
+    {
+      "path": "library/hellen-guide-revision-two/Manifest.json",
+      "url": "https://brand.openline.com/library/hellen-guide-revision-two/Manifest.json",
+      "bytes": 1459,
+      "sha256": "3a7643076129f3c22a107a1abac5a50269c720dfa52a6b1d1aae619b6d331da9"
+    },
+    {
+      "path": "library/hellen-guide-revision-two/QA-summary.json",
+      "url": "https://brand.openline.com/library/hellen-guide-revision-two/QA-summary.json",
+      "bytes": 1053,
+      "sha256": "b081c4fcdf1b39ab93350845a6316c3d8a3eb7d83f031717823d8539b924789a"
+    },
+    {
+      "path": "library/hellen-guide-revision-two/Review-notes.md",
+      "url": "https://brand.openline.com/library/hellen-guide-revision-two/Review-notes.md",
+      "bytes": 1606,
+      "sha256": "4bf49c3e03d7640ebdf709d67a672ae2f0116a70db852f734aa87255bfe5ee26"
+    },
+    {
+      "path": "library/hellen-guide-revision-two/openline-hellen-guide-r2.jpg",
+      "url": "https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.jpg",
+      "bytes": 103187,
+      "sha256": "4406a3057588269c7c6a77f03199236793616343a4ebe0b626db56584682d051"
+    },
+    {
+      "path": "library/hellen-guide-revision-two/openline-hellen-guide-r2.mp4",
+      "url": "https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.mp4",
+      "bytes": 9193901,
+      "sha256": "7711ce35ea58ce8214c58ad4e8a4253ed6f3d083c30fc2a5d837647912691131"
+    },
+    {
+      "path": "library/hellen-guide-revision-two/openline-hellen-guide-r2.srt",
+      "url": "https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.srt",
+      "bytes": 4196,
+      "sha256": "e51fd1e0697252b1794a2c44a328c838b556e0fb188eccc2553170a69e09850b"
+    },
+    {
+      "path": "library/hellen-guide-revision-two/openline-hellen-guide-r2.vtt",
+      "url": "https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.vtt",
+      "bytes": 4009,
+      "sha256": "d1f2bf2a45ef8bd3893447b0050b9041e5c80e1945752ba546bfd48aa51d8cd7"
     },
     {
       "path": "library/hellen-illustrated-guide/chapters.json",
@@ -13982,6 +14036,84 @@
       "sha256": "5e49a96375e48d719d8a779c90530dfff97e094f0720293c2a2b9858cdea7bc0"
     },
     {
+      "path": "library/web-logos/PLAY-FONT-LICENSE.txt",
+      "url": "https://brand.openline.com/library/web-logos/PLAY-FONT-LICENSE.txt",
+      "bytes": 4597,
+      "sha256": "f37873e85dfc51755ac1128b9d6bd7e6c79702f1e148736dd75ecc50bb1c283d"
+    },
+    {
+      "path": "library/web-logos/README.md",
+      "url": "https://brand.openline.com/library/web-logos/README.md",
+      "bytes": 1492,
+      "sha256": "2e9c6cc45111a2f573e2388e413fdf1a7d1a222256b19977f13af6297dccf7f2"
+    },
+    {
+      "path": "library/web-logos/blog-header.html",
+      "url": "https://brand.openline.com/library/web-logos/blog-header.html",
+      "bytes": 86815,
+      "sha256": "2ff313be48406f6f199332b3637f56152dbaefa6112a5a34124aaf3dc37fabc8"
+    },
+    {
+      "path": "library/web-logos/blog-header.png",
+      "url": "https://brand.openline.com/library/web-logos/blog-header.png",
+      "bytes": 6893,
+      "sha256": "ad938cc100385407188f191b7c499ca032a16d66fa7f8b8f49c6562b10b3f586"
+    },
+    {
+      "path": "library/web-logos/blog-mark.png",
+      "url": "https://brand.openline.com/library/web-logos/blog-mark.png",
+      "bytes": 53088,
+      "sha256": "299e5281f62e791a784630e6802ca0c6012733101581f9a9e21627dd2096e863"
+    },
+    {
+      "path": "library/web-logos/blog-observed-header.html.txt",
+      "url": "https://brand.openline.com/library/web-logos/blog-observed-header.html.txt",
+      "bytes": 285,
+      "sha256": "c7fce05f68dc720c8f4fccf1a7360e9ba450900e02fbd5de09fc2c4ba7188e8d"
+    },
+    {
+      "path": "library/web-logos/header-logos.css",
+      "url": "https://brand.openline.com/library/web-logos/header-logos.css",
+      "bytes": 845,
+      "sha256": "afc2c11e7edbf4b91976657045f6f2ad50922fa84c53b2d7e276f27f5dab6d6b"
+    },
+    {
+      "path": "library/web-logos/openline-web-header-logos.zip",
+      "url": "https://brand.openline.com/library/web-logos/openline-web-header-logos.zip",
+      "bytes": 208641,
+      "sha256": "ab8d0ee23336ea5b8e68cce8d37fc8b7d7adea6e37656bae28f402a59bea86c7"
+    },
+    {
+      "path": "library/web-logos/play-bold.woff2",
+      "url": "https://brand.openline.com/library/web-logos/play-bold.woff2",
+      "bytes": 10724,
+      "sha256": "b0c6eb6e75421e63a416452d4ff5f9a23280a00aa0babb9cf2bf23581552c525"
+    },
+    {
+      "path": "library/web-logos/website-header.html",
+      "url": "https://brand.openline.com/library/web-logos/website-header.html",
+      "bytes": 86660,
+      "sha256": "555610d93e10c75f37a1ffbaee4839de8d5b5bfaf3f280c798d481c546f93210"
+    },
+    {
+      "path": "library/web-logos/website-header.png",
+      "url": "https://brand.openline.com/library/web-logos/website-header.png",
+      "bytes": 5012,
+      "sha256": "68670a88b0e9a66335426bc682be97e7c88269a480864998afdb8be3ada5a87b"
+    },
+    {
+      "path": "library/web-logos/website-mark.png",
+      "url": "https://brand.openline.com/library/web-logos/website-mark.png",
+      "bytes": 53088,
+      "sha256": "299e5281f62e791a784630e6802ca0c6012733101581f9a9e21627dd2096e863"
+    },
+    {
+      "path": "library/web-logos/website-observed-header.html.txt",
+      "url": "https://brand.openline.com/library/web-logos/website-observed-header.html.txt",
+      "bytes": 438,
+      "sha256": "84a0447a1a698210514e7c7254494ac12cdf33f67111d36167e22c6d53ed945e"
+    },
+    {
       "path": "mobile-preview/assets/1295aaf1aa3c6e413470efbbd8c9d07c7ac3b67b-BD3pIJa7.png",
       "url": "https://brand.openline.com/mobile-preview/assets/1295aaf1aa3c6e413470efbbd8c9d07c7ac3b67b-BD3pIJa7.png",
       "bytes": 9063,
@@ -14654,5 +14786,5 @@
       "sha256": "ace6e7c2c4061ce8e090d1f2383f552040bb889d001ce92370170b4e496cff87"
     }
   ],
-  "total_bytes": 3014002758
+  "total_bytes": 3024723915
 }

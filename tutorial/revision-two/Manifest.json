@@ -1,0 +1,46 @@
+{
+  "version": "revision-two",
+  "duration_seconds": 150.09459999999999,
+  "resolution": "1920x1080",
+  "frame_rate": 30,
+  "narration_rate_change": 1.25,
+  "status": "Published development archive. AI tutorial production stopped; final tutorial will be human-made.",
+  "presenter": "Static Hellen portrait; moving presenter deferred",
+  "files": [
+    {
+      "path": "openline-hellen-guide-r2.mp4",
+      "bytes": 9193901,
+      "sha256": "7711ce35ea58ce8214c58ad4e8a4253ed6f3d083c30fc2a5d837647912691131"
+    },
+    {
+      "path": "openline-hellen-guide-r2.jpg",
+      "bytes": 103187,
+      "sha256": "4406a3057588269c7c6a77f03199236793616343a4ebe0b626db56584682d051"
+    },
+    {
+      "path": "openline-hellen-guide-r2.srt",
+      "bytes": 4196,
+      "sha256": "e51fd1e0697252b1794a2c44a328c838b556e0fb188eccc2553170a69e09850b"
+    },
+    {
+      "path": "openline-hellen-guide-r2.vtt",
+      "bytes": 4009,
+      "sha256": "d1f2bf2a45ef8bd3893447b0050b9041e5c80e1945752ba546bfd48aa51d8cd7"
+    },
+    {
+      "path": "Review-notes.md",
+      "bytes": 1606,
+      "sha256": "4bf49c3e03d7640ebdf709d67a672ae2f0116a70db852f734aa87255bfe5ee26"
+    },
+    {
+      "path": "QA-summary.json",
+      "bytes": 1053,
+      "sha256": "b081c4fcdf1b39ab93350845a6316c3d8a3eb7d83f031717823d8539b924789a"
+    },
+    {
+      "path": "Chapters.json",
+      "bytes": 4037,
+      "sha256": "4a64b422e601355a5f8ac0589291d2f87c50b87fd697154d635e0b02f2262898"
+    }
+  ]
+}

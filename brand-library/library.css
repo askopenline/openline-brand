@@ -308,6 +308,22 @@ nav a{padding:17px 0;font-size:14px}
 .voiceover-script p{margin-top:12px;font-size:14px;line-height:1.7}
 .tutorial-readiness{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin:24px 0 32px;padding:28px;background:white;border:1px solid var(--line);border-radius:12px}
 .tutorial-readiness h2{font-size:28px}
+.logo-family-overview{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:26px}
+.logo-family-overview button{border:1px solid var(--line);border-radius:10px;padding:26px;background:white;text-align:left;min-width:0}
+.logo-family-overview img{display:block;width:100%;height:105px;object-fit:contain;margin-bottom:28px}
+.logo-family-overview button:first-child img{width:90px;margin-inline:auto}
+.logo-family-overview strong{display:block;font-size:17px;margin-bottom:10px}
+.logo-family-overview span{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px}
+.logo-html-preview{width:100%;height:300px;background:white;border:0}
+@media(max-width:600px){.logo-family-overview{grid-template-columns:1fr;gap:12px}.logo-family-overview button{padding:20px}.logo-family-overview img{height:65px;margin-bottom:20px}}
+.tutorial-readiness.human-handoff{background:#171717;color:#fff9f3;border-color:#171717;padding:36px}
+.human-handoff .eyebrow{color:#ff985d}
+.human-handoff h2{font-size:34px;max-width:500px}
+.tutorial-readiness.human-handoff p,.tutorial-readiness.human-handoff li span{color:#ddd7ce}
+.tutorial-readiness.human-handoff li{border-color:#4b4540}
+.human-handoff .button.primary{background:#fff9f3;color:#171717}
+.human-handoff .text-link{color:#fff9f3}
+@media(max-width:700px){.tutorial-readiness.human-handoff{padding:24px}.human-handoff h2{font-size:28px}}
 .tutorial-readiness>div{min-width:0}
 .tutorial-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px 24px;margin-top:24px}
 .tutorial-actions>.text-link{min-height:44px}

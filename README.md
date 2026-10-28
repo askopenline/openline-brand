@@ -24,6 +24,24 @@
 
 The official Openline media kit and working brand library. Logos, app icons, motion, store artwork, design sources, email resources, and shared interface assets are organized here so company teams and approved partners can work from one recognizable visual identity.
 
+## Tutorial: human craft comes next · v2.5.2
+
+**Work in progress. Coming soon from a talented human.**
+
+We love AI, but we value human craft. The final Openline tutorial is a work in progress, and we're choosing a professional human to bring it to life.
+
+AI tutorial production has stopped. All experiments remain browsable as development references, including the latest 2:30 illustrated guide with faster narration, a full-height static Hellen portrait and enlarged animated phone views.
+
+<a href="https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.mp4"><img src=".github/assets/hellen-guide-revision-two.jpg" alt="Latest archived development example: static Hellen portrait and animated installation screens" width="800"></a>
+
+[Watch the latest development example](https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.mp4) · [Download from GitHub](tutorial/revision-two/openline-hellen-guide-r2.mp4) · [Human production handoff](tutorial/HUMAN-PRODUCTION-HANDOFF.md) · [All presenter experiments](https://brand.openline.com/#/presenters)
+
+## Logos, including the website headers
+
+[Open the Logos section](https://brand.openline.com/#/logos) for icon-only artwork, vector wordmarks, complete lockups, animated treatments and archive variants. Collection previews and individual-file browsing retain the existing formats, sizes and review labels.
+
+The [website and blog header implementations](logo/web-headers/README.md) are included as script-free HTML previews, reusable CSS, original observed markup, icon files and a downloadable ZIP. Both use the icon plus live Play Bold text, distinct from the original vector wordmark.
+
 ## Final batch · v2.5.0
 
 Twenty cinematic travel stories, with narrated everyday uses for mobile data and Openline travel eSIM planning.
@@ -36,7 +54,7 @@ The library now contains 60 short ads, with separate filters for Final batch, th
 <a href="https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-06.mp4"><img src=".github/assets/videos-v2.5/final-ad-06.jpg" alt="Oaxaca Cooking Class: decoded final video frame" width="220"></a>
 <a href="https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-17.mp4"><img src=".github/assets/videos-v2.5/final-ad-17.jpg" alt="Helsinki Sauna Reservation: decoded final video frame" width="220"></a>
 
-The complete animated installation example is now available in the [Presenters section](https://brand.openline.com/#/presenters): Hellen's static office portrait on the left, animated phone screens on the right, and one continuous voice. The earlier presenter editions remain available.
+The earlier three-minute animated installation example remains available in the [Presenters section](https://brand.openline.com/#/presenters): Hellen's static office portrait on the left, animated phone screens on the right, and one continuous voice. This and the other AI editions are development references, not the final tutorial.
 
 <a href="https://brand.openline.com/library/hellen-illustrated-guide/openline-hellen-animated-installation-guide.mp4"><img src=".github/assets/hellen-illustrated-guide.jpg" alt="Decoded frame from the complete Hellen illustrated installation guide" width="800"></a>
 
@@ -44,11 +62,11 @@ The complete animated installation example is now available in the [Presenters s
 
 ## Expanded brand library
 
-The v2.5.0 brand-library application is available in [`brand-library/`](brand-library/), alongside the preserved `launch-studio/`. It brings identity, short ads, motion, AI-presenter comparisons, product sources and archives into one searchable resource library.
+The v2.5.2 brand-library application is available in [`brand-library/`](brand-library/), alongside the preserved `launch-studio/`. It brings identity, short ads, motion, AI-presenter comparisons, product sources and archives into one searchable resource library.
 
 - **Motion cards:** 150 editions, including 85 new editions derived from 17 sound families across five layouts (68 horizontal 1920x1080; 17 square 1000x1000). The 85 new editions are each 12.16 seconds, 50fps, with four 3.04-second cycles. These use exact source silhouette/timing, not redrawn logos. Five shared silent GIF previews and JPEG posters, per-edition MP4/AAC, lossless FLAC sound, and JSON event scores are provided. Production files are located at `/library/productions/motion-150/`.
 - **Campaign ads:** 60 active short ads: 20 Final batch stories, 10 previous voiced stories, and 30 earlier ads. Final batch features word-pop captions, six-second three-zone logo/QR/openline.com outros, and timed AI disclosure. Previous editions are retained in Archives. Generated scenes are not actual customer/app/performance footage.
-- **Presenter entries:** Six entries, including four long comparison samples, a pilot, and a full tutorial. The full Hellen04 tutorial is ~89 seconds, with one continuous presenter take and Ashley narration, set in a blurred fictional office. The illustrated installation guide is explicitly approved by the owner and is not a genuine iPhone capture.
+- **Presenter entries:** Eight development entries: four long comparison samples, a pilot, the earlier ~89-second tutorial, the 184-second illustrated guide and its 150-second revision. Earlier short samples remain in Archives. None is the final human-made tutorial, and the phone illustrations are not genuine iPhone recordings.
 - **Original resources:** The repository snapshot retains provenance, source formats, and review status; the approved app icon remains 43.5% mark, unchanged.
 - **Handoff:** New operational documentation includes [`docs/BRAND-LIBRARY.md`](docs/BRAND-LIBRARY.md), [`docs/MOTION.md`](docs/MOTION.md), [`docs/AI-PRESENTERS.md`](docs/AI-PRESENTERS.md), [`docs/CAMPAIGN-ADS.md`](docs/CAMPAIGN-ADS.md), [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md), and [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
 

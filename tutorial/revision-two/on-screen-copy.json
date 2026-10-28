@@ -1,0 +1,111 @@
+{
+  "chapters": {
+    "welcome": {
+      "title": "Get Connected",
+      "bullets": [
+        "Welcome to Openline",
+        "Let's set up your eSIM"
+      ]
+    },
+    "prepare": {
+      "title": "Before You Begin",
+      "bullets": [
+        "Unlocked, compatible phone",
+        "Stable Wi-Fi connection",
+        "Redeem purchase code first"
+      ],
+      "note": "Purchase code is not the eSIM activation code."
+    },
+    "choose": {
+      "title": "Choose One Method",
+      "bullets": [
+        "QR scan OR manual entry",
+        "Do not use both methods"
+      ]
+    },
+    "qr": {
+      "title": "Option A: Scan QR",
+      "bullets": [
+        "Show QR on another screen",
+        "iPhone: Settings > Cellular > Add eSIM",
+        "Scan QR, confirm prompts"
+      ]
+    },
+    "manual": {
+      "title": "Option B: Enter Details",
+      "bullets": [
+        "Tap 'Enter Details Manually'",
+        "Paste supplied SM-DP+ address",
+        "Paste supplied activation code"
+      ],
+      "note": "Add confirmation code only if supplied. Use exact codes, no extra spaces."
+    },
+    "installed": {
+      "title": "Follow Device Prompts",
+      "bullets": [
+        "Travel prompts may appear",
+        "Choose 'Abroad' for travel",
+        "Choose 'Data Only' if plan matches"
+      ]
+    },
+    "labels": {
+      "title": "Name Your Line",
+      "bullets": [
+        "Select new line in settings",
+        "Choose 'Cellular Plan Label'",
+        "Name it 'Openline'"
+      ]
+    },
+    "calls": {
+      "title": "Keep Home Number",
+      "bullets": [
+        "Use 'Primary' for calls/texts",
+        "Use 'Primary' for iMessage/FaceTime"
+      ],
+      "note": "Home calls/texts may incur roaming charges."
+    },
+    "data": {
+      "title": "Choose Openline for Data",
+      "bullets": [
+        "Follow plan activation rules",
+        "Turn Openline on for data",
+        "Keep Data Switching off"
+      ]
+    },
+    "roaming": {
+      "title": "Check Roaming Per Line",
+      "bullets": [
+        "Openline: follow plan rules",
+        "Keep home Data Roaming off",
+        "Optional: turn home line off"
+      ]
+    },
+    "test": {
+      "title": "Test Your Connection",
+      "bullets": [
+        "Turn Wi-Fi off",
+        "Open a webpage to test internet",
+        "Contact support before deleting eSIM"
+      ],
+      "note": "Recheck data/roaming if needed. Test internet access, not just signal bars."
+    },
+    "android": {
+      "title": "Android Menus Differ",
+      "bullets": [
+        "Samsung: open SIM manager",
+        "Pixel: open SIM settings",
+        "Choose Openline for data"
+      ],
+      "note": "Follow plan's roaming rules. Process is similar: QR or manual entry."
+    },
+    "outro": {
+      "title": "Ready for Your Next Chapter",
+      "bullets": [
+        "One installation method",
+        "Correct data line selected",
+        "Connection tested"
+      ],
+      "note": "Find the full guide at Openline.com/install. Enjoy your travels!"
+    }
+  }
+}

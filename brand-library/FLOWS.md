@@ -1,5 +1,20 @@
 # Main flows
 
+## Logos library
+- Logos navigation opens icon-only, text-only and combined artwork with animated and archive filters.
+- Website / HTML shows the two observed live header implementations, each with sandboxed previews and HTML/CSS/source/ZIP downloads.
+- Static artwork preserves existing colourways; reversed artwork remains visible on dark backgrounds.
+- All files includes available archive formats and sizes. Animated filter retains all 150 Motion collections.
+- Desktop/mobile filter switching, no-results/reset, preview/Escape and a real HTML download work.
+
+## Human-made tutorial handoff (v2.5.2)
+- Presenters leads with Work in progress / Coming soon from a talented human.
+- AI development is stopped; previous concepts remain available, not represented as the final tutorial.
+- Latest 150-second revision opens via Watch latest development example, with MP4/captions/notes downloads.
+- Human production handoff and eight presenter collections remain accessible.
+- All eight navigation views, search/reset, filters, preview/Escape, 60 ads and 150 Motion collections remain intact.
+- Check desktop and 375px mobile, new download hashes and fresh live release.
+
 ## Complete illustrated tutorial (v2.5.1)
 - Presenters hero identifies a static Hellen portrait, continuous narration and animated guide.
 - Watch the full tutorial opens the new 184-second MP4, not the earlier 89-second video.

@@ -1,25 +1,24 @@
-# Openline AI Presenters
+# Openline presenters and tutorial development archive
 
-This document outlines the AI-generated presenter content available within the Openline brand library, accessible at [brand.openline.com/#/presenters](https://brand.openline.com/#/presenters).
+## Work in progress: human craft comes next
 
-## Presenter Entries
+We love AI, but we value human craft. The final Openline tutorial is a work in progress, and we're choosing a professional human to bring it to life.
 
-The AI presenter section includes six distinct entries:
+AI tutorial production has stopped. No professional is represented as already hired, and no delivery date is promised.
 
-*   Four long comparison samples.
-*   One pilot presentation.
-*   One full tutorial.
+## Preserved development material
 
-## Hellen04 Tutorial
+The [Presenters library](https://brand.openline.com/#/presenters) retains eight entries: four long comparison samples, the continuity pilot, the earlier approximately 89-second tutorial, the 184-second illustrated guide and the latest 150-second revision. Earlier short samples and other historic editions remain in Archives.
 
-The full Hellen04 tutorial is approximately 89 seconds long. It features one continuous presenter take with Ashley narration, set against a blurred fictional office background. The illustrated installation guide presented in the tutorial has been explicitly approved by the owner and is not a genuine iPhone capture. No claim of NYC presence is made.
+The latest revision uses a static Hellen portrait, synthetic narration and animated phone illustrations. It is a development example, not a final human performance or a genuine iPhone recording.
 
-## Content Generation and Limitations
+- [Latest MP4 on GitHub](../tutorial/revision-two/openline-hellen-guide-r2.mp4)
+- [Latest MP4 on the brand site](https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.mp4)
+- [Human production handoff](../tutorial/HUMAN-PRODUCTION-HANDOFF.md)
+- [Captions, notes, QA and source reference files](../tutorial/revision-two/)
 
-The AI-generated scenes are not actual customer, application, or performance footage. They are synthetic creations for illustrative purposes. Mild synthetic artifacts may be possible within the generated content.
+## Production boundary
 
-There is no universal activation or reinstallation promise associated with the content presented by AI presenters.
+Preserve disclosures and validate current installation, activation and roaming guidance before producing the human-made edition. No universal activation or reinstallation promise is implied by these experiments.
 
-## Company Reference
-
-This guide belongs to [Openline Brand Assets](https://github.com/askopenline/openline-brand), maintained by Openline. Return to the [project overview](../README.md) for the broader system, current company links, and release context.
+Public exports exclude raw provider requests, private receipts, credentials and internal generation identifiers. The repository's [public asset inventory](../brand-library/PUBLIC-ASSETS.json) indexes the existing media, including the ads, motion and historical editions; its hydration tool downloads those files from the brand site.

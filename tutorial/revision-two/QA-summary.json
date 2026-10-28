@@ -1,0 +1,39 @@
+{
+  "technical": {
+    "decode": true,
+    "duration": 150.09459999999999,
+    "speech_speed": 1.25,
+    "portrait_panel": [
+      0,
+      0,
+      640,
+      1080
+    ],
+    "phone_height": 991,
+    "qr_samples": [
+      146.29459999999997,
+      148.09459999999999,
+      149.29459999999997
+    ],
+    "audio": {
+      "input_i": "-16.10",
+      "input_tp": "-1.09",
+      "input_lra": "3.20",
+      "input_thresh": "-26.62",
+      "output_i": "-15.89",
+      "output_tp": "-1.50",
+      "output_lra": "2.90",
+      "output_thresh": "-26.38",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.11"
+    },
+    "fades": "Intro in/out, body fade-in and outro in/out",
+    "new_avatar_generation": false
+  },
+  "automated_audiovisual_review": {
+    "passed": true,
+    "material_issues": [],
+    "limitations": "One automated full-video/audio review and sampled human-visible frames; not a guarantee of perfect synchronization."
+  },
+  "status": "Complete review render, intentionally static presenter. Existing live edition unchanged."
+}

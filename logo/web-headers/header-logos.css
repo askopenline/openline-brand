@@ -1,0 +1,9 @@
+@font-face{font-family:Play;src:url("./play-bold.woff2") format("woff2");font-style:normal;font-weight:700;font-display:swap}
+.openline-header-logo{display:inline-flex;align-items:center;gap:8px;color:#131414;text-decoration:none;white-space:nowrap}
+.openline-header-logo img{display:block;width:32px;height:32px;object-fit:contain}
+.openline-header-wordmark{font-family:Play,Arial,sans-serif;font-weight:700;font-size:26px;line-height:26px;letter-spacing:normal}
+.openline-blog-logo{gap:11px}
+.openline-logo-pair{display:inline-flex;align-items:center;gap:8px}
+.openline-logo-divider{width:1px;height:24px;background:#d5d7d5}
+.openline-blog-descriptor{font:450 17px/1 Inter,Arial,sans-serif;letter-spacing:-.45px}
+@media(max-width:480px){.openline-blog-logo{gap:8px}.openline-logo-divider{height:21px}.openline-blog-descriptor{font-size:15px}}

@@ -7,7 +7,7 @@ import '@fontsource/inter/latin-600.css';
 import '@fontsource/inter/latin-700.css';
 import '@fontsource/play/latin-700.css';
 import './library.css';
-const NAV=[['overview','Overview'],['assets','All assets'],['ads','Short ads'],['motion','Motion'],['presenters','Presenters'],['app','App & store'],['guidelines','Guidelines'],['archives','Archives']];
+const NAV=[['overview','Overview'],['logos','Logos'],['assets','All assets'],['ads','Short ads'],['motion','Motion'],['presenters','Presenters'],['app','App & store'],['guidelines','Guidelines'],['archives','Archives']];
 const BASE='./library/repository/';
 const MARK=BASE+'logo/png/openline-logo-color.png',ORIGINAL='./library/previews/original-loop-reduced.gif',WHITE=BASE+'logo/png/openline-logo-white.png';
 const sizes=n=>n>=1e6?`${(n/1e6).toFixed(1)} MB`:n>=1e3?`${Math.round(n/1e3)} KB`:`${n} B`;
@@ -17,7 +17,7 @@ function current(){return location.hash.startsWith('#/')?location.hash.slice(2).
 function App(){
  const[data,setData]=useState(null),[failed,setFailed]=useState(false),[route,setRoute]=useState(current),[menu,setMenu]=useState(false);
  const[q,setQ]=useState(''),[category,setCategory]=useState('all'),[format,setFormat]=useState('all'),[status,setStatus]=useState('all'),[mode,setMode]=useState('collections'),[limit,setLimit]=useState(24),[selected,setSelected]=useState(null),[toast,setToast]=useState(''),[adSeries,setAdSeries]=useState('final');
- const[motionView,setMotionView]=useState('all');
+ const[motionView,setMotionView]=useState('all'),[logoView,setLogoView]=useState('all');
  async function load(){setFailed(false);try{const r=await fetch('./library/catalog.json',{cache:'no-cache'});if(!r.ok)throw Error();const d=await r.json();if(!Array.isArray(d.cards)||!Array.isArray(d.files))throw Error();setData(d)}catch{setFailed(true)}}
  useEffect(()=>{load();const sync=()=>{setRoute(current());setMenu(false);setQ('');setCategory('all');setFormat('all');setStatus('all');setMode('collections');setLimit(24);setSelected(null);window.scrollTo(0,0)};window.addEventListener('hashchange',sync);
   if(['#iphone','#android','#app-store','#google-play','#app-store-submission','#google-play-submission','#archive','#home'].includes(location.hash))location.replace('./studio.html'+location.hash);
@@ -25,16 +25,17 @@ function App(){
  },[]);
  useEffect(()=>{document.title=route==='overview'?'Openline Brand Library':`${NAV.find(x=>x[0]===route)?.[1]||'Assets'} · Openline Brand Library`},[route]);
  useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(''),3500);return()=>clearTimeout(t)},[toast]);
- useEffect(()=>{setLimit(24)},[q,category,format,status,mode,adSeries,motionView]);
+ useEffect(()=>{setLimit(24)},[q,category,format,status,mode,adSeries,motionView,logoView]);
  const scope=['ads','motion','presenters','app','archives'].includes(route)?route:category;
  const activeAdSeries=adSeries==='final'&&!data?.finalCampaign?'campaign':adSeries;
- const filtered=useMemo(()=>{if(!data)return[];const all=mode==='files'?data.files:data.cards;const needle=q.trim().toLowerCase();return all.filter(a=>{
+ const filtered=useMemo(()=>{if(!data)return[];const all=route==='logos'?(mode==='files'?data.logos?.files:data.logos?.cards)||[]:mode==='files'?data.files:data.cards;const needle=q.trim().toLowerCase();return all.filter(a=>{
+  if(route==='logos'&&logoView!=='all'&&!(a.logoGroups||[]).includes(logoView))return false;
   return (scope==='all'||scope===a.category)&&(route!=='motion'||motionView==='all'||(a.series==='native-motion-150'&&(motionView==='new'||a.width>a.height)))&&(route!=='ads'||!data.campaign||activeAdSeries==='all'||(activeAdSeries==='final'?isFinalAd(a):activeAdSeries==='campaign'?isVoicedCampaign(a):!isVoicedCampaign(a)&&!isFinalAd(a)))&&[a.title,a.path,a.description,...(a.tags||[])].join(' ').toLowerCase().includes(needle)&&(format==='all'||(mode==='files'?a.format===format:a.downloads.some(d=>d.label.toUpperCase().includes(format))))&&(status==='all'||a.status===status)
- })},[data,scope,q,format,status,mode,activeAdSeries,route,motionView]);
- function reset(){setQ('');setCategory('all');setFormat('all');setStatus('all');setMotionView('all');setAdSeries(data?.finalCampaign?'final':'campaign')}
+ })},[data,scope,q,format,status,mode,activeAdSeries,route,motionView,logoView]);
+ function reset(){setQ('');setCategory('all');setFormat('all');setStatus('all');setMotionView('all');setLogoView('all');setAdSeries(data?.finalCampaign?'final':'campaign')}
  async function copy(value){try{await navigator.clipboard.writeText(value);setToast('Copied')}catch{setToast(value)}}
  function collection(id){location.hash='#/assets';setTimeout(()=>{setCategory(id);setMode(['figma','web','email','docs'].includes(id)?'files':'collections')},0)}
- const counts=data?.counts||{},hero=data?.copy?.hero,isGallery=['assets','ads','motion','presenters','app','archives'].includes(route);
+ const counts=data?.counts||{},hero=data?.copy?.hero,isGallery=['assets','logos','ads','motion','presenters','app','archives'].includes(route);
  const highlights=data?.cards.filter(a=>['source-mark','original-loading-gif','final-icon','mobile-design'].includes(a.id))||[];
  const featuredCampaign=data?.finalCampaign||data?.campaign;
  const displayedCampaign=activeAdSeries==='campaign'?data?.campaign:featuredCampaign;
@@ -62,8 +63,9 @@ function App(){
  {isGallery&&<section className="catalogue section">
  <div className="page-heading"><div><span className="eyebrow">Openline / {NAV.find(x=>x[0]===route)?.[1]}</span><h1>{route==='assets'?'The asset library':data.copy.sections[route==='archives'?'archive':route]?.title||NAV.find(x=>x[0]===route)?.[1]}</h1><p>{route==='assets'?data.copy.assetNotice:data.copy.sections[route==='archives'?'archive':route]?.description}</p></div>{route==='app'&&<a className="button primary" href="./studio.html">Open app & store studio <ArrowUpRight size={18}/></a>}</div>
  {route==='ads'&&data.campaign&&<><div className="campaign-intro"><div><Volume2 size={22}/><h2>{displayedCampaign.title}</h2><p>{displayedCampaign.description}</p></div><span>{displayedCampaign.count} voiced ads<br/>9:16 · MP4 + captions</span></div><div className="series-switch" aria-label="Ad collection">{[...(data.finalCampaign?[['final',`Final batch · ${data.finalCampaign.count}`]]:[]),['campaign',`Voiced campaign · ${data.campaign.count}`],['earlier',`Earlier work · ${counts.ads-data.campaign.count-(data.finalCampaign?.count||0)}`],['all',`All ads · ${counts.ads}`]].map(([id,label])=><button key={id} aria-pressed={activeAdSeries===id} onClick={()=>setAdSeries(id)}>{label}</button>)}</div><p className="campaign-disclosure">{displayedCampaign.disclosure}</p></>}
- {route==='presenters'&&<div className="context-note"><Volume2 size={19}/><p>{data.tutorial?.summary||'Fictional AI presenters, with audible samples for comparison. Earlier short clips remain in Archives. The full installation tutorial still needs real device recordings.'}</p></div>}
- {route==='presenters'&&data.tutorial&&<section className="tutorial-readiness"><div><span className="eyebrow">{data.fullTutorial?'Installation tutorial / illustrated edition':'Installation tutorial / next steps'}</span><h2>{data.tutorial.title}</h2><p>{data.tutorial.description}</p><div className="tutorial-actions">{data.fullTutorial&&<button className="button primary" onClick={()=>setSelected(data.cards.find(a=>a.id===(data.fullTutorialId||'hellen-full-tutorial')))}>Watch the full tutorial <Play size={17}/></button>}{data.tutorial.planUrl&&<a className="text-link" href={data.tutorial.planUrl} download>{data.fullTutorial?'Download tutorial notes':'Download production plan'} <Download size={16}/></a>}</div></div><ul>{data.tutorial.gates.map(g=><li key={g.title}><strong>{g.title}</strong><span>{g.detail}</span></li>)}</ul></section>}
+ {route==='logos'&&<><div className="logo-family-overview">{[['Icon only','mark'],['Icon + text','lockup-horizontal'],['Text only','wordmark']].map(([title,type])=><button key={type} onClick={()=>setLogoView(type==='mark'?'icons':type==='wordmark'?'wordmarks':'lockups')}><img src={`./library/graphics/transparent/${type}/openline-${type}-original.svg`} alt={title}/><strong>{title}</strong><span>Browse versions <ArrowRight size={15}/></span></button>)}</div><div className="context-note"><p>Original artwork, colourways, native animation and historical versions, kept together. The website and blog use an icon plus live Play-font text; those HTML/CSS implementations are included separately from the vector wordmark.</p></div><div className="series-switch" aria-label="Logo family">{[['all','All logos'],['icons','Icons only'],['lockups','Icons + text'],['wordmarks','Text only'],['animated','Animated'],['html','Website / HTML'],['archives','Archive variants']].map(([id,label])=><button key={id} aria-pressed={logoView===id} onClick={()=>setLogoView(id)}>{label}</button>)}</div></>}
+ {route==='presenters'&&data.tutorial&&<section className={'tutorial-readiness '+(data.tutorial.humanMade?'human-handoff':'')}><div><span className="eyebrow">{data.tutorial.humanMade?'Installation tutorial / work in progress':data.fullTutorial?'Installation tutorial / illustrated edition':'Installation tutorial / next steps'}</span><h2>{data.tutorial.title}</h2><p>{data.tutorial.description}</p><div className="tutorial-actions">{data.fullTutorial&&<button className="button primary" onClick={()=>setSelected(data.cards.find(a=>a.id===(data.fullTutorialId||'hellen-full-tutorial')))}>{data.tutorial.humanMade?'Watch latest development example':'Watch the full tutorial'} <Play size={17}/></button>}{data.tutorial.planUrl&&<a className="text-link" href={data.tutorial.planUrl} download>{data.tutorial.humanMade?'Download human production handoff':data.fullTutorial?'Download tutorial notes':'Download production plan'} <Download size={16}/></a>}</div></div><ul>{data.tutorial.gates.map(g=><li key={g.title}><strong>{g.title}</strong><span>{g.detail}</span></li>)}</ul></section>}
+ {route==='presenters'&&<div className="context-note"><Volume2 size={19}/><p>{data.tutorial?.summary||'Fictional AI presenters, with audible samples for comparison. Earlier short clips remain in Archives.'}</p></div>}
  {route==='archives'&&<div className="archive-links"><a href="./brand-expansion/index.html">Earlier creative gallery <ArrowUpRight size={16}/></a><a href="./studio.html#archive">Launch review workbench <ArrowUpRight size={16}/></a><a href={data.repository+'/releases'} target="_blank" rel="noreferrer">Repository releases <ArrowUpRight size={16}/></a></div>}
  {route==='app'&&<div className="archive-links"><a href="./studio.html#iphone">iPhone preview <ArrowUpRight size={16}/></a><a href="./studio.html#android">Android preview <ArrowUpRight size={16}/></a><a href="./studio.html#app-store-submission">Apple submission draft <ArrowUpRight size={16}/></a><a href="./studio.html#google-play-submission">Google submission draft <ArrowUpRight size={16}/></a></div>}
  {collectionBundles.length>0&&<div className="collection-downloads">{collectionBundles.map(b=><a key={b.url} href={b.url} download><Download size={17}/><span>{b.title}</span><small>{sizes(b.bytes)} · ZIP</small></a>)}</div>}
@@ -87,7 +89,7 @@ function App(){
 }
 function fileAsCard(f){return {...f,preview:f.url,downloads:[{label:f.format,url:f.url,bytes:f.bytes}],description:f.path}}
 function AssetCard({asset:a,onOpen}){
- const[broken,setBroken]=useState(false),visual=a.poster||(a.kind==='image'?a.preview:null),reverse=a.category==='identity'&&/\b(white|cream|reverse)\b/i.test(a.title);
+ const[broken,setBroken]=useState(false),visual=a.poster||(a.kind==='image'?a.preview:null),reverse=(a.category==='identity'||a.logoGroups)&&/\b(white|cream|reverse)\b/i.test(a.title);
  return <article className={'asset-card '+(a.category==='ads'?'portrait-card':'')}><button className={'asset-visual '+(reverse?'reverse-art':'')} onClick={()=>onOpen(a)} aria-label={'Preview '+a.title}>{visual&&!broken?<img loading="lazy" src={visual} alt="" onError={()=>setBroken(true)}/>:<div className="file-cover"><File size={42}/><span>{a.downloads?.[0]?.label||'Source'}</span></div>}{a.kind==='video'&&<span className="play-badge"><Play size={19} fill="currentColor"/></span>}{a.duration&&<span className="duration">{a.duration}s</span>}</button><div className="asset-info"><span className={'status '+a.status.toLowerCase()}>{isFinalAd(a)?'Final batch · Review':a.status}</span><h3>{a.title}</h3><p>{a.description}</p><button className="asset-open" onClick={()=>onOpen(a)}>{a.kind==='video'?'Watch & download':'Preview & download'}<ArrowUpRight size={17}/></button></div></article>
 }
 function AssetDialog({asset:a,close,copy}){
@@ -99,6 +101,7 @@ function AssetDialog({asset:a,close,copy}){
  <div className="dialog-content"><div className={'dialog-preview '+(a.kind==='image'&&/\b(white|cream|reverse)\b/i.test(a.title)?'reverse-art':'')}>
  {error?<p>This preview could not load. You can still download the original below.</p>
  :a.kind==='video'?<video key={preview} controls playsInline preload="metadata" poster={preview!==a.preview?(a.downloads.find(d=>d.label==='Portrait JPEG')?.url||a.poster):a.poster} src={preview} onError={()=>setError(true)}>{a.downloads.filter(d=>/\.vtt$/i.test(d.url)).map(d=><track key={d.url} kind="captions" src={d.url} srcLang="en" label="English"/>)}</video>
+ :a.kind==='html'?<iframe className="logo-html-preview" src={a.preview} title={a.title} sandbox=""/>
  :a.kind==='image'?<img src={a.preview} alt={a.title} onError={()=>setError(true)}/>
  :a.kind==='audio'?<audio controls src={a.preview}/>
  :text?<pre>{text}</pre>

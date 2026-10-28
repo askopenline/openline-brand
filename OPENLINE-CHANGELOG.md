@@ -2,6 +2,14 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.5.2 human production handoff (2026-10-28)
+
+- **Direction:** AI tutorial production stopped; the final tutorial will be created with a professional human.
+- **Presenters:** Main work-in-progress block announces “Coming soon from a talented human.” Existing experiments remain browsable.
+- **Latest example:** Published the 150-second revision, captions, chapter timings, poster, QA and handoff, with the MP4 also committed to GitHub.
+- **Preservation:** Eight presenter entries, 60 ads, 150 Motion collections and earlier archives retained.
+- **Logos:** Dedicated icon, wordmark, lockup, animated and archive browsing, including the observed website/blog HTML header implementations and downloads.
+
 ## v2.5.1 illustrated tutorial (2026-10-25)
 
 - **Complete example:** Approximately 184 seconds, with Hellen's static office portrait on the left and animated phone demonstrations on the right.
