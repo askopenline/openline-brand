@@ -1,0 +1,177 @@
+{
+  "frames": [
+    {
+      "id": "01",
+      "title": "Explore Countries",
+      "head": [
+        "Find your",
+        "destination"
+      ],
+      "detail": "Search countries by name or browse by region.",
+      "alt": "Explore Countries. Search countries by name or browse by region."
+    },
+    {
+      "id": "02",
+      "title": "Monitor Data",
+      "head": [
+        "Track your data.",
+        "Stay in control."
+      ],
+      "detail": "See how much data remains on your plan.",
+      "alt": "Monitor Data. See how much data remains on your plan."
+    },
+    {
+      "id": "03",
+      "title": "Choose Destination",
+      "head": [
+        "Where are",
+        "you headed?"
+      ],
+      "detail": "Browse destinations or search by name.",
+      "alt": "Choose Destination. Browse destinations or search by name."
+    },
+    {
+      "id": "04",
+      "title": "Plan Duration",
+      "head": [
+        "How long are",
+        "you travelling?"
+      ],
+      "detail": "Choose a 7, 15, or 30 day plan duration.",
+      "alt": "Plan Duration. Choose a 7, 15, or 30 day plan duration."
+    },
+    {
+      "id": "05",
+      "title": "My eSIMs",
+      "head": [
+        "All your eSIMs,",
+        "one place."
+      ],
+      "detail": "Track active and pending eSIMs at a glance.",
+      "alt": "My eSIMs. Track active and pending eSIMs at a glance."
+    },
+    {
+      "id": "06",
+      "title": "eSIM Profile",
+      "head": [
+        "Your eSIM,",
+        "ready to go."
+      ],
+      "detail": "Scan the QR code to set up your plan.",
+      "alt": "eSIM Profile. Scan the QR code to set up your plan."
+    },
+    {
+      "id": "07",
+      "title": "Manual Setup",
+      "head": [
+        "Set up",
+        "manually instead."
+      ],
+      "detail": "Use the SM-DP+ address and activation code shown.",
+      "alt": "Manual Setup. Use the SM-DP+ address and activation code shown."
+    },
+    {
+      "id": "08",
+      "title": "App Settings",
+      "head": [
+        "Tailor the app",
+        "to suit you."
+      ],
+      "detail": "Manage language, notifications, and data preferences.",
+      "alt": "App Settings. Manage language, notifications, and data preferences."
+    },
+    {
+      "id": "09",
+      "title": "Account Menu",
+      "head": [
+        "Your account,",
+        "your way."
+      ],
+      "detail": "View your profile, travel details, and support links.",
+      "alt": "Account Menu. View your profile, travel details, and support links."
+    },
+    {
+      "id": "10",
+      "title": "eSIM Collection",
+      "head": [
+        "All your trips,",
+        "all your eSIMs."
+      ],
+      "detail": "Every eSIM profile organised and easy to find.",
+      "alt": "eSIM Collection. Every eSIM profile organised and easy to find."
+    },
+    {
+      "id": "11",
+      "title": "Package Types",
+      "head": [
+        "Find the plan",
+        "that fits."
+      ],
+      "detail": "Choose from different data package types available.",
+      "alt": "Package Types. Choose from different data package types available."
+    },
+    {
+      "id": "12",
+      "title": "Notifications",
+      "head": [
+        "Stay informed",
+        "while you travel."
+      ],
+      "detail": "Allow notifications to keep up with your eSIM.",
+      "alt": "Notifications. Allow notifications to keep up with your eSIM."
+    }
+  ],
+  "options": [
+    {
+      "id": "A",
+      "label": "Travel-first",
+      "angle": "Focus on travel connectivity and destination exploration.",
+      "apple": {
+        "name": "Openline: Travel eSIM Plans",
+        "subtitle": "Data plans for travelers",
+        "promotional": "Explore destinations and stay connected wherever your next trip takes you.",
+        "keywords": "esim,travel,data,connectivity,international,roaming,vacation,trip,explore,country",
+        "description": "Planning your next trip? Openline lets you browse destinations and explore available data plans before you ever leave home. Choose a plan duration that suits your itinerary, then get everything you need to set up your eSIM, whether you prefer scanning a QR code or entering details manually. Once you're travelling, monitor your remaining data and keep your connection on track. A compatible unlocked eSIM-capable phone is required. Availability depends on your destination and device, so check plan details before you travel."
+      },
+      "google": {
+        "name": "Openline: Travel eSIM Data",
+        "shortDescription": "Browse destinations and manage travel eSIM data plans.",
+        "description": "Planning your next trip? Openline lets you browse destinations and explore available data plans before you ever leave home. Choose a plan duration that suits your itinerary, then get everything you need to set up your eSIM, whether you prefer scanning a QR code or entering details manually. Once you're travelling, monitor your remaining data and keep your connection on track. A compatible unlocked eSIM-capable phone is required. Availability depends on your destination and device, so check plan details before you travel."
+      }
+    },
+    {
+      "id": "B",
+      "label": "Simple setup",
+      "angle": "Emphasize straightforward steps for getting an eSIM installed.",
+      "apple": {
+        "name": "Openline: Easy eSIM Setup",
+        "subtitle": "Install eSIM profiles simply",
+        "promotional": "Get your travel eSIM set up with clear, straightforward steps from the start.",
+        "keywords": "esim,setup,easy,install,data,connect,simple,mobile,internet,activation",
+        "description": "Openline walks you through getting connected without the guesswork. Browse destinations, pick a plan duration that fits your trip, and follow clear setup instructions, scan a QR code or enter your details manually, whichever works for you. Your eSIM information is right there when you need it, and managing active or pending plans is simple from one place. A compatible unlocked eSIM-capable phone is required to use Openline. Availability depends on your destination and device, so always check plan details to confirm what's right for you."
+      },
+      "google": {
+        "name": "Openline: Simple eSIM Install",
+        "shortDescription": "Install eSIM profiles by QR code or manual entry.",
+        "description": "Openline walks you through getting connected without the guesswork. Browse destinations, pick a plan duration that fits your trip, and follow clear setup instructions, scan a QR code or enter your details manually, whichever works for you. Your eSIM information is right there when you need it, and managing active or pending plans is simple from one place. A compatible unlocked eSIM-capable phone is required to use Openline. Availability depends on your destination and device, so always check plan details to confirm what's right for you."
+      }
+    },
+    {
+      "id": "C",
+      "label": "Everyday control",
+      "angle": "Highlight user control over data, profiles, and app settings.",
+      "apple": {
+        "name": "Openline: Control Your eSIM",
+        "subtitle": "Manage data and profiles",
+        "promotional": "Stay in control of your eSIMs, data, and app preferences all in one place.",
+        "keywords": "esim,control,manage,data,usage,settings,dashboard,account,plans,customize",
+        "description": "Openline puts you in charge of your connectivity day to day. Keep an eye on remaining data across your active plans, review anything pending, and make changes without digging through settings. Adjust your notification preferences and language to suit the way you use the app. When you're ready to add a new plan, browse destinations and available durations, then set up your eSIM by QR code or manual entry. A compatible unlocked eSIM-capable phone is required. Availability depends on your destination and device, check plan details for the full picture."
+      },
+      "google": {
+        "name": "Openline: eSIM Data Control",
+        "shortDescription": "Manage eSIM profiles, data usage, and app settings.",
+        "description": "Openline puts you in charge of your connectivity day to day. Keep an eye on remaining data across your active plans, review anything pending, and make changes without digging through settings. Adjust your notification preferences and language to suit the way you use the app. When you're ready to add a new plan, browse destinations and available durations, then set up your eSIM by QR code or manual entry. A compatible unlocked eSIM-capable phone is required. Availability depends on your destination and device, check plan details for the full picture."
+      }
+    }
+  ]
+}

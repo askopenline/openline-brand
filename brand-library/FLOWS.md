@@ -1,5 +1,15 @@
 # Main flows
 
+## V3 selection and final draft (v2.7)
+- App & store opens V3 with 12 candidates per platform, recommended 10 Apple / 8 Google selected; reject additions above caps.
+- Select/remove and reorder screenshots; preview counts/order/images match. Copy options A/B/C update title, description and all corresponding fields independently per platform.
+- Final draft requires full 10/8 sets and confirmation; captures a snapshot, leaves V3 available as archive/editor, and does not claim store approval.
+- URL restores non-sensitive screenshot/copy choices; JSON export/import includes checklist review statuses, never passwords. Malformed imports fail without overwriting.
+- Store previews show no invented ratings, install counts, developer identities or privacy declarations. All unresolved values are labeled.
+- Review all submission fields, status filters and platform switching. Source links, character/byte limits and conditional requirements remain visible.
+- V1/V2 remain immutable archives with working existing galleries, device/store previews and packages.
+- Download selected ZIP contains only selected screenshots in chosen order, selected listing copy and review notes. Desktop / 375px mobile, keyboard dialog, no overflow or console errors.
+
 ## Screenshot V2 (v2.6.0)
 - V1 screenshots, icons, metadata and downloads remain byte-identical.
 - App page has an accessible V1/V2 selector; V2 shows 24 new price-free frames and separate downloads.

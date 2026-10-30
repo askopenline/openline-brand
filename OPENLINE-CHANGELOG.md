@@ -2,6 +2,16 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.0 store selection workspace (2026-10-30)
+
+- Twelve price-free candidates per phone platform, with iOS large and medium export sizes.
+- Three English listing-copy directions per store, character/byte counts and coordinated previews.
+- Screenshot selection caps, order controls, selected ZIP generation, browser persistence and portable review JSON.
+- Final creative snapshot; V1/V2 remain unchanged archives, V3 remains editable.
+- Source-linked submission inventory with required/optional/conditional fields, owner notes and status filters. Unknown privacy/account/build details remain unconfirmed.
+- V2 icon mark size retained. Original V1 icon and artwork remain unchanged.
+- No native build uploads, store submissions or automatic compliance claims.
+
 ## v2.6.0 screenshot V2 (2026-10-30)
 
 - Added 24 price-free screenshot derivatives for iPhone and Android, with marketing and submission editions.
