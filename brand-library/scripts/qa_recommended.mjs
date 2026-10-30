@@ -21,9 +21,7 @@ try{
  assert.equal(await p.locator('.sw-store-shots button').count(),10);await p.keyboard.press('Escape');
  await p.getByRole('button',{name:'Preview on iPhone',exact:true}).click();
  assert.equal(await p.locator('.sw-device-buttons button').count(),10);await p.keyboard.press('Escape');
- let promise=p.waitForEvent('download');await p.getByRole('button',{name:'Download recommended set',exact:true}).click();await (await promise).saveAs(out+'/apple.zip');
  await p.getByRole('button',{name:'Android / Google'}).click();assert.deepEqual(await order(p),rec.google);
- promise=p.waitForEvent('download');await p.getByRole('button',{name:'Download recommended set',exact:true}).click();await (await promise).saveAs(out+'/google.zip');
  await p.getByRole('button',{name:'Share selection',exact:true}).click();
  const link=await p.locator('.sw-share input').inputValue();assert(link.includes('version=recommended'));assert.equal((await read(p)).final,null);
  await p.getByRole('button',{name:'Use recommended in V3',exact:true}).click();
@@ -35,6 +33,20 @@ try{
  await p.close();p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));
  await p.goto(base+'#/app?version=recommended',{waitUntil:'networkidle'});
  assert.deepEqual(await read(p),original);assert.deepEqual(await order(p),rec.apple);
+ for(const [button,title] of [['Preview App Store','Openline: Travel eSIM Plans'],['Preview Google Play','Openline: Travel eSIM Data']]){
+  await p.getByRole('button',{name:button,exact:true}).click();
+  assert((await p.locator('dialog').innerText()).includes(title));
+  await p.keyboard.press('Escape');
+ }
+ assert.deepEqual(await read(p),original);
+ for(const [platform,button] of [['apple','iOS / Apple'],['google','Android / Google']]){
+  await p.getByRole('button',{name:button}).click();
+  const download=p.waitForEvent('download');
+  await p.getByRole('button',{name:'Download recommended set',exact:true}).click();
+  await (await download).saveAs(out+'/'+platform+'.zip');
+ }
+ await p.close();p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));
+ await p.goto(base+'#/app?version=recommended',{waitUntil:'networkidle'});
  await p.getByRole('button',{name:'Share selection',exact:true}).click();
  const shared=await p.locator('.sw-share input').inputValue(),params=new URLSearchParams(shared.split('?')[1]),sharedData=JSON.parse(Buffer.from(params.get('s'),'base64').toString());
  assert.equal(sharedData.review,undefined);

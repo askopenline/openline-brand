@@ -2,6 +2,11 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.3 Recommended listing direction (2026-10-30)
+
+- Recommended Apple and Google previews and downloads now use Direction A (Travel-first).
+- Existing V3 copy selections, reviews and Final snapshots remain untouched.
+
 ## v2.7.2 Recommended selection (2026-10-30)
 
 - Added a separate Recommended tab with the proposed Apple 10 / Google 8 order.

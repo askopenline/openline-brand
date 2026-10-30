@@ -43,7 +43,7 @@ function ExampleField({id,label}){
 export default function AppSubmissionWorkbench({view='v3',onViewChange}){
  const[state,setState]=useState(initial),[platform,setPlatform]=useState('apple'),[notice,setNotice]=useState(''),[modal,setModal]=useState(null),[busy,setBusy]=useState(false),[reviewFilter,setReviewFilter]=useState('all'),[reviewPlatform,setReviewPlatform]=useState('both'),[share,setShare]=useState(''),[storageError,setStorageError]=useState(false);
  const importRef=useRef(),dialog=useRef(),returnFocus=useRef(),confirmRef=useRef();
- const finalMode=view==='final',recommendedMode=view==='recommended',readOnly=finalMode||recommendedMode,active=recommendedMode?{...state,...RECOMMENDED}:finalMode&&state.final?{...state,...state.final}:state,selected=active[platform],meta=chosenCopy(active,platform);
+ const finalMode=view==='final',recommendedMode=view==='recommended',readOnly=finalMode||recommendedMode,active=recommendedMode?{...state,...RECOMMENDED,appleCopy:'A',googleCopy:'A'}:finalMode&&state.final?{...state,...state.final}:state,selected=active[platform],meta=chosenCopy(active,platform);
  useEffect(()=>{try{localStorage.setItem(KEY,JSON.stringify(state));setStorageError(false)}catch{setStorageError(true)}
   if(location.hash.startsWith('#/app')){const params=new URLSearchParams(location.hash.split('?')[1]);params.set('s',btoa(JSON.stringify(publicState(state))));history.replaceState(null,'','#/app?'+params)}
  },[state]);
