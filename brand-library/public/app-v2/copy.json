@@ -1,0 +1,61 @@
+{
+  "frames": [
+    {
+      "head": [
+        "Your next stop.",
+        "Connected."
+      ],
+      "detail": "Browse countries and find your travel eSIM."
+    },
+    {
+      "head": [
+        "Stay informed.",
+        "Manage settings."
+      ],
+      "detail": "Control notifications, language, and data usage."
+    },
+    {
+      "head": [
+        "Your eSIM.",
+        "Ready to set up."
+      ],
+      "detail": "Install your eSIM with QR or manual details."
+    },
+    {
+      "head": [
+        "All your eSIMs.",
+        "One place."
+      ],
+      "detail": "View active and pending eSIM profiles for your trips."
+    },
+    {
+      "head": [
+        "Your data.",
+        "At a glance."
+      ],
+      "detail": "Monitor your data usage during your travels."
+    },
+    {
+      "head": [
+        "Your trip.",
+        "Your plan."
+      ],
+      "detail": "Choose a plan duration that fits your journey."
+    }
+  ],
+  "metadata": {
+    "apple": {
+      "name": "Openline: Travel eSIM & Data",
+      "subtitle": "Travel data, in your hands",
+      "promotional": "Stay connected with Openline eSIMs.",
+      "keywords": "eSIM, travel, data, internet, global, connectivity, roaming, international, phone, trip",
+      "description": "Openline provides convenient eSIMs for your international travels. Get connected in many countries without physical SIM cards. Simply download an eSIM to your compatible unlocked phone. Availability of eSIMs varies by destination. Please check plan terms for details."
+    },
+    "google": {
+      "name": "Openline: Travel eSIM & Data",
+      "shortDescription": "Travel eSIMs for global data connectivity.",
+      "description": "Openline offers an easy way to stay connected while traveling internationally. Download an eSIM directly to your compatible unlocked phone and access data in numerous countries. No need for physical SIM cards. eSIM availability depends on your destination. Review plan terms for complete information.",
+      "releaseNotes": "Welcome to Openline! Find and set up eSIMs for your travels, and collect all your eSIMs in one place."
+    }
+  }
+}

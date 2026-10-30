@@ -1,5 +1,13 @@
 # Main flows
 
+## Screenshot V2 (v2.6.0)
+- V1 screenshots, icons, metadata and downloads remain byte-identical.
+- App page has an accessible V1/V2 selector; V2 shows 24 new price-free frames and separate downloads.
+- Store and device preview links retain the selected version; switching versions changes the screenshot images, icon and associated copy together.
+- No V2 screenshot shows money symbols, prices, price tags, checkout, payment or savings/value messaging, including cropped/scrollable app content.
+- V2 white icon tile has the same dimensions with the original mark enlarged 12.5%; V1's approved icon remains unchanged.
+- Verify screenshots, ZIP contents, all-files search and version reset, store previews, enlarged views, both platforms, mobile layout, existing navigation and archive access.
+
 ## App and store resource hub (v2.5.3)
 - App & store leads with prominent App Store and Google Play listing-preview links.
 - Current marketing and separate Apple/Google submission screenshot rows each show six clickable frames.

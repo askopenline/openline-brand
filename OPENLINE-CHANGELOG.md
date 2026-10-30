@@ -2,6 +2,15 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.6.0 screenshot V2 (2026-10-30)
+
+- Added 24 price-free screenshot derivatives for iPhone and Android, with marketing and submission editions.
+- Replaced the payment-confirmation story with settings; removed monetary elements from the adapted app views.
+- Added a 12.5%-larger original vector mark within the same white app-icon tile.
+- Added V1/V2 switching to the app resource hub and store/device previews, including version-specific copy and downloads.
+- Preserved V1 artwork, approved icon exports, prior archives, 60 ads and 150 Motion collections.
+- Kept explicit design-reference and native-capture review boundaries.
+
 ## v2.5.2 human production handoff (2026-10-28)
 
 - **Direction:** AI tutorial production stopped; the final tutorial will be created with a professional human.
