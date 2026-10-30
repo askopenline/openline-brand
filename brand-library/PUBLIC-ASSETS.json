@@ -1,5 +1,5 @@
 {
-  "version": "2.7.3",
+  "version": "2.7.4",
   "files": [
     {
       "path": "artwork.json",
@@ -3370,7 +3370,7 @@
     {
       "path": "library/catalog.json",
       "bytes": 3319432,
-      "sha256": "99964200df190e3c69d8f29b09bd8a3daf98b8887593fcc260fd676770877aa5",
+      "sha256": "c68dcefccbee78d85cbd429a981067234d549cfcee162400db4d6fcbd1e8f3db",
       "url": "https://brand.openline.com/library/catalog.json"
     },
     {

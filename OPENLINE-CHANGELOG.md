@@ -2,6 +2,12 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.4 Screenshot preview navigation (2026-10-30)
+
+- Added previous/next controls and left/right keyboard navigation to enlarged screenshots.
+- Selected and store previews follow their selected order; the V3 candidate grid cycles through all twenty options.
+- Added a position counter, wraparound navigation and touch-sized mobile controls without modifying saved selections.
+
 ## v2.7.3 Recommended listing direction (2026-10-30)
 
 - Recommended Apple and Google previews and downloads now use Direction A (Travel-first).
