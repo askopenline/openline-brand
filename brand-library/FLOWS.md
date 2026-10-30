@@ -1,6 +1,7 @@
 # Main flows
 
 ## Recommended selection (v2.7.2)
+- v2.7.7: fuller Recommended copy and a source-linked competitor audit appear beside both platform listings. Verify preview/download text equality and unchanged Final; no artwork regeneration.
 - v2.7.6: revised Recommended copy and candidate11 assets are separate from original V3/Final resources. Verify both plan labels, no prices, both Apple sizes, Google, device/store/lightbox previews and ZIPs.
 - Six product-verification flags are visible and downloadable, separate from consumer text. No automatic review-status changes.
 - Recommended tab uses Apple 01,02,11,04,19,10,17,06,15,18 and Google 01,02,11,04,19,10,17,18, in that order.

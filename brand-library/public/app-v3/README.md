@@ -13,6 +13,8 @@ Its previews and downloads follow these orders. Existing V3 choices, listing cop
 
 Recommended previews and downloads use Direction A (Travel-first) for both stores, independently of existing V3 or Final copy choices.
 
+Version 2.7.7 expands those Recommended descriptions with everyday travel uses, plan-choice explanations and a short getting-started flow. The [competitor copy audit](./recommended-copy-audit.md) compares the US-English Apple and Google listings for Saily, Holafly and Airalo. Its findings inform the structure, not Openline's product claims; longer copy does not establish submission readiness.
+
 The revised Recommended edition uses `recommended-copy.json` and a separate candidate 11 image set. Its plan options read “Unlimited usage” and “Fixed usage,” as confirmed by the owner, without prices or currency symbols. Original V3 copy/images and saved Final views retain their earlier assets. Plan availability and applicable usage terms still require release verification.
 
 Six product-verification flags appear on the Recommended page and in a separate `product-verification.md` inside each Recommended ZIP. They cover destination availability, unlimited-plan terms, installation, data-display behavior, real release screenshots and reviewer/privacy/support readiness. These flags are not overlaid on screenshots or inserted into the customer-facing descriptions. No review item is automatically marked complete.

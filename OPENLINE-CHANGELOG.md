@@ -2,6 +2,12 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.7 Competitor-informed listing copy (2026-10-30)
+
+- Expanded Recommended descriptions with travel use cases, clearer benefits and a brief getting-started flow.
+- Audited the US-English Apple and Google listings for Saily, Holafly and Airalo, with a source-linked audit available beside the listing text.
+- Preserved plan labels, price-free artwork, verification flags, original V3 resources and Final snapshots.
+
 ## v2.7.6 Recommended copy and plan choices (2026-10-30)
 
 - Tightened Travel-first descriptions and promotional text through OpenRouter, with scannable features and destination/usage qualifications.

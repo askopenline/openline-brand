@@ -1,7 +1,7 @@
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-const base=process.env.QA_URL||'http://127.0.0.1:5174/',out='/home/user/workspace/openline-fly-deployment/recommended-v2-7-6';
+const base=process.env.QA_URL||'http://127.0.0.1:5174/',out=process.env.QA_OUT||'/home/user/workspace/openline-fly-deployment/recommended-v2-7-6';
 fs.mkdirSync(out,{recursive:true});
 const rec=JSON.parse(fs.readFileSync('public/app-v3/recommended-copy.json')),old=JSON.parse(fs.readFileSync('public/app-v3/copy.json')).options[0];
 const b=await chromium.launch({executablePath:'/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome',args:['--disable-dev-shm-usage']});
@@ -13,6 +13,7 @@ try{
  await p.goto(base);await p.evaluate(({key,fixture})=>localStorage.setItem(key,JSON.stringify(fixture)),{key,fixture});await p.close();
  const reopen=async(view='recommended')=>{await c.close();c=await b.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});await c.addInitScript(({key,fixture})=>localStorage.setItem(key,JSON.stringify(fixture)),{key,fixture});p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(base+'#/app?version='+view,{waitUntil:'networkidle'})};
  await reopen();
+ assert.equal(await p.getByRole('link',{name:'Competitor copy audit',exact:true}).getAttribute('href'),'./app-v3/recommended-copy-audit.md');
  assert.equal(await p.locator('.sw-verification li').count(),6);
  assert.equal(await p.getByRole('button',{name:'Save final draft',exact:true}).count(),0);
  for(const [platform,button,device] of [['apple','iOS / Apple','Preview on iPhone'],['google','Android / Google','Preview on Android']]){

@@ -1,5 +1,5 @@
 {
-  "version": "2.7.6",
+  "version": "2.7.7",
   "files": [
     {
       "path": "artwork.json",
@@ -3369,8 +3369,8 @@
     },
     {
       "path": "library/catalog.json",
-      "bytes": 3319664,
-      "sha256": "37926d6f01b8c5c436e3bd527274dc3df9ce7c763b96ad63ced5a8109d36a103",
+      "bytes": 3319721,
+      "sha256": "fe46dd5368c7c90c8818d87cb35cae9dcac391db6b49267222ba645087510184",
       "url": "https://brand.openline.com/library/catalog.json"
     },
     {
@@ -15375,8 +15375,8 @@
     },
     {
       "path": "app-v3/README.md",
-      "bytes": 6076,
-      "sha256": "d0cf19a10d1e5a4738dbb6d492818d721be895b41e7aebed8c309c6c662ebffe",
+      "bytes": 6473,
+      "sha256": "2470e1435127d9cbea415a0bdcca859a852000d56801db611e8d8d50bea81b0e",
       "url": "https://brand.openline.com/app-v3/README.md"
     },
     {
@@ -16119,8 +16119,8 @@
     },
     {
       "path": "app-v3/recommended-copy.json",
-      "bytes": 3011,
-      "sha256": "c4b996e60ba7beb517ac1e16b09d3ce3f84ae2deb3fbab15e6cee5f4b42caf2f",
+      "bytes": 4188,
+      "sha256": "9391d3bed68f2c38433593f8d05dd59a47f6e46b4454475c73959633a3bb0920",
       "url": "https://brand.openline.com/app-v3/recommended-copy.json"
     },
     {
@@ -16170,7 +16170,13 @@
       "bytes": 113059,
       "sha256": "779d4de445ce9518f1fb87b22672bb6398e2e36d823e33dd2198e5a5cc354080",
       "url": "https://brand.openline.com/app-v3/recommended/screens/types.png"
+    },
+    {
+      "path": "app-v3/recommended-copy-audit.md",
+      "bytes": 4238,
+      "sha256": "d1d59c711b5a70c5bfdae128330af8966391e1a5d1fc3a535c34464cdce771e3",
+      "url": "https://brand.openline.com/app-v3/recommended-copy-audit.md"
     }
   ],
-  "total_bytes": 3083482097
+  "total_bytes": 3083487966
 }
