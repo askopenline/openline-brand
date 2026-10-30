@@ -1,5 +1,5 @@
 {
-  "version": "2.7.5",
+  "version": "2.7.6",
   "files": [
     {
       "path": "artwork.json",
@@ -3369,8 +3369,8 @@
     },
     {
       "path": "library/catalog.json",
-      "bytes": 3319432,
-      "sha256": "d06cc855a40c9f02f993c799579e099c788705bba2df0d3762f83ff8b38b0138",
+      "bytes": 3319664,
+      "sha256": "37926d6f01b8c5c436e3bd527274dc3df9ce7c763b96ad63ced5a8109d36a103",
       "url": "https://brand.openline.com/library/catalog.json"
     },
     {
@@ -15375,8 +15375,8 @@
     },
     {
       "path": "app-v3/README.md",
-      "bytes": 5248,
-      "sha256": "a558a798813b7b94ec18910dcca751dc25adbfafda1793f8901340804f6022e0",
+      "bytes": 6076,
+      "sha256": "d0cf19a10d1e5a4738dbb6d492818d721be895b41e7aebed8c309c6c662ebffe",
       "url": "https://brand.openline.com/app-v3/README.md"
     },
     {
@@ -16116,7 +16116,61 @@
       "bytes": 170035,
       "sha256": "a0f2c44645f1bfe5f5c0b9cf08c0dcc6cedd056627d42fa8798e925abd18738e",
       "url": "https://brand.openline.com/app-v3/screens/usage.png"
+    },
+    {
+      "path": "app-v3/recommended-copy.json",
+      "bytes": 3011,
+      "sha256": "c4b996e60ba7beb517ac1e16b09d3ce3f84ae2deb3fbab15e6cee5f4b42caf2f",
+      "url": "https://brand.openline.com/app-v3/recommended-copy.json"
+    },
+    {
+      "path": "app-v3/recommended/apple/11.png",
+      "bytes": 233122,
+      "sha256": "d166a3732894fa39f897898175c06e68fc7a858703ddcb53792f06a8a75fe223",
+      "url": "https://brand.openline.com/app-v3/recommended/apple/11.png"
+    },
+    {
+      "path": "app-v3/recommended/apple/11.webp",
+      "bytes": 36108,
+      "sha256": "7b0601c4f28f24edde184f965565aaf7d60a9f975d83e2f6b01f2bb14f1fbe0d",
+      "url": "https://brand.openline.com/app-v3/recommended/apple/11.webp"
+    },
+    {
+      "path": "app-v3/recommended/apple-1206/11.png",
+      "bytes": 330286,
+      "sha256": "24ff8f44952aeeedd50d892347510a7f4deb5d86ffa3a04faa9b9eaa0cab6015",
+      "url": "https://brand.openline.com/app-v3/recommended/apple-1206/11.png"
+    },
+    {
+      "path": "app-v3/recommended/capture-provenance.json",
+      "bytes": 376,
+      "sha256": "55ebcb456228abfb330d5bcc14985c7345acf9e55877d1c82b4c97c31b959838",
+      "url": "https://brand.openline.com/app-v3/recommended/capture-provenance.json"
+    },
+    {
+      "path": "app-v3/recommended/google/11.png",
+      "bytes": 156512,
+      "sha256": "7e0586d0b34a9568c627c34320a112e83adc1e2e4d93ae18e8c9af4358ff7d58",
+      "url": "https://brand.openline.com/app-v3/recommended/google/11.png"
+    },
+    {
+      "path": "app-v3/recommended/google/11.webp",
+      "bytes": 31924,
+      "sha256": "6898a56a4bf0f50d294127f48d2b4a69d2b40f1de7ab003a7655e40c8e0eb85c",
+      "url": "https://brand.openline.com/app-v3/recommended/google/11.webp"
+    },
+    {
+      "path": "app-v3/recommended/layout-qa.json",
+      "bytes": 1328,
+      "sha256": "5c0b45d685e32282786de86f67102d01e9f5b1134a26b4b25b7d525ed0442ae9",
+      "url": "https://brand.openline.com/app-v3/recommended/layout-qa.json"
+    },
+    {
+      "path": "app-v3/recommended/screens/types.png",
+      "bytes": 113059,
+      "sha256": "779d4de445ce9518f1fb87b22672bb6398e2e36d823e33dd2198e5a5cc354080",
+      "url": "https://brand.openline.com/app-v3/recommended/screens/types.png"
     }
   ],
-  "total_bytes": 3082575311
+  "total_bytes": 3083482097
 }

@@ -1,6 +1,7 @@
 import React,{useEffect,useRef,useState} from 'react';
 import {ArrowLeft,ArrowRight,Check,CheckCircle2,Copy,Download,ExternalLink,Maximize2,Plus,Upload,X} from 'lucide-react';
 import COPY from './public/app-v3/copy.json';
+import RECOMMENDED_COPY from './public/app-v3/recommended-copy.json';
 import APPLE_EXAMPLES from './public/app-v3/apple-examples.json';
 import {FIELDS,SOURCES,CHECKED} from './submission-fields.js';
 import {makeZip,saveBlob} from './selection-zip.js';
@@ -26,8 +27,9 @@ function initial(){
 }
 export function preferredAppView(){try{return JSON.parse(localStorage.getItem(KEY))?.final?'final':'v3'}catch{return'v3'}}
 const publicState=s=>({...s,review:undefined});
-const image=(p,id,ext='webp')=>`./app-v3/${p}/${id}.${ext}${id==='01'?'?v=europe-3':''}`;
-const chosenCopy=(s,p)=>COPY.options.find(o=>o.id===s[p+'Copy'])[p];
+const assetImage=(p,id,ext='webp',recommended=false)=>`./app-v3/${recommended&&id==='11'?'recommended/':''}${p}/${id}.${ext}${id==='01'?'?v=europe-3':''}`;
+const chosenCopy=(s,p)=>s.recommendedEdition?RECOMMENDED_COPY[p]:COPY.options.find(o=>o.id===s[p+'Copy'])[p];
+const verificationFile=()=>`# Product verification before submission\n\nThese items are not confirmed by selecting Recommended. No store approval is implied.\n\n${RECOMMENDED_COPY.verification.map(f=>`## ${f.title}\n\n${f.detail}\n`).join('\n')}\nPolicy references: https://developer.apple.com/app-store/review/guidelines/ and https://support.google.com/googleplay/android-developer/answer/9898842?hl=en\n`;
 const textFile=(s,p)=>Object.entries(chosenCopy(s,p)).map(([k,v])=>`## ${k}\n\n${v}\n`).join('\n');
 function exportReview(s){return{...s,generatedAt:new Date().toISOString(),notice:'Creative review only. No store approval. No secrets. Examples are templates, not verified answers.',requirements:FIELDS.map(f=>({...f,example:APPLE_EXAMPLES[f.id],...(s.review[f.id]||{status:'pending',note:''})}))}}
 function DocField({name,value,max,bytes=false}){
@@ -43,7 +45,8 @@ function ExampleField({id,label}){
 export default function AppSubmissionWorkbench({view='v3',onViewChange}){
  const[state,setState]=useState(initial),[platform,setPlatform]=useState('apple'),[notice,setNotice]=useState(''),[modal,setModal]=useState(null),[busy,setBusy]=useState(false),[reviewFilter,setReviewFilter]=useState('all'),[reviewPlatform,setReviewPlatform]=useState('both'),[share,setShare]=useState(''),[storageError,setStorageError]=useState(false);
  const importRef=useRef(),dialog=useRef(),returnFocus=useRef(),confirmRef=useRef(),swipe=useRef(null);
- const finalMode=view==='final',recommendedMode=view==='recommended',readOnly=finalMode||recommendedMode,active=recommendedMode?{...state,...RECOMMENDED,appleCopy:'A',googleCopy:'A'}:finalMode&&state.final?{...state,...state.final}:state,selected=active[platform],meta=chosenCopy(active,platform);
+ const finalMode=view==='final',recommendedMode=view==='recommended',readOnly=finalMode||recommendedMode,active=recommendedMode?{...state,...RECOMMENDED,appleCopy:'A',googleCopy:'A',recommendedEdition:true,productVerification:RECOMMENDED_COPY.verification}:finalMode&&state.final?{...state,...state.final}:state,selected=active[platform],meta=chosenCopy(active,platform);
+ const image=(p,id,ext='webp')=>assetImage(p,id,ext,recommendedMode);
  useEffect(()=>{try{localStorage.setItem(KEY,JSON.stringify(state));setStorageError(false)}catch{setStorageError(true)}
   if(location.hash.startsWith('#/app')){const params=new URLSearchParams(location.hash.split('?')[1]);params.set('s',btoa(JSON.stringify(publicState(state))));history.replaceState(null,'','#/app?'+params)}
  },[state]);
@@ -82,11 +85,12 @@ export default function AppSubmissionWorkbench({view='v3',onViewChange}){
   try{
    const set=all?IDS:active[p],entries=[];
    for(let n=0;n<set.length;n++){const id=set[n],res=await fetch(image(p,id,'png'));if(!res.ok)throw Error('Screenshot download failed. Try again.');entries.push({name:`screenshots/${String(n+1).padStart(2,'0')}-candidate-${id}.png`,data:await res.arrayBuffer()});
-    if(p==='apple'){const r=await fetch(`./app-v3/apple-1206/${id}.png${id==='01'?'?v=europe-3':''}`);if(!r.ok)throw Error('Alternate Apple size unavailable.');entries.push({name:`medium-size-1206x2622/${String(n+1).padStart(2,'0')}-candidate-${id}.png`,data:await r.arrayBuffer()})}}
+    if(p==='apple'){const r=await fetch(`./app-v3/${recommendedMode&&id==='11'?'recommended/':''}apple-1206/${id}.png${id==='01'?'?v=europe-3':''}`);if(!r.ok)throw Error('Alternate Apple size unavailable.');entries.push({name:`medium-size-1206x2622/${String(n+1).padStart(2,'0')}-candidate-${id}.png`,data:await r.arrayBuffer()})}}
    for(const [name,url]of [['icon.png',p==='apple'?ICON:'./app-v3/google-icon-512.png'],...(p==='google'?[['feature-graphic.png','./app-v2/submission/google/feature-graphic.png']]:[])]){
     const r=await fetch(url);if(!r.ok)throw Error('Icon/feature graphic download failed.');entries.push({name,data:await r.arrayBuffer()})}
    entries.push({name:'listing-copy.md',data:textFile(active,p)},{name:'selection.json',data:JSON.stringify({platform:p,orderedCandidates:set,conceptCandidates:set.filter(id=>COPY.frames.find(f=>f.id===id)?.concept),copyOption:active[p+'Copy'],status:recommendedMode?'Recommended selection, not confirmed as Final':'Creative draft, not store-approved'},null,2)},{name:'README.md',data:`# Openline ${STORE[p]} V3\n\n${all?'All '+IDS.length+' candidates. NOT an upload set; select at most '+CAP[p]+'.':recommendedMode?'Recommended selection in order. Not confirmed as Final.':'Selected screenshots in order.'}\n\n01–12: adapted design resources. 13–20: imagined UI concepts, not implemented features. None are verified native release captures. Validate claims, UI and declarations. Phone assets only. No prices in artwork. V2 icon: 12.5% larger mark.\n\nApple medium and large exports belong in their corresponding size slots, not one combined screenshot set. Review notes excluded; export separate review JSON.\n\nSpecifications: ${p==='apple'?SOURCES.appleShots:SOURCES.googleAssets}\n`});
    if(p==='apple')entries.push({name:'apple-field-examples.json',data:JSON.stringify(APPLE_EXAMPLES,null,2)});
+   if(recommendedMode)entries.push({name:'product-verification.md',data:verificationFile()});
    saveBlob(await makeZip(entries),`openline-${p}-${all?'all-'+IDS.length+'-candidates':recommendedMode?'recommended-selection':finalMode?'final-draft':'v3-selection'}.zip`);setNotice('Download ready.');
   }catch(e){setNotice(e.message)}finally{setBusy(false)}
  }
@@ -112,10 +116,11 @@ export default function AppSubmissionWorkbench({view='v3',onViewChange}){
    <p className="sw-note">Adapted app design resources, not native release captures. Candidate 07 is a detail-focused alternative to 06. Candidates 13–20 are imagined UI concepts, not implemented features. Review real platform UI before submission; no store approval is implied.</p>
   </section>
   <section id="sw-copy" className="sw-section">
-   <div className="sw-heading"><div><span className="eyebrow">The words around the app</span><h2>{finalMode?'Your selected listing text.':'Three ways to introduce Openline.'}</h2><p>Choose independently for Apple and Google. Previews and downloads use the selected direction.</p></div><div className="sw-platform" aria-label="Copy platform">{['apple','google'].map(p=><button key={p} aria-pressed={platform===p} onClick={()=>setPlatform(p)}>{STORE[p]} · {active[p+'Copy']}</button>)}</div></div>
-   <div className="sw-copy-options">{COPY.options.filter(o=>!readOnly||o.id===active[platform+'Copy']).map(o=><button key={o.id} disabled={readOnly} aria-pressed={active[platform+'Copy']===o.id} onClick={()=>update(platform+'Copy',o.id)}><span>Direction {o.id}{active[platform+'Copy']===o.id&&<CheckCircle2 size={19}/>}</span><h3>{o.label}</h3><p>{o.angle}</p><strong>{o[platform].name}</strong><small>{o[platform].subtitle||o[platform].shortDescription}</small></button>)}</div>
+   <div className="sw-heading"><div><span className="eyebrow">The words around the app</span><h2>{recommendedMode?'Recommended listing text.':finalMode?'Your selected listing text.':'Three ways to introduce Openline.'}</h2><p>{recommendedMode?'Direction A, tightened for both stores. Product verification is still required.':'Choose independently for Apple and Google. Previews and downloads use the selected direction.'}</p></div><div className="sw-platform" aria-label="Copy platform">{['apple','google'].map(p=><button key={p} aria-pressed={platform===p} onClick={()=>setPlatform(p)}>{STORE[p]} · {active[p+'Copy']}</button>)}</div></div>
+   <div className="sw-copy-options">{COPY.options.filter(o=>!readOnly||o.id===active[platform+'Copy']).map(o=><button key={o.id} disabled={readOnly} aria-pressed={active[platform+'Copy']===o.id} onClick={()=>update(platform+'Copy',o.id)}><span>Direction {o.id}{active[platform+'Copy']===o.id&&<CheckCircle2 size={19}/>}</span><h3>{o.label}</h3><p>{o.angle}</p><strong>{(recommendedMode?meta:o[platform]).name}</strong><small>{(recommendedMode?meta:o[platform]).subtitle||(recommendedMode?meta:o[platform]).shortDescription}</small></button>)}</div>
    <div className="sw-copy-details"><DocField name="App name" value={meta.name} max={30}/>{platform==='apple'?<><DocField name="Subtitle" value={meta.subtitle} max={30}/><DocField name="Promotional text" value={meta.promotional} max={170}/><DocField name="Keywords" value={meta.keywords} max={100} bytes/></>:<DocField name="Short description" value={meta.shortDescription} max={80}/>}<DocField name="Full description" value={meta.description} max={4000}/></div>
    <div className="sw-actions"><button className="button secondary" onClick={()=>setModal({type:'store',platform})}>Preview with this text <ExternalLink size={16}/></button><button className="text-link" onClick={()=>saveBlob(new Blob([textFile(active,platform)],{type:'text/markdown'}),`openline-${platform}-copy-${active[platform+'Copy']}.md`)}>Download text <Download size={16}/></button></div>
+   {recommendedMode&&<aside className="sw-verification" aria-label="Product verification pending"><span className="eyebrow">Before submission</span><h3>Product verification pending</h3><p>The plan labels are owner-confirmed. The release behavior and conditions below still need evidence. Selecting Recommended does not mark them reviewed.</p><ul>{RECOMMENDED_COPY.verification.map(f=><li key={f.id}><strong>{f.title}</strong><p>{f.detail}</p></li>)}</ul><button className="text-link" onClick={()=>saveBlob(new Blob([verificationFile()],{type:'text/markdown'}),'openline-product-verification.md')}>Download verification checklist <Download size={16}/></button></aside>}
   </section>
   </>}
   <section id="sw-review" className="sw-section">
@@ -134,7 +139,7 @@ export default function AppSubmissionWorkbench({view='v3',onViewChange}){
      <button className="sw-image-next" aria-label="Next screenshot" disabled={previewIds.length<2} onClick={()=>stepPreview(1)}><ArrowRight size={24}/></button>
     </div>
     <a href={image(modal.platform,modal.id,'png')} download>Download PNG <Download size={16}/></a>
-   </div>:modal.type==='device'?<div className="sw-device-preview"><div className={'sw-phone '+(modal.platform==='google'?'sw-android':'')}><img src={`./app-v3/screens/${CAPTURE[Number(modal.id)-1]}.png?v=europe-3`} alt={COPY.frames.find(f=>f.id===modal.id).alt}/></div><div className="sw-device-buttons">{(active[modal.platform].length?active[modal.platform]:IDS).map(id=><button key={id} aria-pressed={modal.id===id} onClick={()=>setModal({...modal,id})}>{id}</button>)}</div><p>Adapted resource in a generic {modal.platform==='apple'?'iPhone':'Android'} frame. Candidates 13–20 are imagined UI concepts. Native platform validation is pending.</p></div>:<StorePreview platform={modal.platform} state={active} onImage={id=>setModal({type:'image',platform:modal.platform,id})} onDevice={()=>setModal({type:'device',platform:modal.platform,id:active[modal.platform][0]||'01'})}/>}
+   </div>:modal.type==='device'?<div className="sw-device-preview"><div className={'sw-phone '+(modal.platform==='google'?'sw-android':'')}><img src={`./app-v3/${recommendedMode&&modal.id==='11'?'recommended/':''}screens/${CAPTURE[Number(modal.id)-1]}.png?v=europe-3`} alt={COPY.frames.find(f=>f.id===modal.id).alt}/></div><div className="sw-device-buttons">{(active[modal.platform].length?active[modal.platform]:IDS).map(id=><button key={id} aria-pressed={modal.id===id} onClick={()=>setModal({...modal,id})}>{id}</button>)}</div><p>Adapted resource in a generic {modal.platform==='apple'?'iPhone':'Android'} frame. Candidates 13–20 are imagined UI concepts. Native platform validation is pending.</p></div>:<StorePreview platform={modal.platform} state={active} onImage={id=>setModal({type:'image',platform:modal.platform,id})} onDevice={()=>setModal({type:'device',platform:modal.platform,id:active[modal.platform][0]||'01'})}/>}
   </dialog>}
  </div>;
 }
@@ -143,7 +148,7 @@ function StorePreview({platform,state,onImage,onDevice}){
  return <div className={'sw-store sw-store-'+platform}><div className="sw-store-top"><span>{STORE[platform]}</span><small>Listing simulation · not published</small></div>{platform==='google'&&<img className="sw-feature" src="./app-v2/submission/google/feature-graphic.png" alt="Openline feature graphic"/>}
   <div className="sw-store-brand"><img src={ICON} alt="Openline app icon"/><div><h2>{m.name}</h2><p>{m.subtitle||m.shortDescription}</p><small>Developer identity: awaiting confirmation</small></div><span className="sw-get">{platform==='apple'?'GET':'Install'}</span></div>
   <div className="sw-store-facts"><span><strong>Age rating</strong>To confirm</span><span><strong>Category</strong>To confirm</span><span><strong>Language</strong>English draft</span><span><strong>Reviews</strong>Not simulated</span></div>
-  <div className="sw-store-shots">{state[platform].map((id,i)=><button key={id} onClick={()=>onImage(id)} aria-label={`Preview selected screenshot ${i+1}`}><img src={image(platform,id)} alt={COPY.frames.find(f=>f.id===id).alt}/></button>)}</div>
+  <div className="sw-store-shots">{state[platform].map((id,i)=><button key={id} onClick={()=>onImage(id)} aria-label={`Preview selected screenshot ${i+1}`}><img src={assetImage(platform,id,'webp',state.recommendedEdition)} alt={COPY.frames.find(f=>f.id===id).alt}/></button>)}</div>
   <button className="text-link" onClick={onDevice}>See the app on {platform==='apple'?'iPhone':'Android'} <ExternalLink size={15}/></button>
   {m.promotional&&<p className="sw-promo">{m.promotional}</p>}<h3>About this app</h3><p className="sw-store-description">{m.description}</p><div className="sw-store-privacy"><h3>{platform==='apple'?'App Privacy':'Data safety'}</h3><p>Awaiting verified declarations. This preview does not invent collection, sharing, encryption or deletion claims.</p></div>
  </div>;

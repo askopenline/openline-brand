@@ -2,6 +2,13 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.6 Recommended copy and plan choices (2026-10-30)
+
+- Tightened Travel-first descriptions and promotional text through OpenRouter, with scannable features and destination/usage qualifications.
+- Added six explicit product-verification flags to the review page and Recommended downloads.
+- Recommended candidate 11 now shows owner-confirmed “Unlimited usage” and “Fixed usage” options, without prices or currency symbols.
+- Separate Recommended assets and copy preserve original V3 resources and existing Final previews. No automatic confirmation or review-status changes.
+
 ## v2.7.5 Mobile screenshot swipes (2026-10-30)
 
 - Swipe left or right on enlarged screenshots to move through the current selection or candidate grid.

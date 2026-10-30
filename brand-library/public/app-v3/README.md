@@ -4,6 +4,23 @@ V3 is a selection workspace with twenty candidates for each phone platform, thre
 
 ## Select and prepare
 
+The [Recommended selection](https://brand.openline.com/#/app?version=recommended) is available without confirming Final:
+
+- Apple: 01 → 02 → 11 → 04 → 19 → 10 → 17 → 06 → 15 → 18.
+- Google: 01 → 02 → 11 → 04 → 19 → 10 → 17 → 18.
+
+Its previews and downloads follow these orders. Existing V3 choices, listing copy, review answers and saved Final snapshots are preserved. “Use recommended in V3” copies only the screenshot selections into the editable draft; it does not confirm Final. New workspaces start with the recommendation and no Final snapshot.
+
+Recommended previews and downloads use Direction A (Travel-first) for both stores, independently of existing V3 or Final copy choices.
+
+The revised Recommended edition uses `recommended-copy.json` and a separate candidate 11 image set. Its plan options read “Unlimited usage” and “Fixed usage,” as confirmed by the owner, without prices or currency symbols. Original V3 copy/images and saved Final views retain their earlier assets. Plan availability and applicable usage terms still require release verification.
+
+Six product-verification flags appear on the Recommended page and in a separate `product-verification.md` inside each Recommended ZIP. They cover destination availability, unlimited-plan terms, installation, data-display behavior, real release screenshots and reviewer/privacy/support readiness. These flags are not overlaid on screenshots or inserted into the customer-facing descriptions. No review item is automatically marked complete.
+
+Enlarged screenshots support arrow buttons, keyboard arrows and mobile swipes. Swipe left for the next screenshot or right for the previous one; navigation wraps around and follows the selected order, or all twenty options when opened from the candidate grid. Vertical scrolling and pinch zoom remain available, and browsing never changes a selection.
+
+Concepts 15, 17, 18 and 19 remain subject to product validation. Candidate 15 requires actual in-app network choice; use 05 instead if that interface does not exist.
+
 - **Apple:** choose and order ten candidates. Download contains 1320×2868 PNGs and a separate 1206×2622 folder for the currently required Dynamic Island medium-display family; upload each family into its corresponding size slot, not both sets into one slot. Apple allows up to ten screenshots per size ([Apple specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications)).
 - **Google:** choose and order eight candidates. Download contains 1080×1920 PNGs, the 512px icon and a 1024×500 feature graphic. Google allows up to eight screenshots per device type ([Google specifications](https://support.google.com/googleplay/android-developer/answer/9866151?hl=en-GB)).
 - **Text:** choose A, B or C independently for each platform. The selected copy, screenshots and order feed the preview and generated ZIP.

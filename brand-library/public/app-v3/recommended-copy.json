@@ -1,0 +1,53 @@
+{
+  "apple": {
+    "name": "Openline: Travel eSIM Plans",
+    "subtitle": "Data plans for travelers",
+    "promotional": "Stay connected on your next adventure. Browse destinations, find available data plans, and manage your eSIM for travel.",
+    "keywords": "esim,travel,data,connectivity,international,roaming,vacation,trip,explore,country",
+    "description": "Openline provides mobile data plans for your travels abroad.\n\n- Browse destinations and discover available data plans.\n- Choose from \"Unlimited usage\" or \"Fixed usage\" plans, where available.\n- Get clear instructions for eSIM setup, including QR code or manual options.\n- Monitor your remaining data, where applicable.\n\nA compatible unlocked eSIM-capable phone is required. Plan availability varies by destination. Please review each plan's validity and applicable usage terms before choosing."
+  },
+  "google": {
+    "name": "Openline: Travel eSIM Data",
+    "shortDescription": "Travel data plans for eSIM-enabled phones.",
+    "description": "Openline provides mobile data plans for your travels abroad.\n\n- Browse destinations and discover available data plans.\n- Choose from \"Unlimited usage\" or \"Fixed usage\" plans, where available.\n- Get clear instructions for eSIM setup, including QR code or manual options.\n- Monitor your remaining data, where applicable.\n\nA compatible unlocked eSIM-capable phone is required. Plan availability varies by destination. Please review each plan's validity and applicable usage terms before choosing."
+  },
+  "planSelection": {
+    "unlimitedLabel": "Unlimited usage",
+    "fixedLabel": "Fixed usage",
+    "unlimitedDetail": "Stay connected for a set duration.",
+    "fixedDetail": "Get a specific data allowance.",
+    "detail": "Choose your plan type"
+  },
+  "verification": [
+    {
+      "id": 1,
+      "title": "Plan Labels & Availability",
+      "detail": "Owner confirmed plan labels 'Unlimited usage' and 'Fixed usage'. Verify destination-specific availability in release."
+    },
+    {
+      "id": 2,
+      "title": "Unlimited Plan Terms",
+      "detail": "Verify unlimited fair-use thresholds, throttling, speeds, hotspot, and applicable terms (no assumption these exist or don't)."
+    },
+    {
+      "id": 3,
+      "title": "Installation Instructions",
+      "detail": "Confirm QR/manual installation instructions actually work on release devices."
+    },
+    {
+      "id": 4,
+      "title": "Data Display Accuracy",
+      "detail": "Verify remaining-data display accuracy/refresh behavior and plan management match build."
+    },
+    {
+      "id": 5,
+      "title": "Screenshot Verification",
+      "detail": "Screenshots 13-20 are imagined concepts; selected 15 (network choice Apple only) and 17/18/19 both require actual UI proof; these are NOT verified release captures."
+    },
+    {
+      "id": 6,
+      "title": "Legal & Support URLs",
+      "detail": "Reviewer-access, privacy declarations, and functional support/privacy URLs need owner verification."
+    }
+  ]
+}

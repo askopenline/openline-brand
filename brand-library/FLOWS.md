@@ -1,6 +1,8 @@
 # Main flows
 
 ## Recommended selection (v2.7.2)
+- v2.7.6: revised Recommended copy and candidate11 assets are separate from original V3/Final resources. Verify both plan labels, no prices, both Apple sizes, Google, device/store/lightbox previews and ZIPs.
+- Six product-verification flags are visible and downloadable, separate from consumer text. No automatic review-status changes.
 - Recommended tab uses Apple 01,02,11,04,19,10,17,06,15,18 and Google 01,02,11,04,19,10,17,18, in that order.
 - Viewing Recommended must not change existing draft arrays, copy directions, review answers or Final snapshots.
 - New empty workspaces start with the recommended arrays and final=null. No confirmation checkbox or Final save action in Recommended.
