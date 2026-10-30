@@ -1,5 +1,13 @@
 # Main flows
 
+## Recommended selection (v2.7.2)
+- Recommended tab uses Apple 01,02,11,04,19,10,17,06,15,18 and Google 01,02,11,04,19,10,17,18, in that order.
+- Viewing Recommended must not change existing draft arrays, copy directions, review answers or Final snapshots.
+- New empty workspaces start with the recommended arrays and final=null. No confirmation checkbox or Final save action in Recommended.
+- Store/device previews, shared Recommended URLs and ZIPs use the recommended order and identify it as unconfirmed.
+- Use recommended in V3 copies only the screenshot arrays; copy/review/Final remain unchanged. Manual confirmation is still required in V3.
+- Preserve V1/V2 navigation, mobile width, existing gallery routes and no new JS errors.
+
 ## V3 selection and final draft (v2.7)
 - App & store opens V3 with 20 candidates per platform, recommended 10 Apple / 8 Google selected; reject additions above caps.
 - Select/remove and reorder screenshots; preview counts/order/images match. Copy options A/B/C update title, description and all corresponding fields independently per platform.

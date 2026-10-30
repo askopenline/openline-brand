@@ -2,6 +2,13 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.2 Recommended selection (2026-10-30)
+
+- Added a separate Recommended tab with the proposed Apple 10 / Google 8 order.
+- Recommended previews, downloads and share links remain explicitly unconfirmed.
+- Preserved existing draft choices, copy, review answers and Final snapshots. New workspaces start with the recommended arrays and no Final.
+- Added a copy-to-V3 action that changes only screenshot arrays; Final remains a separate manual confirmation.
+
 ## v2.7.1 expanded screenshot choices (2026-10-30)
 
 - Restored the Europe label in candidate 01 and added a capture regression check.

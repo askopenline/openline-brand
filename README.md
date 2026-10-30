@@ -26,6 +26,8 @@ The official Openline media kit and working brand library. Logos, app icons, mot
 
 ## Store selection workspace · v2.7.1
 
+[Open the Recommended selection](https://brand.openline.com/#/app?version=recommended): ten Apple and eight Google screenshots in the proposed order, with previews and downloads. This v2.7.2 preset does not confirm Final or overwrite saved V3 work; copying it into V3 changes screenshot choices only.
+
 [Open the V3 workspace](https://brand.openline.com/#/app?version=v3) to choose from twenty iOS and twenty Android screenshot candidates, compare three complete English copy directions per platform, and review the source-linked submission checklist. The previews and selected ZIP downloads follow the selected order and copy.
 
 Every Apple-related review field includes a copyable inspiration template, with 37 examples in total. Replace placeholders and verify applicability; copying an example does not mark a field reviewed.
