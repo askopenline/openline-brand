@@ -4,7 +4,9 @@ import {chromium} from 'playwright';
 import fs from 'node:fs';
 const out='public/app-v2/screens';
 fs.mkdirSync(out,{recursive:true});
-const browser=await chromium.launch({executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE||'/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome',headless:true,args:['--disable-dev-shm-usage']});
+const installed='/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome';
+const executablePath=process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE||(fs.existsSync(installed)?installed:undefined);
+const browser=await chromium.launch({channel:'chromium',...(executablePath?{executablePath}:{}),headless:true,args:['--disable-dev-shm-usage']});
 const screens=[['countries','Countries'],['settings','Settings'],['profile','eSIM profile (activated)'],['esims','My eSIMs'],['dashboard','Dashboard'],['plans','Plans · 3 · options']];
 const report=[];
 for(const [id,label] of screens){

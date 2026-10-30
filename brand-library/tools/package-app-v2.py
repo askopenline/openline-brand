@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw
 APP=Path(__file__).resolve().parents[1];PUB=APP/"public";V=PUB/"app-v2"
 STATE=APP.parent/"openline-fly-deployment/app-v2-v2-6-0"
-REPO=APP.parent/"openline-brand-assets"
+REPO=APP.parent if APP.name=="brand-library" else APP.parent/"openline-brand-assets"
 def read(p):return json.loads(p.read_text())
 def save(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+"\n")
 copy=read(V/"copy.json")
@@ -96,7 +96,7 @@ for name in sources:
     if not b.exists() or not a.samefile(b):shutil.copy2(a,b)
 # Small configuration needed by Vite is committed; generated media is hydrated from Fly.
 dest=REPO/"brand-library/public/app-v2";dest.mkdir(parents=True,exist_ok=True)
-shutil.copy2(V/"copy.json",dest/"copy.json")
+if not (dest/"copy.json").exists() or not (V/"copy.json").samefile(dest/"copy.json"):shutil.copy2(V/"copy.json",dest/"copy.json")
 inv=read(REPO/"brand-library/PUBLIC-ASSETS.json");index={f["path"]:f for f in inv["files"]}
 for name in changed:
     b=(PUB/name).read_bytes();index[name]={"path":name,"bytes":len(b),"sha256":hashlib.sha256(b).hexdigest(),"url":"https://brand.openline.com/"+name}

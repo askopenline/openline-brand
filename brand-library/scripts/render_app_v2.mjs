@@ -1,7 +1,9 @@
 import {chromium} from 'playwright';
 import fs from 'node:fs';
 const copy=JSON.parse(fs.readFileSync('public/app-v2/copy.json'));
-const browser=await chromium.launch({executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE||'/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome',headless:true,args:['--disable-dev-shm-usage']});
+const installed='/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome';
+const executablePath=process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE||(fs.existsSync(installed)?installed:undefined);
+const browser=await chromium.launch({channel:'chromium',...(executablePath?{executablePath}:{}),headless:true,args:['--disable-dev-shm-usage']});
 let page;
 const captures=['countries','settings','profile','esims','dashboard','plans'];
 const report=[];
