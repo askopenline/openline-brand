@@ -10,6 +10,7 @@ try{
  const saved=()=>page.evaluate(()=>localStorage.getItem('openline-store-workspace-v3')),before=await saved();
  const check=async(id)=>{await page.waitForFunction(id=>document.querySelector('.sw-image-stage img')?.getAttribute('src').includes('/'+id+'.png'),id);assert((await page.locator('.sw-full-art a').getAttribute('href')).includes('/'+id+'.png'))};
  const gesture=async(dx,dy=0,cancel=false,multi=false)=>{
+  await page.waitForFunction(()=>{const img=document.querySelector('.sw-image-stage img');return img?.complete&&img.naturalWidth>0});
   const b=await page.locator('.sw-image-stage img').boundingBox(),x=b.x+b.width/2,y=b.y+b.height/2;
   const points=(a,z)=>[{x:a,y:z,id:1},...(multi?[{x:a+45,y:z+45,id:2}]:[])];
   await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:points(x,y)});
