@@ -1,0 +1,75 @@
+import {chromium} from 'playwright';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {FIELDS} from '../submission-fields.js';
+const base=process.env.QA_URL||'http://127.0.0.1:5173/';
+const state='/home/user/workspace/openline-fly-deployment/app-v3-20-v2-7-1';
+const examples=JSON.parse(fs.readFileSync('public/app-v3/apple-examples.json'));
+const browser=await chromium.launch({executablePath:'/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome',args:['--disable-dev-shm-usage']});
+try{
+ const context=await browser.newContext({viewport:{width:1440,height:1000},permissions:['clipboard-read','clipboard-write'],acceptDownloads:true});
+ let page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(base+'#/app?version=v3',{waitUntil:'networkidle'});
+ assert.equal(await page.locator('.sw-candidates article').count(),20);
+ assert.equal(await page.locator('.sw-selected > div').count(),10);
+ assert.equal(await page.locator('.sw-example').count(),FIELDS.filter(f=>f.platform!=='google').length);
+ await page.getByRole('button',{name:'Copy example for Publisher / developer identity',exact:true}).click();
+ assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),examples.publisher);
+ assert.equal(await page.getByLabel('Publisher / developer identity status').inputValue(),'pending');
+ await page.getByRole('button',{name:'Deselect candidate 10',exact:true}).click();
+ await page.getByRole('button',{name:'Select candidate 20',exact:true}).click();
+ await page.getByRole('button',{name:'Move 20 earlier',exact:true}).click();
+ assert.equal(await page.locator('.sw-selected > div').count(),10);
+ await page.getByRole('button',{name:'Select candidate 19',exact:true}).click();
+ assert.equal(await page.locator('.sw-selected > div').count(),10);
+ await page.getByRole('button',{name:'Preview App Store',exact:true}).click();
+ assert.equal(await page.locator('.sw-store-shots button').count(),10);
+ await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'Preview on iPhone',exact:true}).click();
+ await page.locator('.sw-device-buttons').getByRole('button',{name:'20',exact:true}).click();
+ await page.locator('.sw-phone img').evaluate(img=>img.decode());
+ assert.match(await page.locator('.sw-phone img').getAttribute('src'),/languages/);
+ await page.keyboard.press('Escape');
+ const appleDownload=page.waitForEvent('download');
+ await page.getByRole('button',{name:'Download selected set',exact:true}).click();
+ await (await appleDownload).saveAs(state+'/qa-selected-apple.zip');
+ await page.getByRole('button',{name:'Android / Google'}).click();
+ assert.equal(await page.locator('.sw-candidates article').count(),20);
+ assert.equal(await page.locator('.sw-selected > div').count(),8);
+ const allDownload=page.waitForEvent('download');
+ await page.getByRole('button',{name:'All 20 candidates',exact:true}).click();
+ await (await allDownload).saveAs(state+'/qa-all-google.zip');
+ await page.getByRole('button',{name:'Preview Google Play',exact:true}).click();
+ assert.equal(await page.locator('.sw-store-shots button').count(),8);
+ await page.keyboard.press('Escape');
+ await page.getByRole('checkbox',{name:/I confirm these 10 Apple/}).check();
+ await page.getByRole('button',{name:'Save final draft',exact:true}).click();
+ await page.getByRole('heading',{name:'One clear final draft.'}).waitFor();
+ await page.getByRole('button',{name:'Edit in V3',exact:true}).click();
+ await page.close();page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(base+'#/app?version=v3',{waitUntil:'networkidle'});
+ assert.equal(await page.locator('.sw-candidates article').count(),20);
+ const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('openline-store-workspace-v3')));
+ assert(saved.final.apple.includes('20'));
+ for(const v of ['v1','v2']){
+  await page.close();page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(base+'#/app?version='+v,{waitUntil:'networkidle'});
+  assert((await page.locator('body').innerText()).length>500);
+ }
+ for(const route of ['','logos','assets','ads','motion','presenters','guidelines','archives']){
+  await page.close();page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(base+'#/'+route,{waitUntil:'networkidle'});
+  assert((await page.locator('body').innerText()).length>400);
+ }
+ await page.close();page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(base+'#/app?version=v3',{waitUntil:'networkidle'});
+ await page.setViewportSize({width:375,height:812});
+ while(await page.locator('.sw-review-group:not([open]) > summary').count())await page.locator('.sw-review-group:not([open]) > summary').first().click();
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await page.screenshot({path:state+'/qa-mobile.png'});
+ await page.setViewportSize({width:1440,height:1000});
+ await page.locator('#sw-screens').scrollIntoViewIfNeeded();
+ await page.screenshot({path:state+'/qa-desktop.png'});
+ assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({url:base,candidatesPerPlatform:20,appleExamples:Object.keys(examples).length,caps:'10/8',selectionsPreserved:true,previews:true,downloads:true,archives:true,finalSnapshot:true,clipboard:true,mobileOverflow:false,pageErrors:errors}));
+}finally{await browser.close()}

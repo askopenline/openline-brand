@@ -3,11 +3,13 @@ import fs from 'node:fs';
 const copy=JSON.parse(fs.readFileSync('public/app-v3/copy.json'));
 const installed='/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome';
 const browser=await chromium.launch({channel:'chromium',executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE||(fs.existsSync(installed)?installed:undefined),args:['--disable-dev-shm-usage']});
-const captures=['countries','dashboard','destination','duration','esims','profile','profile','settings','account','collection','types','notifications'];
+const captures=['countries','dashboard','destination','duration','esims','profile','profile','settings','account','collection','types','notifications',...copy.frames.slice(12).map(f=>f.capture)];
 const report=[];
 for(const [platform,width,height] of [['apple',1320,2868],['google',1080,1920]]){
  const dir=`public/app-v3/${platform}`;fs.mkdirSync(dir,{recursive:true});
- for(let n=0;n<12;n++){
+ for(let n=0;n<copy.frames.length;n++){
+  if(process.env.FRAME_MIN&&n+1<Number(process.env.FRAME_MIN))continue;
+  if(process.env.FRAME_ONLY&&n+1!==Number(process.env.FRAME_ONLY))continue;
   const page=await browser.newPage({viewport:{width,height}});
   await page.goto(`http://127.0.0.1:5173/render-submission.html?platform=${platform}&slide=${n%2}`,{waitUntil:'networkidle'});
   await page.waitForFunction(()=>window.artworkReady);
@@ -36,5 +38,7 @@ for(const [platform,width,height] of [['apple',1320,2868],['google',1080,1920]])
   report.push({platform,frame:n+1,width,height,...qa});await page.close();
  }
 }
-fs.writeFileSync('public/app-v3/layout-qa.json',JSON.stringify(report,null,2));await browser.close();
-console.log('24 V3 screenshot candidates rendered.');
+const previous=process.env.FRAME_ONLY||process.env.FRAME_MIN?JSON.parse(fs.readFileSync('public/app-v3/layout-qa.json')):[];
+const merged=[...previous.filter(x=>!report.some(r=>r.platform===x.platform&&r.frame===x.frame)),...report].sort((a,b)=>a.platform.localeCompare(b.platform)||a.frame-b.frame);
+fs.writeFileSync('public/app-v3/layout-qa.json',JSON.stringify(merged,null,2));await browser.close();
+console.log(`${report.length} V3 screenshot candidates rendered.`);

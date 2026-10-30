@@ -119,6 +119,294 @@
       ],
       "detail": "Allow notifications to keep up with your eSIM.",
       "alt": "Notifications. Allow notifications to keep up with your eSIM."
+    },
+    {
+      "id": "13",
+      "title": "Europe Trip",
+      "head": [
+        "Plan your trip",
+        "before you go"
+      ],
+      "detail": "Browse destinations and explore plan options by country.",
+      "alt": "Europe Trip. Browse destinations and explore plan options by country.",
+      "capture": "europe-trip",
+      "concept": true,
+      "phone": {
+        "title": "Europe Destinations",
+        "subtitle": "Browse before you travel",
+        "badge": "4 destinations",
+        "section": "Popular in Europe",
+        "rows": [
+          {
+            "title": "Portugal",
+            "detail": "Browse destination"
+          },
+          {
+            "title": "France",
+            "detail": "Browse destination"
+          },
+          {
+            "title": "Germany",
+            "detail": "Browse destination"
+          },
+          {
+            "title": "Italy",
+            "detail": "Browse destination"
+          }
+        ],
+        "metric": null,
+        "metricLabel": null
+      }
+    },
+    {
+      "id": "14",
+      "title": "Arrival",
+      "head": [
+        "You have arrived",
+        "in Paris"
+      ],
+      "detail": "Check your data balance and connection status on arrival.",
+      "alt": "Arrival. Check your data balance and connection status on arrival.",
+      "capture": "arrival",
+      "concept": true,
+      "phone": {
+        "title": "Welcome to Paris",
+        "subtitle": "Your Openline data plan is active",
+        "badge": "Connected",
+        "section": "Mobile data checklist",
+        "rows": [
+          {
+            "title": "eSIM installed",
+            "detail": "Shown as installed on this device"
+          },
+          {
+            "title": "Mobile data on",
+            "detail": "Enable in device Settings if needed"
+          },
+          {
+            "title": "Data roaming on",
+            "detail": "Enable in device Settings if needed"
+          },
+          {
+            "title": "Openline line selected",
+            "detail": "Set as mobile data line in Settings"
+          }
+        ],
+        "metric": "6.8 GB",
+        "metricLabel": "remaining of 10 GB"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Network Selection",
+      "head": [
+        "Choose your",
+        "network option"
+      ],
+      "detail": "Explore available network options for your current location.",
+      "alt": "Network Selection. Explore available network options for your current location.",
+      "capture": "networks",
+      "concept": true,
+      "phone": {
+        "title": "Select a Network",
+        "subtitle": "Explore network options for your current location",
+        "badge": "Available networks",
+        "section": "Available Networks",
+        "rows": [
+          {
+            "title": "Network A",
+            "detail": "One option available in this area"
+          },
+          {
+            "title": "Network B",
+            "detail": "Another option available in this area"
+          },
+          {
+            "title": "Network C",
+            "detail": "A further option available in this area"
+          },
+          {
+            "title": "Review settings",
+            "detail": "Check network preferences in device settings"
+          }
+        ],
+        "metric": null,
+        "metricLabel": null
+      }
+    },
+    {
+      "id": "16",
+      "title": "Data Overview",
+      "head": [
+        "Track your data",
+        "at a glance"
+      ],
+      "detail": "Review usage across today, this week, and your plan.",
+      "alt": "Data Overview. Review usage across today, this week, and your plan.",
+      "capture": "usage",
+      "concept": true,
+      "phone": {
+        "title": "Your Data Usage",
+        "subtitle": "Your data usage at a glance",
+        "badge": "Data overview",
+        "section": "Usage Breakdown",
+        "rows": [
+          {
+            "title": "Today",
+            "detail": "0.4 GB used today"
+          },
+          {
+            "title": "This week",
+            "detail": "1.6 GB used this week"
+          },
+          {
+            "title": "Used from plan",
+            "detail": "3.2 GB used from your 10 GB plan"
+          }
+        ],
+        "metric": "6.8 GB",
+        "metricLabel": "remaining of 10 GB"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Installation Checklist",
+      "head": [
+        "Set up in",
+        "three steps"
+      ],
+      "detail": "Follow each step to get mobile data ready.",
+      "alt": "Installation Checklist. Follow each step to get mobile data ready.",
+      "capture": "checklist",
+      "concept": true,
+      "phone": {
+        "title": "Get Started",
+        "subtitle": "Complete each step to begin using mobile data",
+        "badge": "3 steps",
+        "section": "Installation Steps",
+        "rows": [
+          {
+            "title": "Add eSIM profile",
+            "detail": "Scan a QR code or enter setup details to add eSIM"
+          },
+          {
+            "title": "Select data line",
+            "detail": "Choose Openline as your mobile data line"
+          },
+          {
+            "title": "Review settings",
+            "detail": "Confirm data roaming is on in device settings"
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "title": "Help Hub",
+      "head": [
+        "Find answers",
+        "when you need"
+      ],
+      "detail": "Browse topics covering setup and common questions.",
+      "alt": "Help Hub. Browse topics covering setup and common questions.",
+      "capture": "help",
+      "concept": true,
+      "phone": {
+        "title": "Help and Support",
+        "subtitle": "Browse topics or search for what you need",
+        "badge": "Support topics",
+        "section": "Browse by Topic",
+        "rows": [
+          {
+            "title": "Installation guide",
+            "detail": "Step by step help adding your eSIM profile"
+          },
+          {
+            "title": "Connection tips",
+            "detail": "Troubleshoot common mobile data connection issues"
+          },
+          {
+            "title": "Account questions",
+            "detail": "Manage your plan details and profile settings"
+          },
+          {
+            "title": "Device compatibility",
+            "detail": "Check if your device supports eSIM functionality"
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "title": "Dual-SIM Settings",
+      "head": [
+        "Use two SIMs",
+        "stay connected"
+      ],
+      "detail": "Manage home SIM and data SIM on compatible devices.",
+      "alt": "Dual-SIM Settings. Manage home SIM and data SIM on compatible devices.",
+      "capture": "dual-sim",
+      "concept": true,
+      "phone": {
+        "title": "Dual-SIM Setup",
+        "subtitle": "Keep your home SIM active alongside Openline data.",
+        "badge": "Compatible devices",
+        "section": "Line assignment guide",
+        "rows": [
+          {
+            "title": "Home SIM",
+            "detail": "Recommended for calls and messages on compatible devices."
+          },
+          {
+            "title": "Openline eSIM",
+            "detail": "Set as preferred mobile data line on compatible devices."
+          },
+          {
+            "title": "Check compatibility",
+            "detail": "Verify your device supports a physical SIM plus eSIM."
+          },
+          {
+            "title": "Review settings",
+            "detail": "Confirm line roles in device settings on compatible devices."
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "title": "Language Selection",
+      "head": [
+        "Choose your",
+        "language"
+      ],
+      "detail": "Select a display language for your app experience.",
+      "alt": "Language Selection. Select a display language for your app experience.",
+      "capture": "languages",
+      "concept": true,
+      "phone": {
+        "title": "Select Language",
+        "subtitle": "Select a display language for your app experience",
+        "badge": "Available languages",
+        "section": "Available languages",
+        "rows": [
+          {
+            "title": "English",
+            "detail": "Continue with English as your display language."
+          },
+          {
+            "title": "Français",
+            "detail": "Continuer en français comme langue d'affichage."
+          },
+          {
+            "title": "Português",
+            "detail": "Continuar em português como idioma de exibição."
+          },
+          {
+            "title": "Español",
+            "detail": "Continuar en español como idioma de visualización."
+          }
+        ]
+      }
     }
   ],
   "options": [

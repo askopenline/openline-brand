@@ -2,6 +2,13 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.1 expanded screenshot choices (2026-10-30)
+
+- Restored the Europe label in candidate 01 and added a capture regression check.
+- Twenty candidates per platform, including eight clearly classified imagined UI concepts, while retaining the 10/8 selection caps.
+- Copyable inspiration templates for every Apple-related submission review field; no assumed compliance answers.
+- Corrected previews, phone captures, contact sheets, both Apple sizes and selected downloads. Existing selections and archives remain compatible.
+
 ## v2.7.0 store selection workspace (2026-10-30)
 
 - Twelve price-free candidates per phone platform, with iOS large and medium export sizes.

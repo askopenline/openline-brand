@@ -7,6 +7,7 @@ const browser=await chromium.launch({channel:'chromium',executablePath:process.e
 const screens=[['countries','Countries'],['dashboard','Dashboard'],['destination','Plans · 1 · country'],['duration','Plans · 3 · options'],['esims','My eSIMs'],['profile','eSIM profile (activated)'],['settings','Settings'],['account','Me'],['collection','Variant · 9 eSIMs, dense list'],['types','Plans · 2 · package type'],['notifications','Variant · Notifications prompt']];
 const report=[];
 for(const [id,label] of screens){
+ if(process.env.CAPTURE_ONLY&&id!==process.env.CAPTURE_ONLY)continue;
  const page=await browser.newPage({viewport:{width:400,height:800},deviceScaleFactor:4});
  await page.goto('http://127.0.0.1:5176/?view=gallery',{waitUntil:'networkidle'});
  const panel=page.locator('.ol-app-motion').filter({has:page.locator(':scope > p').filter({hasText:new RegExp('^'+label.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'$')})}).locator(':scope > div').first();
@@ -26,8 +27,8 @@ for(const [id,label] of screens){
    if(/Refunded|Ended Nov|Ended Aug|Ended Jul|Ended May/.test(t)){x.closest('.rounded-2xl.border-2.bg-white')?.remove();continue}
    if(t==='Purchase code'){if(id==='collection')x.textContent='Not activated';else x.closest('.border-orange-200')?.remove();continue}
    if(t==='Purchase code · not activated')x.textContent='Not activated';
-   if(/Search 190/.test(t))x.textContent='Search destinations';
-   if(t==='Europe (30+ countries)')x.textContent='Europe';
+   if(/Search 190/.test(t)){x.textContent='Search destinations';continue}
+   if(t==='Europe (30+ countries)'){x.textContent='Europe';continue}
    if(t==='alex@email.com')x.textContent='alex@example.com';
    if(t==='Openline+')x.remove();
    if(/9 eSIMs · scroll/.test(t))x.textContent='Your travel eSIM collection';
@@ -45,10 +46,12 @@ for(const [id,label] of screens){
  },id);
  await page.evaluate(()=>document.fonts.ready);
  const isolated=page.locator(`[data-capture-id="${id}"]`),text=await isolated.innerText();
+ if(id==='countries'&&!/\bEurope\b/.test(text))throw Error('Countries capture must retain the Europe label');
  if(/[$€£¥₹₽]|\b(price|prices|pay|payment|checkout|refund|cheap|savings|buy|purchase|purchased)\b/i.test(text))throw Error('Monetary content '+id+'\n'+text);
  await isolated.screenshot({path:`${out}/${id}.png`});
  report.push({id,source:label,text,width:1360,height:2800,status:'Adapted design reference; native release capture required'});
  await page.close();
 }
-fs.writeFileSync('public/app-v3/capture-provenance.json',JSON.stringify(report,null,2));await browser.close();
-console.log('11 source views captured for 12 candidate compositions.');
+const previous=process.env.CAPTURE_ONLY?JSON.parse(fs.readFileSync('public/app-v3/capture-provenance.json')):[];
+fs.writeFileSync('public/app-v3/capture-provenance.json',JSON.stringify(previous.length?previous.map(x=>report.find(r=>r.id===x.id)||x):report,null,2));await browser.close();
+console.log(`${report.length} source views captured.`);

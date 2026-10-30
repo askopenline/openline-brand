@@ -1,7 +1,7 @@
 # Main flows
 
 ## V3 selection and final draft (v2.7)
-- App & store opens V3 with 12 candidates per platform, recommended 10 Apple / 8 Google selected; reject additions above caps.
+- App & store opens V3 with 20 candidates per platform, recommended 10 Apple / 8 Google selected; reject additions above caps.
 - Select/remove and reorder screenshots; preview counts/order/images match. Copy options A/B/C update title, description and all corresponding fields independently per platform.
 - Final draft requires full 10/8 sets and confirmation; captures a snapshot, leaves V3 available as archive/editor, and does not claim store approval.
 - URL restores non-sensitive screenshot/copy choices; JSON export/import includes checklist review statuses, never passwords. Malformed imports fail without overwriting.
@@ -144,6 +144,13 @@
 - At 375px, no horizontal overflow; all download actions reachable.
 - Missing video must show a useful error rather than an empty player.
 - Explore desktop → mobile → desktop resize and direct anchor navigation to presenters, remixes and downloads.
+
+## V3 Europe correction
+- First candidate must show Europe beside the EU flag in both Apple and Google artwork, device preview, medium Apple export and contact sheets.
+- Preserve V1/V2, all other candidates and existing local selections. Selected ZIP must contain the corrected candidate 01.
+- Check V3 selection, store/device previews, Final snapshot, archive navigation and mobile width.
+- Twenty candidates per platform, unchanged 10/8 final-set caps. New IDs 13–20 select/reorder/preview/export correctly and carry concept labels.
+- Every Apple/both review field has a copyable example. Clipboard content matches template; copying leaves review status unchanged.
 
 ## Revision 1.16 checks
 - Three new Gary and two new Hellen samples, each eight seconds, with different native voice directions and a shared introduction per host. Earlier Hellen01 and Hellen03 remain labeled as short earlier samples, making four Hellen choices.

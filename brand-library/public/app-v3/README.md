@@ -1,6 +1,6 @@
 # Openline App & Store V3
 
-V3 is a selection workspace with twelve candidates for each phone platform, three complete English listing-copy directions, interactive store/device previews and a source-linked submission review. The Final draft is a user-confirmed creative snapshot, not a submission to either store.
+V3 is a selection workspace with twenty candidates for each phone platform, three complete English listing-copy directions, interactive store/device previews and a source-linked submission review. The Final draft is a user-confirmed creative snapshot, not a submission to either store.
 
 ## Select and prepare
 
@@ -16,6 +16,10 @@ Selections and non-sensitive review notes save in this browser. Export the revie
 Never enter passwords, reviewer-login credentials, API keys or signing material in the review notes. Enter those only in the stores' private submission systems.
 
 ## Artwork status
+
+Candidates 13–20 are eight new imagined UI concepts: Europe browsing, arrival, network choices, data overview, installation checklist, help, dual-SIM guidance and language selection. They are not evidence of implemented features. The concept label is shown in the workspace, rather than stamped over the artwork. Validate every concept against the release build before considering it for a store submission.
+
+Every Apple-related review field includes a copyable example. These are editable inspiration templates, not verified declarations. Replace bracketed placeholders, check applicability, and leave private reviewer credentials in App Store Connect. Copying an example does not mark a field reviewed. The Apple download also contains the example templates.
 
 These are adaptations of supplied React app design resources, not captures from a verified native release. Monetary UI, unsupported promotional treatments and prototype-only controls were removed. QR/manual profile candidates 06/07 deliberately provide two views of the same source profile. Additional candidates are based on destination, package-type, account, expanded eSIM and notification resources. The white tile retains the V2 mark enlargement of 12.5%; original V1 icon approval is not changed.
 
