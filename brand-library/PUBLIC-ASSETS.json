@@ -1,5 +1,5 @@
 {
-  "version": "2.7.4",
+  "version": "2.7.5",
   "files": [
     {
       "path": "artwork.json",
@@ -3370,7 +3370,7 @@
     {
       "path": "library/catalog.json",
       "bytes": 3319432,
-      "sha256": "c68dcefccbee78d85cbd429a981067234d549cfcee162400db4d6fcbd1e8f3db",
+      "sha256": "d06cc855a40c9f02f993c799579e099c788705bba2df0d3762f83ff8b38b0138",
       "url": "https://brand.openline.com/library/catalog.json"
     },
     {
@@ -15375,8 +15375,8 @@
     },
     {
       "path": "app-v3/README.md",
-      "bytes": 4895,
-      "sha256": "6ca263d77886f371400cef13931c722c5d87f778f89438f7355dce390260e012",
+      "bytes": 5248,
+      "sha256": "a558a798813b7b94ec18910dcca751dc25adbfafda1793f8901340804f6022e0",
       "url": "https://brand.openline.com/app-v3/README.md"
     },
     {
@@ -16118,5 +16118,5 @@
       "url": "https://brand.openline.com/app-v3/screens/usage.png"
     }
   ],
-  "total_bytes": 3082574958
+  "total_bytes": 3082575311
 }

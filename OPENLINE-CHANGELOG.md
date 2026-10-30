@@ -2,6 +2,12 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.5 Mobile screenshot swipes (2026-10-30)
+
+- Swipe left or right on enlarged screenshots to move through the current selection or candidate grid.
+- Ignore taps, short drags, vertical scrolling, cancelled gestures and multi-touch gestures; keep native pinch zoom available.
+- Keep arrow controls, keyboard navigation, download targets and all saved selections unchanged.
+
 ## v2.7.4 Screenshot preview navigation (2026-10-30)
 
 - Added previous/next controls and left/right keyboard navigation to enlarged screenshots.

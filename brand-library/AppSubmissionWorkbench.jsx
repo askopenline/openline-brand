@@ -42,7 +42,7 @@ function ExampleField({id,label}){
 }
 export default function AppSubmissionWorkbench({view='v3',onViewChange}){
  const[state,setState]=useState(initial),[platform,setPlatform]=useState('apple'),[notice,setNotice]=useState(''),[modal,setModal]=useState(null),[busy,setBusy]=useState(false),[reviewFilter,setReviewFilter]=useState('all'),[reviewPlatform,setReviewPlatform]=useState('both'),[share,setShare]=useState(''),[storageError,setStorageError]=useState(false);
- const importRef=useRef(),dialog=useRef(),returnFocus=useRef(),confirmRef=useRef();
+ const importRef=useRef(),dialog=useRef(),returnFocus=useRef(),confirmRef=useRef(),swipe=useRef(null);
  const finalMode=view==='final',recommendedMode=view==='recommended',readOnly=finalMode||recommendedMode,active=recommendedMode?{...state,...RECOMMENDED,appleCopy:'A',googleCopy:'A'}:finalMode&&state.final?{...state,...state.final}:state,selected=active[platform],meta=chosenCopy(active,platform);
  useEffect(()=>{try{localStorage.setItem(KEY,JSON.stringify(state));setStorageError(false)}catch{setStorageError(true)}
   if(location.hash.startsWith('#/app')){const params=new URLSearchParams(location.hash.split('?')[1]);params.set('s',btoa(JSON.stringify(publicState(state))));history.replaceState(null,'','#/app?'+params)}
@@ -55,6 +55,20 @@ export default function AppSubmissionWorkbench({view='v3',onViewChange}){
  const previewIds=modal?.type==='image'?(modal.ids||active[modal.platform]):[];
  const previewIndex=previewIds.indexOf(modal?.id);
  function stepPreview(delta){if(modal?.type!=='image'||previewIds.length<2)return;setModal(m=>({...m,id:previewIds[(previewIndex+delta+previewIds.length)%previewIds.length]}))}
+ function startSwipe(e){
+  const t=e.touches[0];swipe.current=e.touches.length===1&&(window.visualViewport?.scale||1)<=1.05?{x:t.clientX,y:t.clientY,id:t.identifier}:null;
+ }
+ function moveSwipe(e){
+  const s=swipe.current,t=e.touches[0];if(!s)return;
+  if(e.touches.length!==1||Math.abs(t.clientY-s.y)>Math.max(12,Math.abs(t.clientX-s.x)))swipe.current=null;
+ }
+ function endSwipe(e){
+  const s=swipe.current;swipe.current=null;
+  if(!s||e.touches.length||(window.visualViewport?.scale||1)>1.05)return;
+  const t=Array.from(e.changedTouches).find(t=>t.identifier===s.id);if(!t)return;
+  const dx=t.clientX-s.x,dy=t.clientY-s.y;
+  if(Math.abs(dx)>=50&&Math.abs(dx)>Math.abs(dy)*1.5)stepPreview(dx<0?1:-1);
+ }
  function setReview(id,patch){setState(s=>({...s,review:{...s.review,[id]:{status:'pending',note:'',...s.review[id],...patch}}}))}
  async function importFile(file){try{if(!file||file.size>1000000)throw Error('Choose a V3 JSON file smaller than 1 MB.');const s=validate(JSON.parse(await file.text()));setState(s);setNotice('Selection and review notes imported.');onViewChange(s.final?'final':'v3')}catch(e){setNotice(e.message)}finally{if(importRef.current)importRef.current.value=''}}
  function shareSelection(){const params=new URLSearchParams({version:recommendedMode?'recommended':finalMode?'final':'v3',s:btoa(JSON.stringify(publicState(state)))}),url=location.origin+location.pathname+'#/app?'+params;setShare(url);navigator.clipboard?.writeText(url).then(()=>setNotice('Selection link copied. Private notes excluded.')).catch(()=>setNotice('Copy the selection link below.'))}
@@ -116,7 +130,7 @@ export default function AppSubmissionWorkbench({view='v3',onViewChange}){
    {modal.type==='image'?<div className="sw-full-art">
     <div className="sw-image-stage">
      <button className="sw-image-prev" aria-label="Previous screenshot" disabled={previewIds.length<2} onClick={()=>stepPreview(-1)}><ArrowLeft size={24}/></button>
-     <img src={image(modal.platform,modal.id,'png')} alt={COPY.frames.find(f=>f.id===modal.id).alt}/>
+     <img src={image(modal.platform,modal.id,'png')} alt={COPY.frames.find(f=>f.id===modal.id).alt} onTouchStart={startSwipe} onTouchMove={moveSwipe} onTouchEnd={endSwipe} onTouchCancel={()=>{swipe.current=null}}/>
      <button className="sw-image-next" aria-label="Next screenshot" disabled={previewIds.length<2} onClick={()=>stepPreview(1)}><ArrowRight size={24}/></button>
     </div>
     <a href={image(modal.platform,modal.id,'png')} download>Download PNG <Download size={16}/></a>
