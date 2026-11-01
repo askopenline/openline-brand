@@ -178,7 +178,7 @@ elif a.operation == "activate":
     print("Release activated atomically; transfer endpoint removed; previous release retained.")
 elif a.operation == "close-transfer":
     prior = STATE / "nginx-before.conf"
-    configure(prior.read_text() if prior.exists() else nginx_config())
+    configure(prior.read_text() if prior.exists() and not (STATE / "activation.json").exists() else nginx_config())
     print("Temporary transfer endpoint removed.")
 elif a.operation == "rollback":
     previous = read("transfer-private.json")["previous"]
