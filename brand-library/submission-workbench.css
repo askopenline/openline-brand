@@ -23,3 +23,4 @@
 .sw-example strong{font-size:11px}.sw-example button{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid #ddd5c9;border-radius:7px;padding:7px 10px;color:#26231f;font:inherit;font-size:11px;cursor:pointer}
 .sw-example p{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px!important;line-height:1.7!important;color:#35312b!important;max-height:320px;overflow:auto;margin:12px 0!important}
 .sw-example small{display:block;font-size:10px;line-height:1.6;color:#72695d}
+.sw-hero-art>.button{color:#171717;background:#fff}

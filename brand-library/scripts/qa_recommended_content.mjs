@@ -15,6 +15,7 @@ try{
  await reopen();
  assert((await p.locator('.sw-hero-art img').getAttribute('src')).includes('/icon-2026-11/'));
  assert((await p.getByRole('link',{name:'Download icon ZIP',exact:true}).getAttribute('href')).endsWith('openline-recommended-icons-plus-12-5.zip'));
+ assert.equal(await p.getByRole('link',{name:'Download icon ZIP',exact:true}).evaluate(e=>getComputedStyle(e).color),'rgb(23, 23, 23)');
  await p.locator('.sw-hero').screenshot({path:out+'/recommended-hero.png'});
  assert.equal(await p.getByRole('link',{name:'Competitor copy audit',exact:true}).getAttribute('href'),'./app-v3/recommended-copy-audit.md');
  assert.equal(await p.locator('.sw-verification li').count(),6);
