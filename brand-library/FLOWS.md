@@ -190,3 +190,4 @@
 - Verify original main-device, listing-mode, screenshot-enlargement, Archive, Main and download flows remain operational.
 - Open and close the two earlier silent ad examples; new ads remain visible separately.
 - v2.8.1: setup (19) and live-chat (18) status bars use vector signal/Wi-Fi/battery icons; no text-glyph indicators remain.
+- v2.8.2: all selected store screenshots share the same bold status-bar signal, Wi-Fi and battery icons; Recommended copies only.
