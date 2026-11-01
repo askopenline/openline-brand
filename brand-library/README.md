@@ -1,5 +1,9 @@
 # Openline Brand Library
 
+## Recommended revision: v2.8.0
+
+Recommended contains eight Apple and seven Google screenshots, with separate calendar, guided-setup and live-chat concepts. Final and archived artwork stay unchanged; the source-linked [revision notes](public/app-v3/recommended-update-notes.md) explain the claims held for evidence and remaining release-UI checks.
+
 This document describes the `brand-library/` application, which serves as the primary interface for Openline brand assets. It is deployed to [brand.openline.com](https://brand.openline.com) and replaces the legacy `launch-studio/` application, which is retained for historical reference.
 
 ## Application Structure and Deployment

@@ -2,14 +2,14 @@
   "apple": {
     "name": "Openline: Travel eSIM Plans",
     "subtitle": "Data plans for travelers",
-    "promotional": "Pick a destination, choose a plan, and set up data before you travel. Unlimited usage or Fixed usage plans available.",
+    "promotional": "Travel data on a separate eSIM. Avoid data-roaming surprises, keep your home SIM for calls, and get 24/7 support.",
     "keywords": "esim,travel,data,connectivity,international,roaming,vacation,trip,explore,country",
-    "description": "When you arrive somewhere new, mobile data lets you pull up directions, message people, and use the apps that make travel easier. Openline gives you a way to get that data before you go.\n\nAn eSIM is a digital SIM built into your phone. Instead of sourcing a physical card, you browse plans in the app, choose one that fits your destination and trip length, and set it up through your device settings.\n\nWhat you can do in the app:\n- Choose between \"Unlimited usage\" or \"Fixed usage\" plans, where available for your destination\n- Fixed usage plans provide a set data allowance; unlimited usage plans may be subject to fair-use terms\n- Check remaining data on active plans, where applicable\n\nGetting started:\n1. Find your destination and review available plans\n2. Choose a plan type and duration\n3. Follow installation instructions and review your chosen plan's usage guidance\n\nRequires a compatible unlocked eSIM-capable iPhone. Plan types, availability, and validity vary by destination. Review applicable usage terms before purchasing."
+    "description": "Heading abroad? Unexpected data-roaming charges from your home mobile operator can catch you off guard. Openline gives you a separate travel eSIM for mobile data. Keep maps, messages and travel apps within reach.\n\nChoose Unlimited usage or Fixed usage plans, where available. Fixed usage provides a set data allowance. Review the plan’s validity, fair-use and applicable usage terms, and check remaining data in the app where applicable.\n\nGetting started is straightforward. Before you travel, turn off data roaming on your home SIM to help avoid unexpected charges. Install your Openline eSIM using the QR code or manual installation details provided. At your destination, follow the website setup guide: select Openline for mobile data, turn on data roaming for Openline, and turn off automatic cellular data switching where available so your device uses Openline as intended.\n\nOn compatible dual-SIM iPhones, your home SIM can stay active for calls and SMS. Note that your home operator's charges may still apply for those services.\n\nOpenline works with compatible unlocked eSIM-capable iPhones. Compare the data allowance and duration with your usual operator before choosing.\n\nQuestions? Reach our team any time via 24/7 live chat at openline.com/contact."
   },
   "google": {
     "name": "Openline: Travel eSIM Data",
-    "shortDescription": "Travel eSIM data plans. Fixed or Unlimited usage options.",
-    "description": "Getting around somewhere new is easier when your phone has data. Directions, messaging, transport bookings: all of it works better without hunting for Wi-Fi. Openline is a travel eSIM app that lets you sort out data before your trip starts.\n\nAn eSIM is a digital SIM built into your phone. You browse plans in the app, choose one that fits your destination and trip length, and set it up through your device settings. No physical card to buy, swap, or lose.\n\nWhat you can do in the app:\n- Choose between \"Unlimited usage\" or \"Fixed usage\" plans, where available for your destination\n- Fixed usage plans provide a set data allowance; unlimited usage plans may be subject to fair-use terms\n- Check remaining data on active plans, where applicable\n\nGetting started:\n1. Search your destination and review available plans\n2. Select a plan type and duration\n3. Follow installation instructions and review your chosen plan's usage guidance\n\nRequires a compatible unlocked eSIM-capable Android phone. Plan types, availability, and validity vary by destination. Review applicable usage terms before purchasing."
+    "shortDescription": "Travel eSIM data. Avoid data-roaming surprises. 24/7 live chat support.",
+    "description": "Heading abroad? Unexpected data-roaming charges from your home mobile operator can catch you off guard. Openline gives you a separate travel eSIM for mobile data. Keep maps, messages and travel apps within reach.\n\nChoose Unlimited usage or Fixed usage plans, where available. Fixed usage provides a set data allowance. Review the plan’s validity, fair-use and applicable usage terms, and check remaining data in the app where applicable.\n\nGetting started is straightforward. Before you travel, turn off data roaming on your home SIM to help avoid unexpected charges. Install your Openline eSIM using the QR code or manual installation details provided. At your destination, follow the website setup guide: select Openline for mobile data, turn on data roaming for Openline, and turn off automatic mobile data switching where available so your device uses Openline as intended.\n\nOn compatible dual-SIM Android devices, your home SIM can stay active for calls and SMS. Note that your home operator's charges may still apply for those services.\n\nOpenline works with compatible unlocked eSIM-capable Android devices. Compare the data allowance and duration with your usual operator before choosing.\n\nQuestions? Reach our team any time via 24/7 live chat at openline.com/contact."
   },
   "planSelection": {
     "unlimitedLabel": "Unlimited usage",
@@ -32,7 +32,7 @@
     {
       "id": 3,
       "title": "Installation Instructions",
-      "detail": "Confirm QR/manual installation instructions actually work on release devices."
+      "detail": "Validate the checklist on release devices: home-line data roaming OFF, Openline as data line, Openline roaming ON per its guide, automatic data switching OFF where supported. Home-line calls/SMS may still incur charges. Device setting names vary."
     },
     {
       "id": 4,
@@ -42,12 +42,124 @@
     {
       "id": 5,
       "title": "Screenshot Verification",
-      "detail": "Screenshots 13-20 are imagined concepts; selected 15 (network choice Apple only) and 17/18/19 both require actual UI proof; these are NOT verified release captures."
+      "detail": "Recommended 04 calendar, 18 support and 19 checklist are proposed UI concepts, not verified native captures. Confirm the calendar only chooses duration/dates, not activation timing. All selected images need release-matched screenshots."
     },
     {
       "id": 6,
       "title": "Legal & Support URLs",
       "detail": "Reviewer-access, privacy declarations, and functional support/privacy URLs need owner verification."
+    },
+    {
+      "id": 7,
+      "title": "Comparative Pricing Held",
+      "detail": "Owner reports lower prices for some data allowances and durations. No dated like-for-like evidence was supplied, so cheaper-than-national-operator claims are excluded. Supply destination, operator/plan, data allowance, validity, fees and comparison date before adding them."
+    },
+    {
+      "id": 8,
+      "title": "Live Chat & Network Claims",
+      "detail": "24/7 live chat is owner-confirmed and publicly advertised at openline.com/contact; actual staffing/availability and the release app’s link still need verification. Candidate 15 is excluded from Recommended: a standalone network graphic is not an app-in-use screenshot, and automatic network/profile switching needs product evidence."
     }
-  ]
+  ],
+  "selection": {
+    "apple": [
+      "01",
+      "02",
+      "11",
+      "04",
+      "19",
+      "10",
+      "06",
+      "18"
+    ],
+    "google": [
+      "01",
+      "02",
+      "11",
+      "04",
+      "19",
+      "10",
+      "18"
+    ]
+  },
+  "frames": {
+    "18": {
+      "title": "Live Chat Support",
+      "head": [
+        "24/7 live chat,",
+        "whenever you need"
+      ],
+      "detail": "Talk to a real person any time via our website, day or night.",
+      "alt": "App screen showing a support section with a live chat prompt and a help resources link.",
+      "phone": {
+        "title": "We are here to help",
+        "subtitle": "Get support any time, wherever you are in the world.",
+        "badge": "24/7 Live Support",
+        "chatTitle": "Chat with us",
+        "chatDetail": "Live agents available around the clock via our website.",
+        "chatAction": "Go to live chat",
+        "helpTitle": "Help resources",
+        "helpDetail": "Browse setup guides and FAQs in the Openline help center."
+      },
+      "id": "18",
+      "capture": "live-chat",
+      "concept": true
+    },
+    "19": {
+      "title": "Guided Setup",
+      "head": [
+        "Set up simply,",
+        "travel confidently"
+      ],
+      "detail": "A clear checklist to help avoid unexpected data-roaming charges.",
+      "alt": "App screen showing a five-step setup checklist guiding the user to install the eSIM, configure data settings, and disable automatic switching. This is a design reference; actual release UI may vary.",
+      "phone": {
+        "title": "Your setup checklist",
+        "subtitle": "Complete these steps before and at your destination.",
+        "rows": [
+          {
+            "title": "Install your Openline eSIM",
+            "detail": "Scan the QR code or enter installation details."
+          },
+          {
+            "title": "Home-SIM data roaming OFF",
+            "detail": "Turn it off before you travel."
+          },
+          {
+            "title": "Select Openline for data",
+            "detail": "Use Openline as your mobile data line."
+          },
+          {
+            "title": "Openline data roaming ON",
+            "detail": "At your destination, follow the setup guide."
+          },
+          {
+            "title": "Automatic data switching OFF",
+            "detail": "Turn it off where your device supports it."
+          }
+        ],
+        "note": "On dual-SIM phones, keep your home SIM for calls/SMS if needed. Operator charges may apply."
+      },
+      "id": "19",
+      "capture": "setup-checklist",
+      "concept": true
+    },
+    "04": {
+      "title": "Plan Duration",
+      "head": [
+        "Pick your travel",
+        "timeframe"
+      ],
+      "detail": "Choose a duration that fits your trip, or select specific travel dates.",
+      "alt": "App screen showing 7, 15, and 30-day duration options with a calendar selector below for choosing specific travel dates.",
+      "phone": {
+        "title": "How long is your trip?",
+        "subtitle": "Choose a plan length that fits your travel dates.",
+        "calendarLabel": "Select travel dates",
+        "calendarAction": "Use these dates"
+      },
+      "id": "04",
+      "capture": "duration-calendar",
+      "concept": true
+    }
+  }
 }

@@ -24,9 +24,9 @@
 
 The official Openline media kit and working brand library. Logos, app icons, motion, store artwork, design sources, email resources, and shared interface assets are organized here so company teams and approved partners can work from one recognizable visual identity.
 
-## Store selection workspace · v2.7.1
+## Store selection workspace · v2.8.0
 
-[Open the Recommended selection](https://brand.openline.com/app?version=recommended): ten Apple and eight Google screenshots in the proposed order, with previews and downloads. This v2.7.2 preset does not confirm Final or overwrite saved V3 work; copying it into V3 changes screenshot choices only.
+[Open the Recommended selection](https://brand.openline.com/app?version=recommended): eight Apple and seven Google screenshots, alternating orange and cream. Calendar, guided-setup and live-chat concepts accompany revised data-roaming copy; [revision notes](https://brand.openline.com/app-v3/recommended-update-notes.md) record remaining verification. Recommended does not confirm Final or overwrite saved V3 work; copying it into V3 changes screenshot choices only.
 
 [Open the V3 workspace](https://brand.openline.com/app?version=v3) to choose from twenty iOS and twenty Android screenshot candidates, compare three complete English copy directions per platform, and review the source-linked submission checklist. The previews and selected ZIP downloads follow the selected order and copy.
 
@@ -34,7 +34,7 @@ Every Apple-related review field includes a copyable inspiration template, with 
 
 Candidates 13–20 are imagined UI concepts, labeled separately from the twelve adapted resource designs. Validate the proposed interfaces against the shipped app before submission.
 
-The creative handoff targets the maximum screenshot count: ten for Apple and eight for Google. Apple downloads include both large and medium Dynamic Island size families; use separate size slots in App Store Connect. [Apple specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications) · [Google specifications](https://support.google.com/googleplay/android-developer/answer/9866151?hl=en-GB)
+The workspace supports up to ten Apple and eight Google screenshots, without requiring every slot to be filled. Apple downloads include both large and medium Dynamic Island size families; use separate size slots in App Store Connect. [Apple specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications) · [Google specifications](https://support.google.com/googleplay/android-developer/answer/9866151?hl=en-GB)
 
 ![Twenty iOS screenshot candidates](https://brand.openline.com/app-v3/apple/contact-sheet.jpg?v=2.7.1)
 ![Twenty Android screenshot candidates](https://brand.openline.com/app-v3/google/contact-sheet.jpg?v=2.7.1)

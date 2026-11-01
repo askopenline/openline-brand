@@ -1,5 +1,13 @@
 # Main flows
 
+## Recommended revision (v2.8.0)
+- Apple order: 01,02,11,04,19,10,06,18. Google order: 01,02,11,04,19,10,18.
+- Calendar 04, setup checklist 19 and website live chat 18 appear in gallery, device, store, lightbox and both download sizes.
+- Orange/cream alternates by selection position independently for each platform. No currency or price claims appear in the new artwork.
+- Eight verification flags remain unreviewed; comparison-price claims are held for evidence.
+- V3 defaults and saved Final remain unchanged. Final draft supports permitted shorter sets rather than requiring the maximum.
+- Recommended icon, clean routes, keyboard navigation, mobile swipes and all archives remain working.
+
 ## Clean URLs (v2.7.9)
 - All nine navigation pages open directly at /slug and /slug/, refresh correctly, and keep asset/download URLs rooted at /.
 - Existing /#/slug links normalize to clean URLs, preserving version and shared selection parameters.

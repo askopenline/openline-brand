@@ -4,7 +4,7 @@ import fs from 'node:fs';
 const base=process.env.QA_URL||'http://127.0.0.1:5174/',out=process.env.QA_OUT||'/home/user/workspace/openline-fly-deployment/recommended-v2-7-6';
 fs.mkdirSync(out,{recursive:true});
 const rec=JSON.parse(fs.readFileSync('public/app-v3/recommended-copy.json')),old=JSON.parse(fs.readFileSync('public/app-v3/copy.json')).options[0];
-const b=await chromium.launch({executablePath:'/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome',args:['--disable-dev-shm-usage']});
+const b=await chromium.launch({executablePath:'/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome'});
 try{
  let c=await b.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});
  const key='openline-store-workspace-v3';
@@ -18,10 +18,11 @@ try{
  assert.equal(await p.getByRole('link',{name:'Download icon ZIP',exact:true}).evaluate(e=>getComputedStyle(e).color),'rgb(23, 23, 23)');
  await p.locator('.sw-hero').screenshot({path:out+'/recommended-hero.png'});
  assert.equal(await p.getByRole('link',{name:'Competitor copy audit',exact:true}).getAttribute('href'),'./app-v3/recommended-copy-audit.md');
- assert.equal(await p.locator('.sw-verification li').count(),6);
+ assert.equal(await p.locator('.sw-verification li').count(),rec.verification.length);
  assert.equal(await p.getByRole('button',{name:'Save final draft',exact:true}).count(),0);
  for(const [platform,button,device] of [['apple','iOS / Apple','Preview on iPhone'],['google','Android / Google','Preview on Android']]){
   await p.getByRole('button',{name:button}).click();
+  assert.equal(await p.locator('.sw-selected-image').count(),rec.selection[platform].length);
   assert((await p.locator('.sw-copy-details').innerText()).includes(rec[platform].description.split('\n')[0]));
   assert((await p.locator('.sw-selected-image img').nth(2).getAttribute('src')).includes('/recommended/'));
   await p.getByRole('button',{name:platform==='apple'?'Preview App Store':'Preview Google Play',exact:true}).click();
@@ -51,5 +52,5 @@ try{
  assert(!(await p.locator('.sw-store-shots img').nth(1).getAttribute('src')).includes('/recommended/'));
  await p.keyboard.press('Escape');
  assert.deepEqual(await p.evaluate(k=>JSON.parse(localStorage.getItem(k)),key),fixture);
- assert.deepEqual(errors,[]);console.log(JSON.stringify({url:base,revisedCopyBothStores:true,planTypesBothStores:true,devicePreviews:true,verificationFlags:6,downloads:true,finalCopyAndImagesPreserved:true,savedStateUnchanged:true,mobile:true,errors}));
+ assert.deepEqual(errors,[]);console.log(JSON.stringify({url:base,revisedCopyBothStores:true,planTypesBothStores:true,devicePreviews:true,verificationFlags:rec.verification.length,downloads:true,finalCopyAndImagesPreserved:true,savedStateUnchanged:true,mobile:true,errors}));
 }finally{await b.close()}
