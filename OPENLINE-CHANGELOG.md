@@ -2,6 +2,12 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.8 Recommended icon enlargement (2026-11-01)
+
+- Enlarged the original vector mark another 12.5% over V2 within the unchanged white tile.
+- Recommended hero, Apple/Google previews and selected-set packages use the new edition; a dedicated icon ZIP is available in Recommended.
+- PNG, WebP, SVG, vector PDF and JPEG exports preserve source paths. Archived icons and Final remain unchanged.
+
 ## v2.7.7 Competitor-informed listing copy (2026-10-30)
 
 - Expanded Recommended descriptions with travel use cases, clearer benefits and a brief getting-started flow.

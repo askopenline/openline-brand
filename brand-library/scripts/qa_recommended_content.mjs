@@ -13,6 +13,9 @@ try{
  await p.goto(base);await p.evaluate(({key,fixture})=>localStorage.setItem(key,JSON.stringify(fixture)),{key,fixture});await p.close();
  const reopen=async(view='recommended')=>{await c.close();c=await b.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});await c.addInitScript(({key,fixture})=>localStorage.setItem(key,JSON.stringify(fixture)),{key,fixture});p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(base+'#/app?version='+view,{waitUntil:'networkidle'})};
  await reopen();
+ assert((await p.locator('.sw-hero-art img').getAttribute('src')).includes('/icon-2026-11/'));
+ assert((await p.getByRole('link',{name:'Download icon ZIP',exact:true}).getAttribute('href')).endsWith('openline-recommended-icons-plus-12-5.zip'));
+ await p.locator('.sw-hero').screenshot({path:out+'/recommended-hero.png'});
  assert.equal(await p.getByRole('link',{name:'Competitor copy audit',exact:true}).getAttribute('href'),'./app-v3/recommended-copy-audit.md');
  assert.equal(await p.locator('.sw-verification li').count(),6);
  assert.equal(await p.getByRole('button',{name:'Save final draft',exact:true}).count(),0);
@@ -22,6 +25,7 @@ try{
   assert((await p.locator('.sw-selected-image img').nth(2).getAttribute('src')).includes('/recommended/'));
   await p.getByRole('button',{name:platform==='apple'?'Preview App Store':'Preview Google Play',exact:true}).click();
   assert.equal(await p.locator('.sw-store-description').innerText(),rec[platform].description);
+  assert((await p.locator('.sw-store-brand img').getAttribute('src')).endsWith(`/icon-2026-11/openline-icon-white-${platform==='apple'?'1024':'512'}.png`));
   assert((await p.locator('.sw-store-shots img').nth(2).getAttribute('src')).includes('/recommended/'));
   await p.keyboard.press('Escape');
   assert.deepEqual(await p.evaluate(k=>JSON.parse(localStorage.getItem(k)),key),fixture);
@@ -36,11 +40,13 @@ try{
   await p.close();await reopen();
  }
  await p.setViewportSize({width:375,height:812});
+ await p.locator('.sw-hero-art').screenshot({path:out+'/recommended-icon-mobile.png'});
  await p.locator('.sw-verification').scrollIntoViewIfNeeded();assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
  await p.screenshot({path:out+'/verification-mobile.png'});
  await p.close();await reopen('final');
  await p.getByRole('button',{name:'Preview App Store',exact:true}).click();
  assert.equal(await p.locator('.sw-store-description').innerText(),old.apple.description);
+ assert.equal(await p.locator('.sw-store-brand img').getAttribute('src'),'./app-v2/icons/openline-icon-white-1024.png');
  assert(!(await p.locator('.sw-store-shots img').nth(1).getAttribute('src')).includes('/recommended/'));
  await p.keyboard.press('Escape');
  assert.deepEqual(await p.evaluate(k=>JSON.parse(localStorage.getItem(k)),key),fixture);

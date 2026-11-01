@@ -1,0 +1,42 @@
+{
+  "edition": "Recommended 2026-11-01",
+  "relative_to": "V2 icon currently used by V3/Recommended",
+  "linear_scale_vs_v2": 1.125,
+  "linear_scale_vs_original": 1.265625,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "source_paths_preserved": true,
+  "original_bounds_1024": [
+    261,
+    261,
+    763,
+    763
+  ],
+  "recommended_bounds_1024": [
+    230,
+    230,
+    794,
+    794
+  ],
+  "raster_bounds_ratios": [
+    1.1235059760956174,
+    1.1235059760956174
+  ],
+  "formats": [
+    "PNG",
+    "WebP",
+    "SVG",
+    "PDF",
+    "JPEG"
+  ],
+  "raster_sizes": [
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "notes": "White PNGs are opaque. Transparent variants are design resources, not store-upload icons. No Android adaptive-layer package is included. Final and archives unchanged."
+}

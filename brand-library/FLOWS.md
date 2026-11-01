@@ -1,6 +1,7 @@
 # Main flows
 
 ## Recommended selection (v2.7.2)
+- v2.7.8: Recommended hero, Apple/Google listing previews and selected-set ZIPs use an additional 1.125x vector mark, with an unchanged white square. Dedicated icon ZIP includes white/transparent formats. V2, V3 and Final keep their previous icon files.
 - v2.7.7: fuller Recommended copy and a source-linked competitor audit appear beside both platform listings. Verify preview/download text equality and unchanged Final; no artwork regeneration.
 - v2.7.6: revised Recommended copy and candidate11 assets are separate from original V3/Final resources. Verify both plan labels, no prices, both Apple sizes, Google, device/store/lightbox previews and ZIPs.
 - Six product-verification flags are visible and downloadable, separate from consumer text. No automatic review-status changes.
