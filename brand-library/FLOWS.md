@@ -1,5 +1,11 @@
 # Main flows
 
+## Clean URLs (v2.7.9)
+- All nine navigation pages open directly at /slug and /slug/, refresh correctly, and keep asset/download URLs rooted at /.
+- Existing /#/slug links normalize to clean URLs, preserving version and shared selection parameters.
+- Internal links, browser Back/Forward, edition switching and shared-selection links use clean paths. Private review notes stay out of URLs.
+- Saved draft/Final data, legacy studio anchors, icon ZIPs and media remain unchanged. Unknown routes and missing files return 404, not the SPA.
+
 ## Recommended selection (v2.7.2)
 - v2.7.8: Recommended hero, Apple/Google listing previews and selected-set ZIPs use an additional 1.125x vector mark, with an unchanged white square. Dedicated icon ZIP includes white/transparent formats. V2, V3 and Final keep their previous icon files.
 - v2.7.7: fuller Recommended copy and a source-linked competitor audit appear beside both platform listings. Verify preview/download text equality and unchanged Final; no artwork regeneration.

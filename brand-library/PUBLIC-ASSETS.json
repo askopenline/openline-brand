@@ -1,5 +1,5 @@
 {
-  "version": "2.7.8",
+  "version": "2.7.9",
   "files": [
     {
       "path": "artwork.json",
@@ -3369,8 +3369,8 @@
     },
     {
       "path": "library/catalog.json",
-      "bytes": 3324344,
-      "sha256": "79bd8f90c4e743523f59df59113e06d13758093a0d0f09df64437966d88139e7",
+      "bytes": 3319891,
+      "sha256": "cac2c7078396bb5ddef500e7000c0d289c4e2c31446899934c4e895feb48e3ab",
       "url": "https://brand.openline.com/library/catalog.json"
     },
     {
@@ -14601,9 +14601,9 @@
     },
     {
       "path": "sitemap.xml",
-      "url": "https://brand.openline.com/sitemap.xml",
-      "bytes": 170,
-      "sha256": "bbe689ea203cbd02a2c279a37898316faba26b82155b02e18af12134aa958ae5"
+      "bytes": 637,
+      "sha256": "b1842230b709b2f88442f686873d995a481b484cd552b05f9018c6f1c7f509a3",
+      "url": "https://brand.openline.com/sitemap.xml"
     },
     {
       "path": "social/apple-touch-icon.png",
@@ -16346,5 +16346,5 @@
       "url": "https://brand.openline.com/app-v3/recommended/icon-2026-11/openline-icon-white.pdf"
     }
   ],
-  "total_bytes": 3083735929
+  "total_bytes": 3083731943
 }

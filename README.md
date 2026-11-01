@@ -26,9 +26,9 @@ The official Openline media kit and working brand library. Logos, app icons, mot
 
 ## Store selection workspace · v2.7.1
 
-[Open the Recommended selection](https://brand.openline.com/#/app?version=recommended): ten Apple and eight Google screenshots in the proposed order, with previews and downloads. This v2.7.2 preset does not confirm Final or overwrite saved V3 work; copying it into V3 changes screenshot choices only.
+[Open the Recommended selection](https://brand.openline.com/app?version=recommended): ten Apple and eight Google screenshots in the proposed order, with previews and downloads. This v2.7.2 preset does not confirm Final or overwrite saved V3 work; copying it into V3 changes screenshot choices only.
 
-[Open the V3 workspace](https://brand.openline.com/#/app?version=v3) to choose from twenty iOS and twenty Android screenshot candidates, compare three complete English copy directions per platform, and review the source-linked submission checklist. The previews and selected ZIP downloads follow the selected order and copy.
+[Open the V3 workspace](https://brand.openline.com/app?version=v3) to choose from twenty iOS and twenty Android screenshot candidates, compare three complete English copy directions per platform, and review the source-linked submission checklist. The previews and selected ZIP downloads follow the selected order and copy.
 
 Every Apple-related review field includes a copyable inspiration template, with 37 examples in total. Replace placeholders and verify applicability; copying an example does not mark a field reviewed.
 
@@ -43,7 +43,7 @@ Use **Save final draft** to freeze your chosen screenshots and copy. V1, V2 and 
 
 ## Screenshot V2 · v2.6.0
 
-[Compare V1 and V2 in App & store](https://brand.openline.com/#/app). V2 includes 24 new price-free screenshots, adapted app-resource views, neutral listing copy and separate download packages. The original V1 artwork remains unchanged.
+[Compare V1 and V2 in App & store](https://brand.openline.com/app). V2 includes 24 new price-free screenshots, adapted app-resource views, neutral listing copy and separate download packages. The original V1 artwork remains unchanged.
 
 The V2 icon retains the exact original vector mark, enlarged 12.5% inside the unchanged white tile. Both the library and store/device previews provide a version switch; selecting V2 changes the screenshots, icon and copy together.
 
@@ -51,7 +51,7 @@ These are design-review alternatives, not verified native release captures. The 
 
 ## App & store resource hub · v2.5.3
 
-The [App & store page](https://brand.openline.com/#/app) now brings together current screenshot artwork, separate Apple and Google submission drafts, listing fields, packages, source screens and historical assets. Its preview block links directly to the App Store, Google Play, iPhone and Android presentations.
+The [App & store page](https://brand.openline.com/app) now brings together current screenshot artwork, separate Apple and Google submission drafts, listing fields, packages, source screens and historical assets. Its preview block links directly to the App Store, Google Play, iPhone and Android presentations.
 
 Four six-frame galleries show the current phone artwork and submission variants. Listing copy can be read on the page or downloaded with the existing packages; draft status and release-build verification requirements are retained.
 
@@ -65,11 +65,11 @@ AI tutorial production has stopped. All experiments remain browsable as developm
 
 <a href="https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.mp4"><img src=".github/assets/hellen-guide-revision-two.jpg" alt="Latest archived development example: static Hellen portrait and animated installation screens" width="800"></a>
 
-[Watch the latest development example](https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.mp4) · [Download from GitHub](tutorial/revision-two/openline-hellen-guide-r2.mp4) · [Human production handoff](tutorial/HUMAN-PRODUCTION-HANDOFF.md) · [All presenter experiments](https://brand.openline.com/#/presenters)
+[Watch the latest development example](https://brand.openline.com/library/hellen-guide-revision-two/openline-hellen-guide-r2.mp4) · [Download from GitHub](tutorial/revision-two/openline-hellen-guide-r2.mp4) · [Human production handoff](tutorial/HUMAN-PRODUCTION-HANDOFF.md) · [All presenter experiments](https://brand.openline.com/presenters)
 
 ## Logos, including the website headers
 
-[Open the Logos section](https://brand.openline.com/#/logos) for icon-only artwork, vector wordmarks, complete lockups, animated treatments and archive variants. Collection previews and individual-file browsing retain the existing formats, sizes and review labels.
+[Open the Logos section](https://brand.openline.com/logos) for icon-only artwork, vector wordmarks, complete lockups, animated treatments and archive variants. Collection previews and individual-file browsing retain the existing formats, sizes and review labels.
 
 The [website and blog header implementations](logo/web-headers/README.md) are included as script-free HTML previews, reusable CSS, original observed markup, icon files and a downloadable ZIP. Both use the icon plus live Play Bold text, distinct from the original vector wordmark.
 
@@ -77,7 +77,7 @@ The [website and blog header implementations](logo/web-headers/README.md) are in
 
 Twenty cinematic travel stories, with narrated everyday uses for mobile data and Openline travel eSIM planning.
 
-[Watch all 20 new ads](https://brand.openline.com/#/ads) · [Stories and downloads](docs/CAMPAIGN-ADS.md) · [Production notes](campaign/final-batch/README.md)
+[Watch all 20 new ads](https://brand.openline.com/ads) · [Stories and downloads](docs/CAMPAIGN-ADS.md) · [Production notes](campaign/final-batch/README.md)
 
 The library now contains 60 short ads, with separate filters for Final batch, the previous voiced campaign, earlier work and all ads. Earlier editions and all 150 Motion collections are preserved.
 
@@ -85,7 +85,7 @@ The library now contains 60 short ads, with separate filters for Final batch, th
 <a href="https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-06.mp4"><img src=".github/assets/videos-v2.5/final-ad-06.jpg" alt="Oaxaca Cooking Class: decoded final video frame" width="220"></a>
 <a href="https://brand.openline.com/library/campaign-final-twenty/mp4/final-ad-17.mp4"><img src=".github/assets/videos-v2.5/final-ad-17.jpg" alt="Helsinki Sauna Reservation: decoded final video frame" width="220"></a>
 
-The earlier three-minute animated installation example remains available in the [Presenters section](https://brand.openline.com/#/presenters): Hellen's static office portrait on the left, animated phone screens on the right, and one continuous voice. This and the other AI editions are development references, not the final tutorial.
+The earlier three-minute animated installation example remains available in the [Presenters section](https://brand.openline.com/presenters): Hellen's static office portrait on the left, animated phone screens on the right, and one continuous voice. This and the other AI editions are development references, not the final tutorial.
 
 <a href="https://brand.openline.com/library/hellen-illustrated-guide/openline-hellen-animated-installation-guide.mp4"><img src=".github/assets/hellen-illustrated-guide.jpg" alt="Decoded frame from the complete Hellen illustrated installation guide" width="800"></a>
 
@@ -105,7 +105,7 @@ The GitHub automatic source ZIP/tar includes tracked code, resources, and docume
 
 <p align="center">
   <a href="https://brand.openline.com"><strong>Open Brand Studio</strong></a> ·
-  <a href="https://brand.openline.com/#/assets">Browse the library</a> ·
+  <a href="https://brand.openline.com/assets">Browse the library</a> ·
   <a href="#app-icon-system">App icon kit</a> ·
   <a href="#using-and-embedding-assets">Use the assets</a> ·
   <a href="https://github.com/askopenline/openline-brand/releases">Releases</a>
@@ -144,7 +144,7 @@ Click any image to play its full video; the original loading GIF is also preserv
 
 <a href="https://brand.openline.com/library/hellen-full-tutorial/openline-hellen-installation-tutorial.mp4"><img src=".github/assets/videos-v2.4/hellen-tutorial.jpg" alt="Hellen with the clearly labeled illustrated eSIM installation guide" width="800"></a>
 
-[Browse all 150 Motion editions](https://brand.openline.com/#/motion) · [Explore the ads](https://brand.openline.com/#/ads) · [Watch Hellen](https://brand.openline.com/#/presenters)
+[Browse all 150 Motion editions](https://brand.openline.com/motion) · [Explore the ads](https://brand.openline.com/ads) · [Watch Hellen](https://brand.openline.com/presenters)
 
 The presenter and campaign scenes are AI-generated. The tutorial's installation panel is an illustrated guide, not a recording of an iPhone.
 

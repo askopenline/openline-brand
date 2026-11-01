@@ -85,6 +85,7 @@ elif a.operation == "prepare":
     assert machine["config"]["metadata"]["openline.purpose"] == "brand-library"
     assert machine["state"] == "started"
     write("machine-before.json", machine)
+    (STATE / "nginx-before.conf").write_text(execute("cat /etc/nginx/conf.d/default.conf"))
     previous = execute("readlink /data/current").strip()
     assert previous.startswith("/data/releases/")
     bundle = read("bundle.json")
@@ -109,7 +110,7 @@ elif a.operation == "prepare":
     access_log off;
   }}
 """
-    configure(nginx_config().rsplit("}", 1)[0] + temporary + "}\n")
+    configure((STATE / "nginx-before.conf").read_text().rsplit("}", 1)[0] + temporary + "}\n")
     print("Transfer ready; capability kept private. Current site unchanged.")
 elif a.operation == "upload":
     transfer = read("transfer-private.json")
@@ -176,10 +177,12 @@ elif a.operation == "activate":
                                "sha256": bundle["sha256"], "machine": MACHINE})
     print("Release activated atomically; transfer endpoint removed; previous release retained.")
 elif a.operation == "close-transfer":
-    configure(nginx_config())
+    prior = STATE / "nginx-before.conf"
+    configure(prior.read_text() if prior.exists() else nginx_config())
     print("Temporary transfer endpoint removed.")
 elif a.operation == "rollback":
     previous = read("transfer-private.json")["previous"]
     execute(f"test -f {shlex.quote(previous)}/index.html && ln -s {shlex.quote(previous)} /data/current.rollback && mv -Tf /data/current.rollback /data/current")
-    configure(nginx_config())
+    prior = STATE / "nginx-before.conf"
+    configure(prior.read_text() if prior.exists() else nginx_config())
     print("Previous release restored; new assets retained privately for diagnosis.")

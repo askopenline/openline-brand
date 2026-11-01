@@ -2,6 +2,13 @@
 
 This changelog records the Openline-maintained company edition. Original Git history, upstream notices, and earlier source release tags are preserved rather than rewritten.
 
+## v2.7.9 Clean application URLs (2026-11-01)
+
+- All nine navigation views support direct clean paths, trailing slashes and refreshes.
+- Legacy hash links normalize without losing edition or shared-selection parameters; navigation and sharing now use clean paths.
+- Unknown paths and missing assets retain real 404 responses. Existing studio anchors and archived resources remain available.
+- Added clean pages to the sitemap; deployment preserves the previous server configuration until activation and for rollback.
+
 ## v2.7.8 Recommended icon enlargement (2026-11-01)
 
 - Enlarged the original vector mark another 12.5% over V2 within the unchanged white tile.

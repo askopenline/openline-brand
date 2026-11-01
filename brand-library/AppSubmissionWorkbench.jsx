@@ -6,6 +6,7 @@ import APPLE_EXAMPLES from './public/app-v3/apple-examples.json';
 import {FIELDS,SOURCES,CHECKED} from './submission-fields.js';
 import {makeZip,saveBlob} from './selection-zip.js';
 import './submission-workbench.css';
+import {currentRoute,routeParams,routeURL} from './routing.js';
 const KEY='openline-store-workspace-v3',ICON='./app-v2/icons/openline-icon-white-1024.png';
 const RECOMMENDED_ICON='./app-v3/recommended/icon-2026-11/openline-icon-white-1024.png';
 const RECOMMENDED_ICON_ZIP='./app-v3/recommended/downloads/openline-recommended-icons-plus-12-5.zip';
@@ -24,7 +25,7 @@ function validate(raw){
 }
 function initial(){
  let local=null;try{local=validate(JSON.parse(localStorage.getItem(KEY)))}catch{}
- const s=new URLSearchParams(location.hash.split('?')[1]).get('s');
+ const s=routeParams().get('s');
  if(s&&s.length<6000)try{return {...validate(JSON.parse(atob(s))),review:local?.review||{}}}catch{}
  return local||structuredClone(DEFAULT);
 }
@@ -51,7 +52,7 @@ export default function AppSubmissionWorkbench({view='v3',onViewChange}){
  const finalMode=view==='final',recommendedMode=view==='recommended',readOnly=finalMode||recommendedMode,active=recommendedMode?{...state,...RECOMMENDED,appleCopy:'A',googleCopy:'A',recommendedEdition:true,productVerification:RECOMMENDED_COPY.verification}:finalMode&&state.final?{...state,...state.final}:state,selected=active[platform],meta=chosenCopy(active,platform);
  const image=(p,id,ext='webp')=>assetImage(p,id,ext,recommendedMode);
  useEffect(()=>{try{localStorage.setItem(KEY,JSON.stringify(state));setStorageError(false)}catch{setStorageError(true)}
-  if(location.hash.startsWith('#/app')){const params=new URLSearchParams(location.hash.split('?')[1]);params.set('s',btoa(JSON.stringify(publicState(state))));history.replaceState(null,'','#/app?'+params)}
+  if(currentRoute()==='app'){const params=routeParams();params.set('s',btoa(JSON.stringify(publicState(state))));history.replaceState(null,'',routeURL('app',params))}
  },[state]);
  useEffect(()=>{if(modal){returnFocus.current=document.activeElement;dialog.current?.showModal()}return()=>{returnFocus.current?.focus?.()}},[Boolean(modal)]);
  useEffect(()=>{if(!notice)return;const t=setTimeout(()=>setNotice(''),5000);return()=>clearTimeout(t)},[notice]);
@@ -77,7 +78,7 @@ export default function AppSubmissionWorkbench({view='v3',onViewChange}){
  }
  function setReview(id,patch){setState(s=>({...s,review:{...s.review,[id]:{status:'pending',note:'',...s.review[id],...patch}}}))}
  async function importFile(file){try{if(!file||file.size>1000000)throw Error('Choose a V3 JSON file smaller than 1 MB.');const s=validate(JSON.parse(await file.text()));setState(s);setNotice('Selection and review notes imported.');onViewChange(s.final?'final':'v3')}catch(e){setNotice(e.message)}finally{if(importRef.current)importRef.current.value=''}}
- function shareSelection(){const params=new URLSearchParams({version:recommendedMode?'recommended':finalMode?'final':'v3',s:btoa(JSON.stringify(publicState(state)))}),url=location.origin+location.pathname+'#/app?'+params;setShare(url);navigator.clipboard?.writeText(url).then(()=>setNotice('Selection link copied. Private notes excluded.')).catch(()=>setNotice('Copy the selection link below.'))}
+ function shareSelection(){const params=new URLSearchParams({version:recommendedMode?'recommended':finalMode?'final':'v3',s:btoa(JSON.stringify(publicState(state)))}),url=location.origin+routeURL('app',params);setShare(url);navigator.clipboard?.writeText(url).then(()=>setNotice('Selection link copied. Private notes excluded.')).catch(()=>setNotice('Copy the selection link below.'))}
  function useRecommended(){setState(s=>({...s,apple:[...RECOMMENDED.apple],google:[...RECOMMENDED.google]}));onViewChange('v3');setNotice('Recommended selection applied to V3. Final edition and review answers unchanged.')}
  function finalize(){if(state.apple.length!==10||state.google.length!==8){setNotice('Choose 10 Apple and 8 Google screenshots before creating the final draft.');return}
   if(!confirmRef.current?.checked){setNotice('Confirm the creative selection before saving the final draft.');return}
