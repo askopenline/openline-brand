@@ -1,0 +1,10 @@
+.git
+node_modules
+dist
+.env*
+.vercel
+hosting/*.tar.gz
+tools/editorial
+tools/*.build
+icon-package
+__pycache__

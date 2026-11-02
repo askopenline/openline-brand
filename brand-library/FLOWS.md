@@ -1,5 +1,10 @@
 # Main flows
 
+## Recommended listing text editing (v2.8.3)
+- Every Recommended listing text field is an editable textarea; edits persist in localStorage key openline-recommended-copy-edits-v1 and survive reload.
+- Previews, copy, downloads (incl. Google ZIP listing-copy.md) and exported review use edited text; over-limit warning shown; per-field and all-text reset; Apple edits survive a Google reset.
+- Final, V1-V3 and openline-store-workspace-v3 are untouched. QA: scripts/qa_recommended_edit.mjs.
+
 ## Recommended revision (v2.8.0)
 - Apple order: 01,02,11,04,19,10,06,18. Google order: 01,02,11,04,19,10,18.
 - Calendar 04, setup checklist 19 and website live chat 18 appear in gallery, device, store, lightbox and both download sizes.
@@ -189,5 +194,3 @@
 - Capture desktop/mobile gallery states, check no overflow, readable labels, missing-media handling and download navigation.
 - Verify original main-device, listing-mode, screenshot-enlargement, Archive, Main and download flows remain operational.
 - Open and close the two earlier silent ad examples; new ads remain visible separately.
-- v2.8.1: setup (19) and live-chat (18) status bars use vector signal/Wi-Fi/battery icons; no text-glyph indicators remain.
-- v2.8.2: all selected store screenshots share the same bold status-bar signal, Wi-Fi and battery icons; Recommended copies only.
