@@ -11,7 +11,7 @@ try{
  const fixture={schema:3,apple:['01','02','11'],google:['01','11'],appleCopy:'B',googleCopy:'C',review:{publisher:{status:'pending',note:'Keep this draft note'}},final:{apple:['01','11','02','03','04','05','06','07','08','09'],google:['11','02','03','04','05','06','07','08'],appleCopy:'A',googleCopy:'A'}};
  let p=await c.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));
  await p.goto(base);await p.evaluate(({key,fixture})=>localStorage.setItem(key,JSON.stringify(fixture)),{key,fixture});await p.close();
- const reopen=async(view='recommended')=>{await c.close();c=await b.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});await c.addInitScript(({key,fixture})=>localStorage.setItem(key,JSON.stringify(fixture)),{key,fixture});p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(base+'#/app?version='+view,{waitUntil:'networkidle'})};
+ const reopen=async(view='recommended')=>{await c.close();c=await b.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});await c.addInitScript(({key,fixture})=>localStorage.setItem(key,JSON.stringify(fixture)),{key,fixture});p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(base+'#/app?tab=all&version='+view,{waitUntil:'networkidle'})};
  await reopen();
  assert((await p.locator('.sw-hero-art img').getAttribute('src')).includes('/icon-2026-11/'));
  assert((await p.getByRole('link',{name:'Download icon ZIP',exact:true}).getAttribute('href')).endsWith('openline-recommended-icons-plus-12-5.zip'));
@@ -23,7 +23,7 @@ try{
  for(const [platform,button,device] of [['apple','iOS / Apple','Preview on iPhone'],['google','Android / Google','Preview on Android']]){
   await p.getByRole('button',{name:button}).click();
   assert.equal(await p.locator('.sw-selected-image').count(),rec.selection[platform].length);
-  assert((await p.locator('.sw-copy-details').innerText()).includes(rec[platform].description.split('\n')[0]));
+  assert.equal(await p.getByLabel('Edit Full description',{exact:true}).inputValue(),rec[platform].description);
   assert((await p.locator('.sw-selected-image img').nth(2).getAttribute('src')).includes('/recommended/'));
   await p.getByRole('button',{name:platform==='apple'?'Preview App Store':'Preview Google Play',exact:true}).click();
   assert.equal(await p.locator('.sw-store-description').innerText(),rec[platform].description);

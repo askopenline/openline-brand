@@ -1,5 +1,13 @@
 # Main flows
 
+## Store graphics and proofreading workspace (v2.8.6)
+- /app (Current) opens on Overview. Sticky bar: App Store / Google Play switch and step tabs (Overview, Text, Graphics, Screenshots, Category, Review, Export, All in one page). `?tab=<step>` deep-links; `tab=all` shows everything.
+- Graphics: per-asset cards with preview, spec, validation checks, download, proofread tick and note. Feature graphic: choose orange or light; the choice drives the Google preview and ZIP.
+- Text: automatic checks per field, Proofread tick cleared on edit, live store preview beside the editor.
+- Proofread state: localStorage `openline-proofread-v1`; exported in ZIP, JSON (`proofread`) and README.
+- Validation data: `tools/validate-store-graphics.py` writes `public/app-v3/recommended/store-graphics.json`. Generator: `scripts/render_store_graphics.mjs`.
+- QA: `scripts/qa_store_graphics.mjs` plus the existing qa scripts (now open `tab=all`).
+
 ## Store category guide (v2.8.5)
 - #sw-category section on /app: Apple Travel (+ optional Utilities), Google Travel and Local; steps, console paths, categories to avoid, sources. Included in Recommended ZIPs and Share and export ZIP as store-categories.md.
 

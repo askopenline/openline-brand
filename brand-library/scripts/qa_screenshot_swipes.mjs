@@ -6,7 +6,7 @@ try{
  const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,deviceScaleFactor:2});
  const page=await context.newPage(),cdp=await context.newCDPSession(page),errors=[];
  page.on('pageerror',e=>errors.push(e.message));
- await page.goto(base+'#/app?version=recommended',{waitUntil:'networkidle'});
+ await page.goto(base+'#/app?version=recommended&tab=all',{waitUntil:'networkidle'});
  const saved=()=>page.evaluate(()=>localStorage.getItem('openline-store-workspace-v3')),before=await saved();
  const check=async(id)=>{await page.waitForFunction(id=>document.querySelector('.sw-image-stage img')?.getAttribute('src').includes('/'+id+'.png'),id);assert((await page.locator('.sw-full-art a').getAttribute('href')).includes('/'+id+'.png'))};
  const gesture=async(dx,dy=0,cancel=false,multi=false)=>{

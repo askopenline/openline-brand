@@ -111,7 +111,7 @@
         "travel confidently"
       ],
       "detail": "A clear checklist to help avoid unexpected data-roaming charges.",
-      "alt": "App screen showing a five-step setup checklist guiding the user to install the eSIM, configure data settings, and disable automatic switching. This is a design reference; actual release UI may vary.",
+      "alt": "App screen showing a five-step setup checklist to install the eSIM, set data options and turn off automatic switching.",
       "phone": {
         "title": "Your setup checklist",
         "subtitle": "Complete these steps before and at your destination.",

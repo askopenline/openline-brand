@@ -1,5 +1,5 @@
 {
-  "version": "2.8.5",
+  "version": "2.8.6",
   "files": [
     {
       "path": "artwork.json",
@@ -3370,7 +3370,7 @@
     {
       "path": "library/catalog.json",
       "bytes": 3319912,
-      "sha256": "45118aab57e097f919c996d3b693f7a350979917d7fb92abdf70b5d14aa31ac8",
+      "sha256": "0f9e45d07e49447812027db79eb0b19238425d0a8c55b7622d3ec0973a1c4943",
       "url": "https://brand.openline.com/library/catalog.json"
     },
     {
@@ -16119,8 +16119,8 @@
     },
     {
       "path": "app-v3/recommended-copy.json",
-      "bytes": 8878,
-      "sha256": "d32edc2e989481ac80118b6e64ce7fa1802caddc0426a757dc6ded72255f1ee2",
+      "bytes": 8798,
+      "sha256": "ed6aca74df19d4a9019de97547c6112a10c4fd3a3473960f1fe82425490a6492",
       "url": "https://brand.openline.com/app-v3/recommended-copy.json"
     },
     {
@@ -16614,7 +16614,25 @@
       "bytes": 3517,
       "sha256": "d641f0f4e364d2cabc487496ab271191605ec7d19738ceaea0ead821bbf97b75",
       "url": "https://brand.openline.com/app-v3/recommended/status-icons.png"
+    },
+    {
+      "path": "app-v3/recommended/google/feature-graphic.png",
+      "bytes": 178900,
+      "sha256": "c66bad16476ed860cd3c6bac381c2595f914990e04cb2c2d653ab2a3b6b4e51e",
+      "url": "https://brand.openline.com/app-v3/recommended/google/feature-graphic.png"
+    },
+    {
+      "path": "app-v3/recommended/google/feature-graphic-light.png",
+      "bytes": 185885,
+      "sha256": "bb1f78192170fc1cff0ecf925d5dae6fba2518fa831ccf1d9038b32090a78cc7",
+      "url": "https://brand.openline.com/app-v3/recommended/google/feature-graphic-light.png"
+    },
+    {
+      "path": "app-v3/recommended/store-graphics.json",
+      "bytes": 12763,
+      "sha256": "cb523df83e0383e8e0d421708ba524b223865de3eca09fbe390c2a9a7c68a5c5",
+      "url": "https://brand.openline.com/app-v3/recommended/store-graphics.json"
     }
   ],
-  "total_bytes": 3093078299
+  "total_bytes": 3093455767
 }

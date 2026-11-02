@@ -7,7 +7,7 @@ try{
  let p=await c.newPage();const errors=[];p.on('pageerror',e=>errors.push(e.message));
  const saved=()=>p.evaluate(()=>localStorage.getItem('openline-store-workspace-v3'));
  const check=async(id,n)=>{assert((await p.locator('.sw-dialog-bar').innerText()).includes(`Candidate ${id} · ${n}`));assert((await p.locator('.sw-image-stage img').getAttribute('src')).includes('/'+id+'.png'));assert((await p.locator('.sw-full-art a').getAttribute('href')).includes('/'+id+'.png'))};
- await p.goto(base+'#/app?version=recommended',{waitUntil:'networkidle'});const initial=await saved();
+ await p.goto(base+'#/app?version=recommended&tab=all',{waitUntil:'networkidle'});const initial=await saved();
  await p.locator('.sw-selected-image').first().click();await check('01','1 / 8');
  await p.getByRole('button',{name:'Next screenshot',exact:true}).click();await check('02','2 / 8');
  await p.keyboard.press('ArrowRight');await check('11','3 / 8');

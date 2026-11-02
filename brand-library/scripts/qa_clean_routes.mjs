@@ -28,7 +28,7 @@ try{
  await nav.getByRole('link',{name:'Motion',exact:true}).click();assert.equal(new URL(p.url()).pathname,'/motion');
  await p.goBack();await p.waitForURL('**/logos');assert.equal(await active().getAttribute('href'),'/logos');
  await p.goForward();await p.waitForURL('**/motion');assert.equal(await active().getAttribute('href'),'/motion');
- await p.goto(base+'#/app?version=recommended',{waitUntil:'networkidle'});
+ await p.goto(base+'#/app?version=recommended&tab=all',{waitUntil:'networkidle'});
  assert.equal(new URL(p.url()).searchParams.get('version'),'recommended');assert.equal(new URL(p.url()).hash,'');
  assert.equal(await p.evaluate(()=>localStorage.getItem('openline-store-workspace-v3')),before);
  await p.getByRole('button',{name:'Share selection',exact:true}).click();
@@ -36,7 +36,7 @@ try{
  assert.equal(u.pathname,'/app');assert.equal(u.hash,'');assert.equal(u.searchParams.get('version'),'recommended');
  assert(!JSON.parse(Buffer.from(u.searchParams.get('s'),'base64').toString()).review);
  await p.goto(share,{waitUntil:'networkidle'});await p.getByRole('heading',{name:'Recommended selection.',exact:true}).waitFor();
- await p.getByRole('button',{name:'V2 · Archive',exact:true}).click();assert.equal(new URL(p.url()).searchParams.get('version'),'v2');
+ await p.getByRole('button',{name:/^Archives/}).click();await p.getByRole('menuitem',{name:/V2/}).click();await p.waitForTimeout(400);assert.equal(new URL(p.url()).searchParams.get('version'),'v2');
  await p.reload({waitUntil:'networkidle'});assert.equal(new URL(p.url()).searchParams.get('version'),'v2');
  await p.goto(base+'app?version=recommended',{waitUntil:'networkidle'});await p.locator('.sw-hero').screenshot({path:out+'/clean-app-desktop.png'});
  await p.setViewportSize({width:375,height:812});await p.locator('.sw-hero').screenshot({path:out+'/clean-app-mobile.png'});
