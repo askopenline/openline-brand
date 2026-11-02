@@ -1,5 +1,8 @@
 # Main flows
 
+## Store category guide (v2.8.5)
+- #sw-category section on /app: Apple Travel (+ optional Utilities), Google Travel and Local; steps, console paths, categories to avoid, sources. Included in Recommended ZIPs and Share and export ZIP as store-categories.md.
+
 ## Current, Archives and Share (v2.8.4)
 - /app opens on Current (version=recommended). Archives menu lists Final draft, V3, V2, V1; one nav on every version.
 - Text boxes auto-grow; Large editor dialog; original comparison for edited fields.

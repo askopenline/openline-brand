@@ -19,6 +19,8 @@ for(const [label,key] of [[/V2/,'v2'],[/V1/,'v1'],[/V3/,'v3'],[/Final draft/,'fi
  assert(p.url().includes('version='+key),key);assert.equal(await p.locator('.sw-editions').count(),1,key+' single nav');
  assert((await p.getByRole('button',{name:/^Archives/}).innerText()).includes('Archives ·'));}
 await p.getByRole('button',{name:'Current',exact:true}).click();await p.waitForTimeout(500);assert(p.url().includes('version=recommended'));
+const cat=await p.locator('#sw-category').innerText();assert(cat.includes('Travel and Local')&&cat.includes('Telecommunications')&&cat.includes('App Store Connect'));
+await p.getByRole('button',{name:/Download category setup/}).click().catch(()=>{});
 // large editor + note editor
 await p.goto(base+'app?version=recommended',{waitUntil:'networkidle'});
 await p.getByRole('button',{name:'Expand Full description'}).click();

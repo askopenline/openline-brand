@@ -1,0 +1,3 @@
+# Openline Brand Library v2.8.5
+
+New Store setup section in /app: which category to select. Recommendation for both stores is Travel (App Store: Travel, optional secondary Utilities; Google Play: Travel and Local, type App, up to five relevant tags). Neither store has a Telecommunications category. Each store shows the console path, steps, categories to avoid and why, with Apple and Google sources and competitor evidence (Airalo and Saily on the App Store, Holafly on Google Play). The category guide is included in the Recommended downloads and the Share and export ZIP, and the store previews show the recommended category as to be confirmed. Cache-busting updated to ?v=2-8-5.
