@@ -1,5 +1,10 @@
 # Main flows
 
+## Current, Archives and Share (v2.8.4)
+- /app opens on Current (version=recommended). Archives menu lists Final draft, V3, V2, V1; one nav on every version.
+- Text boxes auto-grow; Large editor dialog; original comparison for edited fields.
+- Bottom Share and export dialog: link (t= carries edited text, notes excluded), ZIP, JSON, Markdown summary. QA: scripts/qa_app_nav_share.mjs.
+
 ## Recommended listing text editing (v2.8.3)
 - Every Recommended listing text field is an editable textarea; edits persist in localStorage key openline-recommended-copy-edits-v1 and survive reload.
 - Previews, copy, downloads (incl. Google ZIP listing-copy.md) and exported review use edited text; over-limit warning shown; per-field and all-text reset; Apple edits survive a Google reset.

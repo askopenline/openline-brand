@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw
 app=Path(__file__).resolve().parents[1];pub=app/'public';v=pub/'app-v3/recommended'
 repo=app.parent/'openline-brand-assets/brand-library'
-state=app.parent/'openline-fly-deployment/recommended-story-v2-8-3';state.mkdir(exist_ok=True)
+state=app.parent/'openline-fly-deployment/recommended-story-v2-8-4';state.mkdir(exist_ok=True)
 def save(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
 inventory=json.loads((repo/'PUBLIC-ASSETS.json').read_text());old={x['path']:x for x in inventory['files']}
 protected=[n for n in old if n=='app-v3/copy.json' or any(n.startswith('app-v3/'+s+'/') for s in ['apple','google','apple-1206','screens']) or n.startswith('app-v3/recommended/icon-2026-11/') or n=='app-v2/downloads/openline-v2-icons.zip']
@@ -22,17 +22,17 @@ for platform,ids in rec['selection'].items():
 for n in ['screens/duration-calendar.png','screens/setup-checklist.png','screens/live-chat.png','screens/countries.png','screens/dashboard.png','screens/duration.png','screens/collection.png','screens/profile.png','screens/types.png','status-icons.png','revision-provenance.json','revision-layout-qa.json']:
  changed.append('app-v3/recommended/'+n)
 for name in ['package.json','package-lock.json']:
- p=app/name;x=json.loads(p.read_text());x['version']='2.8.3'
- if 'packages' in x:x['packages']['']['version']='2.8.3'
+ p=app/name;x=json.loads(p.read_text());x['version']='2.8.4'
+ if 'packages' in x:x['packages']['']['version']='2.8.4'
  save(p,x)
-p=pub/'library/catalog.json';x=json.loads(p.read_text());x['version']='2.8.3'
+p=pub/'library/catalog.json';x=json.loads(p.read_text());x['version']='2.8.4'
 x['appLibraryV3']['recommendedSelection'].update({'apple':rec['selection']['apple'],'google':rec['selection']['google'],'copy':'./app-v3/recommended-copy.json','revisionNotes':'./app-v3/recommended-update-notes.md','productVerificationPending':True})
 save(p,x)
 for n in changed:
  p=pub/n;d=app/'dist'/n;d.parent.mkdir(parents=True,exist_ok=True)
  if not d.exists() or not p.samefile(d):shutil.copyfile(p,d)
  b=p.read_bytes();old[n]={'path':n,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest(),'url':'https://brand.openline.com/'+n}
-inventory['version']='2.8.3';inventory['files']=list(old.values());inventory['total_bytes']=sum(x['bytes'] for x in old.values())
+inventory['version']='2.8.4';inventory['files']=list(old.values());inventory['total_bytes']=sum(x['bytes'] for x in old.values())
 save(repo/'PUBLIC-ASSETS.json',inventory);save(state/'public-files.json',changed);save(state/'protected-originals.json',{n:old[n]['sha256'] for n in protected})
 # Private visual QA sheet; no production-only claims or provider material.
 sheet=Image.new('RGB',(1440,1680),'#ededed');draw=ImageDraw.Draw(sheet)
