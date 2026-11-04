@@ -1,10 +1,10 @@
 """Package v2.8.6: Google feature graphics, store-graphics manifest, /app store workspace. Lighter than package-recommended-story.py."""
-import hashlib,json,shutil,subprocess
+import hashlib,json,shutil,subprocess,sys
 from pathlib import Path
 app=Path(__file__).resolve().parents[1];pub=app/'public'
 repo=app.parent/'openline-brand-assets/brand-library'
-state=app.parent/'openline-fly-deployment/recommended-story-v2-8-6';state.mkdir(exist_ok=True)
-V='2.8.6'
+state=app.parent/('openline-fly-deployment/recommended-story-v2-8-'+(sys.argv[1] if len(sys.argv)>1 else '6'));state.mkdir(exist_ok=True)
+V='2.8.'+(sys.argv[1] if len(sys.argv)>1 else '6')
 def save(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
 subprocess.run(['python3',str(app/'tools/validate-store-graphics.py')],check=True)
 for name in['package.json','package-lock.json']:
@@ -12,7 +12,7 @@ for name in['package.json','package-lock.json']:
  if 'packages' in x:x['packages']['']['version']=V
  save(p,x)
 p=pub/'library/catalog.json';x=json.loads(p.read_text());x['version']=V;save(p,x)
-changed=['library/catalog.json','app-v3/recommended-copy.json','app-v3/recommended/google/feature-graphic.png','app-v3/recommended/google/feature-graphic-light.png','app-v3/recommended/store-graphics.json']
+changed=['library/catalog.json','app-v3/recommended-copy.json','app-v3/recommended/google/feature-graphic.png','app-v3/recommended/google/feature-graphic-light.png','app-v3/recommended/store-graphics.json']+[f'app-v3/recommended/apple-creative/{n}.png' for n in['header','header-light','search','search-light','search-1920','search-1920-light','universal','universal-light']]
 inv=json.loads((repo/'PUBLIC-ASSETS.json').read_text());old={x['path']:x for x in inv['files']}
 for n in changed:
  p=pub/n;d=app/'dist'/n;d.parent.mkdir(parents=True,exist_ok=True)

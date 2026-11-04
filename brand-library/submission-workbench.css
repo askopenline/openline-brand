@@ -84,3 +84,4 @@ dialog.sw-editor textarea{display:block;width:calc(100% - 40px);margin:18px 20px
 .sw-gfx ol{padding-left:20px;font-size:13px;line-height:1.6}
 @media(max-width:1000px){.sw-split{grid-template-columns:1fr}.sw-live{position:static;max-height:none}.sw-gfx-grid,.sw-overview-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.sw-stepbar{gap:8px}.sw-store-switch{width:100%}.sw-store-switch button{flex:1;justify-content:center}.sw-gfx{padding:16px}}
+.sw-gfx-media.is-wide{flex-direction:column;gap:10px}.sw-gfx-media.is-wide a{display:block}

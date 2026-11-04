@@ -11,7 +11,7 @@ try{
  await p.goto(base+'app',{waitUntil:'networkidle'});
  // steps and overview
  const tabs=await p.getByRole('tab').allInnerTexts();assert.deepEqual(tabs,['Overview','Text','Graphics','Screenshots','Category','Review','Export','All in one page']);
- assert(await p.getByText('0 of 10 proofread').isVisible());
+ assert(await p.getByText('0 of 13 proofread').isVisible());
  // graphics: Apple
  await p.getByRole('tab',{name:'Graphics'}).click();
  assert.equal(await p.locator('.sw-gfx').count(),man.apple.length);
@@ -22,7 +22,7 @@ try{
  await p.getByLabel('Proofread App icon',{exact:true}).check();
  await p.getByLabel('Note for App icon',{exact:true}).fill('Check corner radius');
  await store().getByRole('button',{name:/App Store/}).waitFor();
- assert((await store().innerText()).includes('1/10'));
+ assert((await store().innerText()).includes('1/13'));
  // Google
  await store().getByRole('button',{name:/Google Play/}).click();
  assert.equal(await p.locator('.sw-gfx').count(),man.google.length);
@@ -50,6 +50,8 @@ try{
  assert.equal(await p.getByLabel('Proofread App icon',{exact:true}).isChecked(),true);
  assert.equal(await p.getByLabel('Note for App icon',{exact:true}).inputValue(),'Check corner radius');
  const saved=await p.evaluate(k=>JSON.parse(localStorage.getItem(k)),PK);assert.equal(saved.choice.feature,'light');assert(saved.ok['apple.icon']);assert(saved.ok['google.text.shortDescription']);
+ // Apple creative assets
+ for(const id of['apple.header','apple.search','apple.universal'])assert(await p.locator(`[data-asset="${id}"]`).isVisible(),id);
  // graphics ZIP for a group
  await p.locator('[data-asset="apple.screens"]').scrollIntoViewIfNeeded();
  const d=p.waitForEvent('download');await p.locator('[data-asset="apple.screens"]').getByRole('button',{name:/Download 8 files/}).click();await(await d).saveAs(out+'/apple-screens.zip');
@@ -69,7 +71,7 @@ try{
  const j=JSON.parse(fs.readFileSync(out+'/all.json'));assert(j.proofread.ok['apple.icon']);assert(fs.readFileSync(out+'/all.md','utf8').includes('items proofread'));
  await p.keyboard.press('Escape');
  // overview progress
- await p.getByRole('tab',{name:'Overview'}).click();assert((await p.locator('.sw-overview-grid').innerText()).includes('1 of 10 proofread'));
+ await p.getByRole('tab',{name:'Overview'}).click();assert((await p.locator('.sw-overview-grid').innerText()).includes('1 of 13 proofread'));
  // mobile
  const m=await ctx.newPage();await m.setViewportSize({width:390,height:844});await m.goto(base+'app?tab=graphics',{waitUntil:'networkidle'});
  assert.equal(await m.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);

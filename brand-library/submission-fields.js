@@ -2,6 +2,7 @@
 export const SOURCES={
  appleInfo:'https://developer.apple.com/help/app-store-connect/reference/app-information/app-information/',
  appleVersion:'https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/',
+ appleCreative:'https://developer.apple.com/help/app-store-connect/reference/app-information/creative-assets-specifications',
  appleShots:'https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications',
  applePrivacy:'https://developer.apple.com/app-store/app-privacy-details/',
  appleRules:'https://developer.apple.com/app-store/review/guidelines/',
@@ -33,6 +34,7 @@ const rows=[
  ['apple','Listing & visual assets','ipad','iPad screenshot family','Conditional','If the binary supports iPad, provide the required 13-inch family, e.g. 2064×2752 portrait. No iPad captures are included in this phone collection.','appleShots'],
  ['google','Listing & visual assets','tablets','Other Android form factors','Conditional','Supply actual screenshots and assets for supported tablets, foldables, Wear OS, TV, Automotive and other surfaces. Current candidates are phone artwork.','googleAssets'],
  ['apple','Listing & visual assets','apple-icon','Native Apple icon','Required','Verify the opaque 1024×1024 icon in the submitted Xcode asset catalog/build. The enlarged design candidate is not proof the binary includes it.','appleRules'],
+ ['apple','Listing & visual assets','apple-header','Product page header & search results','Optional (iOS 27 and later)','Optional 21:9 3840×1646 header and 3:2 search results image (1920×1280 to 3840×2560), or one 16:9 5244×2950 PNG for both. No alpha. Proofread Apple\'s safe area in Asset Library, avoid price or ranking claims, and check that the artwork matches the shipped app.','appleCreative'],
  ['google','Listing & visual assets','google-icon','Play & native Android icons','Required','Play: 512×512 32-bit PNG, ≤1,024 KB. Separately validate adaptive/monochrome native icons; the square listing tile is not an adaptive icon implementation.','googleAssets'],
  ['google','Listing & visual assets','feature','Feature graphic','Required','1024×500 JPEG or 24-bit PNG without alpha. The price-free V2 feature graphic is included for review.','googleAssets'],
  ['apple','Listing & visual assets','apple-video','App preview video','Optional','Up to three previews per supported size. Use actual app footage and meet preview specifications. Ads and illustrated tutorials are not automatically valid app previews.','appleVersion'],

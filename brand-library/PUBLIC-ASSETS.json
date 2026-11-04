@@ -1,5 +1,5 @@
 {
-  "version": "2.8.6",
+  "version": "2.8.7",
   "files": [
     {
       "path": "artwork.json",
@@ -3370,7 +3370,7 @@
     {
       "path": "library/catalog.json",
       "bytes": 3319912,
-      "sha256": "0f9e45d07e49447812027db79eb0b19238425d0a8c55b7622d3ec0973a1c4943",
+      "sha256": "d84573977f3dbec69d64c1447b3d1f2a0ebf026151893e76dc126b73ffeffbf1",
       "url": "https://brand.openline.com/library/catalog.json"
     },
     {
@@ -16119,8 +16119,8 @@
     },
     {
       "path": "app-v3/recommended-copy.json",
-      "bytes": 8798,
-      "sha256": "ed6aca74df19d4a9019de97547c6112a10c4fd3a3473960f1fe82425490a6492",
+      "bytes": 8855,
+      "sha256": "cb2a8b527e4b59818957b3a3ec04d0f129fc78112e427c90c79a683c7f6d6589",
       "url": "https://brand.openline.com/app-v3/recommended-copy.json"
     },
     {
@@ -16629,10 +16629,58 @@
     },
     {
       "path": "app-v3/recommended/store-graphics.json",
-      "bytes": 12763,
-      "sha256": "cb523df83e0383e8e0d421708ba524b223865de3eca09fbe390c2a9a7c68a5c5",
+      "bytes": 17474,
+      "sha256": "bbc862e07d7069d78b417563f422f2c78680f7181b89468ecc90dc08e1854c55",
       "url": "https://brand.openline.com/app-v3/recommended/store-graphics.json"
+    },
+    {
+      "path": "app-v3/recommended/apple-creative/header.png",
+      "bytes": 585070,
+      "sha256": "1deaf8be5facc2c9921a814daff5726e0570a3d0289c4538575a71e907126a88",
+      "url": "https://brand.openline.com/app-v3/recommended/apple-creative/header.png"
+    },
+    {
+      "path": "app-v3/recommended/apple-creative/header-light.png",
+      "bytes": 567784,
+      "sha256": "e8a02716f04f0c76801c5ac5b01ba6bda7542f3409c4703efb9abe66b5cdd9c4",
+      "url": "https://brand.openline.com/app-v3/recommended/apple-creative/header-light.png"
+    },
+    {
+      "path": "app-v3/recommended/apple-creative/search.png",
+      "bytes": 683341,
+      "sha256": "bdba545f6fbc6e405dd85a0eb0915cd7817b368f0031542f84d92eb0ddf1b0b3",
+      "url": "https://brand.openline.com/app-v3/recommended/apple-creative/search.png"
+    },
+    {
+      "path": "app-v3/recommended/apple-creative/search-light.png",
+      "bytes": 662298,
+      "sha256": "cb7372f968830c8159638f64a68044b3d17b23ced9df48a9493025390cb0b87f",
+      "url": "https://brand.openline.com/app-v3/recommended/apple-creative/search-light.png"
+    },
+    {
+      "path": "app-v3/recommended/apple-creative/search-1920.png",
+      "bytes": 388948,
+      "sha256": "20ee6954332b10aef5deda4ce25c6b2057da3f467806a541c5d14a9bba664db5",
+      "url": "https://brand.openline.com/app-v3/recommended/apple-creative/search-1920.png"
+    },
+    {
+      "path": "app-v3/recommended/apple-creative/search-1920-light.png",
+      "bytes": 388031,
+      "sha256": "e0490bb814f100415e5caddbe63240b91f392d0650445d1e94d11ea2c5e17270",
+      "url": "https://brand.openline.com/app-v3/recommended/apple-creative/search-1920-light.png"
+    },
+    {
+      "path": "app-v3/recommended/apple-creative/universal.png",
+      "bytes": 1118866,
+      "sha256": "1ffa755b4fab4b332378f8c4d2be5b70299b40438b3c14b799d154e41ffadb9a",
+      "url": "https://brand.openline.com/app-v3/recommended/apple-creative/universal.png"
+    },
+    {
+      "path": "app-v3/recommended/apple-creative/universal-light.png",
+      "bytes": 1080957,
+      "sha256": "315621b81f27f205ff8d79369b9ceb5a701f587fa8b42f25ee213c4f6f1ce89a",
+      "url": "https://brand.openline.com/app-v3/recommended/apple-creative/universal-light.png"
     }
   ],
-  "total_bytes": 3093455767
+  "total_bytes": 3098935830
 }
