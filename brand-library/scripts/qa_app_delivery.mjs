@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import {execSync} from 'node:child_process';
 const base=process.env.QA_URL||'http://127.0.0.1:5173/';
 const out=process.env.QA_OUT||'/dev/shm/q';fs.mkdirSync(out,{recursive:true});
-const KEY='openline-delivery-checklist-v1',errors=[];
+const KEY='openline-delivery-checklist-v2',errors=[];
 const b=await chromium.launch({executablePath:'/home/user/.cache/ms-playwright/chromium-1217/chrome-linux64/chrome'});
 const c=await b.newContext({viewport:{width:1440,height:1000},acceptDownloads:true,permissions:['clipboard-read','clipboard-write']});
 const p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));p.on('console',m=>m.type()==='error'&&errors.push(m.text()));

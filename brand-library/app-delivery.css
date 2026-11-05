@@ -53,3 +53,7 @@
 @media(max-width:1000px){.dl-steps ol{grid-template-columns:repeat(2,1fr)}.dl-gfx,.dl-category{grid-template-columns:1fr}.dl-tiles figure.is-wide{grid-column:auto}.dl-bar{top:75px}}
 @media(max-width:600px){.dl-switch{width:100%}.dl-switch button{flex:1;justify-content:center}.dl-head h2,.dl-download h2{font-size:24px}.dl-section{scroll-margin-top:200px}.dl-download .button{width:100%}}
 .dl-handoff{margin:16px 0 0}.dl-handoff h3{font-size:14px;margin:16px 0 6px}.dl-handoff ul,.dl-handoff ol{margin:0;padding-left:20px;font-size:13px;line-height:1.75;color:var(--dl-muted)}.dl-handoff .dl-copy{margin-top:14px}
+.dl-provide{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;background:#faf9f6;border-radius:10px;padding:10px 12px;margin:8px 0 4px}.dl-provide p{margin:0!important;color:#171717!important;font-size:13px}.dl-provide .dl-copy{flex-shrink:0}
+.dl-links span{font-size:12px;color:var(--dl-muted)}.dl-links{flex-wrap:wrap}
+@media(max-width:600px){.dl-provide{flex-direction:column}}
+.dl-group li>div{flex:1;min-width:0}
