@@ -220,3 +220,4 @@
 - Legacy /app?version=v2 and #/app links land on the delivery page. Workbench code removed (tag app-workbench-v2.8.7 in mirror).
 - 2.9.1: open "Engineer handoff", copy guide; ZIP contains HANDOFF.md (qa_app_delivery.mjs).
 - 2.9.2: checklist groups, per-item Provide text with Copy, ZIP checklist.md includes Provide/Where lines (qa_app_delivery.mjs).
+- 2.9.3: checklist owner values filled in (legal entity, account holder, URLs, deletion path).
