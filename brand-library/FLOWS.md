@@ -218,3 +218,4 @@
 ## Release 2.9.0 - /app final delivery v4
 - Open /app and /app?store=google: store switch, listing copy buttons and counts, graphics and screenshots load, checklist tick persists after reload (localStorage openline-delivery-checklist-v1), open-only filter, Reset, ZIP download for each store (README, listing, category, checklist, graphics, screenshots; Google also alt text), no overflow at 375px, no console errors. Automated: scripts/qa_app_delivery.mjs.
 - Legacy /app?version=v2 and #/app links land on the delivery page. Workbench code removed (tag app-workbench-v2.8.7 in mirror).
+- 2.9.1: open "Engineer handoff", copy guide; ZIP contains HANDOFF.md (qa_app_delivery.mjs).

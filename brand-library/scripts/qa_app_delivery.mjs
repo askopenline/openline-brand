@@ -38,7 +38,7 @@ try{
   // zip
   const [dl]=await Promise.all([p.waitForEvent('download'),p.getByRole('button',{name:/^Download .* package/}).click()]);
   const z=await unzip(dl,store);console.log(z.all.join('\n'));
-  for(const must of ['README','listing.md','listing.json','category.md','checklist.md','graphics/','screenshots/'])assert(z.all.some(f=>f.includes(must)),'zip missing '+must);
+  for(const must of ['README','HANDOFF.md','listing.md','listing.json','category.md','checklist.md','graphics/','screenshots/'])assert(z.all.some(f=>f.includes(must)),'zip missing '+must);
   assert(z.all.some(f=>/screenshots\/\d+x\d+\/01-.*\.png$/.test(f)));
   assert.equal(z.all.some(f=>/reviewer/i.test(f)),false);
   if(store==='google')assert(z.all.some(f=>f.includes('screenshot-alt-text.md')));

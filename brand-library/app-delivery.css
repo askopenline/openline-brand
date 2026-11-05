@@ -52,3 +52,4 @@
 .dl-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#171717;color:#fff;padding:12px 20px;border-radius:99px;font-size:13px;z-index:50}
 @media(max-width:1000px){.dl-steps ol{grid-template-columns:repeat(2,1fr)}.dl-gfx,.dl-category{grid-template-columns:1fr}.dl-tiles figure.is-wide{grid-column:auto}.dl-bar{top:75px}}
 @media(max-width:600px){.dl-switch{width:100%}.dl-switch button{flex:1;justify-content:center}.dl-head h2,.dl-download h2{font-size:24px}.dl-section{scroll-margin-top:200px}.dl-download .button{width:100%}}
+.dl-handoff{margin:16px 0 0}.dl-handoff h3{font-size:14px;margin:16px 0 6px}.dl-handoff ul,.dl-handoff ol{margin:0;padding-left:20px;font-size:13px;line-height:1.75;color:var(--dl-muted)}.dl-handoff .dl-copy{margin-top:14px}
