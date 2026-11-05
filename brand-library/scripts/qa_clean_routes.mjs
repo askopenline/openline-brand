@@ -20,26 +20,17 @@ try{
   await p.goto(base+'#/'+route,{waitUntil:'networkidle'});assert.equal(new URL(p.url()).hash,'');assert.equal(await active().getAttribute('href'),'/'+route);
   console.log('Route passed:',route);
  }
- await fresh();await p.goto(base+'app?version=recommended',{waitUntil:'networkidle'});
- await p.getByRole('heading',{name:'Recommended selection.',exact:true}).waitFor();
- const before=await p.evaluate(()=>localStorage.getItem('openline-store-workspace-v3'));
+await fresh();await p.goto(base+'app?version=recommended',{waitUntil:'networkidle'});
+ await p.getByRole('heading',{name:'App & store.',exact:true}).waitFor();
  const nav=p.locator('nav[aria-label="Main navigation"]');
  await nav.getByRole('link',{name:'Logos',exact:true}).click();assert.equal(new URL(p.url()).pathname,'/logos');
  await nav.getByRole('link',{name:'Motion',exact:true}).click();assert.equal(new URL(p.url()).pathname,'/motion');
  await p.goBack();await p.waitForURL('**/logos');assert.equal(await active().getAttribute('href'),'/logos');
  await p.goForward();await p.waitForURL('**/motion');assert.equal(await active().getAttribute('href'),'/motion');
- await p.goto(base+'#/app?version=recommended&tab=all',{waitUntil:'networkidle'});
- assert.equal(new URL(p.url()).searchParams.get('version'),'recommended');assert.equal(new URL(p.url()).hash,'');
- assert.equal(await p.evaluate(()=>localStorage.getItem('openline-store-workspace-v3')),before);
- await p.getByRole('button',{name:'Share selection',exact:true}).click();
- const share=await p.locator('input[readonly]').inputValue();const u=new URL(share);
- assert.equal(u.pathname,'/app');assert.equal(u.hash,'');assert.equal(u.searchParams.get('version'),'recommended');
- assert(!JSON.parse(Buffer.from(u.searchParams.get('s'),'base64').toString()).review);
- await p.goto(share,{waitUntil:'networkidle'});await p.getByRole('heading',{name:'Recommended selection.',exact:true}).waitFor();
- await p.getByRole('button',{name:/^Archives/}).click();await p.getByRole('menuitem',{name:/V2/}).click();await p.waitForTimeout(400);assert.equal(new URL(p.url()).searchParams.get('version'),'v2');
- await p.reload({waitUntil:'networkidle'});assert.equal(new URL(p.url()).searchParams.get('version'),'v2');
- await p.goto(base+'app?version=recommended',{waitUntil:'networkidle'});await p.locator('.sw-hero').screenshot({path:out+'/clean-app-desktop.png'});
- await p.setViewportSize({width:375,height:812});await p.locator('.sw-hero').screenshot({path:out+'/clean-app-mobile.png'});
+ await p.goto(base+'#/app?store=google',{waitUntil:'networkidle'});
+ assert.equal(new URL(p.url()).hash,'');assert.equal(new URL(p.url()).searchParams.get('store'),'google');
+ await p.getByRole('heading',{name:'App & store.',exact:true}).waitFor();
+ await p.setViewportSize({width:375,height:812});
  assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
  await p.goto(base+'#iphone',{waitUntil:'networkidle'});assert.equal(new URL(p.url()).pathname,'/studio.html');assert.equal(new URL(p.url()).hash,'#iphone');
  if(base.startsWith('https:')){

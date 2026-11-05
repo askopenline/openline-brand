@@ -214,3 +214,7 @@
 - Capture desktop/mobile gallery states, check no overflow, readable labels, missing-media handling and download navigation.
 - Verify original main-device, listing-mode, screenshot-enlargement, Archive, Main and download flows remain operational.
 - Open and close the two earlier silent ad examples; new ads remain visible separately.
+
+## Release 2.9.0 - /app final delivery v4
+- Open /app and /app?store=google: store switch, listing copy buttons and counts, graphics and screenshots load, checklist tick persists after reload (localStorage openline-delivery-checklist-v1), open-only filter, Reset, ZIP download for each store (README, listing, category, checklist, graphics, screenshots; Google also alt text), no overflow at 375px, no console errors. Automated: scripts/qa_app_delivery.mjs.
+- Legacy /app?version=v2 and #/app links land on the delivery page. Workbench code removed (tag app-workbench-v2.8.7 in mirror).
